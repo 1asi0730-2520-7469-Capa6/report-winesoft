@@ -36,4 +36,4 @@
 </p>
 <ins><u><b>TB1:</b></u></ins>
 <p>Para la elaboracion de este primer informe... . Ahora, mostraremos las analíticas de participación:</p>
-<u>Figura 1</u>
+<b>Figura 1</b>
