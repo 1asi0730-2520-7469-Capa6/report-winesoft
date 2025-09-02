@@ -10,6 +10,10 @@
 <h4>Startup: WineSoft</h4>
 <h4>(Nombre del Producto)</h4>
 <h4>Team members:</h4>
+<div align="center">
+
+## Integrantes  
+
 |              Nombre              |   Código   |
 |:--------------------------------:|:----------:|
 | Melissa Geraldine Sulca Silva    | U202224602 |
@@ -17,6 +21,8 @@
 | Ernesto Rodas Sotomayor          | U202312443 |
 | Raúl Bellido Salas               | U202310931 |
 | Sandra Paula Luyo Correa         | U202314513 |
+
+</div>
 
 <h4>Ciclo 2025-02</h4>
 </div>
