@@ -22,3 +22,10 @@
 </div>
 
 ## Registro de Versiones del Informe
+|              Version             |   Fecha    |   Autor  |  
+|:--------------------------------:|:----------:|:--------:|
+| TB1                              | 15/09/2025 |          |
+| Yazid Said Conde                 | U202312348 |          |
+| Joan Fernando Teves Samaniego    | u202117303 |          |
+| Raúl Bellido Salas               | U202310931 |          |
+| Sandra Paula Luyo Correa         | U202314513 |          |
