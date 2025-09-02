@@ -1,9 +1,9 @@
 <div align="center">
   <h1>Informe del Trabajo Final</h1>
 </div>
-<p align="center">
+<div align="center">
   <h2>Universidad Peruana de Ciencias Aplicadas</h2>
-</p>
+</div>
 
 ## Contenido
 - Código fuente
