@@ -34,4 +34,4 @@
 ## Project Report Collaboration Insights
 <p>Para desarrollar el informe del proyecto, decidimos usar un repositorio con el nombre de "xyz-report", el cual esta colocado en nuestra organizacion llamada "1asi0729-2620-7394-capa6" en GitHub. Lo puede visualizar en el siguiente enlace: <br> https://github.com/1asi0729-2620-7394-Capa6/xyz-report
 </p>
-<u>TB1:</u>
+<u><b>TB1:</b></u>
