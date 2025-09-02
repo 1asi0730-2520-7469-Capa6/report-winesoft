@@ -21,10 +21,4 @@
 <h4>Ciclo 2025-02</h4>
 </div>
 
-
-
-
-## Contenido
-- Código fuente
-- Ejemplos
-- Documentación
+## Registro de Versiones del Informe
