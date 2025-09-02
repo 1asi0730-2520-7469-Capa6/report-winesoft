@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Informe del Trabajo Final</h1>
-Universidad Peruana de Ciencias Aplicadas
+<h2>Universidad Peruana de Ciencias Aplicadas</h2>
 
 ## Contenido
 - Código fuente
