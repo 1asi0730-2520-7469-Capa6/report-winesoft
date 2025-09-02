@@ -20,7 +20,9 @@
 | Sandra Paula Luyo Correa         | U202314513 |
 <h4>Ciclo 2025-02</h4>
 </div>
+
 <div align="center">
+  
 ## Registro de Versiones del Informe
 |              Version             |   Fecha    |   Autor  |  
 |:--------------------------------:|:----------:|:--------:|
