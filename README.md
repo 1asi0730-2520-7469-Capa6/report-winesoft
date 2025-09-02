@@ -2,7 +2,7 @@
   <h1>Informe del Trabajo Final</h1>
 </div>
 <div align="center">
-  Universidad Peruana de Ciencias Aplicadas
+  <h2>Universidad Peruana de Ciencias Aplicadas</h2>
 </div>
 
 ## Contenido
