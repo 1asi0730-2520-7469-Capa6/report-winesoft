@@ -9,8 +9,6 @@
 <h4>Docente: Angel Augusto Velasquez Nuñez</h4>
 <h4>Startup: WineSoft</h4>
 <h4>(Nombre del Producto)</h4>
-<h4>Team members:</h4>
-<div align="center">
 ## Team memebers:
 |              Nombre              |   Código   |
 |:--------------------------------:|:----------:|
@@ -20,7 +18,6 @@
 | Raúl Bellido Salas               | U202310931 |
 | Sandra Paula Luyo Correa         | U202314513 |
 
-</div>
 
 <h4>Ciclo 2025-02</h4>
 </div>
