@@ -13,8 +13,8 @@
 ## Team memebers:
 |              Nombre              |   Código   |
 |:--------------------------------:|:----------:|
-| Melissa Geraldine Sulca Silva    | U202224602 |
-| Daniela Araceli Gómez Flores     | U202311184 |
+| Angelo Stephano Moscoso Bejar    | U20211G499 |
+| Yazid Said Conde                 | U202312348 |
 | Ernesto Rodas Sotomayor          | U202312443 |
 | Raúl Bellido Salas               | U202310931 |
 | Sandra Paula Luyo Correa         | U202314513 |
