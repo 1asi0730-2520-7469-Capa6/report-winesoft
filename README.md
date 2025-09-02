@@ -26,5 +26,6 @@
 ## Registro de Versiones del Informe
 |              Version             |   Fecha    |   Autor  |  
 |:--------------------------------:|:----------:|:--------:|
-| TB1                              | 15/09/2025 |          |
+| TB1                              | 15/09/2025 |Angelo Stephano Moscoso Bejar
+Yazid Said Conde|
 </div>
