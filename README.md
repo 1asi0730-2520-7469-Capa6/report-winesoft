@@ -15,9 +15,9 @@
 |:--------------------------------:|:----------:|
 | Angelo Stephano Moscoso Bejar    | U20211G499 |
 | Yazid Said Conde                 | U202312348 |
-| Joan Fernando Teves Samaniego    | u202117303 |
-| Raúl Bellido Salas               | U202310931 |
-| Sandra Paula Luyo Correa         | U202314513 |
+| Joan Fernando Teves Samaniego    | U202117303 |
+| Antonio Rodrigo Duran Díaz       | U202215721 |
+| Gonzalo Alonso Carhuancote Dominguez  | U202210720 |
 <h4>Ciclo 2025-02</h4>
 </div>
 
