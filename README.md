@@ -11,9 +11,6 @@
 <h4>(Nombre del Producto)</h4>
 <h4>Team members:</h4>
 <div align="center">
-
-## Integrantes  
-
 |              Nombre              |   Código   |
 |:--------------------------------:|:----------:|
 | Melissa Geraldine Sulca Silva    | U202224602 |
