@@ -24,8 +24,10 @@
 <div align="center">
   
 ## Registro de Versiones del Informe
-|              Version             |   Fecha    |   Autor  |  
-|:--------------------------------:|:----------:|:--------:|
-| TB1                              | 15/09/2025 |Angelo Stephano Moscoso Bejar
-Yazid Said Conde|
+
+| Versión | Fecha       | Autor                                                                                                   | Descripción de modificación |
+|---------|------------|---------------------------------------------------------------------------------------------------------|-----------------------------|
+| **TB1** | 24/04/2025 | Raúl Bellido Salas<br>Daniela Araceli Gómez Flores<br>Sandra Paula Luyo Correa<br>Ernesto Rodas Sotomayor<br>Melisa Geraldine Sulca | Para esta primera entrega, realizamos los primeros 5 capítulos del informe y desarrollamos la primera versión del landing page de ArquiTech. |
+| **TP1** | 13/05/2025 | Raúl Bellido Salas<br>Daniela Araceli Gómez Flores<br>Sandra Paula Luyo Correa<br>Ernesto Rodas Sotomayor | Para la segunda entrega, hemos agregado la documentación del Sprint 2 y actualizado las conclusiones y anexos del documento de reporte. También, actualizamos la landing page y creamos la primera versión del Frontend Web Applications. |
+
 </div>
