@@ -29,5 +29,7 @@
 |---------|------------|---------------------------------------------------------------------------------------------------------|-----------------------------|
 | **TB1** | 15/09/2025 | Angelo Stephano Moscoso Bejar <br><br> Yazid Said Conde <br><br> Joan Fernando Teves Samaniego<br><br>Antonio Rodrigo Duran Díaz<br><br>Gonzalo Alonso Carhuancote Dominguez | Para esta primera entrega, realizamos los primeros 5 capítulos del informe y desarrollamos la primera versión del landing page del Producto. |
 
-
 </div>
+
+## Project Report Collaboration Insights
+<p>Para desarrollar el informe del proyecto, decidimos usar un repositorio con el nombre de "xyz-report", el cual esta colocado en nuestra organizacion llamada "1asi0729-2620-7394-capa6" en GitHub. Lo puede visualizar en el siguiente enlace: <br></p>
