@@ -32,16 +32,12 @@
 </div>
 
 ## Project Report Collaboration Insights
-<p>Para desarrollar el informe del proyecto, decidimos usar un repositorio con el nombre de "xyz-report", el cual esta colocado en nuestra organizacion llamada "1asi0729-2620-7394-capa6" en GitHub. Lo puede visualizar en el siguiente enlace: <br> https://github.com/1asi0729-2620-7394-Capa6/xyz-report
-</p>
-<ins><u><b>TB1:</b></u></ins>
-<p>Para la elaboracion de este primer informe... . Ahora, mostraremos las analíticas de participación:</p>
-<u><b>Figura 1</b></u><br>
-
-Analiticas de participacio
 
 <div>
-  
+Para este informe se dividio de la siguiente forma para cada integrante del grupo:
+  |  Integrantes   | Tarea asignada |
+  |:--------------:|:--------------:|
+  | Yazid Said Conde | U202312348   |
 ## Contenido 
 ## Tabla de Contenidos
 
