@@ -34,7 +34,7 @@
 ## Project Report Collaboration Insights
 
 <div>
-Para este informe se dividio de la siguiente forma para cada integrante del grupo:
+<p>Para este informe se dividio de la siguiente forma para cada integrante del grupo:</p>
   
 <div>
   |  Integrantes   | Tarea asignada |
