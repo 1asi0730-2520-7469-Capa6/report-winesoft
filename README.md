@@ -38,7 +38,7 @@
   
 <div>
   
-  ## Hola
+  ## 
   
   |  Integrantes   | Tarea asignada |
   |:--------------:|:--------------:|
