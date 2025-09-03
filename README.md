@@ -45,5 +45,8 @@
 ## Tabla de Contenidos
 
 </div>
+------------
+(INDICE INCOMPLETO)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+------------
 
