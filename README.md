@@ -36,14 +36,11 @@
 <div>
 <p>Para este informe se dividio de la siguiente forma para cada integrante del grupo:</p>
   
-<div>
-  
   ## 
   
   |  Integrantes   | Tarea asignada |
   |:--------------:|:--------------:|
   | Yazid Said Conde | U202312348   |
-</div>
 ## Contenido 
 ## Tabla de Contenidos
 
