@@ -45,4 +45,5 @@
 ## Tabla de Contenidos
 
 </div>
-- [Registro de versiones del informe](#Registro-de-Versiones-del-Informe)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+
