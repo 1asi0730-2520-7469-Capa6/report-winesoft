@@ -50,3 +50,33 @@
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 ------------
 
+## Student Outcome
+
+
+# Capitulo I: Introducción
+## 1.1. StartUp Profile
+### 1.1.1. Descripción de la StartUp
+<div align="justify">
+La idea de crear CoolLiquor nace ante los desafíos que enfrentan actualmente las destilerías y plantas de producción de licores en todo el mundo. Dichas industrias requieren un control riguroso de los procesos productivos para garantizar calidad, consistencia y cumplimiento normativo. 
+<br><br>
+Entre los principales problemas se encuentran:
+
+- Control estricto de temperatura, humedad y presión en etapas clave como fermentación, destilación y maduración.
+
+- Cumplimiento de normativas sanitarias y de seguridad industrial (regulaciones locales, FDA, ISO, HACCP).
+
+- Prevención de pérdidas económicas ocasionadas por fallos en equipos como tanques, enfriadores o sistemas de climatización.
+
+- Gestión ineficiente del inventario de materias primas y producto terminado.
+
+- Dificultad para garantizar la trazabilidad del producto final.
+
+Ante este panorama, CoolLiquor se presenta como una solución integral basada en tecnologías IoT, ofreciendo monitoreo en tiempo real, alertas preventivas y registros históricos que permiten optimizar la producción, reducir riesgos y facilitar auditorías regulatorias.
+
+- Misión:
+
+Nuestra misión es garantizar procesos de producción de licores más seguros, eficientes y sostenibles, ayudando a las destilerías a mantener la calidad de sus productos, cumplir normativas internacionales y reducir pérdidas operativas.
+
+- Visión:
+
+Vemos un futuro donde la industria de bebidas alcohólicas esté completamente digitalizada y optimizada. Creemos que las destilerías deben contar con herramientas tecnológicas de clase mundial para garantizar autenticidad, calidad y seguridad en cada etapa de producción. Por ello, buscamos posicionarnos como líderes en soluciones inteligentes para la industria licorera a nivel global.
