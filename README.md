@@ -73,10 +73,16 @@ Entre los principales problemas se encuentran:
 
 Ante este panorama, CoolLiquor se presenta como una solución integral basada en tecnologías IoT, ofreciendo monitoreo en tiempo real, alertas preventivas y registros históricos que permiten optimizar la producción, reducir riesgos y facilitar auditorías regulatorias.
 
-- Misión:
+<ul>
+<b><u>- Misión:</u></b>
 
 Nuestra misión es garantizar procesos de producción de licores más seguros, eficientes y sostenibles, ayudando a las destilerías a mantener la calidad de sus productos, cumplir normativas internacionales y reducir pérdidas operativas.
 
-- Visión:
+<b><u>- Visión:</u></b>
 
 Vemos un futuro donde la industria de bebidas alcohólicas esté completamente digitalizada y optimizada. Creemos que las destilerías deben contar con herramientas tecnológicas de clase mundial para garantizar autenticidad, calidad y seguridad en cada etapa de producción. Por ello, buscamos posicionarnos como líderes en soluciones inteligentes para la industria licorera a nivel global.
+</u>
+</div>
+
+### 1.1.2. Perfiles de integrantes del equipo
+
