@@ -88,9 +88,9 @@ Vemos un futuro donde la industria de bebidas alcohólicas esté completamente d
 |    Nombre Completo del integrante   | Descripcion de Carrera | Fotografía | Conocimientos y Habilidades a apuntar|
 | ------------------------------------| ---------------------- | ---------- | ------------------------------------ |
 | Said Conde, Yazid   | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Yazid Said](./imagenes/foto%20yazid.jpg)  | Conocimientos en lenguajes de Programación como C++, Java, HTML, CSS, JavaScriptm, Python y C#.<br>Me considero que soy una persona muy trabajadora, responsable, puntual y respetuoso. |
-| Noriega Suschenko, Anatoly Andrey   | Ingeniería de Software<br> 5to Ciclo<br>2024-1<br>Universidad Peruana de Ciencias Aplicadas | ![Anatoly Noriega](./assets/Anatoly.png) | - Conocimientos en lenguajes de Programación como C++, Python, HTML, CSS.<br>-Considero que soy una persona muy perseverante y que sabe trabajar en equipo. |
-| Príncipe Godoy, Johan               | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Johan Príncipe](./assets/Johan.jpg) | - Conocimiento en lenguajes de programación como C++, Python, HTML, CSS, JS, SQL, MongoDB. <br> - Me considero una persona comprometida y perseverante para lograr lo mejor con el equipo. |
-| Rodriguez Zuluoeta, Andres Fernando | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Andres Rodriguez](./assets/Andres.jpg) | Tengo conocimiento de lenguaje de programación como C ++ y Python. Me considero una persona centrada y responsable al momento de realizar trabajos en grupo. |
+| Angelo Stephano Moscoso Bejar   | Ingeniería de Software<br> 5to Ciclo<br>2024-1<br>Universidad Peruana de Ciencias Aplicadas | ![Angelo Stephano](./imagenes/foto%20angelo.jpg) | - Tengo 21 años estoy estudiando actualmente en la Univeridad Peruana de Ciencias Aplicadas. Me ha interasado mucho la creación de paginas web para diversos objetivos. Manejo algunos lenguajes de programación como javascript, C++, C+, Python, entre otros. Considero que tengo las habilidades de comunicación efectiva, organización, proactividad, resolución de problemas, entre otras. Espero aportar de manera satisfactoria en mi grupo para terminar de manera exitosa el proyecto. |
+| Gonzalo Alonso Carhuancote Dominguez               | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Gonzalo Alonso](./imagenes/foto%20Gonzalo.jpg) | - Tengo 20 años, estudio la carrera de ingeniería de software en la UPC. En mis tiempos libres estudio, juego videojuegos y me informo del mundo actual y moderno. Me apasiona la tecnología y manejo lenguajes como C++, Java, Typescript y Python. |
+| Joan Fernando Teves Samaniego | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Joan Fernando](./imagenes/foto%20joan.jpg) | Tengo 22 años estoy estudiando actualmente en la Univeridad Peruana de Ciencias Aplicadas. Tengo interes por el mundo de la cibersegurirdad y el primer paso es enteder al derecho y al revez las aplicaciones web , se c++ , javascript , html , css , mongodb ,sql , sqlserver , posgresql,python, soy creativo , responsable , trabajo en equipo , me gusta resolver problemas   me adaptofacilmente y gestiono muy bien mi tiempo.Espero que en este proyecto pueda incrementar mis habilidades y conocimiento sobre las aplicaciones web y demas . |
 | Zarate Caceres, Victor Ernesto      | Ingeniería de Software<br>Universidad Peruana de Ciencias Aplicadas | ![Ernesto Zarate](./assets/ernesto.png)  | - Conocimiento de Programación en C++, Python, HTML, CSS, MAtLab y SQL.<br>-Me considero una persona responsable, capaz de aportar ideas para el proyecto.<br>-Tengo el compromiso de trabajar de manera eficiente y cumplir con los plazos de entrega. |
 
 ## 1.2. Solution Profile
@@ -217,4 +217,16 @@ Vemos un futuro donde la industria de bebidas alcohólicas esté completamente d
   **Cuando** empresas internacionales adquieran la plataforma y se establezcan contratos con destilerías fuera del país.
 
   #### 1.2.2.4. Lean UX Canvas.
-  
+  A continuación se puede ver el Lean UX Canvas trabajado por el equipo:
+![Imagen de Lean-UX Canvas](/imagenes/LEAN%20UX%20CANVA.png)
+Enlace para acceder a Miro: https://miro.com/app/board/uXjVJMXI8fo=/?share_link_id=240561883449
+
+## 1.3. Segmentos objetivo
+### Segmento 1: Dueños y gerentes de destilerías
+<div align="justify"> Los dueños y gerentes de destilerías son los principales responsables de garantizar la rentabilidad y eficiencia de la producción. Enfrentan retos constantes como el control de temperatura, humedad, trazabilidad y mantenimiento de equipos críticos, los cuales impactan directamente en los costos y la calidad del producto final. Según el <i>Banco Interamericano de Desarrollo (BID)</i>, la digitalización de procesos industriales permite aumentar la productividad y reducir pérdidas en la cadena de valor (BID, 2021). CoolLiquor responde a esta necesidad ofreciendo una plataforma integral de monitoreo en tiempo real que protege la inversión y optimiza los procesos. </div>
+
+### Segmento 2: Entidades regulatorias y consumidores finales
+<div align="justify"> Las entidades reguladoras y los consumidores comparten un interés común: asegurar que los productos alcohólicos cumplan con estándares de calidad y normativas sanitarias. Las instituciones auditoras requieren información transparente y trazable para verificar procesos, mientras que los clientes demandan confianza y autenticidad en lo que consumen. Según la <i>Organización Mundial de la Salud (OMS)</i>, garantizar la trazabilidad y seguridad en bebidas alcohólicas es esencial para proteger la salud pública y la confianza en el mercado (OMS, 2020). Con CoolLiquor, ambos actores acceden a reportes confiables y a una producción respaldada por monitoreo digital continuo. </div>
+
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores.
