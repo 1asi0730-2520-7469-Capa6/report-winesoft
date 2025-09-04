@@ -140,3 +140,81 @@ Vemos un futuro donde la industria de bebidas alcohólicas esté completamente d
 
   Hemos observado una insatisfacción en la industria licorera respecto al control de procesos y normativas. Actualmente, muchas destilerías medianas y pequeñas aún dependen de controles manuales, lo que genera ineficiencias, riesgos de incumplimiento y pérdidas económicas significativas. Según estudios de la industria, un fallo en la fermentación puede ocasionar pérdidas de hasta un 30% en la producción de un lote, mientras que la falta de registros adecuados dificulta la obtención de certificaciones internacionales como ISO, HACCP o FDA, reduciendo la competitividad en mercados globales.
 </div>
+
+#### 1.2.2.2. Lean UX Assumptions.
+<div align="justify">
+  Ahora que hemos analizado la problemática y tenemos un panorama de cómo solucionar el problema, debemos saber qué empresas tienen características similares a las nuestras y cómo estas se han ido desarrollando a través del tiempo. 
+  Existen soluciones IoT en la industria alimentaria y de bebidas, como <i>SmartBrew</i> o <i>Ekos Brewmaster</i>, que permiten monitorear fermentación y producción. Sin embargo, estas plataformas suelen enfocarse en cervecerías y no en destilerías de licores, lo que nos abre una oportunidad clara en este nicho.<br>
+  
+  <b>Assumptions:</b>
+  <ul>
+    <li>Las destilerías necesitan una plataforma que les permita monitorear en tiempo real parámetros críticos como temperatura, humedad y presión.</li>
+    <li>Los gerentes de planta requieren registros digitales para cumplir con normativas sanitarias y de seguridad industrial.</li>
+    <li>Mis clientes serán destilerías medianas y grandes, además de empresas productoras de bebidas alcohólicas que buscan certificaciones internacionales (ISO, HACCP, FDA).</li>
+    <li>Generaré ingresos a través de planes de suscripción, venta o leasing de sensores IoT y servicios de consultoría.</li>
+    <li>No existe en el mercado local una plataforma integral adaptada específicamente a destilerías de licores.</li>
+    <li>Las entidades regulatorias y auditoras podrán beneficiarse de los reportes generados por la plataforma.</li>
+    <li>Los ingenieros de producción y técnicos estarán interesados en implementar la solución para reducir pérdidas y optimizar procesos.</li>
+    <li>Las destilerías que deseen competir en mercados internacionales necesitan urgentemente este tipo de herramientas digitales.</li>
+  </ul>
+
+  <b>Business outcomes:</b>
+  <ul>
+    <li>Generar ingresos mediante planes de suscripción y venta de hardware especializado.</li>
+    <li>Mejorar la eficiencia de las plantas de producción de licores, reduciendo pérdidas por fallos en procesos.</li>
+    <li>Aumentar la competitividad de las destilerías al facilitar el cumplimiento de normativas internacionales.</li>
+  </ul>
+
+  <b>User outcomes:</b>
+  <ul>
+    <li><b>¿Quién es el usuario?</b><br>  
+    Gerentes de planta, ingenieros de producción, técnicos de mantenimiento y personal encargado de la calidad en destilerías.</li>  
+
+  <li><b>¿Dónde encaja nuestro producto en su trabajo o vida?</b><br>  
+    Encaja en su rutina diaria de supervisión de procesos productivos, facilitando decisiones rápidas basadas en datos en tiempo real.
+  </li>  
+
+  <li><b>¿Qué problemas tiene nuestro producto?</b><br>  
+    La implementación inicial depende de la instalación de hardware especializado, lo que puede suponer una barrera de entrada en destilerías con bajo.
+  </li>  
+  <li><b>¿Cuándo y cómo es usado nuestro producto?</b><br>  
+    Es usado de manera continua, 24/7, durante todo el ciclo de producción de licores para garantizar calidad, seguridad y eficiencia. Los reportes y alertas se utilizan especialmente en auditorías y revisiones de cumplimiento.
+  </li>  
+
+  <li><b>¿Qué características son importantes?</b><br>  
+    Que los datos sean confiables, las alertas sean inmediatas y que la plataforma sea fácil de integrar con sistemas ERP o de gestión existentes.</li>  
+
+  <li><b>¿Cómo debe verse nuestro producto y comportarse?</b><br>  
+    Debe tener un panel visual claro y accesible, con gráficos en tiempo real, reportes descargables y una interfaz simple para usuarios técnicos y no técnicos.</li>  
+  </ul>
+
+  <b>User benefits:</b>
+  <ul>
+    <li>Reducción de pérdidas económicas gracias a un mejor control de procesos críticos.</li>
+    <li>Cumplimiento más sencillo y eficiente de normativas internacionales (ISO, HACCP, FDA).</li>
+    <li>Monitoreo en tiempo real que aumenta la seguridad y calidad del producto final.</li>
+    <li>Acceso a reportes históricos y estadísticos que facilitan auditorías y toma de decisiones.</li>
+    <li>Optimización de procesos mediante alertas preventivas y automatización.</li>
+  </ul>
+</div>
+
+#### 1.2.2.3. Lean UX Hypothesis Statements.
+- **Hypothesis Statement 01**  
+  **Creemos que** las destilerías y plantas de producción de licores estarán interesadas en implementar un sistema de monitoreo inteligente.  
+  **Sabremos que** hemos tenido éxito  
+  **Cuando** logremos instalar nuestros sensores y panel de control en varias destilerías piloto y estas reporten mejoras en la calidad del producto.
+- **Hypothesis Statement 02**  
+  **Creemos que** los gerentes de planta y responsables de calidad adoptarán la plataforma como parte de sus operaciones diarias.
+  **Sabremos que** hemos tenido exito  
+  **Cuando** la plataforma sea utilizada de manera continua para generar reportes de auditoría y gestionar procesos de mantenimiento.
+- **Hypothesis Statement 03**  
+  **Creemos que** la disponibilidad de registros digitales y alertas en tiempo real permitirá a las destilerías reducir pérdidas en la producción.  
+  **Sabremos que** se está cumpliendo ese objetivo  
+  **Cuando** se perciba una disminución en los lotes defectuosos y en los costos asociados a fallos en los equipos.
+- **Hypothesis Statement 04**  
+  **Creemos que** nuestro producto podrá escalarse a nivel regional y ser adoptado en múltiples países con industria licorera desarrollada.  
+  **Sabremos que** hemos tenido exito  
+  **Cuando** empresas internacionales adquieran la plataforma y se establezcan contratos con destilerías fuera del país.
+
+  #### 1.2.2.4. Lean UX Canvas.
+  
