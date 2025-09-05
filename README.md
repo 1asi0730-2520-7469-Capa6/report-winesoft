@@ -91,7 +91,7 @@ Vemos un futuro donde la industria de bebidas alcohólicas esté completamente d
 | Angelo Stephano Moscoso Bejar   | Ingeniería de Software<br> 5to Ciclo<br>2024-1<br>Universidad Peruana de Ciencias Aplicadas | ![Angelo Stephano](./imagenes/foto%20angelo.jpg) | - Tengo 21 años estoy estudiando actualmente en la Univeridad Peruana de Ciencias Aplicadas. Me ha interasado mucho la creación de paginas web para diversos objetivos. Manejo algunos lenguajes de programación como javascript, C++, C+, Python, entre otros. Considero que tengo las habilidades de comunicación efectiva, organización, proactividad, resolución de problemas, entre otras. Espero aportar de manera satisfactoria en mi grupo para terminar de manera exitosa el proyecto. |
 | Gonzalo Alonso Carhuancote Dominguez               | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Gonzalo Alonso](./imagenes/foto%20Gonzalo.jpg) | - Tengo 20 años, estudio la carrera de ingeniería de software en la UPC. En mis tiempos libres estudio, juego videojuegos y me informo del mundo actual y moderno. Me apasiona la tecnología y manejo lenguajes como C++, Java, Typescript y Python. |
 | Joan Fernando Teves Samaniego | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Joan Fernando](./imagenes/foto%20joan.jpg) | Tengo 22 años estoy estudiando actualmente en la Univeridad Peruana de Ciencias Aplicadas. Tengo interes por el mundo de la cibersegurirdad y el primer paso es enteder al derecho y al revez las aplicaciones web , se c++ , javascript , html , css , mongodb ,sql , sqlserver , posgresql,python, soy creativo , responsable , trabajo en equipo , me gusta resolver problemas   me adaptofacilmente y gestiono muy bien mi tiempo.Espero que en este proyecto pueda incrementar mis habilidades y conocimiento sobre las aplicaciones web y demas . |
-| Zarate Caceres, Victor Ernesto      | Ingeniería de Software<br>Universidad Peruana de Ciencias Aplicadas | ![Ernesto Zarate](./assets/ernesto.png)  | - Conocimiento de Programación en C++, Python, HTML, CSS, MAtLab y SQL.<br>-Me considero una persona responsable, capaz de aportar ideas para el proyecto.<br>-Tengo el compromiso de trabajar de manera eficiente y cumplir con los plazos de entrega. |
+| Antonio Rodrigo Duran Díaz      | Ingeniería de Software<br>Universidad Peruana de Ciencias Aplicadas | ![Antonio Rodrigo](./imagenes/foto%20Antonio.jpg)  | - Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y tengo 20 años. Estoy avanzando en mi formación académica y reforzando mis conocimientos en los diferentes temas relacionados con la creación de software. Durante mis estudios me ha gustado trabajar con gestores de bases de datos, en especial con SQL Server y MongoDB. En este proyecto espero seguir mejorando mis habilidades y conocimientos, además de lograr un buen desempeño en el trabajo grupal. |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y Problemática
@@ -230,3 +230,24 @@ Enlace para acceder a Miro: https://miro.com/app/board/uXjVJMXI8fo=/?share_link_
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
+<div align="justify">
+  <table>
+    <tr>
+      <td colspan="3">Fermentrack<br>Link: https://www.fermentrack.com/</td>
+      <td colspan="4">Fermentrack es un software de código abierto orientado al monitoreo de fermentaciones. Permite controlar temperaturas en tiempo real y registrar datos históricos, siendo útil tanto para cervecerías artesanales como para procesos de destilación que requieren precisión.</td>
+    </tr>
+    <tr>
+      <td colspan="3">SensorInsight<br>Link: https://sensorinsight.io/</td>
+      <td colspan="4">SensorInsight brinda soluciones de IoT industrial para monitorear procesos en tiempo real, con aplicaciones en la industria química, de bebidas y alimentaria. Su plataforma recopila datos de sensores conectados y los convierte en reportes e indicadores para la toma de decisiones.</td>
+    </tr>
+    <tr>
+      <td colspan="3">BrewMonitor<br>Link: https://www.precisionfermentation.com/</td>
+      <td colspan="4">BrewMonitor es un sistema especializado en el monitoreo en tiempo real de la fermentación en cervecerías. Su hardware y software permiten medir parámetros como presión, pH, gravedad y temperatura, ofreciendo a los productores datos precisos para optimizar la calidad y consistencia del producto.</td>
+    </tr>
+    <tr>
+      <td colspan="3">URSafe<br>Link: https://ursafe.com/</td>
+      <td colspan="4">URSafe es una aplicación de seguridad personal avanzada que utiliza reconocimiento de voz y geolocalización para activar alertas de emergencia. Los usuarios 
+      pueden configurar frases clave que, al ser pronunciadas, envían notificaciones a contactos seleccionados, facilitando una rápida respuesta en situaciones de peligro.</td>
+    </tr>
+  </table>
+</div>
