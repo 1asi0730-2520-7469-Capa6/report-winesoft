@@ -244,10 +244,5 @@ Enlace para acceder a Miro: https://miro.com/app/board/uXjVJMXI8fo=/?share_link_
       <td colspan="3">BrewMonitor<br>Link: https://www.precisionfermentation.com/</td>
       <td colspan="4">BrewMonitor es un sistema especializado en el monitoreo en tiempo real de la fermentación en cervecerías. Su hardware y software permiten medir parámetros como presión, pH, gravedad y temperatura, ofreciendo a los productores datos precisos para optimizar la calidad y consistencia del producto.</td>
     </tr>
-    <tr>
-      <td colspan="3">URSafe<br>Link: https://ursafe.com/</td>
-      <td colspan="4">URSafe es una aplicación de seguridad personal avanzada que utiliza reconocimiento de voz y geolocalización para activar alertas de emergencia. Los usuarios 
-      pueden configurar frases clave que, al ser pronunciadas, envían notificaciones a contactos seleccionados, facilitando una rápida respuesta en situaciones de peligro.</td>
-    </tr>
   </table>
 </div>
