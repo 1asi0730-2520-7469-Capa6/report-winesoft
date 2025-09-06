@@ -246,3 +246,43 @@ Enlace para acceder a Miro: https://miro.com/app/board/uXjVJMXI8fo=/?share_link_
     </tr>
   </table>
 </div>
+
+## 2.1.1. Análisis Competitivo
+<div align="justify">
+
+En el mercado actual existen diferentes soluciones que también buscan mejorar el control de procesos de fermentación y producción en la industria de bebidas alcohólicas. Sin embargo, la mayoría está pensada principalmente para **cervecerías** o para aplicaciones industriales muy generales. A continuación, se presenta una comparación con algunos competidores relevantes:
+
+| Competidor | Descripción | Puntos fuertes | Puntos débiles |
+|------------|-------------|----------------|----------------|
+| **Fermentrack** <br>[fermentrack.com](https://www.fermentrack.com/) | Es un software gratuito y de código abierto que permite monitorear fermentaciones y controlar la temperatura en tiempo real. | Al ser gratis, es accesible para cualquiera; además tiene una comunidad de usuarios que comparte mejoras. | No es sencillo para alguien que no tiene conocimientos técnicos, y su interfaz no es muy amigable. |
+| **SensorInsight** <br>[sensorinsight.io](https://sensorinsight.io/) | Es una plataforma que conecta sensores IoT para supervisar procesos industriales, incluyendo alimentos y bebidas. | Funciona en muchos sectores diferentes, es escalable y presenta datos con buenas gráficas. | No está pensada especialmente para destilerías y su costo de implementación es alto. |
+| **BrewMonitor** <br>[precisionfermentation.com](https://www.precisionfermentation.com/) | Es un sistema especializado en cervecerías que mide presión, pH, gravedad y temperatura durante la fermentación. | Viene con hardware y software integrados; los datos que ofrece son muy precisos. | Está limitado a cervecerías, no incluye destilerías, y el hardware resulta costoso. |
+
+**Conclusión:**  
+Al comparar estas soluciones con nuestro proyecto **CoolLiquor/WineSoft**, notamos que ninguna de ellas se centra realmente en las **destilerías de licores**. Algunas son muy técnicas y complicadas para un usuario promedio, mientras que otras están enfocadas en la cerveza. Esto abre una oportunidad para nosotros de crear un producto especializado, más sencillo de usar y accesible económicamente, cubriendo así un espacio que los competidores actuales no han trabajado.
+</div>
+
+---
+
+## 2.1.2. Estrategias y Tácticas frente a Competidores
+<div align="justify">
+
+Conociendo a los competidores, es importante definir cómo vamos a diferenciarnos. Para nuestro proyecto proponemos una combinación de **estrategias** (a nivel general) y **tácticas** (acciones concretas) que nos permitan ganar espacio en el mercado.
+
+### Estrategias
+- **Enfoque en un nicho específico:** mientras los competidores se concentran en cervezas o en industrias generales, nosotros nos centraremos en **destilerías de licores**, que tienen procesos distintos y necesidades propias.  
+- **Precios accesibles:** ofreceremos un sistema con planes de suscripción más económicos y opciones de pago flexibles (por ejemplo, leasing de sensores IoT en lugar de compra total).  
+- **Simplicidad en el uso:** a diferencia de Fermentrack, que es más técnico, nuestro software tendrá una interfaz clara y fácil de manejar, pensada para ingenieros y técnicos que no necesariamente saben de programación.  
+- **Soporte local y en español:** la mayoría de los competidores tienen soporte en inglés. Nosotros podemos brindar atención en español y adaptarnos a la realidad de las destilerías latinoamericanas.  
+- **Valor agregado:** además del monitoreo de temperatura, presión o humedad, añadiremos funciones como trazabilidad del producto, reportes para auditorías y gestión de inventarios.
+
+### Tácticas
+- **Desarrollo de una interfaz intuitiva:** panel visual con gráficos simples, alertas claras y reportes descargables para auditorías.  
+- **Alianzas estratégicas:** trabajar con proveedores de sensores locales para abaratar costos y facilitar la implementación.  
+- **Pruebas piloto en destilerías locales:** validar la solución directamente en campo y mostrar resultados rápidos a clientes potenciales.  
+- **Marketing enfocado en el problema real:** destacar que las destilerías tienen necesidades distintas a las cervecerías y que nuestro producto está hecho a su medida.  
+- **Escalabilidad progresiva:** comenzar en Perú y luego expandirnos a otros países de Latinoamérica, antes de competir en mercados más grandes como Europa o EE.UU.  
+
+**En resumen:**  
+Nuestro objetivo es ser la **primera plataforma integral especializada en destilerías de licores**, diferenciándonos de competidores que o bien son demasiado técnicos, demasiado caros o simplemente no están pensados para este sector.
+</div>
