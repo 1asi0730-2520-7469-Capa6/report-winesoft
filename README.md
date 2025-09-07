@@ -246,3 +246,18 @@ Enlace para acceder a Miro: https://miro.com/app/board/uXjVJMXI8fo=/?share_link_
     </tr>
   </table>
 </div>
+
+## 2.3. Needfinding.
+
+### 2.3.1. User Personas.
+Con el propósito de garantizar una comprensión profunda y precisa de los segmentos identificados como clave para nuestro proyecto, hemos llevado a cabo un proceso estructurado y cuidadoso de creación de User Personas. Este procedimiento nos permitió definir un perfil específico y representativo para cada segmento objetivo, lo que nos brinda una perspectiva más clara y detallada de nuestros usuarios. De esta manera, podemos diseñar y ofrecer soluciones que respondan de manera efectiva a sus necesidades, expectativas y contextos particulares.
+
+- **UserPersona 1**
+<br>
+  <img src="./imagenes/User Persona 1.png" alt="UserPersona_1">
+<br>
+
+- **UserPersona 2**
+    <br>
+    <img src="./imagenes/User Persona 2.png" alt="UserPersona_2">
+    <br>
