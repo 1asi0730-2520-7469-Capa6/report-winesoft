@@ -247,6 +247,11 @@ Enlace para acceder a Miro: https://miro.com/app/board/uXjVJMXI8fo=/?share_link_
   </table>
 </div>
 
+## 2.2. Entrevistas.
+ ## 2.2.1. Diseño de entrevistas
+ ##  2.2.2. Registro de entrevistas
+ ## 2.2.3. Análisis de entrevistas. 
+
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
@@ -261,3 +266,73 @@ Con el propósito de garantizar una comprensión profunda y precisa de los segme
     <br>
     <img src="./imagenes/User Persona 2.png" alt="UserPersona_2">
     <br>
+
+### 2.3.2. User Task Matrix.
+<div style='text-align: justify;'>
+El User Task Matrix es una herramienta que permite identificar y priorizar las tareas que realizan los distintos segmentos de usuarios para alcanzar sus objetivos. En este caso, la matriz se centra en dos segmentos principales: Dueños de destilerías e Inspectores/Entidades regulatorias.
+
+La matriz presenta 15 tareas relevantes para ambos segmentos, clasificadas según su frecuencia e importancia. Esto permite comprender mejor las necesidades y prioridades de cada grupo, además de identificar similitudes o diferencias en sus actividades. De esta forma, el User Task Matrix sirve como guía para alinear las funcionalidades del sistema con los objetivos del negocio y los requisitos regulatorios, asegurando que la solución aporte valor tanto a los productores como a las entidades de control.
+</div>
+
+| **Task** | **Dueños de destilerías** (Frecuencia - Severidad) | **Entidades regulatorias** (Frecuencia - Severidad) |
+|----------|----------------------------------------------------|------------------------------------------------------|
+| Monitorear temperatura, humedad y presión | Alta - Alta | Alta - Alta |
+| Recibir alertas sobre variaciones críticas | Alta - Alta | Alta - Alta |
+| Revisar historial de producción | Alta - Alta | Media - Alta |
+| Gestionar inventario de materias primas | Alta - Alta | Media - Alta |
+| Garantizar trazabilidad del producto | Alta - Alta | Alta - Alta |
+| Cumplir normativas sanitarias (HACCP, ISO, FDA) | Alta - Alta | Alta - Alta |
+| Generar reportes de control de calidad | Media - Alta | Alta - Alta |
+| Supervisar mantenimiento y calibración de equipos | Media - Alta | Media - Alta |
+| Detectar fallos en procesos de fermentación/destilación | Alta - Alta | Media - Alta |
+| Optimizar procesos de climatización y almacenamiento | Media - Alta | Media - Alta |
+| Acceder a datos en tiempo real para auditorías | Media - Alta | Alta - Alta |
+| Evaluar riesgos de seguridad industrial | Media - Alta | Alta - Alta |
+| Implementar mejoras en procesos productivos | Baja - Alta | Media - Alta |
+| Facilitar certificaciones de exportación | Media - Alta | Alta - Alta |
+| Comparar métricas con estándares internacionales | Baja - Alta | Alta - Alta |
+
+<div align="justify">
+En el User Task Matrix se identifican 15 tareas críticas que ambos segmentos realizan con distintas frecuencias e importancias, independientemente de la solución tecnológica.
+
+Para los dueños de destilerías, las tareas más frecuentes e importantes son: monitorear condiciones en tiempo real, recibir alertas preventivas, gestionar inventario y asegurar la trazabilidad de la producción.
+
+Para las entidades regulatorias, las prioridades son: cumplir normativas sanitarias, acceder a datos en tiempo real, generar reportes confiables y facilitar certificaciones de exportación.
+
+Ambos segmentos coinciden en la alta relevancia de monitorear variables críticas, recibir alertas inmediatas y garantizar la trazabilidad del producto, ya que estos puntos aseguran la calidad, seguridad y cumplimiento normativo en la producción de licores.
+</div>
+
+### 2.3.3. User Journey Mapping.
+
+### 2.3.4. Empathy Mapping.
+
+**Segmento 1: Dueños de destilerías preocupados por la eficiencia y el cumplimiento normativo**
+<img src="./imagenes/Empathy map 1.png" alt="Empathy Map User Persona 1">
+
+**Segmento 2: Inspectores y entidades regulatorias responsables de garantizar la calidad y seguridad del producto**
+<img src="./imagenes/Empathy map 2.png" alt="Empathy Map User Persona 2">
+
+## 2.4. Big Picture EventStorming.
+
+## 2.4. Ubiquitous Language.
+<div align="justify">
+  <ul>
+    <li><b>Destilería:</b> Planta de producción dedicada a la elaboración de bebidas alcohólicas mediante procesos de fermentación y destilación.</li>
+    <li><b>Lote de Producción:</b> Cantidad específica de licor producida en un ciclo completo de fermentación y destilación.</li>
+    <li><b>Fermentación:</b> Proceso biológico en el que los azúcares se transforman en alcohol mediante la acción de levaduras.</li>
+    <li><b>Destilación:</b> Proceso de separación que concentra el alcohol aplicando calor y controlando la condensación.</li>
+    <li><b>Maduración:</b> Etapa en la que el licor se almacena en barricas o tanques para adquirir características de sabor y aroma.</li>
+    <li><b>Trazabilidad:</b> Capacidad de rastrear cada lote de producción desde el inicio hasta su distribución final.</li>
+    <li><b>Normativa Sanitaria:</b> Conjunto de normas y leyes que garantizan la inocuidad y calidad del producto alcohólico.</li>
+    <li><b>Control de Calidad:</b> Evaluación de parámetros críticos del producto, como pureza, grado alcohólico y seguridad.</li>
+    <li><b>Reporte Automático:</b> Documento digital generado por el sistema que registra datos de producción, control y mantenimiento.</li>
+    <li><b>Certificación:</b> Reconocimiento oficial que valida el cumplimiento de normas nacionales e internacionales.</li>
+  </ul>
+</div>
+
+# Capítulo III: Requirements Specification 
+## 3.1. User Stories. 
+## 3.1. User Stories. 
+## 3.2. Impact Mapping
+## 3.3. Product Backlog.
+
