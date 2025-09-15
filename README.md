@@ -371,7 +371,136 @@ Ambos segmentos coinciden en la alta relevancia de monitorear variables crítica
 
 # Capítulo III: Requirements Specification 
 ## 3.1. User Stories. 
-## 3.1. User Stories. 
+<table>
+  <tr>
+    <td align="center"><b>User Story ID</b></td>
+    <td align="center"><b>Título</b></td>
+    <td align="center"><b>Descripción</b></td>
+    <td align="center"><b>Criterios de Aceptación</b></td>
+    <td align="center"><b>Relacionado con (Epic ID)</b></td>
+  </tr>
+  
+  <!-- Consumidor -->
+  <tr>
+    <td align="center">US01</td>
+    <td align="justify">Búsqueda de licores</td>
+    <td align="justify">Como consumidor, quiero buscar un licor en un catálogo digital, para comparar marcas y precios antes de comprar.</td>
+    <td align="justify">El sistema muestra resultados coincidentes con el nombre o categoría buscada.</td>
+    <td align="center">EP01</td>
+  </tr>
+  <tr>
+    <td align="center">US02</td>
+    <td align="justify">Información básica del producto</td>
+    <td align="justify">Como consumidor, quiero ver información básica de un licor (marca, origen, graduación alcohólica y precio), para tomar una mejor decisión de compra.</td>
+    <td align="justify">La app muestra marca, origen, precio y graduación alcohólica en la ficha del producto.</td>
+    <td align="center">EP01</td>
+  </tr>
+  <tr>
+    <td align="center">US03</td>
+    <td align="justify">Verificación del producto</td>
+    <td align="justify">Como consumidor, quiero ver si el producto está verificado, para sentirme seguro al comprar.</td>
+    <td align="justify">El sistema muestra un sello o etiqueta digital de verificación en los productos aprobados.</td>
+    <td align="center">EP02</td>
+  </tr>
+  <tr>
+    <td align="center">US04</td>
+    <td align="justify">Recomendaciones de productos</td>
+    <td align="justify">Como consumidor, quiero recibir recomendaciones básicas, para descubrir nuevos productos.</td>
+    <td align="justify">El sistema sugiere productos relacionados según mis búsquedas o compras anteriores.</td>
+    <td align="center">EP03</td>
+  </tr>
+  <tr>
+    <td align="center">US05</td>
+    <td align="justify">Guardar productos favoritos</td>
+    <td align="justify">Como consumidor, quiero guardar mis productos favoritos en la app, para encontrarlos rápidamente en futuras compras.</td>
+    <td align="justify">El sistema permite marcar y listar los productos favoritos del usuario.</td>
+    <td align="center">EP03</td>
+  </tr>
+  <tr>
+    <td align="center">US06</td>
+    <td align="justify">Alertas de retiro de lotes</td>
+    <td align="justify">Como consumidor, quiero recibir alertas si un lote de licor ha sido retirado del mercado, para evitar consumir un producto riesgoso.</td>
+    <td align="justify">El sistema notifica al usuario cuando un producto que compró o marcó como favorito está en un lote retirado.</td>
+    <td align="center">EP04</td>
+  </tr>
+  <tr>
+    <td align="center">US07</td>
+    <td align="justify">Reportar productos sospechosos</td>
+    <td align="justify">Como consumidor, quiero reportar un producto sospechoso desde la app, para alertar a otros y a las autoridades.</td>
+    <td align="justify">El sistema permite enviar un reporte con foto, descripción y ubicación.</td>
+    <td align="center">EP04</td>
+  </tr>
+  <tr>
+    <td align="center">US08</td>
+    <td align="justify">Compartir reseñas</td>
+    <td align="justify">Como consumidor, quiero compartir reseñas sobre un producto, para ayudar a otros usuarios a elegir mejor.</td>
+    <td align="justify">Los usuarios pueden dejar comentarios y calificaciones visibles para otros.</td>
+    <td align="center">EP03</td>
+  </tr>
+  
+  <!-- Tienda -->
+  <tr>
+    <td align="center">US09</td>
+    <td align="justify">Registro de inventario</td>
+    <td align="justify">Como tienda, quiero subir productos al catálogo, para que los usuarios los vean.</td>
+    <td align="justify">El sistema permite añadir producto con nombre, precio e imagen.</td>
+    <td align="center">EP05</td>
+  </tr>
+  <tr>
+    <td align="center">US10</td>
+    <td align="justify">Edición de inventario</td>
+    <td align="justify">Como tienda, quiero editar la información de un licor, para mantenerla actualizada.</td>
+    <td align="justify">El sistema permite editar precio, stock o descripción.</td>
+    <td align="center">EP05</td>
+  </tr>
+  <tr>
+    <td align="center">US11</td>
+    <td align="justify">Análisis de productos consultados</td>
+    <td align="justify">Como tienda, quiero ver qué productos se consultan más, para entender qué buscan los usuarios.</td>
+    <td align="justify">El sistema genera un listado con los productos más consultados en un período.</td>
+    <td align="center">EP05</td>
+  </tr>
+  
+  <!-- Entidad regulatoria -->
+  <tr>
+    <td align="center">US12</td>
+    <td align="justify">Recepción de reportes</td>
+    <td align="justify">Como entidad regulatoria, quiero recibir reportes de usuarios, para supervisar posibles problemas.</td>
+    <td align="justify">Los reportes se muestran en un panel de control con detalles enviados por usuarios.</td>
+    <td align="center">EP06</td>
+  </tr>
+  <tr>
+    <td align="center">US13</td>
+    <td align="justify">Consultas de productos verificados</td>
+    <td align="justify">Como entidad regulatoria, quiero consultar los productos verificados en la plataforma, para facilitar mi trabajo de control.</td>
+    <td align="justify">El sistema muestra una lista de productos verificados con datos de lote y proveedor.</td>
+    <td align="center">EP06</td>
+  </tr>
+  <tr>
+    <td align="center">US14</td>
+    <td align="justify">Reportes estadísticos</td>
+    <td align="justify">Como entidad regulatoria, quiero generar reportes estadísticos de consumo y adulteración, para tomar decisiones de control más efectivas.</td>
+    <td align="justify">El sistema exporta reportes en PDF o Excel con métricas clave.</td>
+    <td align="center">EP07</td>
+  </tr>
+  <tr>
+    <td align="center">US15</td>
+    <td align="justify">Aprobación de distribuidores</td>
+    <td align="justify">Como entidad regulatoria, quiero aprobar o rechazar registros de nuevos distribuidores, para asegurar que solo operen los autorizados.</td>
+    <td align="justify">El sistema muestra solicitudes pendientes y permite aprobar/rechazar con observaciones.</td>
+    <td align="center">EP07</td>
+  </tr>
+  
+  <!-- Distribuidor -->
+  <tr>
+    <td align="center">US16</td>
+    <td align="justify">Seguimiento de lotes</td>
+    <td align="justify">Como distribuidor, quiero dar seguimiento al lote durante el transporte, para asegurar que llega íntegro al destino.</td>
+    <td align="justify">El sistema muestra la ubicación y estado del lote en tiempo real.</td>
+    <td align="center">EP08</td>
+  </tr>
+</table>
+
 ## 3.2. Impact Mapping
 ## 3.3. Product Backlog.
 
