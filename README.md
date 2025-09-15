@@ -502,5 +502,6 @@ Ambos segmentos coinciden en la alta relevancia de monitorear variables crítica
 </table>
 
 ## 3.2. Impact Mapping
+<img src="./imagenes/Impact Mapping.png" alt="Impact map">
 ## 3.3. Product Backlog.
 
