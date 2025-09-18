@@ -717,7 +717,7 @@ Ambos segmentos coinciden en la alta relevancia de monitorear variables crítica
   <p>
     La paleta se equilibra con el <b>blanco</b>, utilizado para garantizar <b>contraste, legibilidad y limpieza visual</b> en diferentes fondos.
   </p>
-
+  <img src="./imagenes/paleta.png" alt="Logo WineSoft" width="400">
   <h1>Tipografía</h1>
   <p>
     La tipografía es un elemento esencial en la identidad visual de <b>WineSoft</b>, ya que transmite <b>modernidad, profesionalismo y claridad</b>.
