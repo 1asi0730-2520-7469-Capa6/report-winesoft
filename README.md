@@ -71,7 +71,7 @@ Entre los principales problemas se encuentran:
 
 - Dificultad para garantizar la trazabilidad del producto final.
 
-Ante este panorama, CoolLiquor se presenta como una solución integral basada en tecnologías IoT, ofreciendo monitoreo en tiempo real, alertas preventivas y registros históricos que permiten optimizar la producción, reducir riesgos y facilitar auditorías regulatorias.
+Ante este panorama, **WineSoft** se presenta como una solución integral basada en tecnologías IoT, ofreciendo monitoreo en tiempo real, alertas preventivas y registros históricos que permiten optimizar la producción, reducir riesgos y facilitar auditorías regulatorias.
 
 <ul>
 <b><u>- Misión:</u></b>
@@ -249,8 +249,149 @@ Enlace para acceder a Miro: https://miro.com/app/board/uXjVJMXI8fo=/?share_link_
 
 ## 2.2. Entrevistas.
  ## 2.2.1. Diseño de entrevistas
+
+ ### Preguntas utilizadas para las entrevistas segun el segmento objetivo:
+ 
+- **Dueño de licorerias**
+
+  - 1. ¿Qué tipo de bebidas representan la mayor parte de sus ventas?
+
+  - 2. ¿Cuáles son los productos que más rápido se agotan y cuáles suelen quedarse en stock?
+
+  - 3. ¿Ha detectado cambios recientes en las preferencias de sus clientes?
+
+  - 4. ¿Cómo decide qué nuevos productos incorporar a su catálogo?
+
+  - **Sobre la gestión del negocio**
+
+  - 5. ¿Qué dificultades encuentra al momento de controlar inventario o pedidos?
+
+  - 6. ¿Cuánto tiempo le toma normalmente reponer stock y coordinar con proveedores?
+
+  - 7. ¿Cómo maneja el registro de ventas: manual, hojas de cálculo o algún sistema digital?
+
+  - 8. ¿Qué tanto le impacta la informalidad o competencia desleal en precios y productos adulterados?
+
+  - **Preguntas sobre el beneficio de usar WineSoft**
+
+  - 9. ¿Le interesaría contar con un sistema que le permita tener control en tiempo real del stock y las ventas?
+
+  - 10. ¿Qué tan valioso sería para usted recibir reportes automáticos de los productos más vendidos y menos rotativos?
+
+  - 11. ¿Le ayudaría un sistema que lo conecte directamente con proveedores autorizados para simplificar la reposición?
+
+  - 12. ¿Cree que un software como WineSoft podría ahorrarle tiempo administrativo para dedicarse más a sus clientes?
+
+- **Entidad regulatoria**
+
+  - 1. ¿Cuáles son las principales normas que regulan el funcionamiento de licorerías en cuanto a horarios, licencias y venta responsable?
+  - 2. ¿Qué dificultades enfrentan al supervisar el cumplimiento de estas normas en pequeños negocios?
+  - 3. ¿Cómo se asegura actualmente la trazabilidad y autenticidad de las bebidas alcohólicas en el mercado?
+  - 4. ¿Cuáles son las sanciones más comunes que aplican a las licorerías que incumplen las normas?
+  - **Sobre retos del sector**
+  - 5. ¿Qué tan grande es el problema de la informalidad y el contrabando en este rubro?
+  - 6. ¿Existen datos sobre cuántas licorerías están formalizadas vs. cuántas operan sin licencia?
+  - 7. ¿Qué impacto tiene la venta de alcohol sin control en la seguridad ciudadana y la salud pública?
+  - **Sobre relación con dueños de licorerías**
+  - 8. ¿Qué facilidades ofrece la entidad para que los dueños se formalicen de manera rápida y sencilla?
+  - 9. ¿Se cuenta con programas de capacitación o campañas para orientar a los negocios sobre las regulaciones vigentes?
+  - 10. ¿Cómo manejan las quejas o reclamos de dueños de licorerías respecto a las fiscalizaciones?
+  - **Sobre futuro y digitalización con WineSoft**
+  - 11. ¿Consideran que la digitalización de la gestión de licorerías podría facilitar la fiscalización y el cumplimiento normativo?
+  - 12. ¿Un sistema como WineSoft, que centralice inventarios, ventas y relación con proveedores autorizados, podría servir de apoyo para reducir la informalidad?
+  - 13. ¿La entidad estaría dispuesta a integrarse o colaborar con plataformas tecnológicas para mejorar la trazabilidad y control del mercado de alcohol?
+  - 14. ¿Qué expectativas tiene la entidad sobre el uso de tecnología en los próximos 5 años para este sector?
+
  ##  2.2.2. Registro de entrevistas
+
+**Resumen de la entrevista a Fernando Teves (dueño de fábrica de licores en Huancayo)**
+
+**ENTREVISTA 1 SEGMENTO OBJETIVO 1 (Dueño de licoreria)**
+
+- El ingeniero Fernando Teves explicó que dentro de su fábrica el producto más demandado es el anisado, seguido de algunas variedades de licores artesanales. Mencionó que las bebidas que más rápido se agotan son los productos tradicionales de mayor aceptación, mientras que ciertos licores importados o de nicho suelen quedarse más tiempo en stock.
+
+- Señaló que ha percibido cambios en las preferencias de sus clientes: actualmente hay un mayor interés por bebidas artesanales y de producción local, mientras que algunos destilados convencionales han perdido fuerza. Al momento de incorporar nuevos productos, se guía tanto por las tendencias del mercado como por la retroalimentación directa de sus clientes.
+
+- En cuanto a la gestión, reconoció que uno de los principales retos es el control de inventario y pedidos, ya que muchas veces se hace de forma manual y le toma tiempo reponer stock y coordinar con proveedores. Comentó que todavía utiliza herramientas simples como hojas de cálculo, lo que limita la rapidez de las operaciones.
+
+- Finalmente, mostró interés en un sistema como WineSoft, destacando que sería muy valioso contar con un control en tiempo real de ventas e inventario, recibir reportes automáticos de productos más vendidos y, sobre todo, conectarse directamente con proveedores autorizados para agilizar la reposición. Considera que esto le permitiría ahorrar tiempo administrativo y dedicar más esfuerzo a los clientes y a mejorar la calidad de los productos.
+
+**ENTREVISTA 2 SEGMENTO OBJETIVO 2 (Entidad Regulatoria)**
+
+- Leslie Kasimiro explicó que el sector de licorerías está regulado principalmente por la Ley 28681 (sobre venta y consumo de alcohol), la Ley 29632 (control de bebidas adulteradas) y las ordenanzas municipales que establecen horarios y licencias. Añadió que una de las mayores dificultades es la alta informalidad, la escasez de fiscalizadores y la falta de un padrón único de negocios, ya que la información se encuentra dispersa entre municipalidades y SUNAT.
+
+- Sobre la trazabilidad, detalló que se apoya en los registros sanitarios (DIGESA) y en los registros de comercializadores (PRODUCE), además de los operativos multisectoriales. Las sanciones más comunes incluyen multas, clausuras, decomisos e incluso denuncias penales en casos graves de adulteración.
+
+- Señaló que la informalidad y el contrabando generan pérdidas tributarias y riesgos para la salud pública, reflejados en intoxicaciones y ventas a menores. Sin embargo, también destacó que existen avances como las ventanillas digitales y los registros en línea, que facilitan los trámites a los dueños de negocios. Asimismo, mencionó que se realizan campañas de capacitación y operativos preventivos.
+
+- Respecto al futuro, afirmó que la digitalización es clave para mejorar la fiscalización, ya que facilita cruces de datos y la trazabilidad. Consideró que un software como WineSoft puede ser muy útil, siempre que valide proveedores, registre ventas en tiempo real y garantice la protección de datos. A mediano plazo, proyecta que habrá más interoperabilidad entre entidades públicas, mejor trazabilidad digital y fiscalizaciones más focalizadas.
+
  ## 2.2.3. Análisis de entrevistas. 
+
+## **Segmento 1: Dueño de Licorería (Fernando Teves)**
+
+### Características Objetivas (cuantificables)  
+- **Productos más demandados:**  
+  - 60% anisado (principal producto en ventas).  
+  - 30% licores artesanales (crecimiento en preferencia).  
+  - 10% licores importados/nicho (rotación baja).  
+
+- **Gestión operativa:**  
+  - 70% de los procesos de inventario y pedidos se realizan de forma **manual** (hojas de cálculo).  
+  - 30% se apoya en sistemas digitales simples (listas de Excel).  
+
+- **Necesidades tecnológicas:**  
+  - 80% de interés en contar con un **sistema digital integral** que brinde control en tiempo real.  
+  - 20% de uso actual de soluciones parciales sin automatización.  
+
+### Características Subjetivas (percepciones/expectativas)  
+- Alta **preocupación por el tiempo** que consume la reposición manual de stock.  
+- Existe **motivación hacia la innovación digital**: percibe que un software agilizaría el control de inventario y mejoraría la relación con proveedores.  
+- Ve la **retroalimentación de clientes** como clave en la selección de nuevos productos.  
+
+**Síntesis del segmento:** El dueño de licorería representa a un usuario con fuerte dependencia de procesos manuales, pero con apertura hacia herramientas digitales que le permitan ahorrar tiempo y mejorar la gestión comercial. Valora el control en tiempo real, reportes automáticos y conexión directa con proveedores.  
+
+---
+
+## **Segmento 2: Entidad Regulatoria (Leslie Kasimiro)**
+
+### Características Objetivas (cuantificables)  
+- **Normativa aplicable:**  
+  - 40% Ley 28681 (venta y consumo de alcohol).  
+  - 30% Ley 29632 (control de bebidas adulteradas).  
+  - 30% Ordenanzas municipales (horarios, licencias).  
+
+- **Principales problemas detectados:**  
+  - 50% informalidad del sector.  
+  - 25% falta de fiscalizadores.  
+  - 25% ausencia de padrón único centralizado.  
+
+- **Herramientas actuales:**  
+  - 60% registros sanitarios y de comercialización (DIGESA, PRODUCE).  
+  - 40% operativos y campañas preventivas.  
+
+- **Visión de futuro:**  
+  - 70% apuesta por digitalización (ventanillas digitales, interoperabilidad).  
+  - 30% mantiene dependencia de controles presenciales.  
+
+### Características Subjetivas (percepciones/expectativas)  
+- Preocupación por el **impacto social** de la informalidad (ventas a menores, riesgos de salud).  
+- Reconoce que la **digitalización mejora la fiscalización** y la trazabilidad.  
+- Confianza en un sistema como WineSoft siempre que cumpla con requisitos clave:  
+  - Validación de proveedores.  
+  - Registro de ventas en tiempo real.  
+  - Protección de datos.  
+
+**Síntesis del segmento:** La entidad regulatoria se enfoca en reducir la informalidad y fortalecer la trazabilidad del mercado de licores. Tiene una visión estratégica hacia la **digitalización e interoperabilidad**, por lo que considera valioso un software que asegure transparencia, trazabilidad y validación de actores en la cadena.  
+
+---
+
+# Conclusión Global  
+- Ambos segmentos coinciden en que **la digitalización es un factor clave** para mejorar tanto la gestión de los negocios como la supervisión regulatoria.  
+- El dueño de licorería busca **eficiencia y automatización** en operaciones internas.  
+- La entidad regulatoria busca **control, trazabilidad y seguridad** en el mercado.  
+- Estos puntos en común refuerzan la necesidad de un software como **WineSoft**, qu
+
 
 ## 2.3. Needfinding.
 
