@@ -57,7 +57,7 @@
 ## 1.1. StartUp Profile
 ### 1.1.1. Descripción de la StartUp
 <div align="justify">
-La idea de crear CoolLiquor nace ante los desafíos que enfrentan actualmente las destilerías y plantas de producción de licores en todo el mundo. Dichas industrias requieren un control riguroso de los procesos productivos para garantizar calidad, consistencia y cumplimiento normativo. 
+La idea de crear WineSoft nace ante los desafíos que enfrentan actualmente las destilerías y plantas de producción de licores en todo el mundo. Dichas industrias requieren un control riguroso de los procesos productivos para garantizar calidad, consistencia y cumplimiento normativo. 
 <br><br>
 Entre los principales problemas se encuentran:
 
@@ -502,6 +502,317 @@ Ambos segmentos coinciden en la alta relevancia de monitorear variables crítica
 </table>
 
 ## 3.2. Impact Mapping
-<img src="./imagenes/Impact Mapping.png" alt="Impact map">
-## 3.3. Product Backlog.
+<img src="./imagenes/Impact map 1.png" alt="Impact map">
 
+## 3.3. Product Backlog. 
+
+| **ID** | **User Story / Requerimiento** | **Prioridad** | **Criterio de Aceptación** |
+|--------|--------------------------------|---------------|-----------------------------|
+| PB-01 | Como dueño de fábrica, quiero **monitorear en tiempo real temperatura y humedad de los tanques**, para garantizar la calidad de la fermentación. | Alta | El sistema muestra en un dashboard los valores en tiempo real obtenidos de los sensores. |
+| PB-02 | Como operario, quiero **recibir alertas automáticas** cuando la temperatura o presión salgan de rango, para actuar a tiempo. | Alta | El sistema envía notificaciones inmediatas por correo o app. |
+| PB-03 | Como gerente, quiero **un registro histórico digital de mantenimiento y limpieza de equipos**, para cumplir con auditorías sanitarias. | Alta | Se almacenan registros con fecha, responsable y tipo de mantenimiento. |
+| PB-04 | Como dueño, quiero **gestionar inventario de materias primas y producto terminado**, para evitar faltantes o sobrestock. | Media | Se registra stock inicial, movimientos y se muestran niveles actuales. |
+| PB-05 | Como inspector regulador, quiero **ver reportes de trazabilidad digital**, para validar autenticidad y normativas. | Media | Se genera reporte descargable con datos de producción y stock. |
+| PB-06 | Como gerente, quiero **integrar el sistema con ERP existente**, para unificar procesos de producción y ventas. | Baja | API o exportación de datos hacia ERP en uso. |
+| PB-07 | Como usuario administrador, quiero **configurar umbrales personalizados de sensores**, para adaptar el sistema a mis procesos. | Media | El sistema permite editar valores máximos y mínimos. |
+| PB-08 | Como dueño, quiero **ver gráficos de tendencias históricas**, para analizar la evolución de la producción. | Baja | Se visualizan reportes semanales y mensuales en gráficos. |
+| PB-09 | Como operario, quiero **registrar manualmente incidencias o fallos de equipos**, para complementar la información automática. | Media | Existe un formulario en la app con fecha, descripción y evidencia. |
+| PB-10 | Como regulador, quiero **acceder a un módulo seguro de validación**, para confirmar autenticidad de lotes y certificados. | Baja | Sistema con acceso restringido y validación por código/lote. |
+
+<div style="text-align: justify;">
+
+  <h1>Capítulo IV: Product Design</h1>
+
+  <h2>4.1. Style Guidelines.</h2>
+  <h3>4.1.1. General Style Guidelines.</h3>
+
+  <h1>Branding</h1>
+
+  <h2>Branch Overview</h2>
+  <p>
+    <b>WineSoft</b> es una solución tecnológica diseñada para modernizar y optimizar los procesos en destilerías y plantas de producción de licores.
+    La marca representa <b>innovación, seguridad y tradición</b>, combinando la precisión de la <b>industria 4.0</b> con el arte de la producción licorera.
+  </p>
+
+  <p>
+    Nuestro objetivo es brindar a los productores un sistema confiable de <b>monitoreo y control en tiempo real</b> que garantice calidad, trazabilidad y cumplimiento normativo, reduciendo riesgos y mejorando la eficiencia operativa.
+  </p>
+
+  <p>
+    <b>WineSoft</b> busca posicionarse como un aliado estratégico para la industria licorera, transmitiendo <b>confianza, modernidad y compromiso con la excelencia</b>.
+  </p>
+
+  <hr>
+
+  <h2>Brand Name</h2>
+  <p>
+    El nombre <b>WineSoft</b> nace de la combinación de las palabras:
+  </p>
+  <ul>
+    <li><b>Wine</b> (vino, que representa la tradición, calidad y autenticidad de la industria licorera).</li>
+    <li><b>Soft</b> (tecnología, software y soluciones digitales).</li>
+  </ul>
+
+  <p>
+    Este nombre refleja la esencia de la marca: unir el <b>arte ancestral</b> de la producción de licores con la <b>innovación tecnológica</b>, ofreciendo herramientas inteligentes para el control, monitoreo y optimización de procesos.
+  </p>
+
+  <p>
+    <b>WineSoft</b> transmite un tono <b>profesional, moderno y confiable</b>, buscando posicionarse como un aliado estratégico para las plantas de producción de licores que desean evolucionar hacia la transformación digital <b>sin perder su identidad artesanal</b>.
+  </p>
+
+  <img src="./imagenes/Logo.png" alt="Logo WineSoft" width="400">
+
+  <h1>Colores</h1>
+  <p>
+    Los colores son un elemento clave en la identidad de <b>WineSoft</b>, ya que transmiten tanto el <b>carácter tecnológico</b> de la solución como la <b>conexión con la tradición licorera</b>.
+  </p>
+  <p>
+    Para el diseño del logo y la interfaz visual, se utilizó principalmente el <b>azul oscuro</b>, un color asociado a la <b>tecnología, seguridad y confianza</b>, que refuerza la fiabilidad del sistema de monitoreo inteligente.
+  </p>
+  <p>
+    Este se complementa con el <b>morado</b>, que aporta un tono de <b>innovación y modernidad</b>, y con el <b>vino burdeos</b>, que hace referencia directa al mundo del vino y los licores, evocando <b>calidad, tradición y sofisticación</b>.
+  </p>
+  <p>
+    La paleta se equilibra con el <b>blanco</b>, utilizado para garantizar <b>contraste, legibilidad y limpieza visual</b> en diferentes fondos.
+  </p>
+
+  <h1>Tipografía</h1>
+  <p>
+    La tipografía es un elemento esencial en la identidad visual de <b>WineSoft</b>, ya que transmite <b>modernidad, profesionalismo y claridad</b>.
+  </p>
+  <ul>
+    <li><b>Fuente principal:</b> Inter (alternativamente Roboto o Poppins si no está disponible).</li>
+    <li><b>Estilo predominante:</b> Regular para párrafos y textos explicativos.</li>
+    <li><b>Estilo complementario:</b> Bold y SemiBold para títulos, subtítulos y llamadas a la acción.</li>
+    <li><b>Colores aplicados:</b> Se mantiene la paleta institucional (azul oscuro, púrpura y blanco).</li>
+  </ul>
+
+  <h3>4.1.2. Web Style Guidelines.</h3>
+
+  <h1>Imágenes</h1>
+  <p>Las imágenes se utilizarán únicamente con un propósito <b>informativo o funcional</b>:</p>
+  <ul>
+    <li>Foto de perfil en la parte superior derecha, como acceso a la cuenta.</li>
+    <li>Imágenes representativas en cada sección principal.</li>
+    <li>Optimización para pantallas de alta resolución.</li>
+    <li>Fondos limitados a un <b>color sólido</b> para limpieza visual.</li>
+  </ul>
+
+  <h1>Botones</h1>
+  <p>Los botones estarán ubicados en:</p>
+  <ul>
+    <li>La barra superior.</li>
+    <li>Secciones clave como inicio de sesión o mapa de calor.</li>
+  </ul>
+  <p>Funciones:</p>
+  <ul>
+    <li>Abrir ventanas.</li>
+    <li>Confirmar datos.</li>
+    <li>Eliminar registros.</li>
+  </ul>
+  <p>
+    Colores:
+    <ul>
+      <li><b>Verde:</b> inicio de proceso.</li>
+      <li><b>Rojo:</b> finalización o eliminación.</li>
+    </ul>
+  </p>
+
+  <h1>Pantallas Emergentes</h1>
+  <ul>
+    <li>Usarán <b>colores intensos</b> para diferenciarse.</li>
+    <li>Oscurecerán el fondo.</li>
+    <li>Captarán la atención antes de continuar con la navegación.</li>
+  </ul>
+
+  <h1>Diseño</h1>
+  <p>El sitio será <b>responsivo</b> y seguirá el patrón en “Z”:</p>
+  <ol>
+    <li>Logotipo (superior izquierdo).</li>
+    <li>Menú de navegación (superior derecho).</li>
+    <li>Acceso al perfil.</li>
+    <li>Recorrido hacia contenidos y opciones inferiores.</li>
+  </ol>
+
+  <img src="./imagenes/design.png" alt="Impact map" width="700" height="500">
+
+
+
+</div>
+
+## 4.2. Information Architecture.
+### 4.2.1. Organization Systems.
+<div style="text-align: justify;">
+
+  <p>
+    La información se organizará siguiendo un esquema jerárquico que prioriza los datos más relevantes para la gestión de la producción de licores. Este enfoque permite que los usuarios naveguen de forma intuitiva y eficiente. En las pantallas clave, como el inicio de sesión y los paneles de control, los elementos principales (como indicadores críticos de temperatura, humedad o procesos activos) se destacarán con mayor peso visual en comparación con el resto de la información.
+  </p>
+
+  <h3>Esquemas de categorización</h3>
+
+  <p><b>Alfabético:</b><br>
+  Las listas desplegables en WineSoft estarán organizadas alfabéticamente para facilitar la búsqueda y selección. Esto aplica, por ejemplo, a características de personalización de procesos, variedades de licores o nombres de clientes y proveedores registrados en el sistema.</p>
+
+  <p><b>Cronológico:</b><br>
+  Los reportes de producción y control de calidad se presentarán en orden cronológico, lo que permitirá un seguimiento claro de las etapas en fermentación, destilación y maduración. Este esquema resulta clave para generar reportes comparativos y establecer tendencias a lo largo del tiempo.</p>
+
+  <p><b>Por tópicos:</b><br>
+  Las principales funciones de la plataforma estarán representadas con tarjetas visuales e hipervínculos para una navegación más intuitiva. Ejemplo: monitoreo en tiempo real, mantenimiento digital, control de calidad, integración con ERP y reportes analíticos.</p>
+
+  <p><b>Según audiencia:</b><br>
+  Se considera el uso diferenciado de la plataforma para distintos perfiles. Los administradores podrán acceder como pantalla principal a un panel de control global con métricas clave, mientras que los operadores tendrán acceso directo a los parámetros específicos que deben supervisar (temperatura, presión, humedad). De esta forma, cada tipo de usuario interactúa con la información más relevante para sus necesidades.</p>
+
+  <h3>Labeling Systems</h3>
+
+  <p>
+    En WineSoft, las etiquetas cumplirán tanto un rol funcional en la experiencia del usuario como un rol técnico en la optimización SEO, garantizando una navegación clara y una visibilidad adecuada en motores de búsqueda.
+  </p>
+
+  <p><b>Nivel de Experiencia de Usuario (UX):</b><br>
+  Las etiquetas estarán diseñadas para guiar al usuario de forma intuitiva en la plataforma, identificando claramente cada función: monitoreo, reportes, mantenimiento, control de calidad, entre otros.</p>
+
+  <p><b>Nivel SEO:</b><br>
+  Se aplicará un etiquetado interno que permitirá enlazar subpáginas relacionadas, como las de analítica, procesos de producción y módulos de integración. Esto mejorará la indexación en motores de búsqueda.</p>
+
+  <p><b>Palabras Clave y Etiquetado Adecuado:</b><br>
+  Cada sección del sistema (ej. “Fermentación”, “Destilación”, “Reportes Analíticos”) integrará palabras clave relevantes al rubro de producción de licores, distribuidas estratégicamente para evitar duplicidad o competencia interna.</p>
+
+  <p><b>Impacto de las Etiquetas en Menús y Bloques Estáticos:</b><br>
+  Se dará especial atención al uso de etiquetas en menús y secciones fijas de la interfaz, ya que estas son puntos clave de interacción para usuarios como administradores y operadores.</p>
+
+  <hr>
+
+  <h3>Tipos de Etiquetas</h3>
+  <ul>
+    <li><b>Etiquetas Contextuales:</b> Conectarán de manera clara las funciones internas de WineSoft, como el acceso directo a “Monitoreo en tiempo real” o “Mantenimiento programado”.</li>
+    <li><b>Etiquetas de Encabezado:</b> Organizarán jerárquicamente la información en títulos y subtítulos (ejemplo: H1: Panel de Control Global, H2: Monitoreo de Temperatura), facilitando la comprensión de los contenidos.</li>
+    <li><b>Etiquetas con Parámetro ALT:</b> Acompañarán todas las imágenes y gráficos (como diagramas de procesos o dashboards), garantizando accesibilidad para usuarios con lectores de pantalla o en casos de fallas de carga de imágenes.</li>
+  </ul>
+
+  <h3>4.2.3. SEO Tags and Meta Tags</h3>
+  <p>
+    Estas etiquetas permiten definir información codificada y metadatos que no se muestran directamente en la interfaz del usuario, pero son fundamentales para el análisis de los archivos HTML y para mejorar el posicionamiento web en buscadores.
+  </p>
+
+  <p><b>Title (Título):</b><br>
+  El título de cada página será claro, descriptivo y atractivo, reflejando el propósito de la sección dentro de WineSoft. Esto ayudará a captar la atención en los motores de búsqueda y a diferenciar cada módulo.<br>
+  <i>Ejemplo:</i> “WineSoft | Monitoreo Inteligente para Plantas de Producción de Licores”</p>
+
+  <p><b>Etiqueta Título:</b><br>
+  <code>&lt;title&gt;WineSoft | Smart Monitoring for Liquor Production&lt;/title&gt;</code></p>
+
+  <p><b>Descripción (Meta Description):</b><br>
+  Se utilizarán descripciones breves y precisas que resuman el contenido de la página, incentivando a los usuarios a visitar la plataforma.<br>
+  <i>Ejemplo:</i> “WineSoft permite a destilerías y plantas de producción de licores optimizar sus procesos con monitoreo en tiempo real, trazabilidad y control de calidad.”</p>
+
+  <p><b>Etiqueta Descripción:</b><br>
+  <code>&lt;meta name="description" content="WineSoft permite a destilerías y plantas de producción de licores optimizar sus procesos con monitoreo en tiempo real, trazabilidad y control de calidad."&gt;</code></p>
+
+  <p><b>Codificación de Caracteres:</b><br>
+  Para asegurar la correcta visualización de caracteres especiales en español e inglés (acentos, eñes, símbolos), se utilizará la siguiente etiqueta de codificación:</p>
+
+  <p><b>Etiqueta Codificación:</b><br>
+  <code>&lt;meta charset="UTF-8"&gt;</code></p>
+
+</div>
+<div style="text-align: justify;">
+
+  <h3>4.2.4 Searching Systems</h3>
+  <p>
+    Se planifica incluir un sistema de búsqueda en la aplicación principal que permita:
+  </p>
+  <ul>
+    <li>Buscar insumos por nombre o categoría (ejemplo: levaduras, granos, barricas, botellas).</li>
+    <li>Filtrar por fecha de caducidad, lote o stock disponible en inventario.</li>
+    <li>Sugerencias automáticas mediante función de autocompletado que reduzca el tiempo de búsqueda.</li>
+    <li>Integración con etiquetas rápidas para búsquedas inmediatas, como “fermentación”, “destilación” o “mantenimiento pendiente”.</li>
+  </ul>
+  <p>
+    Este buscador permitirá a los usuarios (administradores y operadores) localizar información crítica en segundos, reduciendo errores de gestión y mejorando la eficiencia operativa en la planta de producción.
+  </p>
+
+  <hr>
+
+  <h3>4.2.5 Navigation Systems</h3>
+  <p>
+    El sistema de navegación de la landing page de <b>WineSoft</b> se compone de:
+  </p>
+
+  <p><b>Menú principal (Header):</b><br>
+  Ubicado en la parte superior, contiene enlaces ancla hacia las secciones <i>Features</i>, <i>About</i> y <i>Contact</i>. Incluye además un botón para cambiar de idioma (<i>language-switcher</i>) que alterna entre inglés y español, facilitando su uso en mercados internacionales.</p>
+
+  <p><b>Menú móvil (Hamburger menu):</b><br>
+  Para dispositivos con pantallas pequeñas, se implementa un botón tipo hamburguesa que despliega los enlaces en columna (<code>.nav-links.active</code>), manteniendo accesibilidad y simplicidad en la navegación.</p>
+
+  <p><b>Footer:</b><br>
+  Contiene enlaces secundarios organizados en tres columnas:</p>
+  <ul>
+    <li><b>Product:</b> Acceso a módulos clave como Monitoreo, Inventario, Reportes y Automatización.</li>
+    <li><b>Support:</b> Incluye Soporte Técnico, Preguntas Frecuentes y Contacto.</li>
+    <li><b>Company:</b> Presenta información institucional, misión, visión y descripción de la marca WineSoft.</li>
+  </ul>
+
+  <p><b>Interactividad:</b><br>
+  El archivo <code>main.js</code> implementa mejoras en la experiencia de navegación:</p>
+  <ul>
+    <li>Scroll suave al hacer clic en los enlaces para una transición más fluida.</li>
+    <li>El header cambia de estilo visual al desplazarse la página (<code>window.scroll</code> event), reforzando la visibilidad de la navegación.</li>
+    <li>Resaltado dinámico de la sección activa para guiar al usuario dentro del sitio.</li>
+  </ul>
+
+</div>
+
+## 4.3. Landing Page UI Design.
+
+### 4.3.1. Landing Page Wireframe.
+
+<div align="justify">
+  La <b>landing page de WineSoft</b>, diseñada para ser intuitiva y accesible, inicia con una sección de bienvenida que resalta las principales funciones y beneficios del sistema de monitoreo inteligente para plantas de producción de licores; continúa con <b>“Nosotros”</b>, donde se presenta la misión y visión, destacando el compromiso con la innovación, calidad y trazabilidad en la industria licorera; en <b>“Plataforma”</b> se muestra una vista previa de las funcionalidades principales como el monitoreo en tiempo real y los reportes automáticos; la sección <b>“Servicios”</b> explica módulos clave como control de inventario, alertas preventivas, mantenimiento y cumplimiento normativo; en <b>“Planes”</b> se detallan las opciones de suscripción según las necesidades de cada destilería, desde el plan básico hasta la versión premium con integración ERP; y finalmente, en <b>“Contacto”</b> se ofrece un formulario para comunicación directa con el equipo de WineSoft, garantizando soporte técnico personalizado.
+</div>
+
+#### Lading Page Wireframe - Inicio
+
+<img src="./imagenes/Inicio.png" alt="WireFrameLandingInicio">
+
+#### Lading Page Wireframe - Product
+
+<img src="./imagenes/Products.png" alt="WireFrameLandingNosotros">
+
+#### Lading Page Wireframe - Servicios
+
+<img src="./imagenes/Servicios.png" alt="WireFrameLandingServicios">
+
+#### Lading Page Wireframe - Planes
+
+<img src="./imagenes/Planes.png" alt="WireFrameLandingPlanes">
+
+#### Lading Page Wireframe - Contáctanos
+
+<img src="./imagenes/Contact.png" alt="WireFrameLandingContactanos">
+
+### 4.3.2. Landing Page Mock-up.
+
+<div align="justify">
+  El <b>wireframe de la landing page</b> para la vista de escritorio ha sido esencial para estructurar de manera clara los elementos clave del sistema de monitoreo inteligente de plantas de producción de licores. Siguiendo este diseño inicial, se desarrolló el <b>mock-up de la landing page</b>, manteniendo coherencia con la propuesta de valor y los módulos previamente descritos, como el <b>monitoreo en tiempo real</b>, las <b>alertas automáticas</b> y la <b>trazabilidad del inventario</b>. En la imagen siguiente, se aprecia la implementación de la paleta de colores primarios y secundarios seleccionada, junto con la tipografía definida, reflejando una identidad visual moderna y profesional. Esto demuestra la atención al detalle y la consistencia del estilo visual a lo largo del diseño, reforzando la percepción de <b>innovación, confiabilidad y tecnología</b> aplicada al sector licorero.
+</div>
+
+#### Lading Page Mock-up - Inicio
+
+<img src="./imagenes/Inicio1.jpg" alt="Mock-upLandingInicio">
+
+#### Lading Page Mock-up - Product
+
+<img src="./imagenes/Product1.jpg" alt="Mock-upLandingNosotros">
+
+#### Lading Page Mock-up - Servicios
+
+<img src="./imagenes/Service1.jpg" alt="Mock-upLandingApp">
+
+#### Lading Page Mock-up - Planes
+
+<img src="./imagenes/Planes1.jpg" alt="Mock-upLandingPlanes">
+
+#### Lading Page Mock-up - Contáctanos
+
+<img src="./imagenes/Contact1.jpg" alt="Mock-upLandingContactanos">
