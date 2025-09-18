@@ -175,7 +175,7 @@ Sabremos que esto es cierto cuando el 70% de los nuevos usuarios complete su pro
 
 #### 1.2.2.4. Lean UX Canvas
 
-![Imagen de Lean-UX Canvas](/imagenes/LEAN%UX%CANVAS%WINSOFT.jpg)
+![Imagen de Lean-UX Canvas](/imagenes/LEANUXCANVASWINSOFT.png)
 Enlace al tablero de desarrollo: https://miro.com/app/board/uXjVJMXI8fo=/?share_link_id=240561883449
 
 ## 1.3. Segmentos objetivo  
