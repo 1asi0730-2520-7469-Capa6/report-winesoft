@@ -600,45 +600,14 @@ Ambos segmentos coinciden en la alta relevancia de monitorear variables crítica
 </div>
 
 ### 2.3.3. User Journey Mapping.
-## As is
-### Segmento 1: Ciudadanos consumidores de licores
 
-| Etapa              | Acción actual                                                              | Emoción                  | Frustración / Dolor                                                   | Oportunidad                                 |
-| ------------------ | -------------------------------------------------------------------------- | ------------------------ | --------------------------------------------------------------------- | ------------------------------------------- |
-| Buscar licores     | Va a licorerías o supermercados y depende de la recomendación del vendedor | Confusión                | No siempre encuentra información clara ni confiable sobre el producto | Ofrecer catálogo digital con info detallada |
-| Verificar calidad  | Revisa la botella visualmente o confía en la marca                         | Duda                     | Dificultad para saber si el producto es auténtico o cumple normas     | Certificados digitales en la app            |
-| Comprar            | Compra en tienda física                                                    | Comodidad / Desconfianza | Puede pagar más caro o comprar producto adulterado                    | Compra en línea segura con trazabilidad     |
-| Consumir           | Comparte con amigos/familia                                                | Alegría                  | Riesgo de adulteración / falta de información                         | Alertas sobre productos sospechosos         |
-| Reportar problemas | Se queja al vendedor o no hace nada                                        | Frustración              | No existe canal claro para reportar                                   | Botón de reporte en la app                  |
+#### User Journey Mapping - Segmento Dueño de licorería
 
-### Segmento 2: Entidades Reguladoras
-| Etapa                        | Acción actual                                                  | Emoción     | Frustración / Dolor                           | Oportunidad                                |
-| ---------------------------- | -------------------------------------------------------------- | ----------- | --------------------------------------------- | ------------------------------------------ |
-| Programación de inspecciones | Usan sistemas manuales o listados impresos                     | Neutral     | Procesos lentos y burocráticos                | Digitalizar la programación                |
-| Visita a plantas             | Recorren físicamente instalaciones y dependen de guías locales | Cansancio   | Falta de transparencia de algunas empresas    | Uso de registro digital en sitio           |
-| Revisión de documentos       | Analizan certificados físicos o PDFs enviados por correo       | Estrés      | Documentación incompleta, alterada o dispersa | Centralización en plataforma segura        |
-| Redacción de informes        | Elaboran reportes manuales y envían por correo o físico        | Demora      | Retraso en el procesamiento y acceso limitado | Reportes automáticos y digitalizados       |
-| Comunicación de resultados   | Envío por correo tradicional o correo electrónico              | Frustración | Falta de integración entre instituciones      | Plataforma compartida con acceso inmediato |
+![journey mapping - Dueño](/imagenes/JourneyMapping-Dueño.png)
 
-## To be
-### Segmento 1: Ciudadanos consumidores de licores
+#### User Journey Mapping - Segmento Entidad reguladora
 
-| Etapa              | Acción propuesta                                           | Emoción              | Frustración resuelta                          | Oportunidad                                        |
-|---------------------|------------------------------------------------------------|----------------------|-----------------------------------------------|---------------------------------------------------|
-| Buscar licores      | Consultan catálogo digital con información clara y fotos   | Confianza / comodidad| Evitar depender solo de recomendaciones vagas  | Acceso fácil a variedad y comparaciones           |
-| Verificar calidad   | Escanean QR o revisan certificados digitales en la app     | Tranquilidad         | Superar la duda sobre autenticidad             | Garantizar transparencia y cumplimiento normativo |
-| Comprar             | Realizan compra online con trazabilidad de origen          | Seguridad / satisfacción| No pagar sobreprecio ni arriesgar adulteración | Plataforma confiable con métodos de pago seguros  |
-| Consumir            | Disfrutan con información confiable sobre el producto      | Alegría / confianza  | Reducir el riesgo de adulteración              | Mejorar la experiencia social con seguridad        |
-| Reportar problemas  | Reportan desde la app con botón directo y seguimiento      | Empoderamiento       | Dejar de depender de reclamos poco efectivos   | Canal rápido para quejas y alertas ciudadanas     |
-
-### Segmento 2: Entidades Reguladoras
-| Etapa                   | Acción propuesta                                                  | Emoción           | Frustración resuelta                         | Oportunidad                                      |
-|--------------------------|-------------------------------------------------------------------|-------------------|----------------------------------------------|-------------------------------------------------|
-| Programar inspecciones   | Usan plataforma digital con alertas y calendario automatizado     | Eficiencia        | Procesos manuales lentos                     | Optimizar agenda con datos centralizados        |
-| Visitar plantas          | Inspección guiada con checklist digital y geolocalización         | Confianza         | Falta de registros claros y en tiempo real   | Evidencia transparente de las verificaciones    |
-| Revisar documentos       | Consultan certificados digitales centralizados                   | Seguridad         | Riesgo de documentos falsificados             | Validación inmediata de autenticidad            |
-| Redactar informes        | Generan reportes automáticos desde la plataforma                 | Agilidad          | Pérdida de tiempo en papeleo repetitivo      | Estandarizar informes y acelerar comunicación   |
-| Comunicar resultados     | Publican y comparten resultados en app/web en tiempo real         | Transparencia     | Retrasos en la difusión de hallazgos         | Mayor confianza y coordinación interinstitucional|
+![journey mapping - Regulador](/imagenes/JourneyMapping-Regulador.png) 
 
 ### 2.3.4. Empathy Mapping.
 
