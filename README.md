@@ -57,7 +57,7 @@
 ## 1.1. StartUp Profile
 ### 1.1.1. Descripción de la StartUp
 <div align="justify">
-La idea de crear CoolLiquor nace ante los desafíos que enfrentan actualmente las destilerías y plantas de producción de licores en todo el mundo. Dichas industrias requieren un control riguroso de los procesos productivos para garantizar calidad, consistencia y cumplimiento normativo. 
+La idea de crear WineSoft nace ante los desafíos que enfrentan actualmente las destilerías y plantas de producción de licores en todo el mundo. Dichas industrias requieren un control riguroso de los procesos productivos para garantizar calidad, consistencia y cumplimiento normativo. 
 <br><br>
 Entre los principales problemas se encuentran:
 
@@ -71,7 +71,7 @@ Entre los principales problemas se encuentran:
 
 - Dificultad para garantizar la trazabilidad del producto final.
 
-Ante este panorama, CoolLiquor se presenta como una solución integral basada en tecnologías IoT, ofreciendo monitoreo en tiempo real, alertas preventivas y registros históricos que permiten optimizar la producción, reducir riesgos y facilitar auditorías regulatorias.
+Ante este panorama, **WineSoft** se presenta como una solución integral basada en tecnologías IoT, ofreciendo monitoreo en tiempo real, alertas preventivas y registros históricos que permiten optimizar la producción, reducir riesgos y facilitar auditorías regulatorias.
 
 <ul>
 <b><u>- Misión:</u></b>
