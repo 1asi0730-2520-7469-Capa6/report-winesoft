@@ -220,7 +220,7 @@ Enlace al tablero de desarrollo: https://miro.com/app/board/uXjVJMXI8fo=/?share_
                     <td colspan="3">(En la cabecera colocar por cada competidor nombre y logo)</td>
                     <td colspan="2"><img src="/imagenes/Logo.png" style="width: 60px; height: auto;"><br>WineSoft</td>
                     <td colspan="2"><img src="/imagenes/competidor-1.png" style="width: 60px; height: auto;"><br>BottlePOS</td>
-                    <td colspan="2"><img src="/imagenes/competidor-2.jpg" style="width: 60px; height: auto;"><br>Korona POS</td>
+                    <td colspan="2"><img src="/imagenes/competidor-2.png" style="width: 60px; height: auto;"><br>Korona POS</td>
                     <td colspan="2"><img src="/imagenes/competidor-3.png" style="width: 60px; height: auto;"><br>WinePOS</td>
                 </tr>
             </tr>
@@ -312,6 +312,57 @@ Enlace al tablero de desarrollo: https://miro.com/app/board/uXjVJMXI8fo=/?share_
             </tr>
         </tbody>
     </table>
+
+### 2.1.2 Estrategias y tácticas frente a competidores.
+
+
+#### Estrategia de diferenciación
+WineSoft se diferencia al integrar en una sola plataforma la gestión de inventarios, control de procesos productivos y cumplimiento regulatorio, algo que los POS tradicionales (como Korona POS o Square) y los sistemas de monitoreo de fermentación (como BrewMonitor) no ofrecen de manera conjunta. El valor agregado radica en la trazabilidad digital, la validación con entidades regulatorias y la inclusión de funcionalidades IoT (simuladas en esta versión inicial) para garantizar calidad y seguridad.
+
+**Tácticas:**
+- Incluir funcionalidades clave como alertas de inventario en tiempo real, registro de limpieza con evidencia y reportes automáticos de cumplimiento normativo.  
+- Desarrollar un módulo de conexión directa con proveedores autorizados para asegurar abastecimiento confiable.  
+- Ofrecer un perfil específico para entidades reguladoras con acceso a datos de trazabilidad y validación.  
+- Diseñar una interfaz intuitiva para usuarios con poca experiencia tecnológica, asegurando una curva de aprendizaje mínima.  
+
+---
+
+#### Estrategia de liderazgo en costos
+WineSoft busca ofrecer una solución a un precio accesible en comparación con competidores que requieren grandes inversiones en hardware o licencias. El modelo de negocio se enfoca en suscripciones escalonadas, adaptadas al tamaño del negocio y al nivel de funcionalidades que deseen implementar.
+
+**Tácticas:**
+- Implementar un modelo freemium con registro gratuito y acceso limitado a funciones básicas de inventario.  
+- Ofrecer planes de suscripción accesibles con precios diferenciados para pequeñas licorerías y destilerías medianas.  
+- Evitar costos ocultos al no exigir licencias adicionales de hardware o integraciones externas costosas.  
+- Garantizar soporte técnico básico incluido en el plan estándar para reducir barreras de adopción.  
+
+---
+
+#### Estrategia de diferenciación enfocada
+WineSoft no busca competir con plataformas genéricas de gestión o POS de gran escala, sino que se especializa en el sector de bebidas alcohólicas. El enfoque está en resolver problemas específicos de trazabilidad, fiscalización y formalización, que no son prioridad para los competidores generalistas.
+
+**Tácticas:**
+- Ofrecer reportes regulatorios automáticos alineados con normativas como la Ley 28681 y la Ley 29632.  
+- Incluir alertas preventivas de riesgos regulatorios (productos vencidos, lotes sin trazabilidad).  
+- Adecuar la comunicación visual y verbal al sector de licores, transmitiendo formalidad y confianza en la legalidad de las operaciones.  
+
+---
+
+#### Estrategias competitivas adicionales
+**Tácticas:**
+- Incorporar un sistema de notificaciones automáticas para stock bajo, vencimiento de productos y recordatorios regulatorios.  
+- Implementar reseñas y validaciones de proveedores para fortalecer la confianza entre negocios y entidades fiscalizadoras.  
+- Desarrollar dashboards comparativos que muestren tendencias de ventas y consumos estacionales.  
+
+---
+
+#### Estrategia de construcción de marca
+WineSoft apuesta por una identidad sólida vinculada con la formalidad, la innovación tecnológica y la seguridad del consumidor. A diferencia de la competencia que se enfoca en eficiencia operativa, WineSoft comunica un compromiso con la legalidad, la salud pública y la sostenibilidad del sector.
+
+**Tácticas:**
+- Diseñar una identidad visual seria pero accesible, con colores asociados a confianza y transparencia.  
+- Usar redes sociales y campañas digitales para resaltar casos de éxito en formalización y trazabilidad.  
+- Posicionarse como un aliado tanto de empresarios como de entidades reguladoras, fomentando comunidad alrededor de la transparencia en el mercado de licores.  
 
 ## 2.2. Entrevistas.
  ## 2.2.1. Diseño de entrevistas
@@ -566,37 +617,35 @@ Con el propósito de garantizar una comprensión profunda y precisa de los segme
 
 ### 2.3.2. User Task Matrix.
 <div style='text-align: justify;'>
-El User Task Matrix es una herramienta que permite identificar y priorizar las tareas que realizan los distintos segmentos de usuarios para alcanzar sus objetivos. En este caso, la matriz se centra en dos segmentos principales: Dueños de destilerías e Inspectores/Entidades regulatorias.
 
-La matriz presenta 15 tareas relevantes para ambos segmentos, clasificadas según su frecuencia e importancia. Esto permite comprender mejor las necesidades y prioridades de cada grupo, además de identificar similitudes o diferencias en sus actividades. De esta forma, el User Task Matrix sirve como guía para alinear las funcionalidades del sistema con los objetivos del negocio y los requisitos regulatorios, asegurando que la solución aporte valor tanto a los productores como a las entidades de control.
-</div>
 
-| **Task** | **Dueños de destilerías** (Frecuencia - Severidad) | **Entidades regulatorias** (Frecuencia - Severidad) |
-|----------|----------------------------------------------------|------------------------------------------------------|
-| Monitorear temperatura, humedad y presión | Alta - Alta | Alta - Alta |
-| Recibir alertas sobre variaciones críticas | Alta - Alta | Alta - Alta |
-| Revisar historial de producción | Alta - Alta | Media - Alta |
-| Gestionar inventario de materias primas | Alta - Alta | Media - Alta |
-| Garantizar trazabilidad del producto | Alta - Alta | Alta - Alta |
-| Cumplir normativas sanitarias (HACCP, ISO, FDA) | Alta - Alta | Alta - Alta |
-| Generar reportes de control de calidad | Media - Alta | Alta - Alta |
-| Supervisar mantenimiento y calibración de equipos | Media - Alta | Media - Alta |
-| Detectar fallos en procesos de fermentación/destilación | Alta - Alta | Media - Alta |
-| Optimizar procesos de climatización y almacenamiento | Media - Alta | Media - Alta |
+El **User Task Matrix** permite identificar y priorizar las tareas que realizan los distintos segmentos de usuarios para alcanzar sus objetivos. En este caso, la matriz se centra en dos segmentos principales: **dueños de licorerías/destilerías** y **entidades regulatorias/inspectores**.  
+
+La matriz presenta 15 tareas relevantes para ambos segmentos, clasificadas según su frecuencia (qué tan seguido se realizan) y severidad (qué tan críticas son). Esto permite comprender mejor las necesidades y prioridades de cada grupo, además de identificar similitudes y diferencias en sus actividades.  
+
+---
+
+| **Task** | **Dueños de licorerías (Frecuencia - Severidad)** | **Entidades regulatorias (Frecuencia - Severidad)** |
+|----------|---------------------------------------------------|------------------------------------------------------|
+| Controlar inventario de productos | Alta - Alta | Media - Alta |
+| Recibir alertas de stock bajo o vencimiento | Alta - Alta | Alta - Alta |
+| Registrar ventas y movimientos | Alta - Alta | Media - Alta |
+| Garantizar trazabilidad de productos | Alta - Alta | Alta - Alta |
+| Cumplir con normativas municipales y sanitarias | Alta - Alta | Alta - Alta |
+| Generar reportes de ventas e inventario | Media - Alta | Alta - Alta |
+| Conectarse con proveedores autorizados | Alta - Alta | Media - Alta |
+| Detectar productos adulterados o irregulares | Media - Alta | Alta - Alta |
+| Validar documentación para inspecciones | Media - Alta | Alta - Alta |
+| Revisar historial de compras y rotación de productos | Media - Alta | Media - Alta |
 | Acceder a datos en tiempo real para auditorías | Media - Alta | Alta - Alta |
-| Evaluar riesgos de seguridad industrial | Media - Alta | Alta - Alta |
-| Implementar mejoras en procesos productivos | Baja - Alta | Media - Alta |
-| Facilitar certificaciones de exportación | Media - Alta | Alta - Alta |
-| Comparar métricas con estándares internacionales | Baja - Alta | Alta - Alta |
+| Evaluar riesgos de incumplimiento regulatorio | Media - Alta | Alta - Alta |
+| Implementar mejoras en gestión de stock | Media - Alta | Media - Alta |
+| Facilitar procesos de formalización/licencias | Media - Alta | Alta - Alta |
+| Comparar desempeño con estándares de mercado | Baja - Alta | Media - Alta |
+
 
 <div align="justify">
-En el User Task Matrix se identifican 15 tareas críticas que ambos segmentos realizan con distintas frecuencias e importancias, independientemente de la solución tecnológica.
-
-Para los dueños de destilerías, las tareas más frecuentes e importantes son: monitorear condiciones en tiempo real, recibir alertas preventivas, gestionar inventario y asegurar la trazabilidad de la producción.
-
-Para las entidades regulatorias, las prioridades son: cumplir normativas sanitarias, acceder a datos en tiempo real, generar reportes confiables y facilitar certificaciones de exportación.
-
-Ambos segmentos coinciden en la alta relevancia de monitorear variables críticas, recibir alertas inmediatas y garantizar la trazabilidad del producto, ya que estos puntos aseguran la calidad, seguridad y cumplimiento normativo en la producción de licores.
+El análisis del User Task Matrix evidencia que, para los dueños de licorerías y destilerías, las tareas más frecuentes y críticas giran en torno al control de inventario, la recepción de alertas sobre stock bajo o vencimiento, el registro de ventas con trazabilidad y la conexión con proveedores autorizados, lo que refleja la necesidad de eficiencia operativa y reducción de riesgos de desabastecimiento. En el caso de las entidades regulatorias, sus prioridades se concentran en asegurar el cumplimiento normativo, acceder a datos en tiempo real para auditorías, generar reportes confiables y detectar productos adulterados o sin la documentación adecuada, aspectos que responden a la necesidad de transparencia y control en el sector. Ambos segmentos coinciden en la importancia de contar con herramientas que garanticen la trazabilidad, emitan alertas preventivas y faciliten el cumplimiento de normativas, ya que estos elementos resultan esenciales para asegurar la calidad de los productos, proteger la salud pública y fomentar la formalización de los negocios de licores.
 </div>
 
 ### 2.3.3. User Journey Mapping.
@@ -619,14 +668,13 @@ Ambos segmentos coinciden en la alta relevancia de monitorear variables crítica
 
 ## 2.4. Big Picture EventStorming.
 
-## 2.4. Ubiquitous Language.
+![Big Picture Event Storming](/imagenes/BigPicture-EventStorming.png)
+
+## 2.5. Ubiquitous Language.
 <div align="justify">
   <ul>
     <li><b>Destilería:</b> Planta de producción dedicada a la elaboración de bebidas alcohólicas mediante procesos de fermentación y destilación.</li>
-    <li><b>Lote de Producción:</b> Cantidad específica de licor producida en un ciclo completo de fermentación y destilación.</li>
-    <li><b>Fermentación:</b> Proceso biológico en el que los azúcares se transforman en alcohol mediante la acción de levaduras.</li>
     <li><b>Destilación:</b> Proceso de separación que concentra el alcohol aplicando calor y controlando la condensación.</li>
-    <li><b>Maduración:</b> Etapa en la que el licor se almacena en barricas o tanques para adquirir características de sabor y aroma.</li>
     <li><b>Trazabilidad:</b> Capacidad de rastrear cada lote de producción desde el inicio hasta su distribución final.</li>
     <li><b>Normativa Sanitaria:</b> Conjunto de normas y leyes que garantizan la inocuidad y calidad del producto alcohólico.</li>
     <li><b>Control de Calidad:</b> Evaluación de parámetros críticos del producto, como pureza, grado alcohólico y seguridad.</li>
@@ -778,8 +826,8 @@ Ambos segmentos coinciden en la alta relevancia de monitorear variables crítica
 
 | **ID** | **User Story / Requerimiento** | **Prioridad** | **Criterio de Aceptación** |
 |--------|--------------------------------|---------------|-----------------------------|
-| PB-01 | Como dueño de fábrica, quiero **monitorear en tiempo real temperatura y humedad de los tanques**, para garantizar la calidad de la fermentación. | Alta | El sistema muestra en un dashboard los valores en tiempo real obtenidos de los sensores. |
-| PB-02 | Como operario, quiero **recibir alertas automáticas** cuando la temperatura o presión salgan de rango, para actuar a tiempo. | Alta | El sistema envía notificaciones inmediatas por correo o app. |
+| PB-01 | Como dueño de fábrica, quiero **monitorear en tiempo real temperatura y humedad para garantizar la calidad de ammbiente. | Alta | El sistema muestra en un dashboard los valores en tiempo real obtenidos de los sensores. |
+| PB-02 | Como operario, quiero **recibir alertas automáticas** cuando la temperatura o humedad salgan de rango, para actuar a tiempo. | Alta | El sistema envía notificaciones inmediatas por correo o app. |
 | PB-03 | Como gerente, quiero **un registro histórico digital de mantenimiento y limpieza de equipos**, para cumplir con auditorías sanitarias. | Alta | Se almacenan registros con fecha, responsable y tipo de mantenimiento. |
 | PB-04 | Como dueño, quiero **gestionar inventario de materias primas y producto terminado**, para evitar faltantes o sobrestock. | Media | Se registra stock inicial, movimientos y se muestran niveles actuales. |
 | PB-05 | Como inspector regulador, quiero **ver reportes de trazabilidad digital**, para validar autenticidad y normativas. | Media | Se genera reporte descargable con datos de producción y stock. |
