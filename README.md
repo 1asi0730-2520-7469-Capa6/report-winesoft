@@ -663,9 +663,10 @@ Ambos segmentos coinciden en la alta relevancia de monitorear variables crítica
     <li><b>Control de Calidad:</b> Evaluación de parámetros críticos del producto, como pureza, grado alcohólico y seguridad.</li>
     <li><b>Reporte Automático:</b> Documento digital generado por el sistema que registra datos de producción, control y mantenimiento.</li>
     <li><b>Certificación:</b> Reconocimiento oficial que valida el cumplimiento de normas nacionales e internacionales.</li>
-    Compliance
-    Retail
-    verticalizadas
+    <li><b>Compliance:</b> Es el conjunto de procesos y buenas prácticas que una organización implementa para asegurarse de cumplir con las leyes, regulaciones y normas éticas aplicables.</li>
+    <li><b>Retail:</b> Se refiere a la venta de productos o servicios directamente al consumidor final en pequeñas cantidades. Este sector incluye tiendas físicas como supermercados y franquicias, así como la venta online.</li>
+    <li><b>Verticalizadas:</b> La verticalización es la estrategia que emplea una empresa con el fin de ser especialista en ventas y comercialización por sector o función de la industria.</li>
+
   </ul>
 </div>
 
