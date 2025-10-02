@@ -150,39 +150,32 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
-**WineSoft** es una startup tecnológica dedicada a ofrecer soluciones digitales al sector de bebidas alcohólicas, con especial enfoque en **destilerías y licorerías**. Estas empresas suelen enfrentarse a desafíos críticos en: 
+<div style="text-align: justify">
 
-- **Gestión de inventarios**, donde predominan herramientas manuales y hojas de cálculo poco confiables.  
-- **Trazabilidad de productos**, necesaria para garantizar la autenticidad, calidad y origen.   
+**Capa6** es una startup tecnológica que desarrolla soluciones digitales para el sector de bebidas alcohólicas, a través de su plataforma web **WineSoft**. Esta herramienta conecta de forma ágil y ordenada a dueños de destilerías y licorerías con sus proveedores de insumos, digitalizando procesos que suelen ser manuales y poco estructurados.
 
-WineSoft nace como respuesta a la necesidad de **modernizar y digitalizar** procesos que históricamente se han gestionado de forma artesanal, lo cual genera **ineficiencias operativas, riesgos de incumplimiento legal y limitaciones para escalar en mercados más competitivos**.  
+La aplicación permite a los dueños gestionar un almacén virtual, donde registran y controlan insumos clave para la producción de sus licores. Por su parte, los proveedores cuentan con un sistema propio para manejar su inventario y transporte, lo que les permite identificar las necesidades de sus clientes, organizar entregas y mantener una trazabilidad clara de cada envío.
 
-La solución propuesta es una **plataforma web integral y adaptable**, diseñada para **pequeñas y medianas empresas** del sector. Sus funcionalidades incluyen:  
+Con foco en la eficiencia operativa, la reducción de pérdidas y la colaboración digital, **WineSoft** se presenta como una solución moderna, accesible y sostenible que impulsa la transformación digital en un sector con gran potencial de crecimiento en Latinoamérica.
 
--  **Gestión inteligente de inventarios y ventas** en tiempo real.  
--  **Trazabilidad de productos** desde la producción hasta la venta final.   
+**Mision:**
 
-Con ello, WineSoft busca no solo **reducir la carga administrativa** de los empresarios, sino también **abrir oportunidades de crecimiento sostenible** en un mercado cada vez más competitivo y regulado.  
+Impulsar la digitalización de destilerías y licorerías mediante soluciones tecnológicas accesibles que optimicen la gestión de insumos, fortalezcan la relación con proveedores y faciliten procesos más eficientes, ordenados y sostenibles
 
----
+**Visión:**
 
-## Misión
-Impulsar la **transformación digital** de destilerías y licorerías mediante **soluciones tecnológicas accesibles y confiables** que optimicen la gestión de inventarios, garanticen la trazabilidad de productos.  
+Ser la plataforma líder en gestión digital de insumos para el sector de bebidas alcohólicas en Latinoamérica, promoviendo la eficiencia, la transparencia y la colaboración entre productores y proveedores, con una experiencia de usuario moderna, confiable y escalable.
 
----
-
-## Visión
-Ser la **plataforma líder en digitalización del sector de bebidas alcohólicas en Latinoamérica**, promoviendo **negocios más eficientes, transparentes y sostenibles**.
-
+</div>
 
 ### 1.1.2. Perfiles de integrantes del equipo
-|    Nombre Completo del integrante   | Descripcion de Carrera | Fotografía | Conocimientos y Habilidades a apuntar|
-| ------------------------------------| ---------------------- | ---------- | ------------------------------------ |
-| Said Conde, Yazid   | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Yazid Said](./imagenes/foto%20yazid.jpg)  | Conocimientos en lenguajes de Programación como C++, Java, HTML, CSS, JavaScriptm, Python y C#.<br>Me considero que soy una persona muy trabajadora, responsable, puntual y respetuoso. |
-| Angelo Stephano Moscoso Bejar   | Ingeniería de Software<br> 5to Ciclo<br>2024-1<br>Universidad Peruana de Ciencias Aplicadas | ![Angelo Stephano](./imagenes/foto%20angelo.jpg) | - Tengo 21 años estoy estudiando actualmente en la Univeridad Peruana de Ciencias Aplicadas. Me ha interasado mucho la creación de paginas web para diversos objetivos. Manejo algunos lenguajes de programación como javascript, C++, C+, Python, entre otros. Considero que tengo las habilidades de comunicación efectiva, organización, proactividad, resolución de problemas, entre otras. Espero aportar de manera satisfactoria en mi grupo para terminar de manera exitosa el proyecto. |
-| Gonzalo Alonso Carhuancote Dominguez               | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Gonzalo Alonso](./imagenes/foto%20Gonzalo.jpg) | - Tengo 20 años, estudio la carrera de ingeniería de software en la UPC. En mis tiempos libres estudio, juego videojuegos y me informo del mundo actual y moderno. Me apasiona la tecnología y manejo lenguajes como C++, Java, Typescript y Python. |
-| Joan Fernando Teves Samaniego | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Joan Fernando](./imagenes/foto%20joan.jpg) | Tengo 22 años estoy estudiando actualmente en la Univeridad Peruana de Ciencias Aplicadas. Tengo interes por el mundo de la cibersegurirdad y el primer paso es enteder al derecho y al revez las aplicaciones web , se c++ , javascript , html , css , mongodb ,sql , sqlserver , posgresql,python, soy creativo , responsable , trabajo en equipo , me gusta resolver problemas   me adaptofacilmente y gestiono muy bien mi tiempo.Espero que en este proyecto pueda incrementar mis habilidades y conocimiento sobre las aplicaciones web y demas . |
-| Antonio Rodrigo Duran Díaz      | Ingeniería de Software<br>Universidad Peruana de Ciencias Aplicadas | ![Antonio Rodrigo](./imagenes/foto%20Antonio.jpg)  | - Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y tengo 20 años. Estoy avanzando en mi formación académica y reforzando mis conocimientos en los diferentes temas relacionados con la creación de software. Durante mis estudios me ha gustado trabajar con gestores de bases de datos, en especial con SQL Server y MongoDB. En este proyecto espero seguir mejorando mis habilidades y conocimientos, además de lograr un buen desempeño en el trabajo grupal. |
+|    Integrante   | Descripcion de Carrera | Conocimientos y Habilidades a apuntar|
+| --------------------------------| ----------------------| ------------------------------------ |
+|![Yazid Said](./imagenes/foto%20yazid.jpg) <br> Said Conde, Yazid   | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | - Conocimientos en lenguajes de Programación como C++, Java, HTML, CSS, JavaScriptm, Python y C#.<br>Me considero que soy una persona muy trabajadora, responsable, puntual y respetuoso. |
+|![Angelo Stephano](./imagenes/foto%20angelo.jpg) <br> Angelo Stephano Moscoso Bejar   | Ingeniería de Software<br> 5to Ciclo<br>2024-1<br>Universidad Peruana de Ciencias Aplicadas | - Tengo 21 años estoy estudiando actualmente en la Univeridad Peruana de Ciencias Aplicadas. Me ha interasado mucho la creación de paginas web para diversos objetivos. Manejo algunos lenguajes de programación como javascript, C++, C+, Python, entre otros. Considero que tengo las habilidades de comunicación efectiva, organización, proactividad, resolución de problemas, entre otras. Espero aportar de manera satisfactoria en mi grupo para terminar de manera exitosa el proyecto. |
+|![Gonzalo Alonso](./imagenes/foto%20Gonzalo.jpg) <br> Gonzalo Alonso Carhuancote Dominguez               | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | - Tengo 20 años, estudio la carrera de ingeniería de software en la UPC. En mis tiempos libres estudio, juego videojuegos y me informo del mundo actual y moderno. Me apasiona la tecnología y manejo lenguajes como C++, Java, Typescript y Python. |
+|![Joan Fernando](./imagenes/foto%20joan.jpg) <br> Joan Fernando Teves Samaniego | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | - Tengo 22 años estoy estudiando actualmente en la Univeridad Peruana de Ciencias Aplicadas. Tengo interes por el mundo de la cibersegurirdad y el primer paso es enteder al derecho y al revez las aplicaciones web , se c++ , javascript , html , css , mongodb ,sql , sqlserver , posgresql,python, soy creativo , responsable , trabajo en equipo , me gusta resolver problemas   me adaptofacilmente y gestiono muy bien mi tiempo.Espero que en este proyecto pueda incrementar mis habilidades y conocimiento sobre las aplicaciones web y demas . |
+|![Antonio Rodrigo](./imagenes/foto%20Antonio.jpg) <br> Antonio Rodrigo Duran Díaz      | Ingeniería de Software<br>Universidad Peruana de Ciencias Aplicadas | - Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y tengo 20 años. Estoy avanzando en mi formación académica y reforzando mis conocimientos en los diferentes temas relacionados con la creación de software. Durante mis estudios me ha gustado trabajar con gestores de bases de datos, en especial con SQL Server y MongoDB. En este proyecto espero seguir mejorando mis habilidades y conocimientos, además de lograr un buen desempeño en el trabajo grupal. |
 
 ## 1.2. Solution Profile
 
@@ -192,30 +185,26 @@ Ser la **plataforma líder en digitalización del sector de bebidas alcohólicas
 Para entender la necesidad del proyecto, se aplicó la técnica de las 5W + 2H:
 <br><br>
 
-- **What (Qué):**  
-  Falta de un sistema digital integrado que permita a dueños de destilerías/licorerías gestionar inventarios y ventas con trazabilidad.
+- **What (Qué):**
+  Falta de un sistema integrado que unifique la gestión interna de las empresas con los procesos de fiscalización externa.
 
-- **When (Cuándo):**  
-  Actualmente, en un contexto donde la digitalización es prioritaria para la competitividad empresarial y el cumplimiento de normativas más estrictas de control y fiscalización.
+- **When (Cuándo):**
+  Actualmente, la digitalización de negocios es cada vez más prioritaria para mejorar competitividad y cumplir normativas.
 
-- **Where (Dónde):**  
-  Principalmente en el mercado peruano, en zonas urbanas con alta concentración de bares, discotecas y licorerías, donde la informalidad y la falta de trazabilidad generan mayores riesgos.
+- **Where (Dónde):**
+  Principalmente en el mercado peruano, donde existen miles de negocios de licores, muchos de los cuales operan en condiciones informales o con sistemas obsoletos.
 
-- **Who (Quiénes):**  
-  - Dueños de destilerías y licorerías que buscan optimizar operaciones, reducir pérdidas y cumplir regulaciones.  
+- **Who (Quiénes):**
+  Dueños de destilerías y licorerías, así como entidades reguladoras del rubro de bebidas alcohólicas.
 
-- **Why (Por qué):**  
-  La informalidad y la ausencia de control digital impactan en la **recaudación tributaria**, generan **riesgos de sanciones y pérdidas económicas para los empresarios**, y afectan la **seguridad del consumidor** y la **reputación del sector**.
+- **Why (Por qué):**
+  La informalidad en la comercialización de bebidas alcohólicas impacta en la recaudación tributaria, la seguridad del consumidor y la reputación de los negocios.
 
-- **How (Cómo):**  
-  Mediante una **plataforma web integral** que permita:  
-  - Registrar y controlar inventarios en tiempo real.  
-  - Gestionar ventas con reportes automáticos.  
-  - Asegurar la trazabilidad de productos desde la producción hasta el consumidor.  
+- **How (Cómo):**
+  A través de una plataforma que permita registrar lotes de producción, controlar inventario, gestionar ventas, y reportar información directamente a las entidades regulatorias.
 
-- **How Much (Cuánto):**  
-  - **Costos de no implementar:** pérdidas económicas por desorden en inventarios, sanciones legales por incumplimiento y pérdida de clientes por falta de confianza.  
-  - **Costos de implementación:** inversión en planes de suscripción (básico o premium), posible adquisición o leasing de sensores IoT, y servicios adicionales de soporte y consultoría.
+- **How Much (Cuánto):**
+  El costo de no implementar una solución adecuada se traduce en pérdidas económicas por desorden en inventario, sanciones por incumplimiento legal, y pérdida de clientes por falta de confianza.
   <br><br>
   Inversión estimada:<br>
   - Suscripciones mensuales (básico y premium).
@@ -225,77 +214,64 @@ Para entender la necesidad del proyecto, se aplicó la técnica de las 5W + 2H:
 
 ### 1.2.2. Lean UX Process
 
-#### 1.2.2.1. Lean UX Problem Statements 
-
-El dominio del proyecto se centra en la gestión y regulación del mercado de bebidas alcohólicas en el Perú, donde los principales segmentos de clientes son los dueños de destilerías/licorerías.
-
-Actualmente, muchas de estas empresas aún operan con procesos manuales o sistemas aislados para la gestión de inventarios y ventas, lo que genera desorden, pérdidas económicas y riesgo de sanciones. En América Latina, más del 70 % de las PYMEs se encuentra en un nivel básico de uso de datos y analítica, lo cual limita su capacidad de aprovechar la información como herramienta estratégica (BID, 2023).  
-
-En el Perú, el consumo informal de bebidas es un problema significativo: del total del alcohol informal consumido, aproximadamente un 56 % está adulterado, lo que evidencia riesgos para la salud pública (Apoyo Consultoría, 2023).  
-
-No existe aún una plataforma que integre simultáneamente la gestión empresarial interna con el cumplimiento regulatorio externo en un mismo sistema. WineSoft pretende cerrar esa brecha ofreciendo un software integral que permita a los negocios formalizar operaciones, optimizar procesos, tomando en cuenta restricciones del sector como la capacidad tecnológica limitada de algunas empresas y la necesidad de mantener costos accesibles.  
-
+#### 1.2.2.1. Lean UX Problem Statements
+El dominio de este proyecto se centra en la gestión y regulación del mercado de bebidas alcohólicas, donde los principales segmentos de clientes son los dueños de destilerías y licorerías, así como las entidades reguladoras encargadas de supervisar este sector. Actualmente, los negocios enfrentan procesos manuales y desorganizados en la gestión de inventarios y ventas, lo que incrementa el riesgo de sanciones por incumplimiento normativo y limita la transparencia de sus operaciones. Además, existe una notoria ausencia de canales digitales confiables que permitan reportar información de manera ágil y precisa a las instituciones fiscalizadoras. Esta situación genera una brecha, ya que no existen plataformas que integren simultáneamente la gestión empresarial y el cumplimiento regulatorio en un mismo sistema. Frente a ello, la visión de WineSoft es ofrecer un software integral que permita a los negocios crecer de manera formal y competitiva, alineados con las regulaciones, comenzando con un segmento inicial conformado por dueños de destilerías y licorerías medianas que operan en Lima y otras regiones comerciales clave del país.
 #### 1.2.2.2. Lean UX Assumptions
 
 **Business Assumptions:**
-- Asumimos que al menos el 70 % de los dueños de destilerías y licorerías medianas aún gestionan inventarios y ventas con procesos manuales o sistemas poco integrados.
-- Asumimos que la trazabilidad confiable y la reducción de riesgos de sanciones serán los principales factores de decisión de compra.
-- Asumimos que los sistemas contables genéricos y las apps de gestión no especializadas serán percibidos como sustitutos, pero no resolverán la trazabilidad.
-- Asumimos que si ofrecemos una interfaz sencilla, soporte continuo y planes accesibles, reduciremos la percepción de que la digitalización es costosa o innecesaria.
--Asumimos que los empresarios del sector estarán dispuestos a pagar una suscripción mensual en alguno de los tres planes disponibles:
-
-  - Starter: USD 29 (negocios pequeños con necesidades básicas de control).
-
-  - Professional: USD 59 (empresas medianas que requieren reportes y análisis).
-
-  - Enterprise: USD 129 (empresas con múltiples locales).
-
-- Asumimos que al menos el 40 % de los clientes iniciales optará por el plan Professional, mientras que un 20 % seleccionará Enterprise buscando funciones avanzadas.
+- Consideramos que los dueños de destilerías y licorerías necesitan procesos más eficientes para gestionar sus inventarios, ventas y reportes regulatorios.
+- Estas necesidades pueden resolverse con una plataforma web integral que brinde herramientas de gestión empresarial y facilite la relación con entidades regulatorias.
+- Nuestros clientes iniciales serán principalmente dueños de destilerías y licorerías medianas que aún gestionan sus operaciones con métodos manuales o sistemas poco integrados.
+- El aspecto más importante que un empresario buscará en nuestra solución es la trazabilidad confiable del producto y la reducción de riesgos de sanciones regulatorias.
+- Como startup, generaremos ingresos mediante un modelo de suscripción, con planes escalonados que ofrezcan más funcionalidades según el tamaño del negocio.
+- El cliente podrá adquirir beneficios adicionales como reportes automatizados, integración con sistemas tributarios y paneles de análisis avanzados.
+- Gran parte de nuestros clientes se captará mediante recomendaciones dentro del sector y marketing digital dirigido a empresarios que buscan formalizarse.
+- La competencia en el mercado serán los sistemas contables genéricos y las aplicaciones de gestión no especializadas.
+- Nos diferenciaremos por un enfoque exclusivo en el rubro de bebidas alcohólicas, ofreciendo herramientas adaptadas a sus necesidades específicas.
+- Nuestro mayor riesgo es que los empresarios perciban la digitalización como costosa o innecesaria.
+- Para mitigar este riesgo, ofreceremos una interfaz sencilla, soporte continuo y un plan de adopción progresiva que genere confianza.
 
 **User Assumptions:**
-- Asumimos que al menos el 60 % de los usuarios entrevistados mencionará la automatización de procesos repetitivos (registro de lotes, control de stock, reportes) como un beneficio clave.
-- Asumimos que los usuarios valorarán que la plataforma centralice inventarios, ventas y reportes regulatorios, reduciendo su tiempo de gestión en al menos 30 %.
-- Asumimos que la trazabilidad en tiempo real y la confiabilidad de la información compartida con reguladores serán las dos características más buscadas por los usuarios.
+- Nuestros usuarios serán principalmente dueños y administradores de destilerías y licorerías que gestionan de forma manual sus operaciones.
+- Nuestro producto abordará la necesidad de controlar con mayor facilidad el inventario, las ventas y los reportes regulatorios.
+- Los usuarios valorarán especialmente la posibilidad de automatizar procesos repetitivos como registros de lotes, control de stock y generación de reportes.
+- Las características más importantes que los usuarios buscarán en nuestro producto serán la trazabilidad en tiempo real, la reducción de errores administrativos y la confiabilidad en la información compartida con entidades regulatorias.
 
 **Business Outcome Assumptions:**
-- Asumimos que al implementar reportes digitales, los negocios podrán reducir sanciones regulatorias en al menos un 25 % en su primer año de uso.
-- Asumimos que al menos un 15 % de los negocios en Lima podría formalizarse en el primer año gracias a una plataforma accesible y adaptada al mercado local.
+- Lograr una reducción en el número de sanciones regulatorias gracias al cumplimiento automático de normativas y reportes digitales.
+- Conseguir un incremento en la formalización de negocios, al ofrecer un sistema accesible y adaptado al mercado local.
+- Mejorar la confianza de los consumidores en los productos de destilerías y licorerías mediante certificados digitales de autenticidad emitidos desde la plataforma.
+- Aumentar la eficiencia operativa de los negocios al integrar funciones de inventario, ventas y fiscalización en un solo sistema.
 
 **User Outcome Assumptions:**
-- Asumimos que los usuarios podrán ahorrar al menos 5 horas semanales en tareas administrativas al centralizar operaciones en la plataforma.
-- Asumimos que los dueños de licorerías reducirán en un 20 % las pérdidas por descontrol de stock mediante alertas automáticas de bajo inventario y vencimiento de productos.
-- Asumimos que la adopción y retención de la plataforma se sostendrá si al menos el 70 % de los usuarios reporta mayor tranquilidad y seguridad en sus operaciones tras tres meses de uso.
+- Los empresarios podrán gestionar inventarios, ventas y reportes regulatorios desde una plataforma centralizada, reduciendo significativamente el tiempo y esfuerzo de administración.
+- Los dueños de licorerías podrán minimizar pérdidas por descontrol en stock gracias a alertas automáticas de bajo inventario y vencimiento de productos.
+- Las entidades reguladoras podrán acceder a información actualizada en tiempo real, lo que permitirá una fiscalización más ágil y confiable.
+- Los usuarios experimentarán una mayor tranquilidad y seguridad al contar con procesos transparentes y trazables, lo que aumentará la adopción y retención de la plataforma.
 
 **Features:**
-- Asumimos que la función de registro y control de lotes con trazabilidad de origen a punto de venta será adoptada por al menos el 60 % de usuarios activos.
-- Asumimos que los paneles de análisis y reportes automáticos serán considerados como una funcionalidad esencial por al menos el 50 % de los empresarios encuestados.
-- Asumimos que un sistema de alertas en tiempo real (stock bajo, vencimientos, riesgos regulatorios) será el feature más usado semanalmente por los administradores.
+- Implementar funciones para el registro y control de lotes de producción, con trazabilidad desde origen hasta punto de venta.
+- Incorporar herramientas de gestión de inventarios y ventas, con paneles de análisis y reportes automáticos.
+- Desarrollar un sistema de alertas en tiempo real para vencimientos de stock, riesgos regulatorios.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-#### Hipótesis 1
-**Creemos que**, si digitalizamos la gestión de inventarios y ventas de los dueños de destilerías y licorerías que hoy usan procesos manuales, esto reducirá pérdidas y desorden operativo.  
-**Sabremos que esto es cierto cuando** al menos el 60 % de los usuarios reporten reducción en errores de inventario y disminuyan en 20 % las pérdidas por stock en los primeros seis meses.  
+**Hipótesis 1:** <br><br>
+**Creemos que**, si ofrecemos un sistema centralizado para la gestión de inventarios en destilerías y licorerías, esto logrará una reducción en los errores administrativos y en las pérdidas por descontrol de stock.<br>
+**Sabremos que esto es cierto cuando** observemos una disminución del 25% en reportes de pérdidas de inventario y un aumento del 20% en la precisión de los registros.
 
-#### Hipótesis 2
-**Creemos que**, si ofrecemos una función de trazabilidad en tiempo real para los lotes de producción y ventas, los empresarios tendrán más confianza en la gestión de su negocio.  
-**Sabremos que esto es cierto cuando** al menos el 70 % de los clientes utilicen el módulo de trazabilidad de manera recurrente disminuyan en un 25 % en el primer año.  
+**Hipótesis 2:** 
+**Creemos que**, si implementamos reportes regulatorios automáticos integrados en la plataforma, esto logrará una reducción en las sanciones impuestas a los negocios por incumplimiento normativo.<br>
+**Sabremos que esto es cierto cuando** veamos una reducción del 30% en multas y sanciones en negocios que usan WineSoft.
 
-#### Hipótesis 3
-**Creemos que**, si brindamos a los usuarios un sistema de alertas en tiempo real para vencimiento de stock, irregularidades en lotes o notificaciones regulatorias, esto logrará un mayor control preventivo en las operaciones.  
-**Sabremos que esto es cierto cuando** los usuarios reporten un 40 % menos de incidencias relacionadas con productos vencidos o fuera de norma.  
+**Hipótesis 3:**
+**Creemos que**, si brindamos a los usuarios un sistema de alertas en tiempo real para vencimiento de stock, irregularidades en lotes o notificaciones regulatorias, esto logrará un mayor control preventivo en las operaciones.<br>
+**Sabremos que esto es cierto cuando** los usuarios reporten un 40% menos de incidencias relacionadas con productos vencidos o fuera de norma.
 
-#### Hipótesis 4
-**Creemos que**, si centralizamos inventarios, ventas y reportes regulatorios en una sola plataforma, los usuarios reducirán significativamente el tiempo invertido en gestión administrativa.  
-**Sabremos que esto es cierto cuando** al menos el 70 % de los usuarios indiquen que ahorran 5 horas semanales en tareas administrativas.   
+**Hipótesis 4:**
+Creemos que, si diseñamos una interfaz amigable y accesible para usuarios con poca experiencia tecnológica, esto logrará una mayor adopción del sistema y reducirá la resistencia al cambio.<br>
+Sabremos que esto es cierto cuando el 70% de los nuevos usuarios complete su proceso de registro y gestión inicial sin necesidad de soporte adicional.
 
-#### Hipótesis 5
-**Creemos que**, si ofrecemos planes de suscripción accesibles (USD 29, 59 y 129), los empresarios del sector adoptarán la plataforma de acuerdo a sus necesidades y tamaño de negocio.  
-**Sabremos que esto es cierto cuando** al menos el 40 % de los clientes elija el plan Professional y un 20 % el plan Enterprise en el primer año.  
-
-#### Hipótesis 6
-**Creemos que**, si incorporamos certificados digitales de autenticidad para los productos, los consumidores finales confiarán más en las marcas que usan WineSoft.  
-**Sabremos que esto es cierto cuando** los negocios clientes reporten un aumento en la percepción de confianza de parte de consumidores y una mejora en ventas formales de al menos 15 %.  
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -313,7 +289,17 @@ Enlace al tablero de desarrollo: https://miro.com/app/board/uXjVJMXI8fo=/?share_
 - **Necesidades principales:**  
   - Control eficiente de inventarios.  
   - Gestión de ventas con reportes automáticos.  
-  - Transparencia en la trazabilidad de productos.   
+  - Transparencia en la trazabilidad de productos.  
+
+### Segmento 2: Entidades regulatorias  
+- **Descripcion:** Instituciones gubernamentales y municipales responsables de la fiscalización del sector.  
+- **Características:**  
+  - Necesitan acceso a información confiable en tiempo real.  
+  - Enfrentan dificultades para supervisar un mercado fragmentado y con informalidad.  
+- **Necesidades principales:**  
+  - Garantizar autenticidad y seguridad en los productos comercializados.  
+  - Reducir riesgos de evasión fiscal y comercio informal.  
+  - Contar con herramientas digitales para monitorear negocios.  
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
@@ -1512,12 +1498,3 @@ A continuación, se mencionará algunas convenciones:
 #### 5.2.1.7.	Software Deployment Evidence for Sprint Review.
 
 #### 5.2.1.8.	Team Collaboration Insights during Sprint.
-
-### Referencias Bibliografícas
-
-Apoyo Consultoría. (2023, 25 de agosto). *El comercio informal de licores, una lucha de todos*. Infobae.  
-[https://www.infobae.com/peru/2023/08/25/el-comercio-informal-de-licores-una-lucha-de-todos/](https://www.infobae.com/peru/2023/08/25/el-comercio-informal-de-licores-una-lucha-de-todos/)
-
-Hirs, J., & Vargas, F. (2023). *Prioridades para la digitalización empresarial en América Latina y el Caribe*. Banco Interamericano de Desarrollo (BID).  
-[https://publications.iadb.org/es/prioridades-para-la-digitalizacion-empresarial-en-america-latina-y-el-caribe](https://publications.iadb.org/es/prioridades-para-la-digitalizacion-empresarial-en-america-latina-y-el-caribe)
-
