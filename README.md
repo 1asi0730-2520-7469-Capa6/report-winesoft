@@ -181,39 +181,64 @@ Ser la plataforma líder en gestión digital de insumos para el sector de bebida
 
 ### 1.2.1. Antecedentes y problemática
 
+### Antecedentes
+<div style="text-align: justify">
+
+En el sector de la producción y distribución de bebidas alcohólicas, especialmente en destilerías y licorerías, una mala gestión de insumos puede traer consecuencias económicas y operativas importantes. La falta de control en el inventario de materias primas como azúcar, alcohol base, levaduras o esencias puede generar sobrecostos, pérdidas por caducidad o interrupciones en la producción. Según la Food and Agriculture Organization (FAO, 2021), hasta el 14% de las pérdidas en cadenas de suministro de alimentos y bebidas provienen justamente de fallas en la gestión de inventarios y almacenamiento inadecuado, lo que confirma la magnitud del problema en este sector.
+
+Un caso frecuente en pequeñas y medianas licorerías ocurre cuando los insumos perecederos, como frutas o aditivos, no son monitoreados correctamente. Esto provoca que se echen a perder antes de ser utilizados, afectando tanto la calidad del producto final como la continuidad de la producción. La situación se agrava porque la mayoría de negocios todavía gestionan insumos mediante métodos manuales como hojas de Excel o registros físicos. De acuerdo con Gartner (2022), más del 60% de las PYMEs en Latinoamérica siguen utilizando hojas de cálculo para manejar inventarios, lo que incrementa la probabilidad de errores, genera ineficiencias logísticas y retrasa la toma de decisiones.
+
+Además, la informalidad en los procesos logísticos dificulta la coordinación entre proveedores y dueños de licorerías. Los proveedores muchas veces no cuentan con información en tiempo real sobre las necesidades de sus clientes, lo que retrasa entregas críticas y genera quiebres de stock. Lo que abre un espacio para plataformas digitales más accesibles que integren parcialmente estas funciones y apoyen a los empresarios en la modernización de su gestión.
+
+</div>
+
+### Problemática
+
 <div align="justify">
 Para entender la necesidad del proyecto, se aplicó la técnica de las 5W + 2H:
-<br><br>
 
-- **What (Qué):**  
-  Falta de un sistema digital integrado que permita a dueños de destilerías/licorerías gestionar inventarios y ventas con trazabilidad.
+### 5W's
+### What (¿Cuál es el problema?):
 
-- **When (Cuándo):**  
-  Actualmente, en un contexto donde la digitalización es prioritaria para la competitividad empresarial y el cumplimiento de normativas más estrictas de control y fiscalización.
+Los dueños de licorerías y destilerías presentan dificultades en la gestión de sus almacenes de insumos, lo que puede ocasionar desperdicio por caducidad, sobrecostos por compras urgentes o interrupciones en la producción.
 
-- **Where (Dónde):**  
-  Principalmente en el mercado peruano, en zonas urbanas con alta concentración de bares, discotecas y licorerías, donde la informalidad y la falta de trazabilidad generan mayores riesgos.
+Por otro lado, los proveedores enfrentan problemas para anticipar la demanda de sus clientes, ya que no tienen visibilidad de sus inventarios en tiempo real, lo cual genera retrasos en la entrega y desorganización logística.
 
-- **Who (Quiénes):**  
-  - Dueños de destilerías y licorerías que buscan optimizar operaciones, reducir pérdidas y cumplir regulaciones.  
+### When (¿Cuándo ocurre el problema?):
+Cuando los dueños necesitan producir, a veces descubren que insumos clave como frutas, aditivos o alcohol base están por acabarse o ya vencieron. Esto les genera retrasos y pérdidas si no tienen un control claro.
 
-- **Why (Por qué):**  
-  La informalidad y la ausencia de control digital impactan en la **recaudación tributaria**, generan **riesgos de sanciones y pérdidas económicas para los empresarios**, y afectan la **seguridad del consumidor** y la **reputación del sector**.
+En el caso de los proveedores, el problema surge cuando intentan reabastecer los almacenes sin tener información clara sobre el inventario de sus clientes. Esto provoca retrasos en los envíos, problemas para coordinar entregas y registros desactualizados en su propio sistema.
 
-- **How (Cómo):**  
-  Mediante una **plataforma web integral** que permita:  
-  - Registrar y controlar inventarios en tiempo real.  
-  - Gestionar ventas con reportes automáticos.  
-  - Asegurar la trazabilidad de productos desde la producción hasta el consumidor.  
+### Where (¿Dónde ocurre el problema?):
+En los almacenes físicos de los dueños de licorerías, donde actualmente el control suele hacerse de forma manual en papel o Excel.
 
-- **How Much (Cuánto):**  
-  - **Costos de no implementar:** pérdidas económicas por desorden en inventarios, sanciones legales por incumplimiento y pérdida de clientes por falta de confianza.  
-  - **Costos de implementación:** inversión en planes de suscripción (básico o premium), posible adquisición o leasing de sensores IoT, y servicios adicionales de soporte y consultoría.
-  <br><br>
-  Inversión estimada:<br>
-  - Suscripciones mensuales (básico y premium).
-  - Compra o leasing de sensores y equipos IoT.
-  - Servicios adicionales de soporte y consultoría.
+En los almacenes de los proveedores, quienes no tienen visibilidad de los niveles de stock de sus clientes y carecen de integración para coordinar reabastecimientos oportunos.
+
+### Who (¿A quién o quiénes afecta el problema?):
+- A los dueños de destilerías y licorerías, que enfrentan pérdidas por insumos desperdiciados, paradas en la producción o baja calidad en sus productos.
+
+- A los proveedores de insumos, que lidian con problemas logísticos y pierden ventas por no contar con información precisa y actualizada.
+
+- De forma indirecta, a los clientes finales, que pueden recibir productos tarde o con calidad variable por interrupciones en el proceso de fabricación.
+
+### Why (¿Por qué sucede el problema?):
+Porque muchos negocios del sector todavía manejan sus insumos de forma manual y sin conexión con sus proveedores.
+
+Al no contar con una plataforma que centralice la información, se generan errores, demoras en la reposición y costos operativos más altos.
+
+### 2H's
+### How (¿Cómo aparece el problema?):
+Los dueños suelen registrar insumos en hojas de Excel o apuntes físicos, que se desactualizan rápidamente y carecen de alertas inteligentes. Esto hace que detecten vencimientos o quiebres de stock demasiado tarde.
+
+Por su parte, los proveedores no pueden anticipar las necesidades de reposición y dependen de pedidos tardíos de los clientes, lo que genera desorganización en la preparación de envíos y aumenta el riesgo de incumplir tiempos de entrega.
+
+### How Much (¿Cuánto afecta el problema?):
+El impacto es significativo tanto en lo económico como en lo operativo:
+
+- Para los dueños, un lote de frutas o aditivos vencidos puede representar pérdidas de cientos de dólares y la detención de la producción por varios días si faltan insumos críticos.
+
+- Para los proveedores, la falta de visibilidad de inventarios provoca sobrecostos en logística, retrasos en entregas y pérdida de confianza de los clientes, lo que limita su competitividad en el mercado.
+
 </div>
 
 ### 1.2.2. Lean UX Process
