@@ -247,13 +247,13 @@ El impacto es significativo tanto en lo económico como en lo operativo:
 
 <div style="text-align: justify">
 
-El estado actual de la gestión de inventarios en destilerías y licorerías pequeñas y medianas se ha centrado principalmente en registros manuales de insumos críticos (azúcar, alcohol base, frutas, aditivos, etc.), con procesos aislados entre dueños y proveedores. Esto genera pérdidas económicas por caducidad, retrasos en la producción y falta de visibilidad en la cadena de suministro.
+El estado actual de la gestión de inventarios en destilerías y licorerías pequeñas y medianas se ha centrado principalmente en registros manuales de insumos críticos con procesos aislados entre dueños y proveedores. Esto genera pérdidas económicas por caducidad, retrasos en la producción y falta de visibilidad en la cadena de suministro.
 
-Lo que los productos/servicios existentes no abordan es la necesidad de una solución accesible que conecte en tiempo real a los dueños de negocios con sus proveedores, permitiendo un control más ágil de insumos perecederos y una reposición anticipada sin depender de pedidos tardíos.
+Lo que los productos y servicios existentes no abordan es la necesidad de una solución accesible que conecte en tiempo real a los dueños de negocios con sus proveedores, permitiendo un control más ágil de insumos perecederos y una reposición anticipada sin depender de pedidos tardíos.
 
-Nuestro producto, Winesoft, abordará esta brecha mediante una plataforma digital que centraliza la gestión de inventarios, habilita alertas de stock y vencimiento, y otorga a los proveedores visibilidad de las necesidades de sus clientes para optimizar sus entregas.
+Nuestro producto, WineSoft, abordará esta brecha mediante una plataforma digital que centraliza la gestión de inventarios, habilita alertas de stock y vencimiento, otorga a los proveedores visibilidad de las necesidades de sus clientes para optimizar sus entregas, y la necesidad de mantener costos viables para las operaciones.
 
-Nuestro enfoque inicial será pequeños y medianos productores de bebidas alcohólicas artesanales en Latinoamérica, junto con sus proveedores de insumos básicos.
+Nuestro enfoque inicial será pequeños y medianos dueños de licorerías en Perú y Latinoamérica, junto con sus proveedores de insumos básicos.
 
 Sabremos que tenemos éxito cuando veamos que al menos el 70% de los usuarios logren reducir pérdidas por caducidad en un 20%, y que los proveedores mejoren sus tiempos de reabastecimiento en un 30% gracias a la integración con la plataforma.
 
@@ -262,38 +262,59 @@ Sabremos que tenemos éxito cuando veamos que al menos el 70% de los usuarios lo
 #### 1.2.2.2. Lean UX Assumptions
 
 **Business Assumptions:**
-- Asumimos que al menos el 70 % de los dueños de destilerías y licorerías medianas aún gestionan inventarios y ventas con procesos manuales o sistemas poco integrados.
-- Asumimos que la trazabilidad confiable y la reducción de riesgos de sanciones serán los principales factores de decisión de compra.
-- Asumimos que los sistemas contables genéricos y las apps de gestión no especializadas serán percibidos como sustitutos, pero no resolverán la trazabilidad.
-- Asumimos que si ofrecemos una interfaz sencilla, soporte continuo y planes accesibles, reduciremos la percepción de que la digitalización es costosa o innecesaria.
--Asumimos que los empresarios del sector estarán dispuestos a pagar una suscripción mensual en alguno de los tres planes disponibles:
 
-  - Starter: USD 29 (negocios pequeños con necesidades básicas de control).
+1.  Nuestros clientes necesitan procesos más eficientes para gestionar inventarios y coordinar insumos,
 
-  - Professional: USD 59 (empresas medianas que requieren reportes y análisis).
+2. Pensamos que estas necesidades pueden resolverse con una aplicación web que centralice el inventario y conecte dueños con proveedores.
 
-  - Enterprise: USD 129 (empresas con múltiples locales).
+3. Nuestros clientes iniciales serán pequeños y medianos dueños de licorerías y destilerías en Perú y Latinoamérica, junto con sus proveedores que atienden su demanda directa.
 
-- Asumimos que al menos el 40 % de los clientes iniciales optará por el plan Professional, mientras que un 20 % seleccionará Enterprise buscando funciones avanzadas.
+4. El valor principal para dueños será evitar pérdidas y mantener stock; para proveedores, obtener visibilidad de la demanda.
+
+5. Captaremos clientes mediante alianzas, referidos y estrategias digitales.
+
+6. Generaremos ingresos con un modelo de suscripción mensual, escalado según el tamaño del negocio.
+
+7. La competencia serán sistemas genéricos de inventario, pero nos destacaremos por accesibilidad, simplicidad y especialización en bebidas alcohólicas.
+
+8. El mayor riesgo es la resistencia al cambio, que mitigaremos con una interfaz intuitiva, capacitaciones y casos de éxito.
+
+9. Reconocemos que si los dueños no están dispuestos a pagar por un servicio especializado, el proyecto podría fracasar, por lo que validaremos su aceptación desde el inicio.
 
 **User Assumptions:**
-- Asumimos que al menos el 60 % de los usuarios entrevistados mencionará la automatización de procesos repetitivos (registro de lotes, control de stock, reportes) como un beneficio clave.
-- Asumimos que los usuarios valorarán que la plataforma centralice inventarios, ventas y reportes regulatorios, reduciendo su tiempo de gestión en al menos 30 %.
-- Asumimos que la trazabilidad en tiempo real y la confiabilidad de la información compartida con reguladores serán las dos características más buscadas por los usuarios.
+1. Nuestros usuarios serán dueños y administradores de licorerías y destilerías, además de proveedores.
+
+2. Nuestro producto encajará en la gestión diaria de inventarios y abastecimiento.
+
+3. Nuestro producto resolverá pérdidas por caducidad, desabastecimiento y falta de control del stock.
+
+4. Nuestro producto se usará de forma constante al abrir y cerrar el negocio para revisar inventarios y pedidos.
+
+5. Las características más importantes serán facilidad de uso, alertas automáticas y reportes claros.
+
+6. Nuestro producto deberá verse simple, intuitivo y confiable para usuarios con poca experiencia tecnológica.
 
 **Business Outcome Assumptions:**
-- Asumimos que al implementar reportes digitales, los negocios podrán reducir sanciones regulatorias en al menos un 25 % en su primer año de uso.
-- Asumimos que al menos un 15 % de los negocios en Lima podría formalizarse en el primer año gracias a una plataforma accesible y adaptada al mercado local.
+- Incrementar la eficiencia en la gestión de inventarios, reduciendo pérdidas por caducidad y faltantes de insumos críticos en licorerías y destilerías.
+- Mejorar la visibilidad de la demanda para los proveedores, optimizando la planificación y tiempos de entrega de insumos.
+- Reducir costos operativos asociados a compras urgentes o desperdicio de materiales, aumentando la rentabilidad de los negocios.
+- Incrementar la confianza de los dueños en sus decisiones de reabastecimiento mediante información actualizada en tiempo real.
 
 **User Outcome Assumptions:**
-- Asumimos que los usuarios podrán ahorrar al menos 5 horas semanales en tareas administrativas al centralizar operaciones en la plataforma.
-- Asumimos que los dueños de licorerías reducirán en un 20 % las pérdidas por descontrol de stock mediante alertas automáticas de bajo inventario y vencimiento de productos.
-- Asumimos que la adopción y retención de la plataforma se sostendrá si al menos el 70 % de los usuarios reporta mayor tranquilidad y seguridad en sus operaciones tras tres meses de uso.
+- Los dueños de licorerías podrán monitorear sus inventarios de manera rápida y precisa, evitando faltantes o pérdidas por caducidad.
+
+- Los proveedores podrán anticipar la demanda de sus clientes, optimizando rutas y cantidades de envío, lo que mejora la eficiencia de sus operaciones.
+
+- La integración de la información en una plataforma centralizada permitirá una comunicación fluida entre dueños y proveedores, evitando retrasos o errores en la reposición de insumos.
 
 **Features:**
-- Asumimos que la función de registro y control de lotes con trazabilidad de origen a punto de venta será adoptada por al menos el 60 % de usuarios activos.
-- Asumimos que los paneles de análisis y reportes automáticos serán considerados como una funcionalidad esencial por al menos el 50 % de los empresarios encuestados.
-- Asumimos que un sistema de alertas en tiempo real (stock bajo, vencimientos, riesgos regulatorios) será el feature más usado semanalmente por los administradores.
+- Implementar una función de gestión de inventarios con alertas de stock bajo y vencimientos próximos.
+
+- Crear paneles de control para proveedores con visibilidad de necesidades de reposición de cada cliente.
+
+- Automatizar reportes de consumo, caducidad y movimientos de inventario.
+
+- Registrar y mostrar historial de movimientos de inventario y entregas para análisis operativo y control
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
