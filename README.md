@@ -245,13 +245,19 @@ El impacto es significativo tanto en lo económico como en lo operativo:
 
 #### 1.2.2.1. Lean UX Problem Statements 
 
-El dominio del proyecto se centra en la gestión y regulación del mercado de bebidas alcohólicas en el Perú, donde los principales segmentos de clientes son los dueños de destilerías/licorerías.
+<div style="text-align: justify">
 
-Actualmente, muchas de estas empresas aún operan con procesos manuales o sistemas aislados para la gestión de inventarios y ventas, lo que genera desorden, pérdidas económicas y riesgo de sanciones. En América Latina, más del 70 % de las PYMEs se encuentra en un nivel básico de uso de datos y analítica, lo cual limita su capacidad de aprovechar la información como herramienta estratégica (BID, 2023).  
+El estado actual de la gestión de inventarios en destilerías y licorerías pequeñas y medianas se ha centrado principalmente en registros manuales de insumos críticos (azúcar, alcohol base, frutas, aditivos, etc.), con procesos aislados entre dueños y proveedores. Esto genera pérdidas económicas por caducidad, retrasos en la producción y falta de visibilidad en la cadena de suministro.
 
-En el Perú, el consumo informal de bebidas es un problema significativo: del total del alcohol informal consumido, aproximadamente un 56 % está adulterado, lo que evidencia riesgos para la salud pública (Apoyo Consultoría, 2023).  
+Lo que los productos/servicios existentes no abordan es la necesidad de una solución accesible que conecte en tiempo real a los dueños de negocios con sus proveedores, permitiendo un control más ágil de insumos perecederos y una reposición anticipada sin depender de pedidos tardíos.
 
-No existe aún una plataforma que integre simultáneamente la gestión empresarial interna con el cumplimiento regulatorio externo en un mismo sistema. WineSoft pretende cerrar esa brecha ofreciendo un software integral que permita a los negocios formalizar operaciones, optimizar procesos, tomando en cuenta restricciones del sector como la capacidad tecnológica limitada de algunas empresas y la necesidad de mantener costos accesibles.  
+Nuestro producto, Winesoft, abordará esta brecha mediante una plataforma digital que centraliza la gestión de inventarios, habilita alertas de stock y vencimiento, y otorga a los proveedores visibilidad de las necesidades de sus clientes para optimizar sus entregas.
+
+Nuestro enfoque inicial será pequeños y medianos productores de bebidas alcohólicas artesanales en Latinoamérica, junto con sus proveedores de insumos básicos.
+
+Sabremos que tenemos éxito cuando veamos que al menos el 70% de los usuarios logren reducir pérdidas por caducidad en un 20%, y que los proveedores mejoren sus tiempos de reabastecimiento en un 30% gracias a la integración con la plataforma.
+
+</div>
 
 #### 1.2.2.2. Lean UX Assumptions
 
