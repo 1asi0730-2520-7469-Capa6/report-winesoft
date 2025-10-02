@@ -167,7 +167,7 @@ Con ello, WineSoft busca no solo **reducir la carga administrativa** de los empr
 ---
 
 ## Misión
-Impulsar la **transformación digital** de destilerías y licorerías mediante **soluciones tecnológicas accesibles y confiables** que optimicen la gestión de inventarios, garanticen la trazabilidad de productos y faciliten el cumplimiento regulatorio.  
+Impulsar la **transformación digital** de destilerías y licorerías mediante **soluciones tecnológicas accesibles y confiables** que optimicen la gestión de inventarios, garanticen la trazabilidad de productos.  
 
 ---
 
