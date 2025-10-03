@@ -184,40 +184,40 @@ Ser la plataforma líder en gestión digital de insumos para el sector de bebida
 ### Antecedentes
 <div style="text-align: justify">
 
-En el sector de la producción y distribución de bebidas alcohólicas, especialmente en destilerías y licorerías, una mala gestión de insumos puede traer consecuencias económicas y operativas importantes. La falta de control en el inventario de materias primas como azúcar, alcohol base, levaduras o esencias puede generar sobrecostos, pérdidas por caducidad o interrupciones en la producción. Según la Food and Agriculture Organization (FAO, 2021), hasta el 14% de las pérdidas en cadenas de suministro de alimentos y bebidas provienen justamente de fallas en la gestión de inventarios y almacenamiento inadecuado, lo que confirma la magnitud del problema en este sector.
+En el sector de la producción y distribución de bebidas alcohólicas, especialmente en destilerías y licorerías, una mala gestión de insumos puede traer consecuencias económicas y operativas importantes. La falta de control en el inventario de materias primas como azúcar, alcohol base, levaduras o esencias puede generar sobrecostos, pérdidas por caducidad, deterioro por condiciones de almacenamiento inadecuadas o interrupciones en la producción. Según la Food and Agriculture Organization (FAO, 2021), hasta el 14% de las pérdidas en cadenas de suministro de alimentos y bebidas provienen justamente de fallas en la gestión de inventarios y almacenamiento inadecuado, lo que confirma la magnitud del problema en este sector.
 
-Un caso frecuente en pequeñas y medianas licorerías ocurre cuando los insumos perecederos, como frutas o aditivos, no son monitoreados correctamente. Esto provoca que se echen a perder antes de ser utilizados, afectando tanto la calidad del producto final como la continuidad de la producción. La situación se agrava porque la mayoría de negocios todavía gestionan insumos mediante métodos manuales como hojas de Excel o registros físicos. De acuerdo con Gartner (2022), más del 60% de las PYMEs en Latinoamérica siguen utilizando hojas de cálculo para manejar inventarios, lo que incrementa la probabilidad de errores, genera ineficiencias logísticas y retrasa la toma de decisiones.
+Un caso frecuente en pequeñas y medianas licorerías ocurre cuando los insumos perecederos, como frutas o aditivos, no son monitoreados correctamente ni en cantidad ni en condiciones ambientales. Esto provoca que se echen a perder antes de ser utilizados, afectando tanto la calidad del producto final como la continuidad de la producción. La situación se agrava porque la mayoría de negocios todavía gestionan insumos mediante métodos manuales como hojas de Excel o registros físicos, sin alertas ni integración de sensores. De acuerdo con Gartner (2022), más del 60% de las PYMEs en Latinoamérica siguen utilizando hojas de cálculo para manejar inventarios, lo que incrementa la probabilidad de errores, genera ineficiencias logísticas y retrasa la toma de decisiones.
 
-Además, la informalidad en los procesos logísticos dificulta la coordinación entre proveedores y dueños de licorerías. Los proveedores muchas veces no cuentan con información en tiempo real sobre las necesidades de sus clientes, lo que retrasa entregas críticas y genera quiebres de stock. Lo que abre un espacio para plataformas digitales más accesibles que integren parcialmente estas funciones y apoyen a los empresarios en la modernización de su gestión.
+Además, la informalidad en los procesos logísticos dificulta la coordinación entre proveedores y dueños de licorerías. Los proveedores muchas veces no cuentan con información en tiempo real sobre las necesidades de sus clientes, ni con herramientas para gestionar su propio almacén de forma integrada, lo que retrasa entregas críticas y genera quiebres de stock. Esto abre un espacio para plataformas digitales más accesibles que integren funciones de control de inventario, monitoreo de almacenamiento y gestión logística compartida entre proveedores y dueños.
 
 </div>
 
 ### Problemática
 
 <div align="justify">
-Para entender la necesidad del proyecto, se aplicó la técnica de las 5W + 2H:
+Para entender la necesidad del proyecto, se aplicó la técnica de las 5W's + 2H's:
 
 ### 5W's
 ### What (¿Cuál es el problema?):
 
-Los dueños de licorerías y destilerías presentan dificultades en la gestión de sus almacenes de insumos, lo que puede ocasionar desperdicio por caducidad, sobrecostos por compras urgentes o interrupciones en la producción.
+Los dueños de licorerías y destilerías presentan dificultades en la gestión de sus almacenes de insumos, lo que puede ocasionar desperdicio por caducidad, deterioro por condiciones de almacenamiento inadecuadas, sobrecostos por compras urgentes o interrupciones en la producción.
 
-Por otro lado, los proveedores enfrentan problemas para anticipar la demanda de sus clientes, ya que no tienen visibilidad de sus inventarios en tiempo real, lo cual genera retrasos en la entrega y desorganización logística.
+Por otro lado, los proveedores enfrentan problemas para anticipar la demanda de sus clientes, ya que no tienen visibilidad de sus inventarios ni de las condiciones de almacenamiento en tiempo real, además de carecer de herramientas para administrar de manera eficiente su propio stock, lo cual genera retrasos en la entrega y desorganización logística.
 
 ### When (¿Cuándo ocurre el problema?):
-Cuando los dueños necesitan producir, a veces descubren que insumos clave como frutas, aditivos o alcohol base están por acabarse o ya vencieron. Esto les genera retrasos y pérdidas si no tienen un control claro.
+Cuando los dueños necesitan producir, a veces descubren que insumos clave como frutas, aditivos o alcohol base están por acabarse, ya vencieron o se deterioraron por falta de control en las condiciones de almacenamiento. Esto les genera retrasos y pérdidas si no tienen un control claro.
 
-En el caso de los proveedores, el problema surge cuando intentan reabastecer los almacenes sin tener información clara sobre el inventario de sus clientes. Esto provoca retrasos en los envíos, problemas para coordinar entregas y registros desactualizados en su propio sistema.
+En el caso de los proveedores, el problema surge cuando intentan reabastecer los almacenes sin tener información clara sobre el inventario y estado de conservación de sus clientes, además de tener que operar su propio almacén con registros desactualizados. Esto provoca retrasos en los envíos, problemas para coordinar entregas y mayor riesgo de incumplir tiempos de entrega.
 
 ### Where (¿Dónde ocurre el problema?):
-En los almacenes físicos de los dueños de licorerías, donde actualmente el control suele hacerse de forma manual en papel o Excel.
+En los almacenes físicos de los dueños de licorerías, donde actualmente el control suele hacerse de forma manual en papel o Excel, sin capacidad para monitorear condiciones ambientales.
 
-En los almacenes de los proveedores, quienes no tienen visibilidad de los niveles de stock de sus clientes y carecen de integración para coordinar reabastecimientos oportunos.
+En los almacenes de los proveedores, quienes no tienen visibilidad de los niveles de stock ni de las condiciones de almacenamiento de sus clientes y carecen de integración para coordinar reabastecimientos oportunos, además de gestionar su propio stock con sistemas básicos o manuales.
 
 ### Who (¿A quién o quiénes afecta el problema?):
 - A los dueños de destilerías y licorerías, que enfrentan pérdidas por insumos desperdiciados, paradas en la producción o baja calidad en sus productos.
 
-- A los proveedores de insumos, que lidian con problemas logísticos y pierden ventas por no contar con información precisa y actualizada.
+- A los proveedores de insumos, que lidian con problemas logísticos, deterioro de insumos en sus propios almacenes y pérdida de ventas por no contar con información precisa y actualizada.
 
 - De forma indirecta, a los clientes finales, que pueden recibir productos tarde o con calidad variable por interrupciones en el proceso de fabricación.
 
@@ -228,9 +228,9 @@ Al no contar con una plataforma que centralice la información, se generan error
 
 ### 2H's
 ### How (¿Cómo aparece el problema?):
-Los dueños suelen registrar insumos en hojas de Excel o apuntes físicos, que se desactualizan rápidamente y carecen de alertas inteligentes. Esto hace que detecten vencimientos o quiebres de stock demasiado tarde.
+Los dueños suelen registrar insumos en hojas de Excel o apuntes físicos, que se desactualizan rápidamente y carecen de alertas inteligentes o control de condiicones de almacenamiento. Esto hace que detecten vencimientos, deterioros o quiebres de stock demasiado tarde.
 
-Por su parte, los proveedores no pueden anticipar las necesidades de reposición y dependen de pedidos tardíos de los clientes, lo que genera desorganización en la preparación de envíos y aumenta el riesgo de incumplir tiempos de entrega.
+Por su parte, los proveedores no pueden anticipar las necesidades de reposición ni gestionar de forma eficiente su propio inventario, ya que dependen de pedidos tardíos de los clientes y de registros manuales. Esto genera desorganización en la preparación de envíos y aumenta el riesgo de incumplir tiempos de entrega.
 
 ### How Much (¿Cuánto afecta el problema?):
 El impacto es significativo tanto en lo económico como en lo operativo:
@@ -247,11 +247,11 @@ El impacto es significativo tanto en lo económico como en lo operativo:
 
 <div style="text-align: justify">
 
-El estado actual de la gestión de inventarios en destilerías y licorerías pequeñas y medianas se ha centrado principalmente en registros manuales de insumos críticos con procesos aislados entre dueños y proveedores. Esto genera pérdidas económicas por caducidad, retrasos en la producción y falta de visibilidad en la cadena de suministro.
+El estado actual de la gestión de inventarios en destilerías y licorerías pequeñas y medianas se ha centrado principalmente en registros manuales de insumos críticos con procesos aislados entre dueños y proveedores. Esto genera pérdidas económicas por caducidad, deterioro por malas condiciones de almacenamiento, retrasos en la producción y falta de visibilidad en la cadena de suministro.
 
-Lo que los productos y servicios existentes no abordan es la necesidad de una solución accesible que conecte en tiempo real a los dueños de negocios con sus proveedores, permitiendo un control más ágil de insumos perecederos y una reposición anticipada sin depender de pedidos tardíos.
+Lo que los productos y servicios existentes no abordan es la necesidad de una solución accesible que conecte en tiempo real a los dueños de negocios con sus proveedores, permitiendo un control más ágil de insumos perecederos, condiciones de almacenamiento como temperatura y humedad, y una reposición anticipada sin depender de pedidos tardíos.
 
-Nuestro producto, WineSoft, abordará esta brecha mediante una plataforma digital que centraliza la gestión de inventarios, habilita alertas de stock y vencimiento, otorga a los proveedores visibilidad de las necesidades de sus clientes para optimizar sus entregas, y la necesidad de mantener costos viables para las operaciones.
+Nuestro producto, WineSoft, abordará esta brecha mediante una plataforma digital que centraliza la gestión de inventarios, habilita alertas de stock y vencimiento, permite monitorear condiciones de almacenamiento críticas, otorga a los proveedores visibilidad de las necesidades de sus clientes para optimizar sus entregas, y la necesidad de mantener costos viables para las operaciones.
 
 Nuestro enfoque inicial será pequeños y medianos dueños de licorerías en Perú y Latinoamérica, junto con sus proveedores de insumos básicos.
 
@@ -265,11 +265,11 @@ Sabremos que tenemos éxito cuando veamos que al menos el 70% de los usuarios lo
 
 1.  Nuestros clientes necesitan procesos más eficientes para gestionar inventarios y coordinar insumos,
 
-2. Pensamos que estas necesidades pueden resolverse con una aplicación web que centralice el inventario y conecte dueños con proveedores.
+2. Pensamos que estas necesidades pueden resolverse con una aplicación web que centralice el inventario, conecte dueños con proveedores y habilite funciones de monitoreo de temperatura y humedad.
 
 3. Nuestros clientes iniciales serán pequeños y medianos dueños de licorerías y destilerías en Perú y Latinoamérica, junto con sus proveedores que atienden su demanda directa.
 
-4. El valor principal para dueños será evitar pérdidas y mantener stock; para proveedores, obtener visibilidad de la demanda.
+4. El valor principal para dueños será evitar pérdidas y mantener stock; para proveedores, obtener visibilidad de la demanda y un control de su propio inventario.
 
 5. Captaremos clientes mediante alianzas, referidos y estrategias digitales.
 
@@ -284,68 +284,77 @@ Sabremos que tenemos éxito cuando veamos que al menos el 70% de los usuarios lo
 **User Assumptions:**
 1. Nuestros usuarios serán dueños y administradores de licorerías y destilerías, además de proveedores.
 
-2. Nuestro producto encajará en la gestión diaria de inventarios y abastecimiento.
+2. Nuestro producto encajará en la gestión diaria de inventarios, abastecimiento y control de condiciones de almacenamiento.
 
-3. Nuestro producto resolverá pérdidas por caducidad, desabastecimiento y falta de control del stock.
+3. Nuestro producto resolverá pérdidas por caducidad, desabastecimiento, deterioro por malas condiciones y falta de control del stock.
 
-4. Nuestro producto se usará de forma constante al abrir y cerrar el negocio para revisar inventarios y pedidos.
+4. Nuestro producto se usará de forma constante al abrir y cerrar el negocio para revisar inventarios, pedidos y el estado de almacenamiento.
 
 5. Las características más importantes serán facilidad de uso, alertas automáticas y reportes claros.
 
 6. Nuestro producto deberá verse simple, intuitivo y confiable para usuarios con poca experiencia tecnológica.
 
 **Business Outcome Assumptions:**
-- Incrementar la eficiencia en la gestión de inventarios, reduciendo pérdidas por caducidad y faltantes de insumos críticos en licorerías y destilerías.
-- Mejorar la visibilidad de la demanda para los proveedores, optimizando la planificación y tiempos de entrega de insumos.
+- Incrementar la eficiencia en la gestión de inventarios, reduciendo pérdidas por caducidad y deterioro de insumos críticos en licorerías y destilerías.
+- Mejorar la visibilidad de la demanda para los proveedores, optimizando la planificación y tiempos de entrega de insumos, además de gestionar sus propios almacenes con precisión.
 - Reducir costos operativos asociados a compras urgentes o desperdicio de materiales, aumentando la rentabilidad de los negocios.
 - Incrementar la confianza de los dueños en sus decisiones de reabastecimiento mediante información actualizada en tiempo real.
 
 **User Outcome Assumptions:**
-- Los dueños de licorerías podrán monitorear sus inventarios de manera rápida y precisa, evitando faltantes o pérdidas por caducidad.
+- Los dueños de licorerías podrán monitorear sus inventarios y condiciones de almacenamiento de manera rápida y precisa, evitando faltantes, pérdidas por caducidad o deterioro.
 
-- Los proveedores podrán anticipar la demanda de sus clientes, optimizando rutas y cantidades de envío, lo que mejora la eficiencia de sus operaciones.
+- Los proveedores podrán anticipar la demanda de sus clientes y gestionar su propio inventario de forma centralizada, optimizando rutas y cantidades de envío, lo que mejora la eficiencia de sus operaciones.
 
 - La integración de la información en una plataforma centralizada permitirá una comunicación fluida entre dueños y proveedores, evitando retrasos o errores en la reposición de insumos.
 
 **Features:**
-- Implementar una función de gestión de inventarios con alertas de stock bajo y vencimientos próximos.
+- Implementar una función de gestión de inventarios con alertas de stock bajo, vencimientos próximos y condiciones de almacenamiento.
 
-- Crear paneles de control para proveedores con visibilidad de necesidades de reposición de cada cliente.
+- Crear paneles de control para proveedores con visibilidad de necesidades de reposición de cada cliente y gestión de su propio almacén.
 
-- Automatizar reportes de consumo, caducidad y movimientos de inventario.
+- Automatizar reportes de consumo, caducidad, deterioro y movimientos de inventario.v
 
 - Registrar y mostrar historial de movimientos de inventario y entregas para análisis operativo y control
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+Para la elaboración de los Hypothesis Statements, se empleó la plantilla recomendada Lean UX:
+We believe that [business outcome] will be achieved if [user] attains [benefit] with [feature].
 #### Hipótesis 1
-**Creemos que**, si digitalizamos la gestión de inventarios y ventas de los dueños de destilerías y licorerías que hoy usan procesos manuales, esto reducirá pérdidas y desorden operativo.  
-**Sabremos que esto es cierto cuando** al menos el 60 % de los usuarios reporten reducción en errores de inventario y disminuyan en 20 % las pérdidas por stock en los primeros seis meses.  
+**Creemos que** la reducción de costos por insumos vencidos o faltantes **se logrará si** los dueños de licorerías y destilerías **obtienen** un mejor control de sus inventarios y evitan caducidades **con** una funcionalidad de gestión de inventarios que genere alertas automáticas de bajo stock y próximos vencimientos.
 
 #### Hipótesis 2
-**Creemos que**, si ofrecemos una función de trazabilidad en tiempo real para los lotes de producción y ventas, los empresarios tendrán más confianza en la gestión de su negocio.  
-**Sabremos que esto es cierto cuando** al menos el 70 % de los clientes utilicen el módulo de trazabilidad de manera recurrente disminuyan en un 25 % en el primer año.  
+**Creemos que** la mejora en los tiempos y eficiencia de entrega de los proveedores **se logrará si** los proveedores de insumos **obtienen** visibilidad en tiempo real de la demanda de sus clientes **con** un panel de control que muestre las necesidades de reposición de cada cliente.  
 
 #### Hipótesis 3
-**Creemos que**, si brindamos a los usuarios un sistema de alertas en tiempo real para vencimiento de stock, irregularidades en lotes o notificaciones regulatorias, esto logrará un mayor control preventivo en las operaciones.  
-**Sabremos que esto es cierto cuando** los usuarios reporten un 40 % menos de incidencias relacionadas con productos vencidos o fuera de norma.  
+**Creemos que** el aumento de la confianza en la toma de decisiones de negocio **se logrará si** los dueños de licorerías y destilerías **obtienen** información clara y actualizada sobre consumo y tendencias de caducidad **con** una funcionalidad de reportes automáticos de movimientos de inventario.
 
 #### Hipótesis 4
-**Creemos que**, si centralizamos inventarios, ventas y reportes regulatorios en una sola plataforma, los usuarios reducirán significativamente el tiempo invertido en gestión administrativa.  
-**Sabremos que esto es cierto cuando** al menos el 70 % de los usuarios indiquen que ahorran 5 horas semanales en tareas administrativas.   
+**Creemos que** la reducción de ineficiencias operativas y pérdidas **se logrará si** los dueños y proveedores **obtienen** trazabilidad y control en la cadena de suministro **con** una funcionalidad que registre y muestre el historial de movimientos de inventario y entregas. 
 
 #### Hipótesis 5
-**Creemos que**, si ofrecemos planes de suscripción accesibles (USD 29, 59 y 129), los empresarios del sector adoptarán la plataforma de acuerdo a sus necesidades y tamaño de negocio.  
-**Sabremos que esto es cierto cuando** al menos el 40 % de los clientes elija el plan Professional y un 20 % el plan Enterprise en el primer año.  
+**Creemos que** la mejora en la planificación y disponibilidad de insumos para la venta **se logrará si** los proveedores de insumos **obtienen** un control centralizado de su propio inventario **con** una funcionalidad de gestión de almacén integrada en la plataforma.
 
 #### Hipótesis 6
-**Creemos que**, si incorporamos certificados digitales de autenticidad para los productos, los consumidores finales confiarán más en las marcas que usan WineSoft.  
-**Sabremos que esto es cierto cuando** los negocios clientes reporten un aumento en la percepción de confianza de parte de consumidores y una mejora en ventas formales de al menos 15 %.  
+**Creemos que** la reducción de pérdidas por deterioro de insumos perecederos **se logrará si** los dueños de licorerías y destilerías **obtienen** alertas en tiempo real sobre temperatura y humedad fuera de rango **con** una funcionalidad de monitoreo ambiental conectada a sensores IoT.
+
+#### Hipótesis 7
+**Creemos que** la mejora en la puntualidad y trazabilidad de las entregas **se logrará si** los proveedores de insumos **obtienen** la capacidad de coordinar y actualizar en tiempo real el estado de sus envíos tras recibir solicitudes de reposición **con** una funcionalidad de gestión logística integrada que permita gestionar rutas y actualizar estados
 
 #### 1.2.2.4. Lean UX Canvas
 
-![Imagen de Lean-UX Canvas](/imagenes/LEANUXCANVASWINSOFT.png)
-Enlace al tablero de desarrollo: https://miro.com/app/board/uXjVJMXI8fo=/?share_link_id=240561883449
+| **Business Problem** | **Solutions** | **Business Outcomes**  |
+|---|---|---|
+| Los dueños de destilerías/licorerías enfrentan dificultades para gestionar inventarios de insumos, ya que carecen de un sistema que centralice el control de cantidades, fechas de vencimiento y condiciones de almacenamiento. Esto genera pérdidas económicas por vencimientos, desabastecimiento inesperado y baja eficiencia en la producción <br> Los proveedores de insumos, por su parte, no cuentan con una visión en tiempo real de las necesidades de sus clientes, lo que dificulta planificar envíos, coordinar transporte y mantener relaciones comerciales efectivas. | - Implementación de un sistema de inventario inteligente que permita a los dueños de destilerías registrar insumos, recibir alertas de vencimiento y confirmar recepciones.<br>- Desarrollo de un módulo de proveedores que facilite la visualización de las necesidades de reposición y la gestión de pedidos.<br>- Integración de un sistema de transporte y seguimiento con estados de pedido. | - Reducción de pérdidas por mala gestión del inventario.<br>- Incremento en la rotación de productos.<br>- Disminución de quiebres de stock.<br>- Mejora en la retención de proveedores y clientes.<br>- Mayor eficiencia operativa.<br>- Incremento en el valor promedio de pedidos. |
+
+| **Users and Customer** |  | **User Outcomes & Benefits**  |
+|---|---|---|
+| Dueños de destilerías/licorerías: Gestionan almacenes virtuales para controlar insumos, fechas de vencimiento y condiciones de almacenamiento. Necesitan alertas claras y confirmación de recepciones. <br>Proveedores de insumos: Administran su propio stock en la plataforma, visualizan las necesidades de reposición de clientes y gestionan transporte interno con actualizaciones en tiempo real.|  | - Los dueños podrán reducir pérdidas por caducidad mediante alertas automáticas y tener mayor control sobre insumos.<br>- Los proveedores podrán anticipar la demanda, optimizar entregas y mejorar la comunicación con clientes.<br>- Ambas partes aumentarán la confianza y transparencia, fortaleciendo la relación comercial. |
+
+| **Hypotheses** | **What's the most important thing we need to learn first?** | **What's the least amount of work we need to do to learn the next most important thing?** |
+|---|---|---|
+| - Los dueños de destilerías/licorerías podrán reducir significativamente las pérdidas económicas derivadas de insumos vencidos, gracias a un sistema que les envíe alertas automáticas de caducidad y reposición. Esto aumentará la confianza en la plataforma y facilitará su adopción como herramienta de gestión principal.<br>- Los proveedores de insumos mejorarán la eficiencia logística y la fidelización de clientes, al contar con visibilidad en tiempo real del estado de inventarios de las destilerías. Esto les permitirá anticipar la demanda, planificar rutas de transporte de forma más precisa y reducir los tiempos de entrega.<br>- Una plataforma que integre inventarios, pedidos y transporte aportará valor a ambos segmentos, ya que reducirá el tiempo de reposición de insumos, aumentará la transparencia en la cadena de suministro y fortalecerá las relaciones comerciales, generando beneficios económicos para proveedores y destilerías. | - Lo más importante que necesitamos aprender primero es si los dueños de destilerías y licorerías realmente consideran de alto valor las alertas de inventario (stock bajo, insumos por vencer) como funcionalidad principal, al punto de adoptarlas en su gestión diaria. Validar esta percepción es crítico porque si los usuarios no adoptan la función básica de control de stock, el resto de características (panel de proveedores, logística, sensores) pierde sentido. | - Desarrollar un prototipo básico de inventario que muestre registros de insumos y notificaciones simples de vencimiento. Probar si los dueños lo encuentran útil.<br>- Crear un módulo mínimo de pedidos donde los proveedores puedan visualizar solicitudes pendientes. Medir si esto mejora la comunicación y planificación de entregas.<br>- Test rápido con dueños comparando reportes manuales vs automáticos.<br>- MVP enfocado en una funcionalidad clave (alertas de stock) para validar adopción temprana.<br>- Simulación simple de panel de proveedor para medir interés. |
+
 
 ## 1.3. Segmentos objetivo  
 
