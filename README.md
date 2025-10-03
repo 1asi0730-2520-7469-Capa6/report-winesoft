@@ -359,15 +359,19 @@ We believe that [business outcome] will be achieved if [user] attains [benefit] 
 ## 1.3. Segmentos objetivo  
 
 ### Segmento 1: Dueños de destilerías y licorerías  
-- **Descripcion:** Empresarios entre 30 y 55 años, principalmente en zonas urbanas con alta concentración de bares y discotecas.  
-- **Características:**  
-  - Buscan optimizar operaciones y reducir pérdidas por falta de control.  
-  - Pueden manejar varios puntos de venta o producción.  
-  - Preocupación por cumplir regulaciones y evitar sanciones.  
-- **Necesidades principales:**  
-  - Control eficiente de inventarios.  
-  - Gestión de ventas con reportes automáticos.  
-  - Transparencia en la trazabilidad de productos.   
+- **Descripcion:** Este segmento está conformado por pequeños y medianos empresarios dedicados a la producción y/o comercialización de bebidas alcohólicas. Gestionan un almacén virtual para controlar insumos de producción, registrar cantidades, fechas de vencimiento y condiciones de almacenamiento. También reciben alertas de insumos próximos a agotarse o caducar y confirman la recepción de pedidos enviados por proveedores.  
+- **Sexo:** Masculino y femenino
+- **Edades:** Adultos jóvenes (25-40 años) y adultos de mediana edad (41-60 años).
+- **Nivel socioeconómico**: Principalmente clases B y C (media-alta y media).
+- **Necesidades**: Reducir pérdidas económicas por insumos vencidos, asegurar la trazabilidad de inventarios, optimizar la reposición de stock y mantener condiciones de almacenamiento adecuadas. Esto les permite operar con mayor eficiencia, cumplir estándares de calidad y asegurar la continuidad de la producción. En la industria de bebidas del Perú, el 96,3 % de las empresas son microempresas, el 2,3 % pequeñas y solo el 1,4 % medianas o grandes (Sociedad Nacional de Industrias SNI, 2022).
+
+### Segmento 2: Proveedores de insumos
+- **Descripcion:** Empresas o distribuidores medianos que abastecen insumos a destilerías y licorerías, contando además con flota propia para el transporte. Administran su propio almacén en la plataforma, visualizan los inventarios de los clientes, generan pedidos de reposición y gestionan envíos actualizando estados de entrega. También acceden a historiales de movimientos para mejorar la planificación logística. 
+- **Sexo:** Masculino y femenino
+- **Edades:** Adultos jóvenes (25-40 años) y adultos de mediana edad (41-55 años)
+- **Nivel socioeconómico**: Principalmente clases B y C (media-alta y media).
+- **Necesidades**: Mejorar la eficiencia logística, anticipar la demanda de los clientes, planificar entregas de forma más precisa y garantizar que los envíos lleguen en tiempo y forma. Esto contribuye a fidelizar a las destilerías, optimizar recursos de transporte y aumentar la rentabilidad.
+
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
@@ -1566,3 +1570,15 @@ A continuación, se mencionará algunas convenciones:
 #### 5.2.1.7.	Software Deployment Evidence for Sprint Review.
 
 #### 5.2.1.8.	Team Collaboration Insights during Sprint.
+
+
+# Conclusiones
+
+# Bibliografía
+
+- 
+
+- Sociedad Nacional de Industrias (SNI). (2021). *Industria de bebidas alcohólicas: estructura empresarial y perspectivas*. Instituto de Estudios Económicos y Sociales. Recuperado de https://sni.org.pe/wp-content/uploads/2022/01/42-Bebidas-Alcoholicas.pdf
+
+
+# Anexos
