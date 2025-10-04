@@ -994,7 +994,7 @@ El análisis del User Task Matrix evidencia que, para los dueños de licorerías
 </table>
 
 ## 3.2. Impact Mapping
-<img src="./imagenes/Impact map 1.png" alt="Impact map">
+<img src="./imagenes/Impact map.png" alt="Impact map">
 
 ## 3.3. Product Backlog. 
 
