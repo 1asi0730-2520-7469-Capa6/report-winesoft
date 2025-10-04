@@ -824,11 +824,15 @@ El análisis del User Task Matrix evidencia que, para los dueños de licorerías
 
 #### User Journey Mapping - Segmento Dueño de licorería
 
-![journey mapping - Dueño](/imagenes/Journey Mapping 1.png)
+<br>
+  <img src="./imagenes/Journey Mapping 1" alt="Journey Map 1">
+<br>
 
 #### User Journey Mapping - Segmento Entidad reguladora
 
-![journey mapping - Regulador](/imagenes/Journey Mapping 2.png) 
+<br>
+  <img src="./imagenes/Journey Mapping 2" alt="Journey Map 2">
+<br>
 
 ### 2.3.4. Empathy Mapping.
 
