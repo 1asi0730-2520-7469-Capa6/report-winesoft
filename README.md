@@ -406,7 +406,7 @@ We believe that [business outcome] will be achieved if [user] attains [benefit] 
             </tr>
             <tr>
                 <td colspan="2"> Ventaja competitiva <br></br> ¿Qué valor ofrece a los clientes?</td>
-                <td colspan="2">Ofrece un ecosistema digital especializado en la relación proveedor–destilería, integrando inventario, pedidos y transporte en una sola plataforma. Su ventaja radica en la automatización de alertas, control de vencimientos y comunicación directa entre actores del proceso, aportando eficiencia y sostenibilidad a la cadena de suministro.</td>
+                <td colspan="2">Ofrece un ecosistema digital especializado en la relación proveedor–destilería, integrando inventario, pedidos y transporte en una sola plataforma. Su ventaja radica en la automatización de alertas, control de vencimientos. Aportando eficiencia y sostenibilidad a la cadena de suministro.</td>
                 <td colspan="2">Su ventaja está en la facilidad de uso para el punto de venta. Permite a licorerías gestionar transacciones, promociones y existencias sin requerir conocimientos técnicos avanzados. Aporta valor al simplificar la administración diaria del negocio.</td>
                 <td colspan="2">Se diferencia por su capacidad de integración con hardware físico (cajas registradoras, escáneres, lectores de códigos de barras) y por ofrecer análisis avanzados de ventas. El valor para los clientes está en la optimización operativa y la toma de decisiones basada en datos.</td>
                 <td colspan="2">Su fortaleza está en ofrecer trazabilidad total del proceso de producción artesanal, desde la receta hasta la entrega final. El valor radica en ayudar a los productores a mantener estándares de calidad, controlar costos y cumplir regulaciones sanitarias.</td>
@@ -429,14 +429,14 @@ We believe that [business outcome] will be achieved if [user] attains [benefit] 
             <tr>
                 <td rowspan="3" colspan="1">Perfil de Producto</td>
                 <td colspan="2">Producto & Servicio</td>
-                <td colspan="2">Gestión de inventarios, alertas automáticas de vencimiento, control de pedidos, trazabilidad de transporte y comunicación proveedor–cliente en tiempo real.</td>
+                <td colspan="2">Gestión de inventarios, alertas automáticas de vencimiento, control de pedidos, trazabilidad de transporte.</td>
                 <td colspan="2">Gestión de ventas, inventario, reportes financieros, control de empleados y promociones.</td>
                 <td colspan="2">Gestión integral de ventas, inventario, CRM, control de usuarios, integración con múltiples tiendas y herramientas analíticas.</td>
                 <td colspan="2">Gestión de producción, control de materias primas, planificación de lotes, gestión de pedidos y trazabilidad de distribución.</td>
             </tr>
             <tr>
                 <td colspan="2">Precio & Costos  </td>
-                <td colspan="2">Modelo de suscripción mensual escalable por plan (básico, profesional y empresarial), accesible a pymes del sector licorero peruano.</td>
+                <td colspan="2">Modelo de suscripción mensual escalable por plan (básico y premium), accesible a pymes del sector licorero peruano.</td>
                 <td colspan="2">Planes mensuales desde USD 79 con 4 diferentes tipos de niveles ofreciendos diferentes ventajas entre cada nivel de suscripción.</td>
                 <td colspan="2">Suscripción mensual desde USD 59 y de USD 69, teniendo 2 planes de suscripción para diferentes clientes con costos adicionales por complementos y hardware.</td>
                 <td colspan="2">Suscripción mensual de USD 90 por usuario concurrente y con acceso completo a las funcionalidades que ofrecen, la cantidad de usuarios que pueden acceder al sistema al mismo tiempo depende de la cantidad de suscripciones de usuarios simultáneos adquiridas. Costos adicionales por hardware y consumibles.</td>
@@ -489,54 +489,48 @@ We believe that [business outcome] will be achieved if [user] attains [benefit] 
 
 ### 2.1.2 Estrategias y tácticas frente a competidores.
 
-
-#### Estrategia de diferenciación
-WineSoft se diferencia al integrar en una sola plataforma la gestión de inventarios, control de procesos productivos y cumplimiento regulatorio, algo que los POS tradicionales (como Korona POS o Square) y los sistemas de monitoreo de fermentación (como BrewMonitor) no ofrecen de manera conjunta. El valor agregado radica en la trazabilidad digital, la validación con entidades regulatorias y la inclusión de funcionalidades IoT (simuladas en esta versión inicial) para garantizar calidad y seguridad.
+#### Estrategia de diferenciación especializada
+WineSoft se diferenciará al enfocarse exclusivamente en el sector de destilerías y licorerías, integrando no solo el control de inventarios y ventas, sino también la gestión de proveedores y transporte en un solo ecosistema digital.
+A diferencia de competidores más genéricos, WineSoft busca atender las particularidades del sector licorero latinoamericano, donde la informalidad y la falta de digitalización son barreras actuales.
 
 **Tácticas:**
-- Incluir funcionalidades clave como alertas de inventario en tiempo real, registro de limpieza con evidencia y reportes automáticos de cumplimiento normativo.  
-- Desarrollar un módulo de conexión directa con proveedores autorizados para asegurar abastecimiento confiable.  
-- Ofrecer un perfil específico para entidades reguladoras con acceso a datos de trazabilidad y validación.  
-- Diseñar una interfaz intuitiva para usuarios con poca experiencia tecnológica, asegurando una curva de aprendizaje mínima.  
+- Incorporar alertas inteligentes de caducidad y agotamiento de insumos, funcionalidad inexistente en la mayoría de POS tradicionales. 
+- Desarrollar un módulo de trazabilidad de envíos para proveedores, con estados de transporte.
+- Diseñar una interfaz enfocada en la simplicidad para usuarios con bajo nivel de adopción digital, asegurando que dueños de destilerías puedan usarla sin fricciones.
 
----
 
 #### Estrategia de liderazgo en costos
-WineSoft busca ofrecer una solución a un precio accesible en comparación con competidores que requieren grandes inversiones en hardware o licencias. El modelo de negocio se enfoca en suscripciones escalonadas, adaptadas al tamaño del negocio y al nivel de funcionalidades que deseen implementar.
+WineSoft implementará un modelo de suscripción mensual accesible para pequeñas y medianas empresas en el Perú, evitando los altos precios de sistemas internacionales como KORONA POS o BrewMan. El objetivo es ofrecer una solución profesional con costos ajustados al mercado local.
 
 **Tácticas:**
-- Implementar un modelo freemium con registro gratuito y acceso limitado a funciones básicas de inventario.  
-- Ofrecer planes de suscripción accesibles con precios diferenciados para pequeñas licorerías y destilerías medianas.  
-- Evitar costos ocultos al no exigir licencias adicionales de hardware o integraciones externas costosas.  
-- Garantizar soporte técnico básico incluido en el plan estándar para reducir barreras de adopción.  
+- Ofrecer planes de suscripción escalables (básico y premium) con precios adaptados al tamaño del negocio.
+- Evitar cobros adicionales por licencias de hardware o integraciones, que suelen encarecer soluciones extranjeras.
+- Lanzar un plan inicial gratuito con funcionalidades limitadas para incentivar la adopción y posterior migración a planes pagos.
 
----
 
-#### Estrategia de diferenciación enfocada
-WineSoft no busca competir con plataformas genéricas de gestión o POS de gran escala, sino que se especializa en el sector de bebidas alcohólicas. El enfoque está en resolver problemas específicos de trazabilidad, fiscalización y formalización, que no son prioridad para los competidores generalistas.
+### Estrategia de enfoque en nicho
+Mientras competidores como KORONA POS buscan abarcar múltiples sectores minoristas, WineSoft se especializará en un nicho concreto: la gestión integral de destilerías y licorerías en Latinoamérica. Esta focalización permitirá desarrollar un producto más ajustado a las necesidades reales del sector.
 
 **Tácticas:**
-- Ofrecer reportes regulatorios automáticos alineados con normativas como la Ley 28681 y la Ley 29632.  
-- Incluir alertas preventivas de riesgos regulatorios (productos vencidos, lotes sin trazabilidad).  
-- Adecuar la comunicación visual y verbal al sector de licores, transmitiendo formalidad y confianza en la legalidad de las operaciones.  
+- Diseñar módulos personalizados para proveedores de insumos (ej. azúcar, botellas, alcohol, levaduras), no solo para el punto de venta.  
+- Establecer un lenguaje visual y comunicación comercial vinculada al rubro licorero, transmitiendo cercanía con la identidad cultural de las bebidas artesanales y locales.
+- Generar alianzas estratégicas con asociaciones de productores para promover la digitalización del sector.
 
----
 
 #### Estrategias competitivas adicionales
 **Tácticas:**
-- Incorporar un sistema de notificaciones automáticas para stock bajo, vencimiento de productos y recordatorios regulatorios.  
-- Implementar reseñas y validaciones de proveedores para fortalecer la confianza entre negocios y entidades fiscalizadoras.  
-- Desarrollar dashboards comparativos que muestren tendencias de ventas y consumos estacionales.  
+- Implementar un sistema de notificaciones y reportes automáticos, enviando alertas al correo de los usuarios para mantenerlos informados.
+- Incorporar un sistema de reseñas internas entre proveedores y destilerías, para aumentar la confianza y transparencia en la cadena de suministro.
+- Desarrollar dashboards comparativos que muestren pérdidas evitadas, costos ahorrados y eficiencia logística, reforzando el valor de la plataforma.
 
----
 
 #### Estrategia de construcción de marca
-WineSoft apuesta por una identidad sólida vinculada con la formalidad, la innovación tecnológica y la seguridad del consumidor. A diferencia de la competencia que se enfoca en eficiencia operativa, WineSoft comunica un compromiso con la legalidad, la salud pública y la sostenibilidad del sector.
+WineSoft buscará posicionarse como la primera plataforma de gestión digital especializada para destilerías y licorerías en Perú y Latinoamérica, transmitiendo innovación, modernidad y confiabilidad.
 
 **Tácticas:**
-- Diseñar una identidad visual seria pero accesible, con colores asociados a confianza y transparencia.  
-- Usar redes sociales y campañas digitales para resaltar casos de éxito en formalización y trazabilidad.  
-- Posicionarse como un aliado tanto de empresarios como de entidades reguladoras, fomentando comunidad alrededor de la transparencia en el mercado de licores.  
+- Crear una identidad visual profesional con colores vinculados al rubro (ej. tonos vino, ámbar, dorado) y un logo simple, memorable y adaptable a web/móvil.  
+- Usar redes sociales (Instagram, Facebook, LinkedIn) para mostrar casos de éxito y testimonios de destilerías que redujeron pérdidas o mejoraron su logística con WineSoft. 
+- Desarrollar contenido educativo (blogs, webinars, tutoriales) sobre la digitalización del sector licorero, posicionando a WineSoft como referente en innovación.
 
 ## 2.2. Entrevistas.
  ## 2.2.1. Diseño de entrevistas
