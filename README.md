@@ -343,17 +343,17 @@ We believe that [business outcome] will be achieved if [user] attains [benefit] 
 
 #### 1.2.2.4. Lean UX Canvas
 
-| **Business Problem** | **Solutions** | **Business Outcomes**  |
-|---|---|---|
-| Los dueños de destilerías/licorerías enfrentan dificultades para gestionar inventarios de insumos, ya que carecen de un sistema que centralice el control de cantidades, fechas de vencimiento y condiciones de almacenamiento. Esto genera pérdidas económicas por vencimientos, desabastecimiento inesperado y baja eficiencia en la producción <br> Los proveedores de insumos, por su parte, no cuentan con una visión en tiempo real de las necesidades de sus clientes, lo que dificulta planificar envíos, coordinar transporte y mantener relaciones comerciales efectivas. | - Implementación de un sistema de inventario inteligente que permita a los dueños de destilerías registrar insumos, recibir alertas de vencimiento y confirmar recepciones.<br>- Desarrollo de un módulo de proveedores que facilite la visualización de las necesidades de reposición y la gestión de pedidos.<br>- Integración de un sistema de transporte y seguimiento con estados de pedido. | - Reducción de pérdidas por mala gestión del inventario.<br>- Incremento en la rotación de productos.<br>- Disminución de quiebres de stock.<br>- Mejora en la retención de proveedores y clientes.<br>- Mayor eficiencia operativa.<br>- Incremento en el valor promedio de pedidos. |
+| **Business Problem** | **Solutions** | **Business Outcomes**      |
+|-------------------------------|-------------------------------|-------------------------------------|
+| Los dueños de destilerías/licorerías enfrentan dificultades para gestionar inventarios de insumos, ya que carecen de un sistema que centralice el control de cantidades, fechas de vencimiento y condiciones de almacenamiento. <br> Esto genera pérdidas económicas por vencimientos, desabastecimiento inesperado y baja eficiencia en la producción <br> Los proveedores de insumos, por su parte, no cuentan con una visión en tiempo real de las necesidades de sus clientes, lo que dificulta planificar envíos, coordinar transporte y mantener relaciones comerciales efectivas. | - Implementación de un sistema de inventario inteligente que permita a los dueños de destilerías registrar insumos, recibir alertas de vencimiento y confirmar recepciones.<br>- Desarrollo de un módulo de proveedores que facilite la visualización de las necesidades de reposición y la gestión de pedidos.<br>- Integración de un sistema de transporte y seguimiento con estados de pedido. | - Reducción de pérdidas por mala gestión del inventario.<br>- Incremento en la rotación de productos.<br>- Disminución de quiebres de stock.<br>- Mejora en la retención de proveedores y clientes.<br>- Mayor eficiencia operativa.<br>- Incremento en el valor promedio de pedidos. |
 
 | **Users and Customer** |  | **User Outcomes & Benefits**  |
-|---|---|---|
+|--------------------------------|------------------------------|--------------------------------|
 | Dueños de destilerías/licorerías: Gestionan almacenes virtuales para controlar insumos, fechas de vencimiento y condiciones de almacenamiento. Necesitan alertas claras y confirmación de recepciones. <br>Proveedores de insumos: Administran su propio stock en la plataforma, visualizan las necesidades de reposición de clientes y gestionan transporte interno con actualizaciones en tiempo real.|  | - Los dueños podrán reducir pérdidas por caducidad mediante alertas automáticas y tener mayor control sobre insumos.<br>- Los proveedores podrán anticipar la demanda, optimizar entregas y mejorar la comunicación con clientes.<br>- Ambas partes aumentarán la confianza y transparencia, fortaleciendo la relación comercial. |
 
 | **Hypotheses** | **What's the most important thing we need to learn first?** | **What's the least amount of work we need to do to learn the next most important thing?** |
-|---|---|---|
-| - Los dueños de destilerías/licorerías podrán reducir significativamente las pérdidas económicas derivadas de insumos vencidos, gracias a un sistema que les envíe alertas automáticas de caducidad y reposición. Esto aumentará la confianza en la plataforma y facilitará su adopción como herramienta de gestión principal.<br>- Los proveedores de insumos mejorarán la eficiencia logística y la fidelización de clientes, al contar con visibilidad en tiempo real del estado de inventarios de las destilerías. Esto les permitirá anticipar la demanda, planificar rutas de transporte de forma más precisa y reducir los tiempos de entrega.<br>- Una plataforma que integre inventarios, pedidos y transporte aportará valor a ambos segmentos, ya que reducirá el tiempo de reposición de insumos, aumentará la transparencia en la cadena de suministro y fortalecerá las relaciones comerciales, generando beneficios económicos para proveedores y destilerías. | - Lo más importante que necesitamos aprender primero es si los dueños de destilerías y licorerías realmente consideran de alto valor las alertas de inventario (stock bajo, insumos por vencer) como funcionalidad principal, al punto de adoptarlas en su gestión diaria. Validar esta percepción es crítico porque si los usuarios no adoptan la función básica de control de stock, el resto de características (panel de proveedores, logística, sensores) pierde sentido. | - Desarrollar un prototipo básico de inventario que muestre registros de insumos y notificaciones simples de vencimiento. Probar si los dueños lo encuentran útil.<br>- Crear un módulo mínimo de pedidos donde los proveedores puedan visualizar solicitudes pendientes. Medir si esto mejora la comunicación y planificación de entregas.<br>- Test rápido con dueños comparando reportes manuales vs automáticos.<br>- MVP enfocado en una funcionalidad clave (alertas de stock) para validar adopción temprana.<br>- Simulación simple de panel de proveedor para medir interés. |
+|--------------------------------|---------------------------------|----------------------------------------------------------|
+| - Los dueños de destilerías/licorerías podrán reducir significativamente las pérdidas económicas derivadas de insumos vencidos, gracias a un sistema que les envíe alertas automáticas de caducidad y reposición. Esto aumentará la confianza en la plataforma y facilitará su adopción como herramienta de gestión principal.<br>- Los proveedores de insumos mejorarán la eficiencia logística y la fidelización de clientes, al contar con visibilidad en tiempo real del estado de inventarios de las destilerías. Esto les permitirá anticipar la demanda, planificar rutas de transporte de forma más precisa y reducir los tiempos de entrega.<br>- Una plataforma que integre inventarios, pedidos y transporte aportará valor a ambos segmentos, ya que reducirá el tiempo de reposición de insumos, aumentará la transparencia en la cadena de suministro y fortalecerá las relaciones comerciales, generando beneficios económicos para proveedores y destilerías. | - Lo más importante que necesitamos aprender primero es si los dueños de destilerías y licorerías realmente consideran de alto valor las alertas de inventario (stock bajo, insumos por vencer) como funcionalidad principal, al punto de adoptarlas en su gestión diaria. Validar esta percepción es crítico porque si los usuarios no adoptan la función básica de control de stock, el resto de características (panel de proveedores, logística, sensores) pierde sentido. | - Desarrollar un prototipo básico de inventario que muestre registros de insumos y notificaciones simples de vencimiento. Probar si los dueños lo encuentran útil.<br> - Crear un módulo mínimo de pedidos donde los proveedores puedan visualizar solicitudes pendientes. Medir si esto mejora la comunicación y planificación de entregas.<br> - Test rápido con dueños comparando reportes manuales vs automáticos.<br> - MVP enfocado en una funcionalidad clave (alertas de stock) para validar adopción temprana.<br>- Simulación simple de panel de proveedor para medir interés. |
 
 
 ## 1.3. Segmentos objetivo  
@@ -391,61 +391,61 @@ We believe that [business outcome] will be achieved if [user] attains [benefit] 
                 <tr>
                     <td colspan="3">(En la cabecera colocar por cada competidor nombre y logo)</td>
                     <td colspan="2"><img src="/imagenes/Logo.png" style="width: 60px; height: auto;"><br>WineSoft</td>
-                    <td colspan="2"><img src="/imagenes/competidor-1.png" style="width: 60px; height: auto;"><br>BottlePOS</td>
+                    <td colspan="2"><img src="/imagenes/competidor-1.png" style="width: 60px; height: auto;"><br>WinePOS</td>
                     <td colspan="2"><img src="/imagenes/competidor-2.png" style="width: 60px; height: auto;"><br>Korona POS</td>
-                    <td colspan="2"><img src="/imagenes/competidor-3.png" style="width: 60px; height: auto;"><br>WinePOS</td>
+                    <td colspan="2"><img src="/imagenes/competidor-3.png" style="width: 60px; height: auto;"><br>BrewMan</td>
                 </tr>
             </tr>
             <tr>
                 <td rowspan="2" colspan="1">Perfil</td>
                 <td colspan="2">Overview</td>
-                <td colspan="2">Plataforma que digitaliza la operación de licorerías y destilerías mediante gestión de inventarios, monitoreo de condiciones de almacenamiento con IoT simulado, registro de cumplimiento regulatorio.</td>
-                <td colspan="2">POS verticalizado diseñado específicamente para licorerías, con funcionalidades como verificación de edad, control de lotes y workflows de caja adaptados al comercio de alcohol.</td>
-                <td colspan="2">POS flexible para retail con módulos para tiendas de bebidas, licorerías y supermercados, con énfasis en inventario avanzado, analíticas y escalabilidad.</td>
-                <td colspan="2">Soluciones de nicho orientadas a vinos y licores, con gestión de inventario por lote y funciones para tiendas boutique y distribuidores especializados.</td>
+                <td colspan="2">Plataforma web diseñada para conectar a dueños de destilerías y licorerías con sus proveedores de insumos. Digitaliza los procesos de control de inventario, pedidos y transporte, reemplazando los registros manuales por un sistema integrado que mejora la trazabilidad y reduce pérdidas operativas.</td>
+                <td colspan="2">Software de punto de venta especializado en la gestión de bares, vinotecas y licorerías. Ofrece herramientas de facturación, control de ventas, inventario básico y análisis de rentabilidad, con una interfaz adaptada al entorno minorista del sector bebidas.</td>
+                <td colspan="2">Sistema de gestión integral que atiende a tiendas minoristas, incluyendo licorerías, con módulos de ventas, reportes, control de stock y análisis financiero. Aunque su enfoque es más amplio, permite personalización para negocios de bebidas alcohólicas.</td>
+                <td colspan="2">Software de gestión para cervecerías artesanales y productores de bebidas fermentadas. Administra desde la producción y las materias primas hasta la distribución y las ventas, integrando la trazabilidad completa del proceso de elaboración.</td>
             </tr>
             <tr>
                 <td colspan="2"> Ventaja competitiva <br></br> ¿Qué valor ofrece a los clientes?</td>
-                <td colspan="2">Solución en el mercado que ofrece una combinación de gestión operativa con IoT y cumplimiento normativo. Permite a las empresas generar evidencias digitales de limpieza, control ambiental y trazabilidad; y a los reguladores acceder directamente a la información para verificar estándares de seguridad y autenticidad.</td>
-                <td colspan="2">Su fortaleza radica en la simplicidad y en la adaptación al día a día de las licorerías, con funciones específicas para ventas de bebidas alcohólicas.</td>
-                <td colspan="2">Adaptable a cadenas y negocios medianos/grandes, con herramientas de multi-sucursal, promociones y fidelización de clientes.</td>
-                <td colspan="2">Se centra en detalles que importan a tiendas boutique: variantes por añada, fichas técnicas, gestión de catas y fidelización de clientes.</td>
+                <td colspan="2">Ofrece un ecosistema digital especializado en la relación proveedor–destilería, integrando inventario, pedidos y transporte en una sola plataforma. Su ventaja radica en la automatización de alertas, control de vencimientos y comunicación directa entre actores del proceso, aportando eficiencia y sostenibilidad a la cadena de suministro.</td>
+                <td colspan="2">Su ventaja está en la facilidad de uso para el punto de venta. Permite a licorerías gestionar transacciones, promociones y existencias sin requerir conocimientos técnicos avanzados. Aporta valor al simplificar la administración diaria del negocio.</td>
+                <td colspan="2">Se diferencia por su capacidad de integración con hardware físico (cajas registradoras, escáneres, lectores de códigos de barras) y por ofrecer análisis avanzados de ventas. El valor para los clientes está en la optimización operativa y la toma de decisiones basada en datos.</td>
+                <td colspan="2">Su fortaleza está en ofrecer trazabilidad total del proceso de producción artesanal, desde la receta hasta la entrega final. El valor radica en ayudar a los productores a mantener estándares de calidad, controlar costos y cumplir regulaciones sanitarias.</td>
             </tr>
             <tr>
                 <td rowspan="2" colspan="1">Perfil de Marketing</td>
                 <td colspan="2">Mercado Objetivo</td>
-                <td colspan="2">Licorerías, destilerías y distribuidores medianos en Perú y Latinoamérica que necesitan mejorar control operativo, demostrar cumplimiento ante reguladores y reducir riesgos de sanciones.</td>
-                <td colspan="2">Licorerías pequeñas y medianas que buscan control operativo sin preocuparse de regulaciones avanzadas.</td>
-                <td colspan="2">Retailers medianos y grandes, cadenas de licorerías y negocios con planes de expansión.</td>
-                <td colspan="2">Tiendas boutique de vinos, licorerías especializadas, importadores y distribuidores con inventarios por añadas.</td>
+                <td colspan="2">Dueños de destilerías, licorerías y proveedores de insumos en el Perú. Apunta a pequeñas y medianas empresas que buscan digitalizar la gestión de sus almacenes y logística sin requerir una infraestructura compleja.</td>
+                <td colspan="2">Licorerías, bares, vinotecas y tiendas de bebidas en entornos urbanos. Principalmente enfocado en pequeños y medianos comercios minoristas que requieren facturación y control de caja.</td>
+                <td colspan="2">Negocios minoristas en general (tiendas, boutiques, licorerías). Su alcance es global, aunque cuenta con una base de clientes mayormente en EE. UU. y Europa.</td>
+                <td colspan="2">Cervecerías artesanales, destilerías y productores de bebidas fermentadas en el Reino Unido, Europa y América del Norte. Se orienta a empresas productoras más que a puntos de venta.</td>
             </tr>
             <tr>
                 <td colspan="2">Estrategia de Marketing</td>
-                <td colspan="2">Implementación piloto con municipalidades, campañas digitales orientadas a la formalización del sector, alianzas con gremios de productores y demostraciones en ferias tecnológicas y de bebidas.</td>
-                <td colspan="2">Marketing directo en ferias de retail, asociaciones de licorerías y demostraciones presenciales.</td>
-                <td colspan="2">Estrategia B2B mediante marketing digital, ferias de retail, partnerships con proveedores de hardware y pagos.</td>
-                <td colspan="2">Posicionamiento en blogs de vino, eventos de degustación y colaboraciones con sommeliers.</td>
+                <td colspan="2">Enfoque B2B basado en la demostración de eficiencia operativa. Utiliza estrategias de inbound marketing, presencia en ferias del sector licorero, alianzas con proveedores locales y campañas digitales en redes profesionales como LinkedIn.</td>
+                <td colspan="2">Promociones por suscripción mensual y demostraciones gratuitas. Se apoya en redes sociales, reseñas de usuarios y marketing de afiliación para llegar a pequeñas licorerías.</td>
+                <td colspan="2">Marketing de contenido y SEO internacional. Utiliza demostraciones online, tutoriales en video y comparativas de precios para captar clientes del sector minorista global.</td>
+                <td colspan="2">Enfocado en marketing relacional con productores. Participa en ferias cerveceras, asociaciones de cerveceros y eventos técnicos. Utiliza estudios de caso y recomendaciones para fidelizar clientes..</td>
             </tr>
             <tr>
                 <td rowspan="3" colspan="1">Perfil de Producto</td>
                 <td colspan="2">Producto & Servicio</td>
-                <td colspan="2">Es una aplicacion web que permite la gestión de inventario con trazabilidad por lote y tipo de producto, integrando un módulo de IoT simulado para la medición de temperatura, humedad y presión. Además, genera alertas y notificaciones automáticas ante posibles riesgos, y cuenta con un registro de limpieza con evidencias para garantizar el cumplimiento de normativas y buenas prácticas.</td>
-                <td colspan="2">POS con gestión de inventario, reportes fiscales básicos, verificación de edad y control de stock por lote.</td>
-                <td colspan="2">POS con inventario avanzado, analíticas, gestión multi-sucursal, promociones y e-commerce.</td>
-                <td colspan="2">POS con gestión por añada/lote, herramientas para catas y gestión de eventos.</td>
+                <td colspan="2">Gestión de inventarios, alertas automáticas de vencimiento, control de pedidos, trazabilidad de transporte y comunicación proveedor–cliente en tiempo real.</td>
+                <td colspan="2">Gestión de ventas, inventario, reportes financieros, control de empleados y promociones.</td>
+                <td colspan="2">Gestión integral de ventas, inventario, CRM, control de usuarios, integración con múltiples tiendas y herramientas analíticas.</td>
+                <td colspan="2">Gestión de producción, control de materias primas, planificación de lotes, gestión de pedidos y trazabilidad de distribución.</td>
             </tr>
             <tr>
                 <td colspan="2">Precio & Costos  </td>
-                <td colspan="2">Modelo SaaS por suscripción escalonada (planes Básico, Avanzado y Regulator), con tarifas ajustadas al tamaño de la empresa y número de almacenes</td>
-                <td colspan="2">Suscripción mensual con tarifas personalizadas orientadas a pequeñas y medianas empresas.</td>
-                <td colspan="2">Modelo SaaS con suscripción mensual según número de terminales y funcionalidades.</td>
-                <td colspan="2">Suscripciones mensuales o licencias con costos adicionales de soporte o implementación.</td>
+                <td colspan="2">Modelo de suscripción mensual escalable por plan (básico, profesional y empresarial), accesible a pymes del sector licorero peruano.</td>
+                <td colspan="2">Planes mensuales desde USD 79 con 4 diferentes tipos de niveles ofreciendos diferentes ventajas entre cada nivel de suscripción.</td>
+                <td colspan="2">Suscripción mensual desde USD 59 y de USD 69, teniendo 2 planes de suscripción para diferentes clientes con costos adicionales por complementos y hardware.</td>
+                <td colspan="2">Suscripción mensual de USD 90 por usuario concurrente y con acceso completo a las funcionalidades que ofrecen, la cantidad de usuarios que pueden acceder al sistema al mismo tiempo depende de la cantidad de suscripciones de usuarios simultáneos adquiridas. Costos adicionales por hardware y consumibles.</td>
             </tr>
             <tr>
                 <td colspan="2">Canales de distribucion (web y/o Movil)</td>
                 <td colspan="2">Aplicación web</td>
                 <td colspan="2">Aplicación web y aplicación móvil</td>
-                <td colspan="2">Aplicación web y aplicación móvil</td>
+                <td colspan="2">Aplicación web</td>
                 <td colspan="2">Aplicación web</td>
             </tr>
             <tr>
@@ -456,34 +456,36 @@ We believe that [business outcome] will be achieved if [user] attains [benefit] 
             </tr>
             <tr>
                 <td colspan="2">Fortalezas</td>
-                <td colspan="2">Diferenciación clara por IoT y cumplimiento regulatorio, interfaz pensada para usuarios no técnicos y conexión con reguladores.</td>
-                <td colspan="2">Funciones específicas del rubro; facilidad de uso.</td>
-                <td colspan="2">Escalabilidad, reportes avanzados, flexibilidad en integraciones.</td>
-                <td colspan="2">Funcionalidad muy específica para vinos y coleccionistas.</td>
+                <td colspan="2">Integración de inventario, pedidos y transporte; diseño especializado para destilerías; enfoque en Perú y Latinoamérica.</td>
+                <td colspan="2">Simplicidad y experiencia en el mercado minorista.</td>
+                <td colspan="2">Amplias integraciones y soporte global.</td>
+                <td colspan="2">Enfoque completo en la gestión productiva artesanal.</td>
             </tr>
             <tr>
                 <td colspan="2">Debilidades</td>
-                <td colspan="2">Startup nueva con baja visibilidad, curva de aprendizaje para usuarios tradicionales, necesidad de validación inicial con entidades públicas</td>
-                <td colspan="2">No ofrece trazabilidad, IoT ni soporte regulatorio.</td>
-                <td colspan="2">Generalista; no ofrece compliance ni trazabilidad regulatoria.</td>
-                <td colspan="2">Escalabilidad y soporte limitados, enfoque demasiado nicho.</td>
+                <td colspan="2">Requiere adopción digital por parte de usuarios tradicionales; limitada presencia internacional inicial.</td>
+                <td colspan="2">No gestiona transporte ni proveedores.</td>
+                <td colspan="2">Enfoque genérico, sin especialización en bebidas.</td>
+                <td colspan="2">No cubre el punto de venta ni la logística externa.</td>
             </tr>
             <tr>
                 <td colspan="2">Oportunidades</td>
-                <td colspan="2">Creciente presión normativa en bebidas alcohólicas, digitalización en LATAM, programas de apoyo a la formalización empresarial.</td>
-                <td colspan="2">Crecimiento de la digitalización en negocios pequeños.</td>
-                <td colspan="2">Expansión en LATAM con retailers medianos y grandes.</td>
-                <td colspan="2">Expansión a distribuidores con servicios de autenticidad digital.</td>
+                <td colspan="2">Crecimiento del sector artesanal y digitalización de procesos en Latinoamérica.</td>
+                <td colspan="2">Expansión hacia mercados emergentes.</td>
+                <td colspan="2">Creciente demanda de análisis de datos en retail.</td>
+                <td colspan="2">Expansión hacia destilerías latinoamericanas.</td>
             </tr>
             <tr>
                 <td colspan="2">Amenazas</td>
-                <td colspan="2">POS consolidados con fuerte presencia de mercado, resistencia cultural a la adopción digital, cambios regulatorios que requieran ajustes rápidos.</td>
-                <td colspan="2">Competencia de POS generalistas y bajo poder de diferenciación a largo plazo</td>
-                <td colspan="2">Competencia de soluciones verticalizadas más económicas.</td>
-                <td colspan="2">Soluciones locales más baratas o más amplias en alcance.</td>
+                <td colspan="2">Competencia de soluciones POS internacionales y resistencia al cambio tecnológico.</td>
+                <td colspan="2">Saturación de software POS similares.</td>
+                <td colspan="2">Competidores más económicos y especializados.</td>
+                <td colspan="2">Aparición de software híbridos que integren producción y ventas.</td>
             </tr>
         </tbody>
     </table>
+
+
 
 ### 2.1.2 Estrategias y tácticas frente a competidores.
 
