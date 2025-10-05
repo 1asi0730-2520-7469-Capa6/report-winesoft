@@ -528,8 +528,8 @@ Mientras competidores como KORONA POS buscan abarcar múltiples sectores minoris
 WineSoft buscará posicionarse como la primera plataforma de gestión digital especializada para destilerías y licorerías en Perú y Latinoamérica, transmitiendo innovación, modernidad y confiabilidad.
 
 **Tácticas:**
-- Crear una identidad visual profesional con colores vinculados al rubro (ej. tonos vino, ámbar, dorado) y un logo simple, memorable y adaptable a web/móvil.  
-- Usar redes sociales (Instagram, Facebook, LinkedIn) para mostrar casos de éxito y testimonios de destilerías que redujeron pérdidas o mejoraron su logística con WineSoft. 
+- Crear una identidad visual profesional con colores vinculados al rubro como el vino y un logo simple, memorable y adaptable a web/móvil.  
+- Usar redes sociales Instagram, Facebook, LinkedIn para mostrar casos de éxito y testimonios de destilerías que redujeron pérdidas o mejoraron su logística con WineSoft. 
 - Desarrollar contenido educativo (blogs, webinars, tutoriales) sobre la digitalización del sector licorero, posicionando a WineSoft como referente en innovación.
 
 ## 2.2. Entrevistas.
@@ -537,70 +537,65 @@ WineSoft buscará posicionarse como la primera plataforma de gestión digital es
 Para el desarrollo de las entrevistas de nuestros segmentos objetivos, se pensaron en las siguientes preguntas:
  ### Preguntas utilizadas para las entrevistas según el segmento objetivo:
  
-- **Dueño de licorerias**
+### **Dueño de licorerias**
 
-  - 1. ¿Qué tipo de bebidas representan la mayor parte de sus ventas?
+**Preguntas Demográficas:**
 
-  - 2. ¿Cuáles son los productos que más rápido se agotan y cuáles suelen quedarse en stock?
+* ¿Cuál es su nombre?
+* ¿Qué edad tiene?
+* ¿Cuál es su género?
+* ¿Cuál es su distrito/provincia de residencia?
+* ¿Cuál es su ocupación?
 
-  - 3. ¿Ha detectado cambios recientes en las preferencias de sus clientes?
+**Preguntas principales:**
+* ¿Qué tipo de bebidas representan la mayor parte de sus ventas?
+* ¿Cuáles son los productos que más rápido se agotan y cuáles suelen quedarse en stock?
+* ¿Cómo decide qué nuevos productos incorporar a su catálogo?
+* ¿Qué dificultades encuentra al momento de controlar inventario o pedidos?
+* ¿Cuánto tiempo le toma normalmente reponer stock y coordinar con proveedores?
+* ¿Cómo maneja el registro de ventas: manual, hojas de cálculo o algún sistema digital?
+* ¿Le interesaría contar con un sistema que le permita tener control en tiempo real del stock?
+* ¿Le ayudaría un sistema que lo conecte directamente con proveedores autorizados para simplificar la reposición?
+* ¿Cree que un software como WineSoft podría ahorrarle tiempo administrativo para dedicarse más a sus clientes?
 
-  - 4. ¿Cómo decide qué nuevos productos incorporar a su catálogo?
+**Preguntas complementarias:**
 
-  - **Sobre la gestión del negocio**
+* ¿Qué tan valioso sería para usted recibir reportes automáticos de los productos más vendidos y menos rotativos?
+* ¿Qué tanto le impacta la informalidad o competencia desleal en precios y productos adulterados?
+* ¿Ha detectado cambios recientes en las preferencias de sus clientes?
 
-  - 5. ¿Qué dificultades encuentra al momento de controlar inventario o pedidos?
+### **Proveedores del sector licorero**
 
-  - 6. ¿Cuánto tiempo le toma normalmente reponer stock y coordinar con proveedores?
+**Preguntas Demográficas:**
 
-  - 7. ¿Cómo maneja el registro de ventas: manual, hojas de cálculo o algún sistema digital?
+* ¿Cuál es su nombre?
+* ¿Qué edad tiene?
+* ¿Cuál es su género?
+* ¿Cuál es su distrito/provincia de residencia?
+* ¿Por qué decidió trabajar en el rubro de proveedores para destilerías o licorerías?
 
-  - 8. ¿Qué tanto le impacta la informalidad o competencia desleal en precios y productos adulterados?
+**Preguntas principales:**
 
-  - **Preguntas sobre el beneficio de usar WineSoft**
+* ¿Cuáles son los principales productos o servicios que ofrece a las destilerías?
+* ¿Cómo gestionan la trazabilidad de sus productos desde el origen hasta la entrega?
+* ¿Con qué frecuencia reciben pedidos o demandas de sus productos por parte de las licorerías?
+* ¿Cuáles considera que son los mayores retos logísticos que enfrentan actualmente?
+* ¿Qué nivel de digitalización tiene su gestión de inventario y pedidos?
+* ¿Cómo evalúan la importancia de cumplir con las normativas sanitarias en su rubro?
+* ¿Cuál es su percepción sobre la adopción de herramientas digitales dentro del rubro proveedor-destilería?
+* ¿Qué beneficios o barreras identifica en el uso de plataformas tecnológicas para la gestión de pedidos y trazabilidad?
+* ¿Cómo perciben el impacto que puede tener un fallo o retraso en su cadena de suministros?
+* ¿Estaría interesado en utilizar una plataforma digital que centralice los pedidos, gestione la trazabilidad de los productos y optimice la comunicación con las licorerías?
+* ¿Qué tan dispuesto estaría a compartir información sobre la calidad o procedencia de sus insumos con sus clientes (licorerías o destilerías)?
+* ¿Estaría interesado en utilizar una plataforma digital que centralice los pedidos, gestione la trazabilidad de los productos y optimice la comunicación con las licorerías?
 
-  - 9. ¿Le interesaría contar con un sistema que le permita tener control en tiempo real del stock y las ventas?
+**Preguntas complementarias:**
 
-  - 10. ¿Qué tan valioso sería para usted recibir reportes automáticos de los productos más vendidos y menos rotativos?
-
-  - 11. ¿Le ayudaría un sistema que lo conecte directamente con proveedores autorizados para simplificar la reposición?
-
-  - 12. ¿Cree que un software como WineSoft podría ahorrarle tiempo administrativo para dedicarse más a sus clientes?
-
-- **Entidad regulatoria**
-
-  - 1. ¿Cuáles son las principales normas que regulan el funcionamiento de licorerías en cuanto a horarios, licencias y venta responsable?
-
-  - 2. ¿Qué dificultades enfrentan al supervisar el cumplimiento de estas normas en pequeños negocios?
-
-  - 3. ¿Cómo se asegura actualmente la trazabilidad y autenticidad de las bebidas alcohólicas en el mercado?
-
-  - 4. ¿Cuáles son las sanciones más comunes que aplican a las licorerías que incumplen las normas?
-
-  - **Sobre retos del sector**
-
-  - 5. ¿Qué tan grande es el problema de la informalidad y el contrabando en este rubro?
-
-  - 6. ¿Existen datos sobre cuántas licorerías están formalizadas vs. cuántas operan sin licencia?
-
-  - 7. ¿Qué impacto tiene la venta de alcohol sin control en la seguridad ciudadana y la salud pública?
-
-  - **Sobre relación con dueños de licorerías**
-  - 8. ¿Qué facilidades ofrece la entidad para que los dueños se formalicen de manera rápida y sencilla?
-
-  - 9. ¿Se cuenta con programas de capacitación o campañas para orientar a los negocios sobre las regulaciones vigentes?
-
-  - 10. ¿Cómo manejan las quejas o reclamos de dueños de licorerías respecto a las fiscalizaciones?
-
-  - **Sobre futuro y digitalización con WineSoft**
-
-  - 11. ¿Consideran que la digitalización de la gestión de licorerías podría facilitar la fiscalización y el cumplimiento normativo?
-
-  - 12. ¿Un sistema como WineSoft, que centralice inventarios, ventas y relación con proveedores autorizados, podría servir de apoyo para reducir la informalidad?
-
-  - 13. ¿La entidad estaría dispuesta a integrarse o colaborar con plataformas tecnológicas para mejorar la trazabilidad y control del mercado de alcohol?
-
-  - 14. ¿Qué expectativas tiene la entidad sobre el uso de tecnología en los próximos 5 años para este sector?
+* ¿Qué tipo de valor agregado buscan transmitir en su relación con los socios comerciales o licorerías?
+* ¿Con qué frecuencia reciben solicitudes de personalización de productos por parte de las licorerías o clientes?
+* ¿Qué tipo de información considera más valiosa sobre sus producto?
+* ¿Qué dificultades enfrentan al realizar servicios de transporte o entrega en zonas alejadas?
+* ¿Qué mejoras considera necesarias en la relación entre proveedores y licorerías?
 
  ##  2.2.2. Registro de entrevistas
 A continuación, se presentará un resumen de cada entrevista. Además, por cada entrevista se colocará una captura de pantalla de evidencia y el intervalo de tiempo de duración que tienen en el video.
