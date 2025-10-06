@@ -778,39 +778,41 @@ Con el propósito de garantizar una comprensión profunda y precisa de los segme
     <img src="./imagenes/User Persona 2 Actualizado.png" alt="UserPersona_2">
     <br>
 
-### 2.3.2. User Task Matrix.
-<div style='text-align: justify;'>
+### 2.3.2. User Task Matrix
 
+El **User Task Matrix** permite identificar y priorizar las tareas que realizan los distintos segmentos de usuarios para alcanzar sus objetivos.  
+En este caso, la matriz se centra en dos segmentos principales: **dueños de licorerías/destilerías** y **proveedores**.  
 
-El **User Task Matrix** permite identificar y priorizar las tareas que realizan los distintos segmentos de usuarios para alcanzar sus objetivos. En este caso, la matriz se centra en dos segmentos principales: **dueños de licorerías/destilerías** y **entidades regulatorias/inspectores**.  
-
-La matriz presenta 15 tareas relevantes para ambos segmentos, clasificadas según su frecuencia (qué tan seguido se realizan) y severidad (qué tan críticas son). Esto permite comprender mejor las necesidades y prioridades de cada grupo, además de identificar similitudes y diferencias en sus actividades.  
+La matriz presenta 15 tareas relevantes para ambos segmentos, clasificadas según su **frecuencia** (qué tan seguido se realizan) y **severidad** (qué tan críticas son).  
+Esto permite comprender mejor las necesidades y prioridades de cada grupo, además de identificar similitudes y diferencias en sus actividades.
 
 ---
 
-| **Task** | **Dueños de licorerías (Frecuencia - Severidad)** | **Entidades regulatorias (Frecuencia - Severidad)** |
-|----------|---------------------------------------------------|------------------------------------------------------|
+| **Tarea** | **Dueños de licorerías (Frecuencia - Severidad)** | **Proveedores (Frecuencia - Severidad)** |
+|------------|---------------------------------------------------|------------------------------------------|
 | Controlar inventario de productos | Alta - Alta | Media - Alta |
 | Recibir alertas de stock bajo o vencimiento | Alta - Alta | Alta - Alta |
 | Registrar ventas y movimientos | Alta - Alta | Media - Alta |
 | Garantizar trazabilidad de productos | Alta - Alta | Alta - Alta |
-| Cumplir con normativas municipales y sanitarias | Alta - Alta | Alta - Alta |
+| Cumplir con acuerdos comerciales y tiempos de entrega | Alta - Alta | Alta - Alta |
 | Generar reportes de ventas e inventario | Media - Alta | Alta - Alta |
-| Conectarse con proveedores autorizados | Alta - Alta | Media - Alta |
+| Conectarse con distribuidores y socios comerciales | Alta - Alta | Alta - Alta |
 | Detectar productos adulterados o irregulares | Media - Alta | Alta - Alta |
-| Validar documentación para inspecciones | Media - Alta | Alta - Alta |
+| Validar documentación de envío y recepción | Media - Alta | Alta - Alta |
 | Revisar historial de compras y rotación de productos | Media - Alta | Media - Alta |
-| Acceder a datos en tiempo real para auditorías | Media - Alta | Alta - Alta |
-| Evaluar riesgos de incumplimiento regulatorio | Media - Alta | Alta - Alta |
+| Acceder a datos en tiempo real sobre demanda y pedidos | Media - Alta | Alta - Alta |
+| Evaluar desempeño logístico y tiempos de respuesta | Media - Alta | Alta - Alta |
 | Implementar mejoras en gestión de stock | Media - Alta | Media - Alta |
-| Facilitar procesos de formalización/licencias | Media - Alta | Alta - Alta |
+| Facilitar procesos de facturación y pagos | Media - Alta | Alta - Alta |
 | Comparar desempeño con estándares de mercado | Baja - Alta | Media - Alta |
 
+---
 
-<div align="justify">
-El análisis del User Task Matrix evidencia que, para los dueños de licorerías y destilerías, las tareas más frecuentes y críticas giran en torno al control de inventario, la recepción de alertas sobre stock bajo o vencimiento, el registro de ventas con trazabilidad y la conexión con proveedores autorizados, lo que refleja la necesidad de eficiencia operativa y reducción de riesgos de desabastecimiento. En el caso de las entidades regulatorias, sus prioridades se concentran en asegurar el cumplimiento normativo, acceder a datos en tiempo real para auditorías, generar reportes confiables y detectar productos adulterados o sin la documentación adecuada, aspectos que responden a la necesidad de transparencia y control en el sector. Ambos segmentos coinciden en la importancia de contar con herramientas que garanticen la trazabilidad, emitan alertas preventivas y faciliten el cumplimiento de normativas, ya que estos elementos resultan esenciales para asegurar la calidad de los productos, proteger la salud pública y fomentar la formalización de los negocios de licores.
-</div>
+El análisis del **User Task Matrix** evidencia que, para los **dueños de licorerías y destilerías**, las tareas más frecuentes y críticas giran en torno al **control de inventario**, la **recepción de alertas sobre stock bajo o vencimiento**, el **registro de ventas con trazabilidad** y la **conexión con distribuidores o socios comerciales**, lo que refleja la necesidad de eficiencia operativa y continuidad en el abastecimiento.  
 
+En el caso de los **proveedores**, sus prioridades se centran en **cumplir con los acuerdos comerciales y tiempos de entrega**, **acceder a datos en tiempo real sobre la demanda**, **generar reportes de desempeño logístico** y **validar la documentación de envío y recepción**, lo que responde a la necesidad de mantener la calidad del servicio, optimizar la cadena de suministro y fortalecer la relación con los puntos de venta.  
+
+Ambos segmentos coinciden en la importancia de contar con herramientas que **garanticen la trazabilidad**, **emitan alertas preventivas** y **faciliten la comunicación directa**, ya que estos elementos resultan esenciales para **asegurar la eficiencia operativa**, **reducir pérdidas** y **fomentar relaciones comerciales sostenibles** dentro del sector de bebidas alcohólicas.
 ### 2.3.3. User Journey Mapping.
 
 #### User Journey Mapping - Segmento Dueño de licorería
