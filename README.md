@@ -856,135 +856,27 @@ Ambos segmentos coinciden en la importancia de contar con herramientas que **gar
 
 # Capítulo III: Requirements Specification 
 ## 3.1. User Stories. 
-<table>
-  <tr>
-    <td align="center"><b>User Story ID</b></td>
-    <td align="center"><b>Título</b></td>
-    <td align="center"><b>Descripción</b></td>
-    <td align="center"><b>Criterios de Aceptación</b></td>
-    <td align="center"><b>Relacionado con (Epic ID)</b></td>
-  </tr>
-  
-  <!-- Consumidor -->
-  <tr>
-    <td align="center">US01</td>
-    <td align="justify">Búsqueda de licores</td>
-    <td align="justify">Como consumidor, quiero buscar un licor en un catálogo digital, para comparar marcas y precios antes de comprar.</td>
-    <td align="justify">El sistema muestra resultados coincidentes con el nombre o categoría buscada.</td>
-    <td align="center">EP01</td>
-  </tr>
-  <tr>
-    <td align="center">US02</td>
-    <td align="justify">Información básica del producto</td>
-    <td align="justify">Como consumidor, quiero ver información básica de un licor (marca, origen, graduación alcohólica y precio), para tomar una mejor decisión de compra.</td>
-    <td align="justify">La app muestra marca, origen, precio y graduación alcohólica en la ficha del producto.</td>
-    <td align="center">EP01</td>
-  </tr>
-  <tr>
-    <td align="center">US03</td>
-    <td align="justify">Verificación del producto</td>
-    <td align="justify">Como consumidor, quiero ver si el producto está verificado, para sentirme seguro al comprar.</td>
-    <td align="justify">El sistema muestra un sello o etiqueta digital de verificación en los productos aprobados.</td>
-    <td align="center">EP02</td>
-  </tr>
-  <tr>
-    <td align="center">US04</td>
-    <td align="justify">Recomendaciones de productos</td>
-    <td align="justify">Como consumidor, quiero recibir recomendaciones básicas, para descubrir nuevos productos.</td>
-    <td align="justify">El sistema sugiere productos relacionados según mis búsquedas o compras anteriores.</td>
-    <td align="center">EP03</td>
-  </tr>
-  <tr>
-    <td align="center">US05</td>
-    <td align="justify">Guardar productos favoritos</td>
-    <td align="justify">Como consumidor, quiero guardar mis productos favoritos en la app, para encontrarlos rápidamente en futuras compras.</td>
-    <td align="justify">El sistema permite marcar y listar los productos favoritos del usuario.</td>
-    <td align="center">EP03</td>
-  </tr>
-  <tr>
-    <td align="center">US06</td>
-    <td align="justify">Alertas de retiro de lotes</td>
-    <td align="justify">Como consumidor, quiero recibir alertas si un lote de licor ha sido retirado del mercado, para evitar consumir un producto riesgoso.</td>
-    <td align="justify">El sistema notifica al usuario cuando un producto que compró o marcó como favorito está en un lote retirado.</td>
-    <td align="center">EP04</td>
-  </tr>
-  <tr>
-    <td align="center">US07</td>
-    <td align="justify">Reportar productos sospechosos</td>
-    <td align="justify">Como consumidor, quiero reportar un producto sospechoso desde la app, para alertar a otros y a las autoridades.</td>
-    <td align="justify">El sistema permite enviar un reporte con foto, descripción y ubicación.</td>
-    <td align="center">EP04</td>
-  </tr>
-  <tr>
-    <td align="center">US08</td>
-    <td align="justify">Compartir reseñas</td>
-    <td align="justify">Como consumidor, quiero compartir reseñas sobre un producto, para ayudar a otros usuarios a elegir mejor.</td>
-    <td align="justify">Los usuarios pueden dejar comentarios y calificaciones visibles para otros.</td>
-    <td align="center">EP03</td>
-  </tr>
-  
-  <!-- Tienda -->
-  <tr>
-    <td align="center">US09</td>
-    <td align="justify">Registro de inventario</td>
-    <td align="justify">Como tienda, quiero subir productos al catálogo, para que los usuarios los vean.</td>
-    <td align="justify">El sistema permite añadir producto con nombre, precio e imagen.</td>
-    <td align="center">EP05</td>
-  </tr>
-  <tr>
-    <td align="center">US10</td>
-    <td align="justify">Edición de inventario</td>
-    <td align="justify">Como tienda, quiero editar la información de un licor, para mantenerla actualizada.</td>
-    <td align="justify">El sistema permite editar precio, stock o descripción.</td>
-    <td align="center">EP05</td>
-  </tr>
-  <tr>
-    <td align="center">US11</td>
-    <td align="justify">Análisis de productos consultados</td>
-    <td align="justify">Como tienda, quiero ver qué productos se consultan más, para entender qué buscan los usuarios.</td>
-    <td align="justify">El sistema genera un listado con los productos más consultados en un período.</td>
-    <td align="center">EP05</td>
-  </tr>
-  
-  <!-- Entidad regulatoria -->
-  <tr>
-    <td align="center">US12</td>
-    <td align="justify">Recepción de reportes</td>
-    <td align="justify">Como entidad regulatoria, quiero recibir reportes de usuarios, para supervisar posibles problemas.</td>
-    <td align="justify">Los reportes se muestran en un panel de control con detalles enviados por usuarios.</td>
-    <td align="center">EP06</td>
-  </tr>
-  <tr>
-    <td align="center">US13</td>
-    <td align="justify">Consultas de productos verificados</td>
-    <td align="justify">Como entidad regulatoria, quiero consultar los productos verificados en la plataforma, para facilitar mi trabajo de control.</td>
-    <td align="justify">El sistema muestra una lista de productos verificados con datos de lote y proveedor.</td>
-    <td align="center">EP06</td>
-  </tr>
-  <tr>
-    <td align="center">US14</td>
-    <td align="justify">Reportes estadísticos</td>
-    <td align="justify">Como entidad regulatoria, quiero generar reportes estadísticos de consumo y adulteración, para tomar decisiones de control más efectivas.</td>
-    <td align="justify">El sistema exporta reportes en PDF o Excel con métricas clave.</td>
-    <td align="center">EP07</td>
-  </tr>
-  <tr>
-    <td align="center">US15</td>
-    <td align="justify">Aprobación de distribuidores</td>
-    <td align="justify">Como entidad regulatoria, quiero aprobar o rechazar registros de nuevos distribuidores, para asegurar que solo operen los autorizados.</td>
-    <td align="justify">El sistema muestra solicitudes pendientes y permite aprobar/rechazar con observaciones.</td>
-    <td align="center">EP07</td>
-  </tr>
-  
-  <!-- Distribuidor -->
-  <tr>
-    <td align="center">US16</td>
-    <td align="justify">Seguimiento de lotes</td>
-    <td align="justify">Como distribuidor, quiero dar seguimiento al lote durante el transporte, para asegurar que llega íntegro al destino.</td>
-    <td align="justify">El sistema muestra la ubicación y estado del lote en tiempo real.</td>
-    <td align="center">EP08</td>
-  </tr>
-</table>
+
+| **Epic / Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relacionado con (Epic ID)** |
+|----------------------|-------------|------------------|------------------------------|-------------------------------|
+| **EP01** | Gestión de Inventario y Almacén Virtual | Como dueño de destilería o licorería, quiero registrar, visualizar y controlar mis insumos en un almacén digital, para mantener actualizado mi inventario y evitar pérdidas por vencimiento o mal control. | — | — |
+| **US01** | Registrar nuevo insumo | Como usuario, quiero añadir nuevos insumos con sus características (nombre, cantidad, unidad y fecha de vencimiento) para mantener actualizado mi inventario. | 1. **Dado** que el usuario accede al módulo “Inventario” **Cuando** completa los datos de un nuevo insumo **Entonces** el sistema lo guarda correctamente.<br>2. **Dado** que el registro es exitoso **Cuando** se actualiza la lista **Entonces** el nuevo insumo aparece en la tabla general.<br>3. **Dado** que un campo obligatorio está vacío **Cuando** intenta guardar **Entonces** el sistema muestra un mensaje de error. | EP01 |
+| **US02** | Editar stock existente | Como usuario, quiero actualizar la cantidad o detalles de un insumo para reflejar los cambios en el inventario real. | 1. **Dado** que existe un insumo registrado **Cuando** se selecciona “Editar” y se modifican los valores **Entonces** el sistema guarda los cambios.<br>2. **Dado** que el cambio se realiza correctamente **Cuando** se recarga la vista **Entonces** la nueva cantidad se refleja.<br>3. **Dado** que el usuario intenta editar un insumo inexistente **Cuando** realiza la acción **Entonces** el sistema notifica que no se encontró el registro. | EP01 |
+| **EP02** | Gestión de Proveedores y Pedidos | Como proveedor, quiero visualizar las necesidades de reposición y generar envíos a las destilerías o licorerías, para mantener una cadena de suministro eficiente y trazable. | — | — |
+| **US03** | Crear pedido de envío | Como proveedor, quiero generar pedidos según las alertas de mis clientes para organizar el abastecimiento de insumos. | 1. **Dado** una alerta de reposición **Cuando** el proveedor crea un pedido **Entonces** se registra en el sistema.<br>2. **Dado** un pedido generado **Cuando** se asocia al cliente correspondiente **Entonces** ambos usuarios pueden visualizarlo.<br>3. **Dado** que faltan datos del pedido **Cuando** se intenta guardar **Entonces** el sistema alerta que el formulario está incompleto. | EP02 |
+| **US04** | Actualizar estado del transporte | Como proveedor, quiero actualizar el estado del envío (pendiente, en camino, entregado) para mantener la trazabilidad de los pedidos. | 1. **Dado** un pedido en curso **Cuando** se actualiza el estado **Entonces** el sistema registra el cambio y lo muestra en tiempo real.<br>2. **Dado** que el pedido fue entregado **Cuando** se marca como “Entregado” **Entonces** el cliente recibe notificación inmediata.<br>3. **Dado** un intento de cambio inválido (por ejemplo, revertir un envío entregado) **Cuando** se ejecuta **Entonces** el sistema rechaza la acción. | EP02 |
+| **EP03** | Alertas Inteligentes y Notificaciones | Como usuario de WineSoft, quiero recibir alertas automáticas sobre productos próximos a vencer o con bajo stock, para prevenir pérdidas y mantener mi producción continua. | — | — |
+| **US05** | Alertas de vencimiento | Como usuario, quiero recibir alertas cuando un producto esté próximo a vencer para evitar pérdidas. | 1. **Dado** que un insumo tiene menos de 15 días de vigencia **Cuando** se cumple esa condición **Entonces** el sistema genera una alerta automática.<br>2. **Dado** que el usuario recibe la alerta **Cuando** abre la notificación **Entonces** visualiza el insumo afectado.<br>3. **Dado** que el insumo fue actualizado **Cuando** se renueva la fecha **Entonces** la alerta desaparece. | EP03 |
+| **US06** | Alertas de stock bajo | Como usuario, quiero recibir notificaciones cuando un insumo esté bajo el umbral mínimo definido. | 1. **Dado** que el stock baja del valor mínimo **Cuando** se registra una actualización **Entonces** se genera una alerta visual.<br>2. **Dado** la alerta activa **Cuando** el usuario la revisa **Entonces** se marca como leída.<br>3. **Dado** que el stock se repone **Cuando** el valor supera el umbral **Entonces** el sistema elimina la alerta. | EP03 |
+| **EP04** | Dashboard de Control y Reportes | Como dueño de destilería o proveedor, quiero visualizar reportes e indicadores gráficos en un panel de control, para analizar mis operaciones y tomar mejores decisiones. | — | — |
+| **US07** | Visualizar gráficos de stock | Como usuario, quiero ver gráficos actualizados sobre mi inventario para identificar tendencias. | 1. **Dado** que existen registros de inventario **Cuando** se abre el dashboard **Entonces** se muestran gráficos actualizados.<br>2. **Dado** que el usuario cambia el filtro temporal **Cuando** selecciona un rango **Entonces** los datos se actualizan dinámicamente.<br>3. **Dado** que no hay registros **Cuando** se carga el panel **Entonces** se muestra un mensaje de “sin datos”. | EP04 |
+| **EP05** | Landing Page Informativa | Como visitante, quiero acceder a una landing page clara y atractiva, para entender de qué trata WineSoft, conocer sus beneficios y comunicarme si estoy interesado. | — | — |
+| **US08** | Explorar información de WineSoft | Como visitante, quiero conocer los servicios y beneficios de WineSoft para decidir si registrarme. | 1. **Dado** que el visitante accede al sitio **Cuando** navega por “About” o “Services” **Entonces** visualiza el contenido informativo.<br>2. **Dado** que el visitante quiere más información **Cuando** hace clic en “Get Started” **Entonces** se le redirige al formulario de contacto. | EP05 |
+| **US09** | Enviar formulario de contacto | Como visitante, quiero enviar mis datos para que el equipo de WineSoft me contacte. | 1. **Dado** que el formulario está completo **Cuando** el visitante envía los datos **Entonces** el sistema guarda el mensaje y muestra confirmación.<br>2. **Dado** que hay un error de conexión **Cuando** se intenta enviar **Entonces** el sistema muestra un mensaje de reintento. | EP05 |
+| **EP06** | API RESTful e Integraciones | Como desarrollador, quiero acceder a una API RESTful segura para sincronizar datos de inventario, pedidos y usuarios, permitiendo integraciones con sistemas externos o móviles. | — | — |
+| **US010** | Obtener lista de inventario (GET /inventory) | Como desarrollador, quiero acceder a la lista de insumos registrados mediante la API para integrarla con otros sistemas. | 1. **Dado** que tengo credenciales válidas **Cuando** hago un GET a /inventory **Entonces** recibo un JSON con los datos.<br>2. **Dado** que no tengo autorización **Cuando** intento la solicitud **Entonces** el sistema devuelve error 401. | EP06 |
+| **US011** | Crear pedido vía API (POST /orders) | Como desarrollador, quiero registrar nuevos pedidos de envío mediante la API. | 1. **Dado** que tengo permisos válidos **Cuando** envío un POST con los datos del pedido **Entonces** el sistema crea el registro y responde con su ID.<br>2. **Dado** que envío datos incompletos **Cuando** realizo el POST **Entonces** el sistema devuelve un mensaje de error 400. | EP06 |
+
 
 ## 3.2. Impact Mapping
 <img src="./imagenes/Impact map.png" alt="Impact map">
