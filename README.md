@@ -46,9 +46,55 @@
 
 ## Project Report Collaboration Insights
 
+## Registro de Versiones del Informe
+
+| Versión | Fecha       | Autor                                                                                                   | Descripción de modificación |
+|---------|------------|---------------------------------------------------------------------------------------------------------|-----------------------------|
+| **0.1** | 02/09/2025 | Yazid Said Conde | Creación de estructura principal del informe |
+| **0.2** | 04/09/2025 | Yazid Said Conde | Se agrego Introduction, Solution Profile y Lean UX Process |
+| **0.3** | 07/09/2025 | Yazid Said Conde | Se agrego Entrevistas, Competidores y Needfinding |
+| **0.4** | 15/09/2025 | Yazid Said Conde | Se agrego Impact Mapping |
+| **0.5** | 18/09/2025 | Yazid Said Conde  | Modificacion del Needfinding y se agrego Requirements Specification, se agrego Information Architecture y  Landing Page UI Design. |
+| **0.6** | 18/09/2025 | Antonio Rodrigo Duran Diaz | Se actualizó Competidores, Needfinding, Requirements Specification |
+| **0.7** | 18/09/2025 | Gonzalo Carhuancote | Se agrego Product Implementation, Validation & Deployment |
+| **0.8** | 18/09/2025 | Gonzalo Carhuancote | Se agregaron las secciones Landing Page, Services & Applications Implementation, Software Configuration Management.|
+| **1.0** | 02/10/2025 | Yazid Said Conde | Se modificaron los segmentos objetivos y secciones de Solution Profile y Lean UX Proces |
+| **1.1** | 02/10/2025 | Antonio Rodrigo Duran Diaz | Se modificó Solution Profile, Lean UX Process |
+| **1.2** | 04/10/2025 | Stephano Moscoso | Se modificó User Persona, Journey Mapping, Empathy Mapping, Impact Maping |
+| **1.3** | 05/10/2025 | Joan Teves Samaniego | Se modificó User Task Matrix y Entrevistas  |
+| **1.4** | 07/10/2025 | Antonio Rodrigo Duran Diaz | Se modificó Competidores, Entrevistas, Needfinding, y se agregaron las secciones de Domain-Driven Software Architecture. |
+
+
+</div>
+
+## Project Report Collaboration Insights
+
+**Link de la organización:** https://github.com/1asi0730-2520-7469-Capa6
+
+**Link del Repositorio del Informe:** https://github.com/1asi0730-2520-7469-Capa6/xyz-report
 
 ### Reporte de Colaboración para la Entrega del TB1
 
+En esta primera entrega se desarrolló el informe hasta la sección correspondiente al Sprint 1 del Capítulo V. Durante este proceso, el equipo llevó a cabo diversas actividades, entre las que destacan: la definición de los antecedentes y problemáticas identificadas, la elaboración del Lean UX Canvas, el análisis competitivo, el diseño y análisis de entrevistas, así como la creación de artefactos de investigación como User Personas, User Task Matrix, entre otros.
+Asimismo, se realizó la redacción de las User Stories, el diseño de wireframes y mockups tanto para la landing page como para la aplicación web.
+
+Con el fin de evidenciar los avances realizados y demostrar la participación activa de todos los miembros del equipo en la elaboración del informe, se presentan a continuación las capturas obtenidas desde los analíticos de colaboración del repositorio GitHub del proyecto.
+
+## Contributors
+En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
+
+![contributors-report-tb1](./imagenes/contributorstb1.png)
+
+### Reporte de Colaboración para la Entrega del TP1
+
+En esta segunda entrega se realizaron cambios de segmento de objetivos y con ello se dieron las correcciones y mejoras en muchas de las secciones previas del informe, tales como las secciones que contienen los Requirements Specification, Needfinding, :Requirements Elicitation & Analysis, Lean UX Process. Además se agregaron otras secciones faltantes como Web Applications UX/UI Design, Domain-Driven Software Architecture y Software Object-Oriented Design. Durante este proceso, el equipo llevó a cabo diversas asignaciones de las tareas necesarias y funcionalidades de frontend trabajadas durante este periodo. 
+
+Con el fin de evidenciar los avances realizados y demostrar la participación activa de todos los miembros del equipo en la elaboración del informe, se presentan a continuación las capturas obtenidas desde los analíticos de colaboración del repositorio GitHub del proyecto.
+
+## Contributors
+En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
+
+![contributors-report-tp1](./imagenes/contributorstp1.png)
 
 ## Contenido 
 ## Tabla de Contenidos
