@@ -1344,6 +1344,91 @@ Por último, esta sección describe los componentes internos tanto de la Single 
 <p>En esta sección se presentan los diagramas de clases que representan la estructura del sistema, incluyendo las entidades principales, sus atributos y métodos, así como las relaciones entre ellas. Estos diagramas son fundamentales para comprender cómo se modelan los datos y las interacciones dentro de la aplicación.</p>
 
 ![Class-Diagram](/imagenes/Class-Diagram.png)
+### **4.7.2. Class Dictionary**
+
+En esta sección se presenta un diccionario de clases que describe las entidades principales del sistema, sus atributos y métodos. Este diccionario proporciona una referencia clara para entender la estructura y funcionalidad de la aplicación.
+
+---
+
+#### **Identity and Access Management**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **User** | Representa una cuenta del sistema | - id: UUID — Identificador único<br>- username: String — Nombre de usuario<br>- password: String — Contraseña encriptada<br>- email: String — Correo electrónico<br>- role: UserRole — Rol asignado<br>- createdAt: Date — Fecha de registro<br>- isActive: boolean — Estado de la cuenta | - registerUser(): Registra nuevo usuario<br>- authenticate(): Verifica credenciales<br>- deactivate(): Desactiva cuenta |
+| **UserRole** | Define los roles disponibles en el sistema | - ADMIN<br>- CLIENT<br>- EMPLOYEE | — |
+| **Session** | Sesión de usuario autenticado | - id: UUID<br>- userId: UUID<br>- token: String<br>- expiresAt: Date | - createSession(): Genera sesión<br>- invalidateSession(): Cierra sesión |
+
+---
+
+#### **Payment and Subscription Management**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Payment** | Registra transacciones realizadas | - id: UUID<br>- userId: UUID<br>- amount: Float<br>- methodId: UUID<br>- status: PaymentStatus<br>- createdAt: Date | - processPayment(): Procesa pago<br>- cancelPayment(): Cancela pago |
+| **PaymentMethod** | Método de pago del usuario | - id: UUID<br>- userId: UUID<br>- type: PaymentType<br>- lastDigits: String<br>- expiryDate: Date<br>- isDefault: boolean | - addMethod(): Agrega método<br>- setAsDefault(): Establece predeterminado |
+| **Subscription** | Relación entre usuario y plan de servicio | - id: UUID<br>- userId: UUID<br>- planId: UUID<br>- startDate: Date<br>- endDate: Date<br>- status: SubscriptionStatus | - startSubscription(): Inicia suscripción<br>- cancelSubscription(): Cancela suscripción |
+| **Plan** | Planes de servicio disponibles | - id: UUID<br>- name: String<br>- price: Float<br>- duration: Int<br>- features: List | - activatePlan(): Activa plan<br>- deactivatePlan(): Desactiva plan |
+| **PaymentStatus** | Estados posibles de un pago | - PENDING<br>- COMPLETED<br>- FAILED | — |
+
+---
+
+#### **Inventory Management**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Product** | Producto registrado en inventario | - id: UUID<br>- name: String<br>- description: String<br>- price: Float<br>- stock: Int<br>- categoryId: UUID<br>- supplierId: UUID | - addStock(): Aumenta cantidad<br>- reduceStock(): Disminuye cantidad<br>- updateProduct(): Actualiza datos |
+| **Category** | Agrupa productos por tipo | - id: UUID<br>- name: String<br>- description: String | - addCategory(): Crea categoría<br>- removeCategory(): Elimina categoría |
+| **InventoryLog** | Historial de movimientos del inventario | - id: UUID<br>- productId: UUID<br>- change: Int<br>- date: Date<br>- reason: String | - recordChange(): Registra movimiento |
+
+---
+
+#### **Order Management**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Order** | Pedido de un cliente | - id: UUID<br>- userId: UUID<br>- orderDate: Date<br>- status: OrderStatus<br>- total: Float | - createOrder(): Genera pedido<br>- cancelOrder(): Cancela pedido<br>- updateStatus(): Cambia estado |
+| **OrderItem** | Producto incluido en un pedido | - id: UUID<br>- orderId: UUID<br>- productId: UUID<br>- quantity: Int<br>- unitPrice: Float | - addItem(): Añade producto<br>- updateQuantity(): Modifica cantidad |
+| **OrderStatus** | Estados del pedido | - PENDING<br>- PROCESSING<br>- SHIPPED<br>- DELIVERED<br>- CANCELLED | — |
+
+---
+
+#### **Supplier Management**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Supplier** | Proveedor del sistema | - id: UUID<br>- name: String<br>- contactName: String<br>- email: String<br>- phone: String<br>- address: String<br>- rating: Float | - registerSupplier(): Registra proveedor<br>- updateInfo(): Actualiza datos |
+| **Contract** | Contrato con proveedor | - id: UUID<br>- supplierId: UUID<br>- startDate: Date<br>- endDate: Date<br>- terms: String | - createContract(): Crea contrato<br>- terminateContract(): Finaliza contrato |
+
+---
+
+#### **Shipping and Tracking**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Shipment** | Envío asociado a un pedido | - id: UUID<br>- orderId: UUID<br>- carrier: String<br>- trackingCode: String<br>- status: ShipmentStatus<br>- estimatedDelivery: Date | - createShipment(): Genera envío<br>- updateStatus(): Cambia estado |
+| **ShipmentStatus** | Estado del envío | - PREPARING<br>- IN_TRANSIT<br>- DELIVERED<br>- RETURNED | — |
+| **Tracking** | Registro de seguimiento | - id: UUID<br>- shipmentId: UUID<br>- location: String<br>- timestamp: Date<br>- status: String | - recordTracking(): Añade registro |
+
+---
+
+#### **Dashboard and Reporting**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Report** | Informe generado del sistema | - id: UUID<br>- name: String<br>- type: ReportType<br>- createdBy: UUID<br>- generatedAt: Date | - generateReport(): Genera informe |
+| **Analytics** | Métricas del sistema | - totalUsers: Int<br>- totalOrders: Int<br>- totalRevenue: Float<br>- activeSubscriptions: Int | - updateMetrics(): Recalcula valores |
+| **ReportType** | Tipos de reportes | - SALES<br>- USERS<br>- INVENTORY<br>- FINANCIAL | — |
+
+---
+
+#### **Notifications and Alerts**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Notification** | Notificación enviada a usuarios | - id: UUID<br>- userId: UUID<br>- type: NotificationType<br>- content: String<br>- isRead: boolean<br>- createdAt: Date | - sendNotification(): Envía notificación<br>- markAsRead(): Marca como leída |
+| **NotificationType** | Tipos de notificación | - ORDER_UPDATE<br>- PAYMENT<br>- SYSTEM_ALERT<br>- SHIPMENT<br>- PROMOTION | — |
+| **Alert** | Alerta generada por eventos críticos | - id: UUID<br>- level: AlertLevel<br>- message: String<br>- createdAt: Date | - triggerAlert(): Activa alerta |
+| **AlertLevel** | Niveles de alerta | - INFO<br>- WARNING<br>- CRITICAL | — |
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams. 
