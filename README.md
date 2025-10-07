@@ -1279,6 +1279,10 @@ Ingresar datos como Dueño
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
+User Task: El dueño quiere inresar a su stock a revisar la cantidad, asi mismo poder editar el contenido.
+
+<img src="./imagenes/Flow 1.png">
+
 ### 4.4.3. Web Applications Mock-ups.
 
 ### 4.4.4. Web Applications User Flow Diagrams.
