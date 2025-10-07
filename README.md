@@ -1608,14 +1608,38 @@ A continuación, se mencionará algunas convenciones:
 
 #### 5.2.1.8.	Team Collaboration Insights during Sprint.
 
+### 5.2.2 Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2.
+
+#### 5.2.2.2. Aspect Leaders and Collaborators. 
+
+#### 5.2.2.3. Sprint Backlog 2. 
+
+#### 5.2.2.4. Development Evidence for Sprint Review. 
+
+#### 5.2.2.5. Execution Evidence for Sprint Review. 
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint. 
 
 # Conclusiones
 
-# Bibliografía
+## Conclusiones y recomendaciones
 
-- 
+## Video About-the-team
+
+# Bibliografía
 
 - Sociedad Nacional de Industrias (SNI). (2021). *Industria de bebidas alcohólicas: estructura empresarial y perspectivas*. Instituto de Estudios Económicos y Sociales. Recuperado de https://sni.org.pe/wp-content/uploads/2022/01/42-Bebidas-Alcoholicas.pdf
 
+- WinePOS. (2025). *Sitio web oficial de WinePOS*. Recuperado el 5 de octubre de 2025, de https://winepos.com/
+
+- KORONA POS. (2025). All-in-One Point of Sale Software. Recuperado el 5 de octubre de 2025, de https://koronapos.com/
+
+- Premier Systems. (2025). *BrewMan – Brewery & distillery management software*. Recuperado el 5 de octubre de 2025, de https://www.premiersystems.com/
 
 # Anexos
