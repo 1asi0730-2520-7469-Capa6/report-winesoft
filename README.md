@@ -604,14 +604,14 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 
 **Entrevista 1: Fernando Teves**
 
-![Dueño 1](../imagenes/entrevista-dueño-1.png)
+![Dueño 1](../imagenes/entrevista-segmento1-1.png)
 
 **Datos del entrevistado**
 * **Nombre:** Fernando Teves
-* **Edad:** --
-* **Estado civil:** --
-* **Ocupación:** --
-* **Distrito de Residencia:** --
+* **Edad:** 55
+* **Estado civil:** Casado
+* **Ocupación:** Generente General
+* **Provincia de Residencia:** Huancayo
 
 * **Duración de la entrevista:** [00:00:00 - 00:00:00]
 * **Video de las entrevistas:** [Needfinding - Interviews](link de video)
@@ -625,16 +625,18 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 
 - Finalmente, mostró interés en un sistema como WineSoft, destacando que sería muy valioso contar con un control en tiempo real de ventas e inventario, recibir reportes automáticos de productos más vendidos y, sobre todo, conectarse directamente con proveedores autorizados para agilizar la reposición. Considera que esto le permitiría ahorrar tiempo administrativo y dedicar más esfuerzo a los clientes y a mejorar la calidad de los productos.
 
+**Segmento Objetivo: Proveedor de Insumos para el sector licorero**
+
 **Entrevista 2: Gabriel**
 
-![Dueño 2](../imagenes/entrevista-dueño-2.png)
+![Dueño 2](../imagenes/entrevista-segmento1-1.png)
 
 **Datos del entrevistado**
 * **Nombre:** Gabriel
-* **Edad:** --
-* **Estado civil:** --
-* **Ocupación:** --
-* **Distrito de Residencia:** --
+* **Edad:** 25
+* **Estado civil:** Soltero
+* **Ocupación:** Ayudante de proveedor de insumos
+* **Distrito de Residencia:** Jesús María
 
 * **Duración de la entrevista:** [00:00:00 - 00:00:00]
 * **Video de las entrevistas:** [Needfinding - Interviews](link de video)
@@ -643,31 +645,6 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 
 - En la entrevista, Gabriel, quien trabaja con su madre en un negocio de insumos para licorerías y destilerías, explicó que ofrecen principalmente alcohol puro, botellas, tapas y equipos de destilación, gestionando la trazabilidad con documentos oficiales y códigos QR. Señaló que la demanda varía según la temporada, enfrentan retos logísticos como transporte inseguro y condiciones de almacenamiento, y actualmente manejan inventarios con Excel. Destacó que los clientes valoran la pureza, el origen certificado y los precios, además de la puntualidad en las entregas, y mencionó la importancia de cumplir con normativas sanitarias. Reconoció el interés en adoptar herramientas digitales, mejorar la comunicación y diversificar pagos, y se mostró dispuesto a integrarse en plataformas que optimicen pedidos, trazabilidad y costos.
 
-**Segmento Objetivo: Entidad Reguladora**
-
-**Entrevista 1: Leslie Kasimiro**
-
-![Entidad Reguladora 1](../imagenes/entrevista-entidad-reguladora-1.png)
-
-**Datos del entrevistado**
-* **Nombre:** Leslie Kasimiro
-* **Edad:** --
-* **Estado civil:** --
-* **Ocupación:** --
-* **Distrito de Residencia:** --
-
-* **Duración de la entrevista:** [00:00:00 - 00:00:00]
-* **Video de las entrevistas:** [Needfinding - Interviews](link de video)
-
-**Resumen de la entrevista:**
-
-- Leslie Kasimiro explicó que el sector de licorerías está regulado principalmente por la Ley 28681 (sobre venta y consumo de alcohol), la Ley 29632 (control de bebidas adulteradas) y las ordenanzas municipales que establecen horarios y licencias. Añadió que una de las mayores dificultades es la alta informalidad, la escasez de fiscalizadores y la falta de un padrón único de negocios, ya que la información se encuentra dispersa entre municipalidades y SUNAT.
-
-- Sobre la trazabilidad, detalló que se apoya en los registros sanitarios (DIGESA) y en los registros de comercializadores (PRODUCE), además de los operativos multisectoriales. Las sanciones más comunes incluyen multas, clausuras, decomisos e incluso denuncias penales en casos graves de adulteración.
-
-- Señaló que la informalidad y el contrabando generan pérdidas tributarias y riesgos para la salud pública, reflejados en intoxicaciones y ventas a menores. Sin embargo, también destacó que existen avances como las ventanillas digitales y los registros en línea, que facilitan los trámites a los dueños de negocios. Asimismo, mencionó que se realizan campañas de capacitación y operativos preventivos.
-
-- Respecto al futuro, afirmó que la digitalización es clave para mejorar la fiscalización, ya que facilita cruces de datos y la trazabilidad. Consideró que un software como WineSoft puede ser muy útil, siempre que valide proveedores, registre ventas en tiempo real y garantice la protección de datos. A mediano plazo, proyecta que habrá más interoperabilidad entre entidades públicas, mejor trazabilidad digital y fiscalizaciones más focalizadas.
 ## 2.2.3. Análisis de entrevistas  
 ### Segmento 1: Dueños de licorerías y destilerías (N=3)  
 
@@ -719,7 +696,7 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 
 El segmento de dueños de licorerías y destilerías muestra un patrón común de gestión manual y semi-digital (Excel) con dificultades significativas en inventario y reposición. El 100% de los entrevistados manifestó interés en adoptar soluciones digitales, destacando la necesidad de control en tiempo real, reportes automáticos y conexión con proveedores confiables. Asimismo, se identificó que la informalidad y la competencia desleal son amenazas constantes que refuerzan la importancia de un sistema que promueva la trazabilidad y la formalización. WineSoft responde directamente a estas necesidades, posicionándose como una herramienta clave para mejorar la eficiencia y la sostenibilidad de estos negocios.  
 
-### Segmento 2: Entidad Reguladora (N=3)  
+### Segmento 2: Proveedor de Insumos para Sector Licorero  
 
 #### Características Objetivas (cuantificables)  
 
