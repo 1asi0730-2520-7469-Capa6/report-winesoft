@@ -1274,6 +1274,26 @@ En esta sección, evaluaremos las historias de usuario asignándoles una puntuac
 
 ### 4.4.1. Web Applications Wireframes.
 
+ Pagina principal
+<img src="./imagenes/pagina principal.png">
+
+Confirmar correo para cambio de contraseña
+<img src="./imagenes/confirmar correo.png">
+Cambio de la contraseña
+<img src="./imagenes/confirmar contraseña.png">
+
+Crear Cuenta
+<img src="./imagenes/crear cuenta.png">
+
+Seleccionar tipo e Usuario
+<img src="./imagenes/seleccionar tipo usuario.png">
+
+Ingresar datos como Dueño
+<img src="./imagenes/datos dueño.png">
+
+Ingresar datos como Dueño
+<img src="./imagenes/datos proveedor.png">
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 ### 4.4.3. Web Applications Mock-ups.
