@@ -819,21 +819,34 @@ Aunque cada grupo aborda distintos puntos del proceso, ambos buscan un mismo obj
 ![Big Picture Event Storming](/imagenes/BigPicture.jpg)
 
 ## 2.5. Ubiquitous Language.
-<div align="justify">
-  <ul>
-    <li><b>Destilería:</b> Planta de producción dedicada a la elaboración de bebidas alcohólicas mediante procesos de fermentación y destilación.</li>
-    <li><b>Destilación:</b> Proceso de separación que concentra el alcohol aplicando calor y controlando la condensación.</li>
-    <li><b>Trazabilidad:</b> Capacidad de rastrear cada lote de producción desde el inicio hasta su distribución final.</li>
-    <li><b>Normativa Sanitaria:</b> Conjunto de normas y leyes que garantizan la inocuidad y calidad del producto alcohólico.</li>
-    <li><b>Control de Calidad:</b> Evaluación de parámetros críticos del producto, como pureza, grado alcohólico y seguridad.</li>
-    <li><b>Reporte Automático:</b> Documento digital generado por el sistema que registra datos de producción, control y mantenimiento.</li>
-    <li><b>Certificación:</b> Reconocimiento oficial que valida el cumplimiento de normas nacionales e internacionales.</li>
-    <li><b>Compliance:</b> Es el conjunto de procesos y buenas prácticas que una organización implementa para asegurarse de cumplir con las leyes, regulaciones y normas éticas aplicables.</li>
-    <li><b>Retail:</b> Se refiere a la venta de productos o servicios directamente al consumidor final en pequeñas cantidades. Este sector incluye tiendas físicas como supermercados y franquicias, así como la venta online.</li>
-    <li><b>Verticalizadas:</b> La verticalización es la estrategia que emplea una empresa con el fin de ser especialista en ventas y comercialización por sector o función de la industria.</li>
 
-  </ul>
-</div>
+| **Term (English)**           | **Término (Español)**         | **Definition (Definición en español)**                                                                                                |
+| ---------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Distillery**               | Destilería                    | Planta o taller donde se elaboran bebidas alcohólicas mediante procesos de fermentación y destilación.                                |
+| **Liquor Store**             | Licorería                     | Establecimiento dedicado a la venta o distribución de bebidas alcohólicas al por menor o por mayor.                                   |
+| **Inventory Control**        | Control de Inventario         | Proceso de registro, monitoreo y actualización de los insumos y productos almacenados en el negocio.                                  |
+| **Stock Alert**              | Alerta de Stock               | Notificación automática que advierte al usuario sobre bajo inventario o próximos vencimientos de insumos.                             |
+| **Supply Chain**             | Cadena de Suministro          | Conjunto de procesos que conectan al proveedor de insumos con la destilería o licorería, desde la producción hasta la entrega final.  |
+| **Supplier**                 | Proveedor                     | Persona o empresa que abastece insumos esenciales (alcohol, botellas, tapas, equipos) a las destilerías o licorerías.                 |
+| **Order Management**         | Gestión de Pedidos            | Actividad que permite crear, procesar y monitorear pedidos de reposición entre proveedores y destilerías.                             |
+| **Delivery Tracking**        | Seguimiento de Entregas       | Registro del estado de los pedidos durante el transporte (pendiente, en camino, entregado).                                           |
+| **Traceability**             | Trazabilidad                  | Capacidad de rastrear el recorrido y origen de cada insumo o producto dentro de la cadena de suministro.                              |
+| **Quality Control**          | Control de Calidad            | Conjunto de actividades que garantizan que los productos cumplan con los estándares sanitarios y técnicos establecidos.               |
+| **Warehouse**                | Almacén                       | Espacio físico o virtual donde se registran y almacenan los insumos, materias primas o productos terminados.                          |
+| **Virtual Warehouse**        | Almacén Virtual               | Módulo digital dentro de WineSoft que simula el inventario físico y permite su gestión en tiempo real.                                |
+| **Restocking Request**       | Solicitud de Reposición       | Petición enviada por el dueño de una destilería al proveedor para reabastecer insumos faltantes.                                      |
+| **Environmental Monitoring** | Monitoreo Ambiental           | Supervisión digital de las condiciones de almacenamiento (temperatura, humedad) para prevenir deterioro de insumos.                   |
+| **Automatic Report**         | Reporte Automático            | Documento o registro generado por el sistema que muestra datos de ventas, inventario o entregas sin intervención manual.              |
+| **Customer Feedback**        | Retroalimentación del Cliente | Opiniones y sugerencias que los clientes brindan para mejorar los productos o servicios ofrecidos.                                    |
+| **Artisanal Product**        | Producto Artesanal            | Bebida alcohólica elaborada con métodos tradicionales y en pequeños lotes, valorada por su autenticidad y origen local.               |
+| **Supplier Panel**           | Panel del Proveedor           | Interfaz digital en WineSoft que permite a los proveedores visualizar las necesidades de reposición, gestionar pedidos y transportes. |
+| **Client Panel**             | Panel del Cliente             | Sección de la plataforma donde los dueños de destilerías controlan inventarios, pedidos y reportes.                                   |
+| **Digital Integration**      | Integración Digital           | Conexión entre distintos módulos o actores (dueños y proveedores) para compartir información en tiempo real.                          |
+| **Subscription Plan**        | Plan de Suscripción           | Modelo de pago mensual que otorga acceso a WineSoft según el tamaño o necesidades del negocio.                                |
+| **User Dashboard**           | Panel de Usuario              | Vista central que presenta indicadores, alertas y métricas clave para la toma de decisiones.                                          |
+| **Operational Efficiency**   | Eficiencia Operativa          | Capacidad de reducir costos, tiempos y errores mediante procesos automatizados y optimizados.                                         |
+| **Business Insight**         | Análisis del Negocio          | Información procesada que permite identificar patrones de venta, consumo y rendimiento operativo.                                     |
+
 
 # Capítulo III: Requirements Specification 
 ## 3.1. User Stories. 
@@ -1048,7 +1061,7 @@ En esta sección, evaluaremos las historias de usuario asignándoles una puntuac
   <p><b>Según audiencia:</b><br>
   Se considera el uso diferenciado de la plataforma para distintos perfiles. Los administradores podrán acceder como pantalla principal a un panel de control global con métricas clave, mientras que los operadores tendrán acceso directo a los parámetros específicos que deben supervisar (temperatura, presión, humedad). De esta forma, cada tipo de usuario interactúa con la información más relevante para sus necesidades.</p>
 
-  <h3>Labeling Systems</h3>
+  <h3>4.2.2. Labeling Systems</h3>
 
   <p>
     En WineSoft, las etiquetas cumplirán tanto un rol funcional en la experiencia del usuario como un rol técnico en la optimización SEO, garantizando una navegación clara y una visibilidad adecuada en motores de búsqueda.
