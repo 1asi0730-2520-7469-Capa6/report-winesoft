@@ -604,7 +604,7 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 
 **Entrevista 1: Fernando Teves**
 
-![Dueño 1](../imagenes/entrevista-segmento1-1.png)
+![Dueño-1](./imagenes/entrevistadueño1.png)
 
 **Datos del entrevistado**
 * **Nombre:** Fernando Teves
@@ -629,7 +629,7 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 
 **Entrevista 2: Gabriel**
 
-![Dueño 2](../imagenes/entrevista-segmento1-1.png)
+![Proveedor-1](./imagenes/entrevistaproveedor1.png)
 
 **Datos del entrevistado**
 * **Nombre:** Gabriel
