@@ -1415,7 +1415,7 @@ En esta sección se presenta un diccionario de clases que describe las entidades
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams. 
-
+![DataBase-Diagram](/imagenes/DataBase-Diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
