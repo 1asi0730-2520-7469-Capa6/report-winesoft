@@ -27,20 +27,29 @@
 
 | Versión | Fecha       | Autor                                                                                                   | Descripción de modificación |
 |---------|------------|---------------------------------------------------------------------------------------------------------|-----------------------------|
-| **TB1** | 15/09/2025 | Angelo Stephano Moscoso Bejar <br><br> Yazid Said Conde <br><br> Joan Fernando Teves Samaniego<br><br>Antonio Rodrigo Duran Díaz<br><br>Gonzalo Alonso Carhuancote Dominguez | Para esta primera entrega, realizamos los primeros 5 capítulos del informe y desarrollamos la primera versión del landing page del Producto. |
+| **0.1** | 02/09/2025 | Yazid Said Conde | Creación de estructura principal del informe |
+| **0.2** | 04/09/2025 | Yazid Said Conde | Se agrego Introduction, Solution Profile y Lean UX Process |
+| **0.3** | 07/09/2025 | Yazid Said Conde | Se agrego Entrevistas, Competidores y Needfinding |
+| **0.4** | 15/09/2025 | Yazid Said Conde | Se agrego Impact Mapping |
+| **0.5** | 18/09/2025 | Yazid Said Conde  | Modificacion del Needfinding y se agrego Requirements Specification, se agrego Information Architecture y  Landing Page UI Design. |
+| **0.6** | 18/09/2025 | Antonio Rodrigo Duran Diaz | Se actualizó Competidores, Needfinding, Requirements Specification |
+| **0.7** | 18/09/2025 | Gonzalo Carhuancote | Se agrego Product Implementation, Validation & Deployment |
+| **0.8** | 18/09/2025 | Gonzalo Carhuancote | Se agregaron las secciones Landing Page, Services & Applications Implementation, Software Configuration Management.|
+| **1.0** | 02/10/2025 | Yazid Said Conde | Se modificaron los segmentos objetivos y secciones de Solution Profile y Lean UX Proces |
+| **1.1** | 02/10/2025 | Antonio Rodrigo Duran Diaz | Se modificó Solution Profile, Lean UX Process |
+| **1.2** | 04/10/2025 | Stephano Moscoso | Se modificó User Persona, Journey Mapping, Empathy Mapping, Impact Maping |
+| **1.3** | 05/10/2025 | Joan Teves Samaniego | Se modificó User Task Matrix y Entrevistas  |
+| **1.4** | 07/10/2025 | Antonio Rodrigo Duran Diaz | Se modificó Competidores, Entrevistas, Needfinding, y se agregaron las secciones de Domain-Driven Software Architecture. |
+
 
 </div>
 
 ## Project Report Collaboration Insights
 
-<div>
-<p>Para este informe se dividio de la siguiente forma para cada integrante del grupo:</p>
-  
-  ## 
-  
-  |  Integrantes   | Tarea asignada |
-  |:--------------:|:--------------:|
-  | Yazid Said Conde | U202312348   |
+
+### Reporte de Colaboración para la Entrega del TB1
+
+
 ## Contenido 
 ## Tabla de Contenidos
 
