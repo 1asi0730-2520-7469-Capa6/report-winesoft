@@ -1342,7 +1342,7 @@ Por último, esta sección describe los componentes internos tanto de la Single 
 
 ### 4.7.1. Class Diagrams.
 <p>En esta sección se presentan los diagramas de clases que representan la estructura del sistema, incluyendo las entidades principales, sus atributos y métodos, así como las relaciones entre ellas. Estos diagramas son fundamentales para comprender cómo se modelan los datos y las interacciones dentro de la aplicación.</p>
-
+![Class-Diagram](/imagenes/Class-Diagram.png)
 ## 4.8. Database Design.
 
 ### 4.8.1. Database Diagrams. 
