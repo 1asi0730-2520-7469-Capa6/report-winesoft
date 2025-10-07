@@ -1277,6 +1277,18 @@ Ingresar datos como Dueño
 Ingresar datos como Dueño
 <img src="./imagenes/datos proveedor.png">
 
+Home
+
+<img src="./imagenes/Home.png">
+
+Supply
+
+<img src="./imagenes/Suplies.png">
+
+Stock
+
+<img src="./imagenes/Stock.png">
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 User Task: El dueño quiere inresar a su stock a revisar la cantidad, asi mismo poder editar el contenido.
@@ -1284,6 +1296,28 @@ User Task: El dueño quiere inresar a su stock a revisar la cantidad, asi mismo 
 <img src="./imagenes/Flow 1.png">
 
 ### 4.4.3. Web Applications Mock-ups.
+
+Pagina principal
+<img src="./imagenes/pagina principal1.png">
+
+Confirmar correo para cambio de contraseña
+<img src="./imagenes/confirmar correo1.png">
+Cambio de la contraseña
+<img src="./imagenes/confirmar contraseña1.png">
+
+Crear Cuenta
+<img src="./imagenes/crear cuenta1.png">
+
+Seleccionar tipo e Usuario
+<img src="./imagenes/seleccionar tipo usuario1.png">
+
+Ingresar datos como Dueño
+<img src="./imagenes/datos dueño1.png">
+
+Ingresar datos como Dueño
+<img src="./imagenes/datos proveedor1.png">
+
+
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
