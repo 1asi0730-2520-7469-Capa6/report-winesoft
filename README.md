@@ -613,8 +613,8 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 * **Ocupación:** Generente General
 * **Provincia de Residencia:** Huancayo
 
-* **Duración de la entrevista:** [00:00:00 - 00:00:00]
-* **Video de las entrevistas:** [Needfinding - Interviews](link de video)
+* **Duración de la entrevista:** [00:00:09 - 00:00:00]
+* **Video de las entrevistas:** [Needfinding - Interviews](https://bit.ly/interview-segmento-dueño1)
 
 **Resumen de la entrevista:**
 - El ingeniero Fernando Teves explicó que dentro de su fábrica el producto más demandado es el anisado, seguido de algunas variedades de licores artesanales. Mencionó que las bebidas que más rápido se agotan son los productos tradicionales de mayor aceptación, mientras que ciertos licores importados o de nicho suelen quedarse más tiempo en stock.
@@ -639,7 +639,7 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 * **Distrito de Residencia:** Jesús María
 
 * **Duración de la entrevista:** [00:00:00 - 00:00:00]
-* **Video de las entrevistas:** [Needfinding - Interviews](link de video)
+* **Video de las entrevistas:** [Needfinding - Interviews](https://bit.ly/interview-segmento-proveedor1)
 
 **Resumen de la entrevista:**
 
