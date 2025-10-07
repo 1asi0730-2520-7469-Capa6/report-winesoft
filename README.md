@@ -1287,11 +1287,53 @@ En esta sección, evaluaremos las historias de usuario asignándoles una puntuac
 
 ### 4.6.2. Software Architecture Context Level Diagram.
 
+En esta sección se presenta una vista general del sistema dentro de su contexto, destacando los actores externos, los sistemas con los que se relaciona y las interacciones clave que delimitan su alcance funcional.
 
+![Design-Level EventStorming](/imagenes/context-diagram.png)
 
 ### 4.6.3. Software Architecture Container Level Diagrams. 
 
+En esta sección se detalla la estructura del sistema dividiéndolo en sus contenedores principales, mostrando las tecnologías empleadas, las funciones que cumple cada uno y la forma en que interactúan entre sí.
+
+![Design-Level EventStorming](/imagenes/container-diagram.png)
+
 ### 4.6.4. Software Architecture Components Level Diagrams
+
+Por último, esta sección describe los componentes internos tanto de la Single Page Application (SPA) como de la API Application, organizados en distintos bounded contexts que encapsulan funcionalidades específicas del dominio. Cada bounded context reúne componentes que trabajan en conjunto para cumplir responsabilidades definidas, favoreciendo la escalabilidad, el mantenimiento y la coherencia con los procesos del negocio.
+
+**Single Page Application (SPA)**
+
+**Indentity and Acces Management Bounded Context**
+
+![bounded-context-identity](/imagenes/identity-component.png)
+
+**Payment and Subscription Management Bounded Context**
+
+![bounded-context-payment-subscription](/imagenes/payment-component.png)
+
+**Inventory Management Bounded Context**
+
+![bounded-context-inventory](/imagenes/identity-component.png)
+
+**Order Management Bounded Context**
+
+![bounded-context-order](/imagenes/order-component.png)
+
+**Supplier Management Bounded Context**
+
+![bounded-context-supplier](/imagenes/supplier-component.png)
+
+**Shipping and Tracking Bounded Context**
+
+![bounded-context-shipping](/imagenes/tracking-component.png)
+
+**Dashboard and Reporting Bounded Context**
+
+![bounded-context-dashboard](/imagenes/dashboard-component.png)
+
+**Notifications and Alerts Bounded Context**
+
+![bounded-context-notifications](/imagenes/notifications-components.png)
 
 ## 4.7. Software Object-Oriented Design.
 
