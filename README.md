@@ -21,32 +21,9 @@
 <h4>Ciclo 2025-02</h4>
 </div>
 
-<div>
-  
 ## Registro de Versiones del Informe
-
-| Versión | Fecha       | Autor                                                                                                   | Descripción de modificación |
-|---------|------------|---------------------------------------------------------------------------------------------------------|-----------------------------|
-| **0.1** | 02/09/2025 | Yazid Said Conde | Creación de estructura principal del informe |
-| **0.2** | 04/09/2025 | Yazid Said Conde | Se agrego Introduction, Solution Profile y Lean UX Process |
-| **0.3** | 07/09/2025 | Yazid Said Conde | Se agrego Entrevistas, Competidores y Needfinding |
-| **0.4** | 15/09/2025 | Yazid Said Conde | Se agrego Impact Mapping |
-| **0.5** | 18/09/2025 | Yazid Said Conde  | Modificacion del Needfinding y se agrego Requirements Specification, se agrego Information Architecture y  Landing Page UI Design. |
-| **0.6** | 18/09/2025 | Antonio Rodrigo Duran Diaz | Se actualizó Competidores, Needfinding, Requirements Specification |
-| **0.7** | 18/09/2025 | Gonzalo Carhuancote | Se agrego Product Implementation, Validation & Deployment |
-| **0.8** | 18/09/2025 | Gonzalo Carhuancote | Se agregaron las secciones Landing Page, Services & Applications Implementation, Software Configuration Management.|
-| **1.0** | 02/10/2025 | Yazid Said Conde | Se modificaron los segmentos objetivos y secciones de Solution Profile y Lean UX Proces |
-| **1.1** | 02/10/2025 | Antonio Rodrigo Duran Diaz | Se modificó Solution Profile, Lean UX Process |
-| **1.2** | 04/10/2025 | Stephano Moscoso | Se modificó User Persona, Journey Mapping, Empathy Mapping, Impact Maping |
-| **1.3** | 05/10/2025 | Joan Teves Samaniego | Se modificó User Task Matrix y Entrevistas  |
-| **1.4** | 07/10/2025 | Antonio Rodrigo Duran Diaz | Se modificó Competidores, Entrevistas, Needfinding, y se agregaron las secciones de Domain-Driven Software Architecture. |
-
-
-</div>
 
 ## Project Report Collaboration Insights
-
-## Registro de Versiones del Informe
 
 | Versión | Fecha       | Autor                                                                                                   | Descripción de modificación |
 |---------|------------|---------------------------------------------------------------------------------------------------------|-----------------------------|
@@ -94,111 +71,117 @@ Con el fin de evidenciar los avances realizados y demostrar la participación ac
 ## Contributors
 En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
 
-![contributors-report-tp1](./imagenes/contributorstp1.png)
-
-## Contenido 
-## Tabla de Contenidos
-
-</div>
-------------
-(INDICE INCOMPLETO)
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-------------
-
-
 # Contenido
 
-## [Student Outcome](#ingeniería-de-software)
-## [Capítulo I: Introducción]()
-* ### [1.1. Startup Profile]()
-    * #### [1.1.1. Descripción de la Startup]()
-    * #### [1.1.2. Perfiles de integrantes del equipo]()
-* ### [1.2. Solution Profile]()
-    * #### [1.2.1. Antecendentes y Problemática]()
-    * #### [1.2.2. Lean UX Process]()
-        * ##### [1.2.2.1. Lean UX Problem Statements]()
-        * ##### [1.2.2.2. Lean UX Assumptions]()
-        * ##### [1.2.2.3. Lean UX Hypothesis Statements]()
-        * ##### [1.2.2.4. Lean UX Canvas]()
-* ### [1.3. Segmentos objetivo]()
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capitulo-i-introduccion)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 
-## [Capítulo II: Requirements Elicitation & Analysis]()
-* ### [2.1. Competidores]()
-    * #### [2.1.1. Análisis competitivo]()
-    * #### [2.1.2. Estrategias y tácticas frente a competidores]()
-* ### [2.2. Entrevistas]()
-    * #### [2.2.1. Diseño de entrevistas]()
-    * #### [2.2.2. Registro de entrevistas]()
-    * #### [2.2.3. Análisis de entrevistas]()
-* ### [2.3. Needfinding]()
-    * #### [2.3.1. User Personas]()
-    * #### [2.3.2. User Task Matrix]()
-    * #### [2.3.3. User Journey Mapping]()
-    * #### [2.3.4. Empathy Mapping]()
-    * ### [2.4. Big Picture Event Storming Language]()
-* ### [2.5. Ubiquitous Language]()
+- [Capítulo II: Requirements Elicitation & Analysis](#capitulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
-## [Capítulo III: Requirements Specification]()
-* ### [3.1. User Stories]()
-* ### [3.2. Impact Mapping]()
-* ### [3.3. Product Backlog]()
+- [Capítulo III: Requirements Specification](#capitulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
 
-## [Capítulo IV: Product Design]()
-* ### [4.1. Style Guidelines]()
-    * #### [4.1.1. General Style Guidelines]()
-    * #### [4.1.2. Web Style Guidelines]()
-* ### [4.2. Information Architecture]()
-    * #### [4.2.1. Organization System]()
-    * #### [4.2.2. Labeling System]()
-    * #### [4.2.3. SEO Tags and Meta Tags]()
-    * #### [4.2.4. Searching System]()
-    * #### [4.2.5. Navigation System]()
-* ### [4.3. Landing Page UI Design]()
-    * #### [4.3.1. Landing Page Wireframe]()
-    * #### [4.3.2. Landing Page Mock-up]()
-* ### [4.4. Web Applications UX/UI Design]()
-    * #### [4.4.1. Web Applications Wireframe]()
-    * #### [4.4.2. Web Applications Wireflow Diagrams]()
-    * #### [4.4.3. Web Applications Mock-ups]()
-    * #### [4.4.4. Web Applications User Flow Diagrams]()
-* ### [4.5. Web Applications Prototyping]()
-* ### [4.6. Domain-Driven Software Architecture]()
-    * #### [4.6.1. Software Architecture Context Diagram]()
-    * #### [4.6.2. Software Architecture Container Diagram]()
-    * #### [4.6.3. Software Architecture Components Diagram]()
-* ### [4.7. Software Object-Oriented Design]()
-    * #### [4.7.1. Class Diagrams]()
-    * #### [4.7.2. Class Dictionary]()
-* ### [4.8. Database Design]()
-    * #### [4.8.1. Database Diagram]()
+- [Capítulo IV: Product Design](#capitulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
 
-## [Capítulo V: Product Implementation, Validation & Deployment]()
-* ### [5.1. Software Configuration Management]()
-    * #### [5.1.1. Software Development Environment Configuration]()
-    * #### [5.1.2. Source Code Management]()
-    * #### [5.1.3. Source Code Style Guide & Conventions]()
-    * #### [5.1.4. Software Deployment Configuration]()
-* ### [5.2. Landing Page, Services & Applications Implementation]()
-    * #### [5.2.1. Sprint 1]()
-        * ##### [5.2.1.1. Sprint Planning 1]()
-        * ##### [5.2.1.2. Aspect Leaders and Collaborators]()
-        * ##### [5.2.1.3. Sprint Backlog 1]()
-        * ##### [5.2.1.4. Development Evidence for Sprint Review]()
-        * ##### [5.2.1.5. Execution Evidence for Sprint Review]()
-        * ##### [5.2.1.6. Services Documentation Evidence for Sprint Review]()
-        * ##### [5.2.1.7. Software Deployment Evidence for Sprint Review]()
-        * ##### [5.2.1.8. Team Collaboration Insights during Sprint]()
+- [Capítulo V: Product Implementation, Validation & Deployment](#capitulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-n)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-n)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-n)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
-## [Conclusiones]()
-## [Bibliografía]()
-## [Anexos]()
+      - [5.2.2. Sprint 2](#522-sprint-n)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-n)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-n)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 ## Student Outcome
-El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Student Outcome 5
+El curso contribuye al cumplimiento del Student Outcome ABET: 
+**ABET – EAC - Student Outcome 5**
 
-Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+Criterio: *La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos*.
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|--------------------------|-------------------------|------------------|
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Yazid Said Conde**<br>**TB1**<br>- Mostró liderazgo en la creación de la estructura principal del informe y las secciones iniciales del proyecto.<br>- Mantuvo comunicación constante con el equipo para orientar el avance y definir los entregables parciales.<br>**TP**<br>- Anticipó el desarrollo de secciones clave, garantizando un avance sostenido del trabajo grupal.<br>- Brindó orientación técnica sobre la estructura del documento y la integración de los módulos en el informe.<br><br>**Angelo Stephano Moscoso Bejar**<br>**TB1**<br>- Se mantuvo atento a las nuevas propuestas, brindando opiniones y apoyo para mejorar la organización de tareas.<br>- Propuso ideas sobre la distribución del trabajo para equilibrar la carga entre los miembros.<br>**TP**<br>- Apoyó la integración de nuevas secciones del proyecto y dio retroalimentación sobre la coherencia visual y conceptual del informe.<br>- Participó activamente en la revisión de entregables y en la toma de decisiones sobre ajustes del contenido.<br><br>**Joan Fernando Teves Samaniego**<br>**TB1**<br>- Colaboró en el desarrollo de entrevistas y matrices de tareas, enfocándose en el segmento objetivo del proyecto.<br>**TP**<br>- Apoyó la revisión de resultados de entrevistas y el análisis de los hallazgos para mejorar la coherencia de los arquetipos.<br><br>**Antonio Rodrigo Duran Díaz**<br>**TB1**<br>- Participó activamente en las reuniones de trabajo, comunicando cambios y observaciones sobre el avance del informe.<br>- Realizó correcciones en las secciones de Competidores, Needfinding y Requerimientos, asegurando consistencia documental.<br>**TP**<br>- Coordinó con el equipo la actualización de secciones críticas y supervisó la correcta integración del contenido en el informe.<br><br>**Gonzalo Alonso Carhuancote Domínguez**<br>**TB1**<br>- Se mantuvo atento y participativo, brindando opiniones sobre el desarrollo general del proyecto.<br>- Apoyó a los integrantes del equipo en la ejecución de *commits* y el uso de GitHub para la gestión colaborativa.<br>- Contribuyó en las secciones de implementación y despliegue del producto.<br>**TP**<br>- Coordinó la integración técnica de los avances y el control de versiones, asegurando la sincronización del trabajo de todos los miembros. | El liderazgo compartido y la comunicación entre los miembros del equipo fortalecieron las habilidades técnicas y colaborativas del grupo. La participación  de cada integrante permitió mantener un flujo de trabajo organizado, con distribución  de responsabilidades y una mejora continua del producto final. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Yazid Said Conde**<br>**TB1**<br>- Promovió un entorno de trabajo ordenado y comunicativo, incentivando la participación de todos los miembros.<br>- Definió las metas y estructura del informe para orientar el cumplimiento de objetivos.<br>**TP**<br>- Supervisó la integración de las secciones y la coherencia general del documento.<br>- Motivó a los compañeros a cumplir con los plazos establecidos, asegurando el avance del proyecto de manera progresiva.<br><br>**Angelo Stephano Moscoso Bejar**<br>**TB1**<br>- Se mantuvo receptivo ante nuevas ideas, fomentando un ambiente inclusivo y colaborativo.<br>- Contribuyó a la organización de tareas mediante sugerencias que facilitaron la coordinación grupal.<br>**TP**<br>- Participó activamente en la definición de metas y la validación del progreso del trabajo.<br>- Colaboró en la revisión final de las secciones para garantizar uniformidad y cohesión visual.<br><br>**Joan Fernando Teves Samaniego**<br>**TB1**<br>- Participó en la planificación de las entrevistas y en la definición del público objetivo del proyecto.<br>**TP**<br>- Colaboró con observaciones precisas sobre el enfoque de las entrevistas y el análisis del segmento meta, fortaleciendo la parte investigativa del informe.<br><br>**Antonio Rodrigo Duran Díaz**<br>**TB1**<br>- Promovió la comunicación constante al notificar los avances y pendientes del proyecto.<br>- Supervisó la coherencia de las secciones técnicas y documentales.<br>**TP**<br>- Coordinó tareas entre los miembros y promovió el cumplimiento de los plazos mediante comunicación directa y asertiva.<br><br>**Gonzalo Alonso Carhuancote Domínguez**<br>**TB1**<br>- Se mantuvo atento y participativo en la planificación grupal, proponiendo mejoras en la gestión del proyecto.<br>- Asistió a los compañeros en la ejecución de *commits* y la resolución de conflictos en GitHub.<br>- Colaboró en la verificación técnica del avance del desarrollo.<br>**TP**<br>- Contribuyó a mantener un entorno colaborativo mediante la asistencia técnica y la comunicación efectiva sobre el estado del repositorio. | La creación de un entorno colaborativo permitió que todos los miembros participaran de manera activa. La planificación conjunta, la comunicación  y la disposición de apoyo mutuo fortalecieron la cohesión del grupo y facilitaron el cumplimiento de metas en los plazos establecidos. |
+
 
 # Capítulo I: Introducción
 
@@ -1452,7 +1435,7 @@ En esta sección se presenta un diccionario de clases que describe las entidades
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams. 
-
+![DataBase-Diagram](/imagenes/DataBase-Diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -1735,6 +1718,7 @@ A continuación, se mencionará algunas convenciones:
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint. 
+
 
 # Conclusiones
 
