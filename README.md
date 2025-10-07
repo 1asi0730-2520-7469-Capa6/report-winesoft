@@ -1257,7 +1257,7 @@ En esta sección, evaluaremos las historias de usuario asignándoles una puntuac
 
 ### 4.4.1. Web Applications Wireframes.
 
- Pagina principal
+Pagina principal
 <img src="./imagenes/pagina principal.png">
 
 Confirmar correo para cambio de contraseña
@@ -1317,6 +1317,17 @@ Ingresar datos como Dueño
 Ingresar datos como Dueño
 <img src="./imagenes/datos proveedor1.png">
 
+Home
+
+<img src="./imagenes/Home1.png">
+
+Supply
+
+<img src="./imagenes/Suplies1.png">
+
+Stock
+
+<img src="./imagenes/Stock1.png">
 
 
 ### 4.4.4. Web Applications User Flow Diagrams.
