@@ -40,6 +40,7 @@
 | **1.2** | 04/10/2025 | Stephano Moscoso | Se modificó User Persona, Journey Mapping, Empathy Mapping, Impact Maping |
 | **1.3** | 05/10/2025 | Joan Teves Samaniego | Se modificó User Task Matrix y Entrevistas  |
 | **1.4** | 07/10/2025 | Antonio Rodrigo Duran Diaz | Se modificó Competidores, Entrevistas, Needfinding, y se agregaron las secciones de Domain-Driven Software Architecture. |
+| **1.5** | 07/10/2025 | Joan Teves Samaniego |Se agrego Class Diagram , Class Dictionary y DataBase Diagram. |
 
 
 </div>
