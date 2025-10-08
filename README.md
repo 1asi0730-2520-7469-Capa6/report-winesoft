@@ -1855,7 +1855,95 @@ La documentación generada permite validar la correcta comunicación entre los c
 | `4bf2e19` | feature/api-supplies | feat: implement supplies CRUD endpoints | 2025-09-22 |
 | `9cc3f4d` | feature/api-docs | docs: add Swagger documentation for API endpoints | 2025-09-25 |
 | `c6a1e81` | feature/stock-movements | feat: add stock movement registration endpoint | 2025-09-27 |
-#### 5.2.1.7.	Software Deployment Evidence for Sprint Review.
+
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Durante este Sprint, el equipo Capa-6 llevó a cabo el proceso de despliegue (Deployment) de los tres productos principales del sistema WineSoft: el business website, la web application (frontend) y los web services (backend). El objetivo de este proceso fue asegurar que cada componente del ecosistema digital estuviera correctamente configurado en entornos accesibles y funcionales para la revisión del Sprint.
+
+---
+
+### Descripción general del proceso de Deployment
+
+El proceso de deployment se dividió en tres etapas principales:
+
+1. Despliegue del Business Website
+   - Publicado en la plataforma Vercel.
+   - Configuración del entorno de producción y revisión de rutas estáticas.
+   - Implementación del dominio temporal proporcionado por Vercel.
+   - Verificación de la correcta visualización del sitio desde distintos navegadores y dispositivos.
+
+2. Despliegue del Frontend de la Aplicación
+   - Desplegado en Netlify, configurando la integración continua con GitHub.
+   - Se realizó la conexión directa a la rama principal develop para la actualización automática con cada merge aprobado.
+   - Configuración de variables de entorno (API_URL) para la conexión con los servicios backend.
+   - Pruebas funcionales de carga y renderización de componentes React en producción.
+
+3. Despliegue del Backend (Web Services)
+   - Implementado en Render, utilizando la estructura Node.js – Express.
+   - Configuración de base de datos en entorno de prueba y despliegue del API REST con los endpoints desarrollados durante el Sprint (/api/auth, /api/supplies, /api/stock-movements).
+   - Documentación del API disponible mediante Swagger UI en el entorno desplegado.
+   - Pruebas de conexión con la base de datos y validación de respuestas JSON desde el frontend.
+
+---
+
+### Capturas del proceso de Deployment
+
+1. Panel de despliegue del business website en Vercel  
+   <img src="./imagenes/Landing_Home.jpeg" alt="Landing_Home.jpeg">
+
+2. Configuración del proyecto y entorno en Netlify (frontend)  
+   <img src="./imagenes/Frontend_Home.jpeg" alt="Frontend_Home.jpeg">
+
+---
+
+### Configuración de automatización e integración continua (CI/CD)
+
+- Se configuró un flujo básico de Integración Continua (CI) mediante GitHub Actions para automatizar la compilación y despliegue del business website y frontend cada vez que se realiza un merge en la rama develop.
+- El archivo de configuración .github/workflows/deploy.yml contiene las instrucciones para ejecutar la build y desplegar automáticamente en los entornos correspondientes.
+- Para el backend, Render se configuró con Auto Deploy activado, garantizando que cualquier cambio confirmado en la rama main se actualice automáticamente en el entorno en línea.
+
+Ejemplo de flujo CI/CD ejecutado:
+name: Deploy Frontend
+on:
+  push:
+    branches: [develop]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
+      - name: Build project
+        run: npm run build
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v2
+        with:
+          publish-dir: ./dist
+          production-deploy: true
+
+---
+
+### URLs de despliegue
+
+| Componente | Plataforma | URL |
+|-------------|-------------|-----|
+| Business Website | Vercel | https://capa6-winesoft.vercel.app |
+| Frontend (Web Application) | Netlify | https://winesoft-frontend.vercel.app/home |
+
+
+---
+
+### Commits asociados al proceso de Deployment
+
+| Commit ID | Rama | Mensaje | Fecha |
+|------------|-------|----------|--------|
+| 5b23a4e | feature/deploy-vercel | chore: configure deployment of business website on Vercel | 2025-09-27 |
+| 7c8e9af | feature/deploy-netlify | chore: setup frontend deployment on Netlify with CI/CD | 2025-09-28 |
+| 9df2b61 | feature/deploy-render | feat: deploy backend API on Render and add Swagger route | 2025-09-29 |
+
 
 #### 5.2.1.8.	Team Collaboration Insights during Sprint.
 
