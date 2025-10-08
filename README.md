@@ -1810,8 +1810,51 @@ En este video se muestra la navegación general por el frontend de la aplicació
 
 
 
-#### 5.2.1.6.	Services Documentation Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
+Durante este Sprint, el equipo Capa-6*avanzó en la documentación y prueba de los servicios web (Web Services)** desarrollados para el sistema WineSoft, utilizando **OpenAPI (Swagger UI) como herramienta de referencia técnica.  
+L endpoints creados corresponden al módulo de gestión de insumos y al registro de movimientos de stock, los cuales permiten la interacción directa entre el frontend y el backend del sistema.  
+La documentación generada permite validar la correcta comunicación entre los componentes y estandariza la estructura de las solicitudes y respuestas.
+
+---
+
+### Endpoints documentados
+
+| **Endpoint** | **HTTP Verb** | **Acción / Descripción** | **Parámetros / Body** | **Ejemplo de Request** | **Ejemplo de Response** |
+|---------------|----------------|---------------------------|------------------------|-------------------------|--------------------------|
+| `/api/auth/login` | POST | Permite autenticar a un usuario en el sistema. | body (JSON): `{ "email": "user@winesoft.com", "password": "123456" }` | POST /api/auth/login | **200 OK** – `{ "token": "abc123xyz", "user": { "name": "Fernando Tevez" } }` |
+| `/api/supplies` | GET | Retorna la lista de insumos registrados. | Ninguno | GET /api/supplies | **200 OK** – `[ { "id": 1, "name": "Alcohol 96°", "stock": 20 } ]` |
+| `/api/supplies` | POST | Registra un nuevo insumo. | body (JSON): `{ "name": "Botella 1L", "stock": 50 }` | POST /api/supplies | **201 Created** – `{ "id": 2, "name": "Botella 1L", "stock": 50 }` |
+| `/api/stock-movements` | GET | Muestra todos los movimientos de stock. | Ninguno | GET /api/stock-movements | **200 OK** – `[ { "id": 5, "supply": "Alcohol 96°", "type": "Entrada", "quantity": 10 } ]` |
+| `/api/stock-movements` | POST | Registra una nueva entrada o salida de insumo. | body (JSON): `{ "supplyId": 1, "type": "Salida", "quantity": 5 }` | POST /api/stock-movements | **201 Created** – `{ "id": 6, "supplyId": 1, "type": "Salida", "quantity": 5 }` |
+| `/api/supplies/{id}` | PUT | Actualiza la información de un insumo. | path: id (int), body (JSON): `{ "stock": 40 }` | PUT /api/supplies/1 | **200 OK** – `{ "id": 1, "name": "Alcohol 96°", "stock": 40 }` |
+| `/api/supplies/{id}` | DELETE | Elimina un insumo del inventario. | path: id (int) | DELETE /api/supplies/3 | **204 No Content** |
+
+---
+
+### Descripción técnica de los servicios
+
+- Todos los endpoints fueron implementados en **Node.js con Express** y documentados mediante **Swagger UI**.  
+- La especificación se encuentra alojada en el archivo `swagger.yaml`, accesible localmente desde:  
+  `http://localhost:3000/api-docs`  
+- Cada endpoint fue probado con **datos de muestra** mediante Swagger, confirmando la correcta respuesta de códigos HTTP (200, 201, 204).  
+- La estructura de respuesta sigue el formato **JSON**, asegurando compatibilidad con el frontend desarrollado en React.
+
+---
+
+
+### Repositorio y commits relacionados
+
+**Repositorio de Web Services:**  
+🔗 [Link Github Api](https://github.com/1asi0730-2520-7469-Capa6/winesoft-fake-api.git)
+
+**Commits asociados al Sprint 1:**
+
+| Commit ID | Rama | Mensaje | Fecha |
+|------------|-------|----------|--------|
+| `4bf2e19` | feature/api-supplies | feat: implement supplies CRUD endpoints | 2025-09-22 |
+| `9cc3f4d` | feature/api-docs | docs: add Swagger documentation for API endpoints | 2025-09-25 |
+| `c6a1e81` | feature/stock-movements | feat: add stock movement registration endpoint | 2025-09-27 |
 #### 5.2.1.7.	Software Deployment Evidence for Sprint Review.
 
 #### 5.2.1.8.	Team Collaboration Insights during Sprint.
