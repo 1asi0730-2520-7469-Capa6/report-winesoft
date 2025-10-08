@@ -1752,6 +1752,64 @@ A continuación, se mencionará algunas convenciones:
 
 #### 5.2.1.5.	Execution Evidence for Sprint Review.
 
+
+Durante este primer Sprint, el equipo Capa-6 completó la implementación inicial de los componentes del sistema WineSoft, enfocándose en la creación e integración del business website y la estructura base del ecosistema digital que conecta a destilerías y proveedores.
+
+Se logró diseñar, publicar y realizar el despliegue de la primera versión del frontend del business website, el cual presenta las secciones principales del negocio digital:
+- Presentación del modelo de negocio y propósito de la plataforma.  
+- Descripción de las funcionalidades clave del sistema (control de inventario, trazabilidad y comunicación proveedor-cliente).  
+- Planes de suscripción diferenciados según el tipo de usuario (destilería o proveedor).  
+
+### Funcionalidades implementadas
+- **Business website funcional:** diseño adaptable (*responsive*) con enlaces activos a la aplicación principal.  
+- **Componentes dinámicos:** uso de HTML, CSS y JS modularizados para la navegación fluida entre secciones.  
+- **Estructura inicial del frontend WineSoft:** configuración del entorno base de la aplicación con Vite y React.  
+- **Despliegue del frontend:** publicación de la primera versión del business website en el entorno de producción configurado.  
+- **Integración visual con el branding de Capa-6:** paleta de colores y tipografía homogénea en todas las vistas.
+
+---
+
+### Evidencia visual del avance
+A continuación se muestran las vistas implementadas durante el Sprint sobre el business website:
+
+1. **Home – Presentación de la plataforma WineSoft**  
+<img src="./imagenes/Landing_Home.jpeg" alt="Landing_Home.jpeg">
+
+2. **Sección de los servicios que se brindan**  
+<img src="./imagenes/Landing_Services.jpeg" alt="Landing_Services.jpeg">
+
+3. **Sección de planes de suscripción**  
+<img src="./imagenes/Landing_Prices.jpeg" alt="Landing_Prices.jpeg">
+
+4. **Pie de página con enlaces a contacto y documentación**  
+<img src="./imagenes/Landing_Context.jpeg" alt="Landing_Context.jpeg">
+
+
+### Video demostrativo
+🔗 **[Video de navegación del Sprint 1 en bussines website WineSoft](https://youtu.be/kAkNyyplm-M/)**  
+En el video se muestra la navegación por el Landing Page, los enlaces funcionales entre secciones y la explicación del propósito de la aplicación.
+
+### Evidencia visual del avance – Frontend de la aplicación
+A continuación se muestran las vistas implementadas durante el Sprint correspondientes al **frontend del sistema WineSoft**, las cuales forman parte de la primera versión desplegada en producción.
+
+1. **Home – Panel principal de la aplicación WineSoft**  
+<img src="./imagenes/Frontend_Home.jpeg" alt="Frontend_Home.jpeg">
+
+2. **Suministros – Gestión de insumos y productos disponibles**  
+<img src="./imagenes/Frontend_Suministros.jpeg" alt="Frontend_Suministros.jpeg">
+
+3. **Movimientos de Stock – Registro y seguimiento de entradas y salidas de inventario**  
+<img src="./imagenes/Frontend_Movimientos.jpeg" alt="Frontend_Movimientos.jpeg">
+
+
+### Video demostrativo 
+🔗 **[Video de navegación del Sprint 1 en frontend WineSoft](https://youtu.be/hFGXKMKlDn8)**  
+En este video se muestra la navegación general por el frontend de la aplicación, incluyendo el panel principal, el módulo de suministros y la vista de movimientos de stock, destacando las funcionalidades implementadas y su conexión con la interfaz de usuario.
+
+
+
+
+
 #### 5.2.1.6.	Services Documentation Evidence for Sprint Review.
 
 #### 5.2.1.7.	Software Deployment Evidence for Sprint Review.
