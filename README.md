@@ -1750,7 +1750,7 @@ A continuación, se mencionará algunas convenciones:
 | winesoft/landing-page | feature/footer | t7u8v9w | feat: footer section with links | Se implementó el footer con links informativos y diseño responsive. | 2025-04-12 |
 
 
-#### 5.2.1.5.	Execution Evidence for Sprint Review.
+## 5.2.1.5.	Execution Evidence for Sprint Review.
 
 
 Durante este primer Sprint, el equipo Capa-6 completó la implementación inicial de los componentes del sistema WineSoft, enfocándose en la creación e integración del business website y la estructura base del ecosistema digital que conecta a destilerías y proveedores.
@@ -1810,7 +1810,7 @@ En este video se muestra la navegación general por el frontend de la aplicació
 
 
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+## 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Durante este Sprint, el equipo Capa-6*avanzó en la documentación y prueba de los servicios web (Web Services)** desarrollados para el sistema WineSoft, utilizando **OpenAPI (Swagger UI) como herramienta de referencia técnica.  
 L endpoints creados corresponden al módulo de gestión de insumos y al registro de movimientos de stock, los cuales permiten la interacción directa entre el frontend y el backend del sistema.  
@@ -1857,7 +1857,7 @@ La documentación generada permite validar la correcta comunicación entre los c
 | `c6a1e81` | feature/stock-movements | feat: add stock movement registration endpoint | 2025-09-27 |
 
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+## 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 Durante este Sprint, el equipo Capa-6 llevó a cabo el proceso de despliegue (Deployment) de los tres productos principales del sistema WineSoft: el business website, la web application (frontend) y los web services (backend). El objetivo de este proceso fue asegurar que cada componente del ecosistema digital estuviera correctamente configurado en entornos accesibles y funcionales para la revisión del Sprint.
 
@@ -1945,7 +1945,54 @@ jobs:
 | 9df2b61 | feature/deploy-render | feat: deploy backend API on Render and add Swagger route | 2025-09-29 |
 
 
-#### 5.2.1.8.	Team Collaboration Insights during Sprint.
+## 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante este Sprint, el equipo Capa-6 trabajó de manera colaborativa en la implementación de los distintos componentes del sistema WineSoft, siguiendo la metodología de ramas propuesta por GitFlow Workflow y aplicando convenciones de commits bajo el estándar Conventional Commits.  
+El trabajo del equipo se desarrolló a través de GitHub, donde se registraron las contribuciones individuales, los merges a las ramas principales y las actividades de documentación y despliegue.
+
+---
+
+### Organización del trabajo en equipo
+
+Cada integrante del equipo asumió roles específicos dentro del ciclo de desarrollo:
+
+- **Diseño e implementación del business website:** responsable de la maquetación inicial, estilos CSS y adaptación responsive.  
+- **Desarrollo del frontend (Web Application):** encargado de la integración de vistas dinámicas y consumo de servicios desde el backend.  
+- **Implementación del backend (Web Services):** desarrollo de endpoints REST, documentación con Swagger y configuración de base de datos.  
+- **Deployment y documentación:** encargados de la automatización de despliegues, generación de evidencias y estructura del reporte técnico del Sprint.
+
+El equipo utilizó **GitHub Projects** como herramienta de planificación, registrando las tareas en las columnas *To Do*, *In Progress* y *Done*, asegurando una trazabilidad clara del avance de cada actividad.
+
+---
+
+### Estrategia de ramas y commits
+
+El equipo aplicó la estructura **GitFlow**, conformada por las ramas:
+
+- `main`: rama principal estable para versiones aprobadas.  
+- `develop`: rama de integración donde se realizan los merges de las features terminadas.  
+- `feature/*`: ramas de desarrollo por módulo o componente
+
+Los mensajes de commit siguieron la convención **Conventional Commits**, utilizando prefijos como:
+- `feat:` para nuevas funcionalidades.  
+- `fix:` para corrección de errores.  
+- `docs:` para documentación del Sprint.  
+- `style:` para cambios de formato o CSS.  
+- `chore:` para configuraciones y tareas auxiliares.
+
+---
+
+### Analíticos de colaboración en GitHub
+
+Las siguientes capturas muestran la evidencia del trabajo colaborativo y los aportes realizados por los miembros del equipo **Capa-6** durante el Sprint 1.
+
+
+**Gráfico de contribución general del equipo**  
+   <img src="./imagenes/github_contributors.jpeg" alt="github_contributors.jpeg">
+   <img src="./imagenes/Contributions.jpeg" alt="Contributions.jpeg">
+
+---
+
 
 ### 5.2.2 Sprint 2
 
