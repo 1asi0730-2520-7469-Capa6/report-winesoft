@@ -61,7 +61,7 @@ Con el fin de evidenciar los avances realizados y demostrar la participación ac
 ## Contributors
 En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
 
-![contributors-report-tb1](./imagenes/contributorstb1.png)
+![contributors-report-tb1](./imagenes/contributorsTP.png)
 
 ### Reporte de Colaboración para la Entrega del TP1
 
