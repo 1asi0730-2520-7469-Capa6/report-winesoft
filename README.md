@@ -652,8 +652,8 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 * **Ocupación:** Generente General
 * **Provincia de Residencia:** Huancayo
 
-* **Duración de la entrevista:** [00:00:09 - 00:00:00]
-* **Video de las entrevistas:** [Needfinding - Interviews](https://bit.ly/interview-segmento-dueño1)
+* **Duración de la entrevista:** [00:00:09 - 00:06:03]
+* **Video de las entrevistas:** [Needfinding - Interviews](https://bit.ly/entrevista-dueño1)
 
 **Resumen de la entrevista:**
 - El ingeniero Fernando Teves explicó que dentro de su fábrica el producto más demandado es el anisado, seguido de algunas variedades de licores artesanales. Mencionó que las bebidas que más rápido se agotan son los productos tradicionales de mayor aceptación, mientras que ciertos licores importados o de nicho suelen quedarse más tiempo en stock.
@@ -664,9 +664,27 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 
 - Finalmente, mostró interés en un sistema como WineSoft, destacando que sería muy valioso contar con un control en tiempo real de ventas e inventario, recibir reportes automáticos de productos más vendidos y, sobre todo, conectarse directamente con proveedores autorizados para agilizar la reposición. Considera que esto le permitiría ahorrar tiempo administrativo y dedicar más esfuerzo a los clientes y a mejorar la calidad de los productos.
 
+**Entrevista 2: Alejandro Huamán**
+
+![Dueño-2](./imagenes/entrevistadueño2.png)
+
+**Datos del entrevistado**
+* **Nombre:** Alejandro Huamán
+* **Edad:** 23
+* **Estado civil:** Soltero
+* **Ocupación:** Ayudante en bodega artesanal
+* **Provincia de Residencia:** Ica, Subtanjalla
+
+* **Duración de la entrevista:** [00:06:05 - 00:20:45]
+* **Video de las entrevistas:** [Needfinding - Interviews](https://bit.ly/4o7ZU7P)
+
+**Resumen de la entrevista:**
+
+Alejandro Rodríguez Huamán, de 23 años, trabaja desde hace dos años en la bodega familiar ubicada en Subtanjalla, Ica, donde se producen principalmente vino tinto, pisco y ron artesanal. Alejandro supervisa los tanques de fermentación controlados por un sistema IoT adquirido hace tres años, que monitorea temperatura, presión, humedad y nivel de líquido, aunque depende totalmente del proveedor para su mantenimiento. El control de insumos lo realiza manualmente en Excel, donde registra ácidos, levaduras, enzimas y materiales de envasado, pero enfrenta errores frecuentes, falta de alertas y pérdidas de hasta 3% por vencimiento o deterioro. Además, sufre problemas de coordinación con proveedores, duplicidad de pedidos y demoras que le demandan entre 8 y 10 horas semanales en tareas administrativas. Considera que la tecnología ha sido clave para evitar pérdidas y ve con interés la implementación de una plataforma como WineSoft para el control del inventario, pedidos y reportes automáticos, accesible, con soporte en español y un costo razonable, lo cual facilitaría la gestión, reduciría errores y mejoraría la eficiencia del negocio.
+
 **Segmento Objetivo: Proveedor de Insumos para el sector licorero**
 
-**Entrevista 2: Gabriel**
+**Entrevista 1: Gabriel**
 
 ![Proveedor-1](./imagenes/entrevistaproveedor1.png)
 
@@ -675,66 +693,50 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 * **Edad:** 25
 * **Estado civil:** Soltero
 * **Ocupación:** Ayudante de proveedor de insumos
-* **Distrito de Residencia:** Jesús María
+* **Distrito de Residencia:** Lima, Jesús María
 
-* **Duración de la entrevista:** [00:00:00 - 00:00:00]
-* **Video de las entrevistas:** [Needfinding - Interviews](https://bit.ly/interview-segmento-proveedor1)
+* **Duración de la entrevista:** [00:20:48 - 00:29:34]
+* **Video de las entrevistas:** [Needfinding - Interviews](https://bit.ly/3KB8UUR)
 
 **Resumen de la entrevista:**
 
 - En la entrevista, Gabriel, quien trabaja con su madre en un negocio de insumos para licorerías y destilerías, explicó que ofrecen principalmente alcohol puro, botellas, tapas y equipos de destilación, gestionando la trazabilidad con documentos oficiales y códigos QR. Señaló que la demanda varía según la temporada, enfrentan retos logísticos como transporte inseguro y condiciones de almacenamiento, y actualmente manejan inventarios con Excel. Destacó que los clientes valoran la pureza, el origen certificado y los precios, además de la puntualidad en las entregas, y mencionó la importancia de cumplir con normativas sanitarias. Reconoció el interés en adoptar herramientas digitales, mejorar la comunicación y diversificar pagos, y se mostró dispuesto a integrarse en plataformas que optimicen pedidos, trazabilidad y costos.
 
+**Entrevista 2: María Vivanco**
+
+![Proveedor-2](./imagenes/entrevistaproveedor2.png)
+
+**Datos del entrevistado**
+* **Nombre:** María Vivanco
+* **Edad:** 45
+* **Estado civil:** Soltera
+* **Ocupación:** Dueña y gestora de empresa distribuidora de insumos para sector licorero
+* **Provincia de Residencia:** Ica, Chincha
+
+* **Duración de la entrevista:** [00:29:35 - 00:44:26]
+* **Video de las entrevistas:** [Needfinding - Interviews](https://bit.ly/entrevista-proveedor2)
+
+**Resumen de la entrevista:**
+María Elena Vivanco Paredes, tiene 45 años y es una proveedora de insumos para destilerías en Chincha, Ica, con más de 18 años de experiencia en el sector pisquero. Abastece a bodegas y productores artesanales con levaduras importadas, ácidos, taninos, sulfitos, botellas, tapas, etiquetas y otros materiales. Su gestión de trazabilidad es manual, con registros en carpetas físicas y búsqueda de documentos que puede tardar hasta 40 minutos por lote. Durante la temporada alta octubre a marzo recibe pedidos casi diarios, llegando a un promedio mensual de 26, pero enfrenta retos logísticos por la estacionalidad, el transporte costoso, demoras en importaciones y devoluciones de productos. Su control de inventario se realiza mediante Excel y registros en agenda, con pérdidas ocasionales por vencimientos y errores de stock, mientras que la documentación sanitaria ocupa entre 5 y 6 horas semanales en su organización. Aunque reconoce la importancia de cumplir normativas y ofrecer productos certificados, considera que la falta de digitalización limita la eficiencia del negocio. María ve con optimismo la adopción de herramientas tecnológicas que centralicen inventarios, pedidos y trazabilidad, siempre que sean accesibles entre S/ 150-250 mensuales, intuitivas, seguras. Finalmente, resalta la necesidad de mejorar la relación con las destilerías mediante comunicación anticipada, cumplimiento de acuerdos, pagos puntuales y mayor coordinación logística para fortalecer la confianza mutua.
+
 ## 2.2.3. Análisis de entrevistas  
-### Segmento 1: Dueños de licorerías y destilerías (N=3)  
 
-### Análisis Cuantitativo y Cualitativo
- | Característica                                                              | Tipo      | Porcentaje | Descripción y evidencia                                                                                                                                           |
-| --------------------------------------------------------------------------- | --------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Preferencia por productos tradicionales (anisado y licores artesanales)** | Objetiva  | 100%       | El entrevistado afirmó que el producto más demandado es el anisado, seguido por licores artesanales, indicando una clara orientación hacia bebidas tradicionales. |
-| **Cambio en las preferencias del consumidor hacia lo artesanal y local**    | Subjetiva | 100%       | Mencionó que los clientes muestran un creciente interés por bebidas locales, lo que evidencia una tendencia de consumo más consciente y orientada a lo nacional.  |
-| **Gestión manual del inventario (uso de Excel)**                            | Objetiva  | 100%       | Señaló que actualmente realiza el control de stock mediante hojas de cálculo, lo que refleja un nivel bajo de digitalización.                                     |
-| **Problemas en la coordinación con proveedores**                            | Objetiva  | 100%       | Indicó que la reposición de productos requiere tiempo por la falta de automatización y conexión con proveedores.                                                  |
-| **Interés en sistemas digitales integrados (WineSoft)**                     | Subjetiva | 100%       | Mostró interés en implementar soluciones digitales que permitan control en tiempo real y generación de reportes automáticos.                                      |
-| **Enfoque en la mejora de eficiencia y calidad**                            | Subjetiva | 100%       | Considera que un sistema automatizado le permitiría enfocarse más en la calidad del producto y en la atención al cliente.                                         |
+| **Segmento**                                                  | **Características Comunes (con sustento estadístico y referencia)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | **Interpretación / Relevancia para el Arquetipo**                                                                                                                                                                                                                                                                                                     |
+| ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **PROVEEDORES DE INSUMOS (María Vivanco – Gabriel)**            | • **Gestión manual predominante:** 100% de los entrevistados utilizan **Excel y registros físicos** (María Elena: 12% digitalización, Gabriel: usa Excel).  <br>• **Pérdidas por vencimiento:** ambos reportan pérdidas anuales; Gabriel: deterioros por mal almacenamiento.  <br>• **Pedidos urgentes frecuentes:** 35% de los pedidos requieren atención en menos de 48h.  <br>• **Errores de stock o disponibilidad:** 2–3 mensuales (≈10–12% de pedidos).  <br>• **Precisión de inventario:** 75–82%.  <br>• **Altísima disposición tecnológica:** 95% de intención de adopción digital.  <br>• **Barreras principales:** costo (65%), desconfianza tecnológica (45%) y capacitación (40%).  <br>• **Pérdida de ingresos por competencia o fallas logísticas:** S/800–1,200 mensuales.  <br>• **Mejoras prioritarias:** Comunicación anticipada (95%), pagos puntuales (85%) y coordinación de entregas (80%). | Segmento con perfil operativo tradicional, alta experiencia y control manual, pero consciente del valor de digitalizar su gestión. Tienen poder de decisión alto, buscan eficiencia, trazabilidad y comunicación fluida con licorerías. Su resistencia no es por rechazo sino por temor al costo y capacitación.                          |
+| **DUEÑOS DE LICORERÍAS / PRODUCTORES (Fernando Teves – Alejandro Huaman)** | • **Uso de herramientas manuales:** 100% emplea **Excel o cuadernos** (Fernando: manual, Alejandro: Excel 78% precisión).  <br>• **Errores y pérdidas:** Alejandro y  Fernando reporta ineficiencia en control e inventarios.  <br>• **Tiempo administrativo excesivo:** 8–10 h semanales; reducible a 2–3 h con automatización un ahorro del 70%.  <br>• **Problemas de comunicación con proveedores:** 30% de los pedidos presentan retrasos o inconsistencias.  <br>• **Pedidos urgentes:** 2–3 mensuales.  <br>• **Importancia de tecnología:** 9/10 (IoT y control digital valorados).  <br>• **Presupuesto disponible:** S/100–150 mensuales.  <br>• **Disposición a compartir información con proveedores:** 85%.  <br>• **Factores decisivos para adopción:** facilidad (95%), costo (90%), soporte (85%)| Este segmento valora la eficiencia, control en tiempo real y reducción de errores. Requiere sistemas accesibles y fáciles de usar. Percibe la tecnología como una inversión, no como gasto, pero busca una solución adaptada a su realidad artesanal. Muy alta predisposición a compartir datos para mejorar coordinación. |
 
-### Conclusiones del segmento
+### Gráfico circular - Causas de Perdida de Insumos
 
-- Digitalización baja: Los procesos operativos se realizan de manera manual o con herramientas básicas.
-- Tendencia a productos locales y artesanales: El mercado se inclina hacia lo artesanal.
-- Alta disposición al cambio tecnológico: Existe apertura hacia la adopción de soluciones digitales.
-- Necesidad clave: Automatización del control de inventario y conexión con proveedores.
-- Motivación principal: Optimizar el tiempo administrativo para centrarse en producción y clientes.
+![Gráfico circular - Causas de Perdida de Insumos](./imagenes/estadistico1.png)
 
-### Segmento 2: Proveedor de Insumos para Sector Licorero  
+### Gráfico de barras - Prioridades de Mejora Proveedor–Cliente
 
-### Análisis Cuantitativo y Cualitativo
-| Característica                                                             | Tipo      | Porcentaje | Descripción y evidencia                                                                                        |
-| -------------------------------------------------------------------------- | --------- | ---------- | -------------------------------------------------------------------------------------------------------------- |
-| **Venta de insumos clave (alcohol puro, botellas, tapas, equipos)**        | Objetiva  | 100%       | Gabriel explicó que su negocio ofrece estos productos esenciales para licorerías y destilerías.                |
-| **Gestión del inventario con Excel**                                       | Objetiva  | 100%       | Indicó que utilizan hojas de cálculo, lo que refleja la misma limitación digital que los dueños de licorerías. |
-| **Demanda estacional de productos**                                        | Objetiva  | 100%       | Mencionó que la demanda varía según la temporada, evidenciando la necesidad de planeamiento de stock.          |
-| **Problemas logísticos (transporte y almacenamiento)**                     | Objetiva  | 100%       | Destacó dificultades en la distribución y condiciones de conservación de los insumos.                          |
-| **Importancia de trazabilidad y cumplimiento normativo**                   | Objetiva  | 100%       | Subrayó que garantizan la pureza mediante documentos y códigos QR, alineándose con regulaciones sanitarias.    |
-| **Interés en plataformas digitales para optimizar pedidos y trazabilidad** | Subjetiva | 100%       | Manifestó disposición a integrarse en plataformas tecnológicas que mejoren la eficiencia del negocio.          |
-| **Valoración de puntualidad, precio y certificación**                      | Subjetiva | 100%       | Resaltó que los clientes priorizan estos factores al elegir un proveedor.                                      |
+![Gráfico de barras - Prioridades de Mejora Proveedor–Cliente](./imagenes/estadistico2.png)
 
-### Conclusiones del segmento
+### Gráfico de Barras Agrupadas - Comparación por Segmentos
 
-- Nivel tecnológico básico: Uso limitado de herramientas digitales (Excel).
-- Alta conciencia regulatoria: Se enfocan en trazabilidad y certificación de insumos.
-- Dificultades operativas: Problemas de transporte y logística.
-- Motivación principal: Optimizar la trazabilidad y mejorar la gestión de pedidos.
-- Oportunidad de mejora: Integración a plataformas que conecten proveedores con licorerías para pedidos seguros y automáticos.
-
-### Comparación entre segmentos
-| Aspecto                                          | Dueño de licorería y destilería            | Proveedor de insumos                         |
-| ------------------------------------------------ | ------------------------------------------ | -------------------------------------------- |
-| **Nivel de digitalización**                      | Bajo (gestión manual)                      | Bajo (uso de Excel)                          |
-| **Interés en soluciones digitales**              | Muy alto (WineSoft)                        | Alto (plataformas integradas)                |
-| **Problemas principales**                        | Inventario, coordinación con proveedores   | Logística, trazabilidad                      |
-| **Motivaciones**                                 | Eficiencia operativa y mejora del servicio | Optimización y cumplimiento normativo        |
-| **Tendencias percibidas**                        | Mayor demanda de productos artesanales     | Mayor exigencia en calidad y certificación   |
-| **Relación con el sistema propuesto (WineSoft)** | Usuario final – consumidor del software    | Usuario complementario – proveedor conectado |
+![Gráfico de Barras Agrupadas - Comparación por Segmentos](./imagenes/estadistico3.png)
 
 
 ## 2.3. Needfinding.
