@@ -2001,40 +2001,165 @@ Las siguientes capturas muestran la evidencia del trabajo colaborativo y los apo
 
 #### 5.2.2.1. Sprint Planning 2.
 
-#### 5.2.2.2. Aspect Leaders and Collaborators. 
+Durante este segundo Sprint, el equipo **Capa-6** planificó la implementación de las funcionalidades interactivas del sistema **WineSoft**, centradas en la conexión entre el frontend y el backend mediante los servicios REST documentados en el Sprint 1.  
+El objetivo principal fue desarrollar las vistas funcionales del módulo de **Gestión de Inventario**, el panel de **Movimientos de Stock**, y la integración de **autenticación de usuarios**.  
+También se definió la ampliación de endpoints del backend y la mejora del flujo CI/CD.
 
-#### 5.2.2.3. Sprint Backlog 2. 
+**Objetivos principales del Sprint 2:**
+- Conectar el frontend con los endpoints del backend (API REST).
+- Implementar la autenticación de usuarios.
+- Añadir las vistas de gestión de stock, alertas y reportes.
+- Actualizar la documentación OpenAPI con nuevos endpoints.
+- Mejorar el despliegue automatizado con nuevas variables de entorno.
 
-#### 5.2.2.4. Development Evidence for Sprint Review. 
+---
 
-#### 5.2.2.5. Execution Evidence for Sprint Review. 
+#### 5.2.2.2. Aspect Leaders and Collaborators.
 
-###### Home:
-
-<img src="assets/HomeFront.png" width="100%" height="100%">
-
-###### Supplies (Add and Edit):
-
-<img src="assets/Supplies.png" width="100%" height="100%">
-
-<img src="assets/SuppliesEdit.png" width="100%" height="100%">
-
-<img src="assets/SuppliesAdd.png" width="100%" height="100%">
+| Team Member (Last Name, First Name) | GitHub Username | Autenticación de Usuarios (L/C) | Gestión de Stock (L/C) | Módulo de Alertas (L/C) | Backend - API REST (L/C) | Documentación y Deployment (L/C) |
+|-------------------------------------|-----------------|---------------------------------|------------------------|--------------------------|----------------------------|----------------------------------|
+| Moscoso Bejar, Angelo Stephano      | StephanoDang    | L                               | C                      | C                        | C                          | L                                |
+| Conde, Yazid Said                   | BL4Z3K4D        | C                               | L                      | C                        | C                          | C                                |
+| Teves Samaniego, Joan Fernando      | Joan3210        | C                               | C                      | L                        | C                          | C                                |
+| Durán Díaz, Antonio Rodrigo         | Sltcrd          | C                               | C                      | C                        | L                          | C                                |
+| Carhuancote Dominguez, Gonzalo Alonso | Gonzalo251104   | C                               | C                      | C                        | C                          | L                                |
 
 
-###### Stock Movements (Add and Edit):
+---
 
-<img src="assets/StockMovements.png" width="100%" height="100%">
+#### 5.2.2.3. Sprint Backlog 2.
 
-<img src="assets/StockMovementsEdit.png" width="100%" height="100%">
+| ID | User Story | Prioridad | Estado |
+|----|-------------|------------|---------|
+| US17 | Como usuario, deseo iniciar sesión para acceder a mi panel. | Alta | Hecho |
+| US18 | Como dueño, deseo registrar movimientos de stock desde el frontend. | Alta | Hecho |
+| US19 | Como proveedor, deseo ver alertas de productos bajos en stock. | Media | En progreso |
+| US20 | Como administrador, deseo generar reportes de movimientos. | Media | Hecho |
+| US21 | Como usuario, deseo cerrar sesión de forma segura. | Media | Hecho |
 
-<img src="assets/StockMovementsAdd.png" width="100%" height="100%">
+---
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
+#### 5.2.2.4. Development Evidence for Sprint Review.
 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
+Durante este Sprint se desarrollaron las nuevas vistas funcionales del **frontend de WineSoft**, integrando la API creada previamente.  
+Se configuró el **sistema de autenticación JWT**, la comunicación entre componentes React y los endpoints de stock, además de validaciones y alertas automáticas.
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint. 
+**Avances principales:**
+- Integración del login y logout con validación de credenciales.
+- Creación del módulo de registro de movimientos (entradas/salidas).
+- Implementación de alertas automáticas de stock bajo.
+- Conexión del dashboard principal con los endpoints del backend.
+- Revisión de control de errores y estados de carga en el frontend.
+
+**Commits representativos:**
+| Commit ID | Rama | Mensaje | Fecha |
+|------------|-------|----------|--------|
+| `8a2b6d9` | feature/auth | feat: implement login and logout components with JWT | 2025-10-05 |
+| `9b3d2c1` | feature/movements | feat: connect stock movements API with frontend | 2025-10-06 |
+| `ab52e3f` | feature/alerts | feat: add low-stock alert notification system | 2025-10-07 |
+
+---
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+Durante este segundo Sprint, el equipo **Capa-6** completó la integración entre el **frontend** y el **backend**, logrando la comunicación en tiempo real entre la interfaz y los servicios REST de WineSoft.  
+Se actualizaron las vistas dinámicas del sistema con datos obtenidos desde la API y se desplegó la nueva versión funcional del **business website** y del **frontend conectado**.
+
+**Principales resultados:**
+- Interfaz de inicio de sesión operativa.
+- Panel de stock conectado al backend.
+- Registro de movimientos desde el frontend validado con respuestas JSON.
+- Despliegue de la segunda versión del frontend conectado.
+
+**Evidencia visual:**
+1. **Panel principal con insumos cargados desde API**  
+   <img src="./imagenes/Frontend_Home.jpeg" alt="Sprint2_Dashboard">
+3. **Módulo de movimientos de stock**  
+   <img src="./imagenes/Frontend_Suministros.jpeg" alt="Sprint2_Movements">
+
+
+**Video demostrativo:**  
+🔗 [Ver video de navegación del Sprint 2](www.youtube.com/watch?v=hFGXKMKlDn8&feature=youtu.be)  
+
+---
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 2 se actualizaron y ampliaron los endpoints del **API REST de WineSoft**, agregando nuevas funcionalidades para autenticación, movimientos de stock y alertas.  
+La documentación se mantuvo en **Swagger UI**, garantizando coherencia con los servicios previos.
+
+| Endpoint | Verbo HTTP | Descripción | Ejemplo de Request | Ejemplo de Response |
+|-----------|-------------|--------------|--------------------|---------------------|
+| `/api/auth/login` | POST | Autentica al usuario. | `{ "email":"user@winesoft.com","password":"123456" }` | `{ "token":"abc123","user":"Fernando Tevez" }` |
+| `/api/auth/logout` | POST | Cierra sesión eliminando token. | — | `{ "message":"Logout success" }` |
+| `/api/stock-movements` | GET | Lista todos los movimientos. | — | `[{"id":1,"type":"Entrada","quantity":10}]` |
+| `/api/stock-movements` | POST | Crea un movimiento. | `{ "supplyId":1,"type":"Salida","quantity":5 }` | `{ "id":2,"supplyId":1,"type":"Salida","quantity":5 }` |
+| `/api/alerts` | GET | Retorna alertas de stock bajo. | — | `[{"id":3,"product":"Alcohol 96°","stock":4}]` |
+
+
+**Commits relevantes:**
+| Commit ID | Rama | Mensaje | Fecha |
+|------------|-------|----------|--------|
+| `c2e4f8a` | feature/api-auth | feat: add login/logout endpoints | 2025-10-05 |
+| `d1a7f9e` | feature/api-alerts | feat: implement stock alerts endpoint | 2025-10-07 |
+
+---
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+El equipo **Capa-6** desplegó la **segunda versión del ecosistema WineSoft**, integrando el frontend conectado con la API y actualizando el flujo **CI/CD**.  
+Se mantuvo la arquitectura de despliegue multicomponente:
+
+1. **Business Website:** Vercel – actualizado con enlace directo al login del sistema.  
+2. **Frontend (Web App):** Netlify – conectado a la API mediante variables de entorno.  
+3. **Backend (API REST):** Render – actualizado con endpoints de autenticación y alertas.
+
+**Evidencia del despliegue:**
+- Configuración de variables de entorno en Netlify (`API_URL` y `JWT_SECRET`).
+- Ejecución automática del pipeline en GitHub Actions.
+- Verificación de los nuevos endpoints activos en Render.
+
+**URLs de despliegue:**
+| Componente | Plataforma | URL |
+|-------------|-------------|-----|
+| Business Website | Vercel | https://capa6-winesoft.vercel.app |
+| Frontend | Netlify | https://app-winesoft.netlify.app |
+| Backend API | Render | https://api-winesoft.onrender.com |
+
+
+
+**Commits asociados:**
+| Commit ID | Rama | Mensaje | Fecha |
+|------------|-------|----------|--------|
+| `f8b2c3e` | feature/deploy-update | chore: update deployment config and env vars | 2025-10-08 |
+| `a1d4e5f` | docs/sprint-2 | docs: add deployment evidence for Sprint 2 | 2025-10-09 |
+
+---
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2, el equipo **Capa-6** mantuvo una coordinación constante mediante GitHub Projects y el flujo **GitFlow**.  
+Todos los integrantes participaron en el desarrollo de los módulos asignados, asegurando la integración continua del proyecto.
+
+**Actividades destacadas:**
+- Creación de ramas `feature/auth`, `feature/alerts`, `feature/movements`.  
+- Revisión de código entre pares antes de cada merge.  
+- Coordinación mediante reuniones semanales y control del tablero en GitHub Projects.  
+- Uso de commits bajo la convención *Conventional Commits*.  
+
+**Evidencias de colaboración:**
+
+   <img src="./imagenes/github_contributors.jpeg" alt="Sprint2_Commits">
+
+   <img src="./imagenes/Contributions.jpeg" alt="Sprint2_Contributors">
+
+
+**Commits representativos del Sprint 2:**
+| Commit ID | Rama | Mensaje | Autor | Fecha |
+|------------|-------|----------|--------|--------|
+| `8a2b6d9` | feature/auth | feat: implement login/logout modules | Stephano | 2025-10-05 |
+| `9b3d2c1` | feature/movements | feat: connect stock movements API | Capa-6 Team | 2025-10-06 |
+| `a1d4e5f` | docs/sprint-2 | docs: add deployment and collaboration evidence | Stephano | 2025-10-09 |
 
 
 # Conclusiones y Recomendaciones
