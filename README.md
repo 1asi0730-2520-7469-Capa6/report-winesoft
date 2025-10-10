@@ -2037,9 +2037,6 @@ Las siguientes capturas muestran la evidencia del trabajo colaborativo y los apo
 #### 5.2.2.8. Team Collaboration Insights during Sprint. 
 
 
-# Conclusiones
-
-## Conclusiones y recomendaciones
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
