@@ -2019,6 +2019,63 @@ Las siguientes capturas muestran la evidencia del trabajo colaborativo y los apo
 # Conclusiones
 
 ## Conclusiones y recomendaciones
+# Conclusiones y Recomendaciones
+
+## Conclusiones
+
+- **Digitalización como necesidad estratégica:**  
+  A través del proceso de needfinding y análisis competitivo, se confirmó que el sector de destilerías y licorerías en Perú enfrenta una necesidad crítica de digitalización. El 96.3% de las empresas en esta industria son microempresas que aún dependen de métodos manuales (Excel, registros físicos) para gestionar inventarios, lo que genera pérdidas por caducidad, errores de stock y tiempos administrativos excesivos que pueden reducirse hasta en un 70% mediante automatización.
+
+- **Diferenciación por especialización:**  
+  WineSoft se posiciona como una solución especializada frente a competidores genéricos como KORONA POS o WinePOS. Mientras estos se enfocan principalmente en puntos de venta, WineSoft integra gestión de inventario, trazabilidad de proveedores y monitoreo de condiciones de almacenamiento en un solo ecosistema, abordando necesidades específicas del sector licorero que no son atendidas por soluciones actuales.
+
+- **Validación de segmentos objetivo:**  
+  Las entrevistas realizadas confirmaron la existencia de dos segmentos claramente diferenciados pero interconectados: dueños de destilerías/licorerías (enfocados en control operativo y reducción de pérdidas) y proveedores de insumos (centrados en eficiencia logística y trazabilidad). Ambos segmentos mostraron alta disposición tecnológica (95% y 85% respectivamente) y reconocen el valor de compartir información para optimizar la cadena de suministro.
+
+- **Arquitectura escalable y modular:**  
+  El diseño basado en Domain-Driven Design (DDD) y la separación en bounded contexts (Identity, Inventory, Orders, Suppliers, Shipping, Dashboard, Notifications, Payments) permite una arquitectura flexible y escalable que facilita el mantenimiento, la adición de nuevas funcionalidades y la adaptación a futuros requerimientos del mercado.
+
+- **Modelo de negocio viable:**  
+  La estrategia de suscripción mensual escalable (planes básico y premium) se alinea con la capacidad de pago del mercado objetivo (S/100-250 mensuales) y la percepción de valor demostrada en las entrevistas. El 90% de los entrevistados consideran el costo como factor decisivo, pero lo valoran como inversión cuando perciben beneficios concretos (reducción de pérdidas, ahorro de tiempo).
+
+- **Implementación exitosa del Sprint 1:**  
+  El equipo logró completar la implementación y despliegue del business website, frontend y backend siguiendo metodologías ágiles (Scrum), convenciones de desarrollo (Conventional Commits, GitFlow) y estándares de calidad. La colaboración efectiva del equipo se evidencia en los 17 story points completados y el despliegue funcional en plataformas como Vercel, Netlify y GitHub Pages.
+
+- **Impacto cuantificable:**  
+  Los datos obtenidos en las entrevistas proyectan beneficios medibles: reducción del 20% en pérdidas por caducidad, mejora del 30% en tiempos de reabastecimiento, precisión de inventario del 75-82% y ahorro de 8-10 horas semanales en tareas administrativas que pueden reducirse a 2-3 horas con automatización.
+
+## Recomendaciones
+
+- **Priorización de funcionalidades clave:**  
+  Se recomienda enfocar los siguientes sprints en implementar las funcionalidades de mayor impacto identificadas en el needfinding: alertas inteligentes de vencimiento y stock bajo, monitoreo de condiciones ambientales (temperatura/humedad) mediante integración IoT y panel de proveedores con visibilidad en tiempo real de necesidades de clientes.
+
+- **Programa de adopción progresiva:**  
+  Dado que el 65% de los entrevistados mencionó el costo como barrera y el 40% la capacitación, se sugiere implementar un programa de onboarding que incluya: período de prueba gratuito (freemium), tutoriales interactivos dentro de la plataforma, soporte técnico en español y casos de éxito documentados para demostrar ROI tangible.
+
+- **Expansión por etapas geográficas:**  
+  Iniciar en Lima y principales ciudades del Perú, donde se concentra el 70% de la producción licorera, para posteriormente expandirse a mercados latinoamericanos con características similares (Ecuador, Colombia, Bolivia), aprovechando el conocimiento adquirido y adaptando la solución a contextos locales.
+
+- **Alianzas estratégicas:**  
+  Establecer convenios con asociaciones de productores (como la Sociedad Nacional de Industrias - SNI), cámaras de comercio, proveedores líderes de insumos y entidades regulatorias para acelerar la adopción, generar confianza en el mercado y obtener retroalimentación continua sobre necesidades del sector.
+
+- **Optimización continua del UX/UI:**  
+  Realizar pruebas de usabilidad con usuarios reales cada 2-3 sprints para validar que la interfaz mantiene su promesa de simplicidad. El 95% de los entrevistados priorizó la facilidad de uso como factor decisivo, por lo que es fundamental mantener un diseño intuitivo incluso al agregar nuevas funcionalidades.
+
+- **Estrategia de contenido educativo:**  
+  Desarrollar un programa de marketing de contenido (blog, webinars, casos de estudio) sobre digitalización del sector licorero, mejores prácticas de gestión de inventarios y cumplimiento normativo, posicionando a WineSoft como referente en innovación tecnológica para la industria.
+
+- **Mejora continua basada en datos:**  
+  Implementar sistemas de analytics dentro de la plataforma para monitorear patrones de uso, identificar funcionalidades más utilizadas, detectar puntos de fricción y obtener insights que guíen el roadmap de desarrollo futuro basado en comportamiento real de usuarios.
+
+- **Fortalecimiento de la seguridad y cumplimiento:**  
+  Dado que el 85% de los proveedores y 95% de los dueños mencionaron la importancia de cumplir normativas sanitarias y trazabilidad, se recomienda priorizar la implementación de features de auditoría, encriptación de datos sensibles y certificaciones de seguridad que generen confianza en usuarios corporativos.
+
+- **Modelo de precios flexible:**  
+  Considerar la implementación de un modelo freemium limitado o descuentos por volumen para pequeños productores, facilitando la entrada al mercado y creando una base de usuarios que puedan escalar a planes premium conforme crezcan sus operaciones.
+
+- **Integración con ecosistema existente:**  
+  Desarrollar conectores o APIs para integración con sistemas ERP, software contable y plataformas de e-commerce utilizados por destilerías medianas y grandes, ampliando el mercado potencial y aumentando el valor percibido de la solución.
+
 
 ## Video About-the-team
 
