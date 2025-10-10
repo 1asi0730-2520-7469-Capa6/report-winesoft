@@ -2009,6 +2009,27 @@ Las siguientes capturas muestran la evidencia del trabajo colaborativo y los apo
 
 #### 5.2.2.5. Execution Evidence for Sprint Review. 
 
+###### Home:
+
+<img src="assets/HomeFront.png" width="100%" height="100%">
+
+###### Supplies (Add and Edit):
+
+<img src="assets/Supplies.png" width="100%" height="100%">
+
+<img src="assets/SuppliesEdit.png" width="100%" height="100%">
+
+<img src="assets/SuppliesAdd.png" width="100%" height="100%">
+
+
+###### Stock Movements (Add and Edit):
+
+<img src="assets/StockMovements.png" width="100%" height="100%">
+
+<img src="assets/StockMovementsEdit.png" width="100%" height="100%">
+
+<img src="assets/StockMovementsAdd.png" width="100%" height="100%">
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
