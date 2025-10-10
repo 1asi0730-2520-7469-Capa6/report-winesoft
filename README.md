@@ -2072,7 +2072,7 @@ Se actualizaron las vistas dinámicas del sistema con datos obtenidos desde la A
 - Despliegue de la segunda versión del frontend conectado.
 
 **Evidencia visual:**
-1. **Panel principal con insumos cargados desde API**  
+1. **Panel principalI**  
    <img src="./imagenes/Frontend_Home.jpeg" alt="Sprint2_Dashboard">
 3. **Módulo de movimientos de stock**  
    <img src="./imagenes/Frontend_Suministros.jpeg" alt="Sprint2_Movements">
