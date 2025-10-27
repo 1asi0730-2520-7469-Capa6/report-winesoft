@@ -3,9 +3,9 @@
 <img src="./imagenes/Logo-UPC.png" alt="Logo UPC" width="200">
 <h2>Universidad Peruana de Ciencias Aplicadas</h2>
 <h4>Ingenieria de Software</h4>
-<h4>202520</h4>
+<h4>Ciclo 202520</h4>
 <h4>1ASI0730-Aplicaciones Web</h4>
-<h4>7469</h4>
+<h4>NRC 7469</h4>
 <h4>Docente: Angel Augusto Velasquez Nuñez</h4>
 <h4>Informe del Trabajo Final</h4>
 <h4>Startup: WineSoft</h4>
