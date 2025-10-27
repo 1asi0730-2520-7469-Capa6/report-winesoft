@@ -1736,9 +1736,7 @@ A continuación, se mencionará algunas convenciones:
 | :--- | :--- |
 | **User Story** | | **Work-item/Task** | | | | | |
 | ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status (To-do/In-Process/To-Review/Done) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| US-01 | Landing Page informativa | UT-01 | Hero Section | Implementar el slogan y el botón de redireccionamiento de la aplicación, junto con la imagen representativa de Winesoft | 2 | Gonzalo Alonso Carhuancote Dominguez | Done |
-| | | UT-02 | About Section | Agregar la descripción detallada de la aplicación Winesoft | 1 | Rodrigo Duran Diaz| Done |
+| US-01 | Landing Page informativa | UT-01 | Hero Section | Implementar el slogan y el botón de redireccionamiento de la aplicación, junto con la imagen representativa de Winesoft | 2 | Gonzalo Alonso Carhuancote Dominguez | Done |              | UT-02 | About Section | Agregar la descripción detallada de la aplicación Winesoft | 1 | Rodrigo Duran Diaz| Done |
 | US-02 | Responsive Design | UT-03 | Responsive Web Design | Añadir los media queries necesarios para que la Landing Page sea adaptable a diferentes dispositivos | 2 | Angelo Stephano Moscoso Bejar | Done |
 | US-03 | Comparador de Planes | UT-04 | Choose Plan Section | Implementar las cards que definan los diferentes planes que ofrece Winesoft con sus beneficios | 2 | Joan Teves Samaniego| Done |
 
