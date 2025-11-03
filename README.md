@@ -967,9 +967,12 @@ En esta sección, evaluaremos las historias de usuario asignándoles una puntuac
 | 18 | **US22** | Validación de Token en API | Como desarrollador, quiero que la API valide el token en cada solicitud protegida, para asegurar el acceso solo a usuarios autenticados. | **3** |
 | 19 | **US21** | Mantener sesión activa (Token Refresh) | Como usuario, quiero que mi sesión permanezca activa mientras estoy usando la app, para no tener que iniciar sesión repetidamente. | **5** |
 | 20 | **US23** | Cerrar Sesión | Como usuario, quiero poder cerrar mi sesión activamente, para asegurar que nadie más pueda acceder a mi cuenta. | **2** |
-| 21 | **US17** | Obtener lista de inventario (GET /inventory) | Como desarrollador, quiero acceder a la lista de insumos registrados mediante la API. | **3** |
-| 22 | **US18** | Crear pedido vía API (POST /orders) | Como desarrollador, quiero registrar nuevos pedidos de envío mediante la API. | **3** |
-| 23 | **US19** | Consultar trazabilidad (GET /tracking) | Como desarrollador, quiero consultar el estado y ubicación de un pedido mediante la API. | **3** |
+| 21 | **US24** | Ver mi perfil de usuario | Como usuario registrado, quiero poder ver la información de mi perfil, para confirmar mis datos y acceder a las opciones de edición. | **3** |
+| 22 | **US25** | Editar información de contacto | Como usuario registrado, quiero editar mi información de contacto (como nombre y teléfono), para mantener mis datos personales actualizados. | **3** |
+| 23 | **US26** | Cambiar mi contraseña | Como usuario registrado, quiero poder cambiar mi contraseña desde mi perfil, para mantener la seguridad de mi cuenta. | **5** |
+| 24 | **US17** | Obtener lista de inventario (GET /inventory) | Como desarrollador, quiero acceder a la lista de insumos registrados mediante la API. | **3** |
+| 25 | **US18** | Crear pedido vía API (POST /orders) | Como desarrollador, quiero registrar nuevos pedidos de envío mediante la API. | **3** |
+| 26 | **US19** | Consultar trazabilidad (GET /tracking) | Como desarrollador, quiero consultar el estado y ubicación de un pedido mediante la API. | **3** |
 
 <div style="text-align: justify;">
 
