@@ -2167,6 +2167,422 @@ Todos los integrantes participaron en el desarrollo de los módulos asignados, a
 | `9b3d2c1` | feature/movements | feat: connect stock movements API | Capa-6 Team | 2025-10-06 |
 | `a1d4e5f` | docs/sprint-2 | docs: add deployment and collaboration evidence | Stephano | 2025-10-09 |
 
+### 5.2.3. Sprint 3
+
+Durante el Sprint 3, nuestro enfoque se centró en implementar las funcionalidades *core* de la aplicación WineSoft, conectando el frontend con los endpoints del backend para la gestión de Suministros (Supplies) y Movimientos de Stock (Stock Movements). El objetivo fue crear una experiencia de usuario funcional para el registro, edición y visualización de los datos clave de inventario, sentando las bases para las alertas y reportes.
+
+#### 5.2.3.1. Sprint Planning 3.
+
+| Sprint # | Sprint 3 |
+|:---|:---|
+| **Sprint Planning Background** | |
+| Date | 2025-11-08 |
+| Time | 10:30 horas |
+| Location | Reunión virtual - Discord |
+| Prepared By | Joan Fernando Teves Samaniego |
+| Attendees | - Angelo Stephano Moscoso Bejar <br> - Antonio Rodrigo Duran Díaz <br> - Gonzalo Alonso Carhuancote Dominguez |
+| Sprint 2 Review Summary | Se validó la implementación del frontend conectado a la API *fake*, lo que permitió probar los flujos de usuario de Suministros y Stock. Aunque la interfaz fue bien recibida, se resolvieron varios inconvenientes de UI y bugs menores. La base del frontend está estable y lista para la conexión con el backend real. |
+| Sprint 2 Retrospective Summary | El equipo concluyó que el uso de la API *fake* fue crucial para desacoplar el desarrollo, pero la prioridad absoluta de este sprint es construir el backend real. La corrección de los bugs de S2 también resaltó la necesidad de definir pruebas unitarias más claras. El equipo está alineado para enfocarse en la API real y la autenticación. |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal | Nuestro enfoque para el Sprint 3 es construir y conectar el *core* funcional de WineSoft. Esto implica implementar el backend (API REST) para la autenticación de usuarios (Login, Token) y la gestión completa del inventario (CRUD de Suministros y registro de Movimientos de Stock), además de establecer la base para el perfil de usuario y el sistema de alertas. Creemos que esto permitirá a los usuarios (Dueños) interactuar con datos reales por primera vez, validando el flujo principal. Validaremos este objetivo cuando un usuario pueda iniciar sesión, obtener un token, ver su perfil, y realizar operaciones CRUD en Suministros a través del frontend conectado a la API desplegada. |
+| Sprint 3 Velocity | 28 |
+| Sum of Story Points | 28 Story Points |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name) | GitHub Username | Authentication (L/C) | Profile (L/C) | Supplies & Inventory (L/C) | Orders & Alerts (L/C) | API/DB (L/C) |
+|:---|:---|:---:|:---:|:---:|:---:|:---:|
+| Moscoso Bejar, Angelo Stephano | StephanoDang | L | C | L | C | C |
+| Teves Samaniego, Joan Fernando | Joan3210 | C | C | C | L | C |
+| Durán Díaz, Antonio Rodrigo | Sltcrd | C | C | C | C | L |
+| Carhuancote Dominguez, Gonzalo Alonso | Gonzalo251104 | C | L | C | C | C | 
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equipo.
+
+**Enlace:** `https://trello.com/b/[URL_DE_TU_TABLERO]/winesoft-sprint-backlog-3`
+
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td align="center" colspan="7"> <strong>Sprint 3</strong> </td>
+  </tr>
+
+   <tr>
+    <td align="center" colspan="2"> <strong>User Story</strong></td>
+    <td align="center" colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td align="center"> <strong>ID</strong> </td>
+    <td align="center"> <strong>Title</strong></td>
+    <td align="center"> <strong>ID</strong> </td>
+    <td align="center"> <strong>Title</strong></td>
+    <td align="center"> <strong>Description</strong></td>
+    <td align="center"> <strong>Estimation (Hours)</strong></td>
+    <td align="center"> <strong>Assigned To</strong></td>
+    <td align="center"> <strong> Status (To-do/In-Process/To-Review/Done)  </strong></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"> US20 </td>
+    <td rowspan="2" align="center"> Iniciar Sesion</td>
+    <td align="center"> TA01 </td>
+     <td align="center"> US20TASK-DM-020-01</td>
+    <td align="center">Modelar Aggregate User con atributos.</td>
+    <td align="center"> 3</td>
+    <td align="center"> Sltcrd</td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>
+    <td align="center"> TA02 </td>
+     <td align="center"> US20TASK-APP-020-03</td>
+    <td align="center"> Implementar SignInService() que valide credenciales y genere token JWT.</td>
+    <td align="center"> 4</td>
+    <td align="center"> StephanoDang</td>
+    <td align="center">Done</td>
+  </tr>
+
+<tr>
+    <td rowspan="1" align="center"> US22 </td>
+    <td rowspan="1" align="center"> Validacion de token en API</td>
+    <td align="center"> TA01 </td>
+    <td align="center"> US22TASK-SEC-022-01</td>
+    <td align="center"> Validar tokens JWT y retornar 401 si es inválido.</td>
+    <td align="center"> 4</td>
+    <td align="center"> Sltcrd</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3" align="center"> US24 </td>
+    <td rowspan="3" align="center"> Ver mi perfil de usuario</td>
+    <td align="center"> TA01 </td>
+    <td align="center"> US24TASK-DM-024-01</td>
+    <td align="center"> Modelar entidad Profile vinculada a User con nombre, email, telefono y rol.</td>
+    <td align="center"> 2</td>
+    <td align="center"> Sltcrd </td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>
+    <td align="center"> TA02 </td>
+     <td align="center">US24TASK-API-024-02</td>
+    <td align="center"> Definir GET /api/profile para obtener datos del perfil autenticado.</td>
+    <td align="center"> 2</td>
+    <td align="center"> Sltcrd</td>
+    <td align="center">Done</td>
+  </tr>
+    <tr>
+    <td align="center"> TA03 </td>
+     <td align="center">US24TASK-APP-024-03</td>
+    <td align="center"> Implementar GetProfileService() que retorne datos del usuario autenticado.</td>
+    <td align="center"> 3</td>
+    <td align="center"> Gonzalo251104</td>
+    <td align="center">Done</td>
+  </tr>
+
+<tr>
+    <td rowspan="2" align="center"> US17 </td>
+    <td rowspan="2" align="center"> Obtener lista de inventario (GET /inventory)</td>
+    <td align="center"> TA01 </td>
+    <td align="center"> US17 T-API-017-02</td>
+    <td align="center"> Definir GET /api/inventory Supply Resource[] con paginación opcional.</td>
+    <td align="center"> 2</td>
+    <td align="center"> Sltcrd </td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>
+    <td align="center"> TA02 </td>
+     <td align="center">US17 T-APP-017-03</td>
+    <td align="center"> Implementar ListSupplies() Application Service delega a Repo.</td>
+    <td align="center"> 3</td>
+    <td align="center"> StephanoDang</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2" align="center"> US18 </td>
+    <td rowspan="2" align="center"> Crear pedido vía API (POST /orders)</td>
+    <td align="center"> TA01 </td>
+    <td align="center"> US18 T-API-018-01</td>
+    <td align="center"> Definir y asegurar el endpoint POST /api/v1/orders en el OrdersController.</td>
+    <td align="center"> 3</td>
+    <td align="center"> Joan3210 </td>
+    <td align="center">In Progress</td>
+  </tr>
+  <tr>
+    <td align="center"> TA02 </td>
+     <td align="center">US18 T-APP-018-03</td>
+    <td align="center"> Implementar la lógica en OrdersController para recibir y guardar la orden.</td>
+    <td align="center"> 3</td>
+    <td align="center"> Joan3210 </td>
+    <td align="center">To-Do</td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"> US13 </td>
+    <td rowspan="2" align="center"> Configurar umbrales de alerta</td>
+    <td align="center"> TA01 </td>
+    <td align="center"> US13 T-DM-013-01</td>
+    <td align="center"> Modelar AlertConfiguration para guardar limites de stock y días de vencimiento.</td>
+    <td align="center"> 3</td>
+    <td align="center"> Sltcrd </td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>
+    <td align="center"> TA02 </td>
+     <td align="center">US13 T-API-013-03</td>
+    <td align="center"> Definir PUT /api/users/{id}/alert-config para actualizar configuración.</td>
+    <td align="center"> 3</td>
+    <td align="center">Sltcrd</td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1" align="center"> US11 </td>
+    <td rowspan="1" align="center"> Alertas de vencimiento</td>
+    <td align="center"> TA01 </td>
+    <td align="center"> US11 T-DM-011-01</td>
+    <td align="center"> Definir Aggregate Alert con atributos (type, severity, supplyId) y reglas básicas.</td>
+    <td align="center"> 2 </td>
+    <td align="center"> Joan3210 </td>
+    <td align="center"> In Progress</td>
+  </tr>
+  <tr>
+    <td rowspan="1" align="center"> US12 </td>
+    <td rowspan="1" align="center"> Alertas de stock bajo</td>
+    <td align="center"> TA01 </td>
+    <td align="center"> US12 T-DM-012-01</td>
+    <td align="center"> Extender Alert y VO Threshold para soportar alertas de stock bajo.</td>
+    <td align="center"> 2 </td>
+    <td align="center"> Joan3210 </td>
+    <td align="center"> To-Do</td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"> US14 </td>
+    <td rowspan="2" align="center"> Visualizar graficos de stock</td>
+    <td align="center"> TA01 </td>
+    <td align="center"> US14 T-API-014-03</td>
+    <td align="center"> Definir GET /api/inventory/metrics para mostrar resumen.</td>
+    <td align="center"> 3 </td>
+    <td align="center"> Gonzalo251104 </td>
+    <td align="center"> To-Do</td>
+  </tr>
+  <tr>
+    <td align="center"> TA02 </td>
+     <td align="center">US14 T-APP-014-02</td>
+    <td align="center"> Implementar GetInventoryMetrics() agregando datos para reportes.</td>
+    <td align="center"> 3</td>
+    <td align="center">Gonzalo251104</td>
+    <td align="center">To-Do</td>
+  </tr>
+</table>
+
+#### 5.2.3.4.Development Evidence for Sprint Review.
+
+*(Nota: Esta sección debe ser actualizada con los commits reales del Sprint 3 de WineSoft)*
+
+<table>
+  <tr>
+    <td align ="center" > <strong>Repository</strong></td>
+    <td  align ="center" > <strong>Branch</strong></td>
+    <td  align ="center" > <strong>Commit ID</strong></td>
+    <td  align ="center" > <strong>Commit message</strong></td>
+    <td  align ="center" > <strong>Commit Message body</strong></td>
+    <td  align ="center" > <strong>Commit on (date)</strong></td>
+  </tr>
+
+  <tr>
+    <td rowspan="6" align="center"> `https://github.com/1asi0730-2520-7469-Capa6/winesoft-backend` </td>
+    <td align="center"> feature/auth</td>
+    <td align="center"> </td>
+    <td align="center"> feat(auth): implement jwt strategy and login endpoint</td>
+    <td align="center"> ---</td>
+    <td align="center"> </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/auth</td>
+    <td align="center"> </td>
+    <td align="center"> feat(auth): add jwt middleware for endpoint protection</td>
+    <td align="center"> ---</td>
+    <td align="center"> </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/supplies-crud</td>
+    <td align="center"> </td>
+    <td align="center"> feat(supplies): add POST, PUT, DELETE endpoints for supplies</td>
+    <td align="center"> ---</td>
+    <td align="center"> </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/profile</td>
+    <td align="center"> </td>
+    <td align="center"> feat(profile): add GET /api/profile/me endpoint</td>
+    <td align="center"> ---</td>
+    <td align="center"> </td>
+  </tr>
+  <tr>
+    <td align="center"> develop</td>
+    <td align="center"> </td>
+    <td align="center"> Merge branch 'feature/auth' into develop</td>
+    <td align="center"> ---</td>
+    <td align="center"> </td>
+  </tr>
+  <tr>
+    <td align="center"> develop</td>
+    <td align="center"> </td>
+    <td align="center"> Merge branch 'feature/supplies-crud' into develop</td>
+    <td align="center"> ---</td>
+    <td align="center"> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align ="center" > <strong>Repository</strong></td>
+    <td  align ="center" > <strong>Branch</strong></td>
+    <td  align ="center" > <strong>Commit ID</strong></td>
+    <td  align ="center" > <strong>Commit message</strong></td>
+    <td  align ="center" > <strong>Commit Message body</strong></td>
+    <td  align ="center" > <strong>Commit on (date)</strong></td>
+  </tr>
+
+  <tr>
+    <td rowspan="4" align="center"> `https://github.com/1asi0730-2520-7469-Capa6/winesoft-frontend` </td>
+    <td align="center"> feature/connect-login</td>
+    <td align="center"> </td>
+    <td align="center"> feat(login): connect login view to backend API and handle token</td>
+    <td align="center"> ---</td>
+    <td align="center"> </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/connect-supplies</td>
+    <td align="center"> </td>
+    <td align="center"> feat(supplies): connect supplies crud modal to real api endpoints</td>
+    <td align="center"> ---</td>
+    <td align="center"> </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/profile-view</td>
+    <td align="center"> </td>
+    <td align="center"> feat(profile): create basic profile view and connect to /api/profile/me</td>
+    <td align="center"> ---</td>
+    <td align="center"> </td>
+  </tr>
+  <tr>
+    <td align="center"> develop</td>
+    <td align="center"> </td>
+    <td align="center"> Merge branch 'feature/connect-supplies' into develop</td>
+    <td align="center"> ---</td>
+    <td align="center"> </td>
+  </tr>
+</table>
+
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+
+**Landing Page** **URL:** `https://capa6-winesoft.vercel.app/`
+
+**FrontEnd (Conectado a API Real)**
+
+**URL**: `https://winesoft-frontend.vercel.app/`
+
+**Login (Nueva funcionaliad de S3)**
+**Supply Management (Datos Reales S3)**
+**Stock Movements (Datos Reales S3)**
+**Backend (Swagger)**
+
+**URL**: `https://api-winesoft.onrender.com/api-docs`
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+<table> 
+  <tr>
+    <td> <strong>Action </strong></td>
+    <td> <strong>End Point </strong></td>
+    <td align="center"> <strong>Funciones</strong> </td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/auth/login</td>
+    <td> Autentica un usuario y devuelve un JWT.</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/profile/me</td>
+    <td> (Protegido) Obtiene los datos del perfil del usuario autenticado.</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/supplies</td>
+    <td> (Protegido) Obtiene la lista completa de suministros.</td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/supplies</td>
+    <td> (Protegido) Registra un nuevo suministro en el inventario.</td>
+  </tr>
+  <tr>
+    <td> PUT</td>
+    <td> /api/v1/supplies/{id}</td>
+    <td> (Protegido) Actualiza la información de un suministro existente por ID.</td>
+  </tr>
+  <tr>
+    <td> DELETE</td>
+    <td> /api/v1/supplies/{id}</td>
+    <td> (Protegido) Elimina un suministro del inventario por ID.</td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/orders</td>
+    <td> (Protegido) Registra un nuevo pedido (orden).</td>
+  </tr>
+  <tr>
+    <td> PUT</td>
+    <td> /api/v1/users/{id}/alert-config</td>
+    <td> (Protegido) Actualiza la configuración de umbrales de alerta.</td>
+  </tr>
+</table>
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+**Landing Page**
+
+**URL:** `https://capa6-winesoft.vercel.app`
+
+**FrontEnd**
+
+**URL**: `https://winesoft-frontend.vercel.app`
+
+**BackEnd**
+
+**URL**: `https://api-winesoft.onrender.com/api-docs`
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+*(Nota: Esta sección debe ser actualizada con las gráficas de contribución reales del Sprint 3 de WineSoft)*
+
+### Landing Page
+
+**Pulse**
+
+**Contributors**
+
+**Network**
+
+### FrontEnd
+
+**Pulse**
+
+**Contributors**
+
+**Network**
+
+### Backend
+
+**Pulse**
+
+**Contributors**
+
+**Network**
+
 
 # Conclusiones y Recomendaciones
 
