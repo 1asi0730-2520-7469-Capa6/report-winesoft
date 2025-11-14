@@ -2539,6 +2539,31 @@ Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equi
     <td> /api/v1/users/{id}/alert-config</td>
     <td> (Protegido) Actualiza la configuración de umbrales de alerta.</td>
   </tr>
+    <tr>
+    <td> GET</td>
+    <td> /api/v1/dashboard/costs-summary</td>
+    <td> (Protegido) Presenta un resumen de costos operativos asociados a insumos y pedidos.</td>
+  </tr>
+    <tr>
+    <td> GET</td>
+    <td> /api/v1/dashboard/recent-orders</td>
+    <td> (Protegido) Obtiene los pedidos más recientes del usuario o negocio.</td>
+  </tr>
+    <tr>
+    <td> GET</td>
+    <td> /api/v1/dashboard/supply-levels</td>
+    <td> (Protegido) Muestra el nivel de inventario actual de todos los suministros.</td>
+  </tr>
+    <tr>
+    <td> GET</td>
+    <td> /api/v1/dashboard/low-stock-alerts</td>
+    <td> (Protegido) Devuelve alertas de suministros con stock bajo según umbrales configurados.</td>
+  </tr>
+    <tr>
+    <td> GET</td>
+    <td>/api/v1/dashboard/supply-rotation</td>
+    <td> (Protegido) Calcula y muestra la rotación de inventario (entradas/salidas).</td>
+  </tr>
 </table>
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
