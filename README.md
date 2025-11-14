@@ -2201,7 +2201,7 @@ Durante el Sprint 3, nuestro enfoque se centró en implementar las funcionalidad
 
 Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equipo.
 <img src="./imagenes/Trello.png" alt="img trello">
-**Enlace:** `https://trello.com/invite/b/68fff1d39fba15680343ec39/ATTI493199286cb823fdee89b76c4107e37e14308E50/sprint-3`
+**Enlace:** (https://trello.com/b/6OZyTNeM/sprint-3)
 
 <table>
   <tr>
