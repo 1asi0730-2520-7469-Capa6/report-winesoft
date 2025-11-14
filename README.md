@@ -72,6 +72,20 @@ Con el fin de evidenciar los avances realizados y demostrar la participación ac
 ## Contributors
 En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
 
+
+
+### Reporte de Colaboración para la Entrega del TB2
+
+En esta entrega del TB2, el informe se ha completado con el desarrollo y la documentación de las fases de implementación del producto, correspondientes principalmente al Capítulo V: Product Implementation, Validation & Deployment.
+
+Con el fin de evidenciar los avances realizados y demostrar la participación activa de todos los miembros del equipo en la elaboración del informe, se presentan a continuación las capturas obtenidas desde los analíticos de colaboración del repositorio GitHub del proyecto.
+
+## Contributors
+En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
+
+![contributions-report-tb2](./imagenes/contributions3.png)
+![contributors-report-tb2](./imagenes/contributorsTB2.png)
+
 # Contenido
 
 - [Student Outcome](#student-outcome)
@@ -2569,16 +2583,16 @@ Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equi
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 **Landing Page**
-<img src="./imagenes/Landing_Home.jpeg" alt="img trello">
-**URL:** [`https://capa6-winesoft.vercel.app`](https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/)
+
+**URL:** `https://capa6-winesoft.vercel.app`
 
 **FrontEnd**
-<img src="./imagenes/Frontend_Home.jpeg" alt="img trello">
-**URL**: [winesoft-frontend.vercel.app](https://winesoft-frontend.vercel.app/sign-in)
+
+**URL**: `https://winesoft-frontend.vercel.app`
 
 **BackEnd**
-<img src="./imagenes/Back.jpeg" alt="img trello">
-**URL**: [`https://api-winesoft.onrender.com/api-docs`](https://winesoft-platform.onrender.com/swagger/index.html)
+
+**URL**: `https://api-winesoft.onrender.com/api-docs`
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
