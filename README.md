@@ -11,15 +11,21 @@
 <h4>Startup: WineSoft</h4>
 <h4>Producto: WineSoft</h4>
 
-## Team memebers:
-|              Nombre              |   Código   |
-|:--------------------------------:|:----------:|
-| Angelo Stephano Moscoso Bejar    | U20211G499 |
-| Yazid Said Conde                 | U202312348 |
-| Joan Fernando Teves Samaniego    | U202117303 |
-| Antonio Rodrigo Duran Díaz       | U202215721 |
-| Gonzalo Alonso Carhuancote Dominguez  | U202210720 |
+## Team members:
+
+|   Código   |              Nombre              | 
+|:----------:|:--------------------------------:|
+| U20211G499 | Angelo Stephano Moscoso Bejar    |
+| U202312348 | Yazid Said Conde                 |
+| U202117303 | Joan Fernando Teves Samaniego    |
+| U202215721 | Antonio Rodrigo Duran Díaz       |
+| U202210720 | Gonzalo Alonso Carhuancote Dominguez  |
+
+<h4>Noviembre 2025</h4>
+
 </div>
+
+<div style="page-break-after: always;"></div>
 
 ## Registro de Versiones del Informe
 
