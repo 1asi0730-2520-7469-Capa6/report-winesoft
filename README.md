@@ -2599,7 +2599,7 @@ Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equi
 
 **BackEnd**
 
-**URL**: `https://api-winesoft.onrender.com/api-docs`
+**URL**: `[https://api-winesoft.onrender.com/api-docs](https://winesoft-platform.onrender.com/swagger/index.html)`
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
