@@ -2591,7 +2591,7 @@ Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equi
 
 **Landing Page**
 
-**URL:** `https://capa6-winesoft.vercel.app`
+**URL:** `[https://capa6-winesoft.vercel.app](https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/)`
 
 **FrontEnd**
 
