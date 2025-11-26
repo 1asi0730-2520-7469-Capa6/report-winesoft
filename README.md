@@ -2591,15 +2591,15 @@ Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equi
 
 **Landing Page**
 
-**URL:** `[https://capa6-winesoft.vercel.app](https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/)`
+**URL:** [https://capa6-winesoft.vercel.app](https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/)
 
 **FrontEnd**
 
-**URL**: `https://winesoft-frontend.vercel.app`
+**URL**: [https://winesoft-frontend.vercel.app](https://winesoft-frontend.vercel.app)
 
 **BackEnd**
 
-**URL**: `[https://api-winesoft.onrender.com/api-docs](https://winesoft-platform.onrender.com/swagger/index.html)`
+**URL**: [https://api-winesoft.onrender.com/api-docs](https://winesoft-platform.onrender.com/swagger/index.html)
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
