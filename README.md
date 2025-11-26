@@ -185,6 +185,22 @@ En la sección de Contributors se puede visualizar la participación individual 
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+     
+      - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+
+      - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.3.1. Diseño de Entrevistas](#5221-diseno-de-entrevistas)
+      - [5.3.2. Registro de Entrevistas](#5212-registro-de-entrevistas)
+      - [5.3.3. Evaluaciones según heurísticas](#5212-evaluaciones-segun-heuristicas)
+      - [5.4. Video About-the-Product](#54-video-about-the-product)
 
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -2589,7 +2605,20 @@ Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equi
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
+(CONSIDERAR: En esta sección se resume los procesos realizados en relación con Deployment
+durante este Sprint.)
+
+Introduccion explicando lo que se ha realizado con respecto al despliegue durante este sprint. 
+Actividades de creacion de cuentas -> hacerlo en el otro capitulo de config y luego referenciar
+Configuracion de recursos en cloud providers
+Configuracion de proyectos de desarrollo para la integracion de deployment, etc.
+Considerar Landing Page, Web Application y Web Services. 
+
+explicacion de cada archivo con su imagen de despliegue y la hora
+
 **Landing Page**
+
+<img src="./imagenes/LandingPage.png" alt="img LandingPage>
 
 **URL:** [https://capa6-winesoft.vercel.app](https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/)
 
@@ -2628,6 +2657,18 @@ Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equi
 **Contributors**
 
 **Network**
+
+#### 5.3. Validation Interviews.
+
+#### 5.3.1. Diseño de Entrevistas.
+
+#### 5.4.2. Registro de Entrevistas.
+
+#### 5.3.3. Evaluaciones según heurísticas.
+
+#### 5.4. Video About-the-Product.
+
+
 
 
 # Conclusiones y Recomendaciones
