@@ -1,10 +1,11 @@
 <div align="center">
 
-<img src="./imagenes/Logo-UPC.png" alt="Logo UPC" width="200">
-<h2>Universidad Peruana de Ciencias Aplicadas</h2>
-<h4>Ingenieria de Software</h4>
-<h4>Ciclo 202520</h4>
-<h4>1ASI0730-Aplicaciones Web</h4>
+<img src="./imagenes/Logo-UPC.png" alt="Logo UPC" width="150">
+<h3>Universidad Peruana de Ciencias Aplicadas</h3>
+<h4>Facultad de Ingenieria</h4>
+<h4>Carrera de Ingenieria de Software</h4>
+<h4>Periodo 202520</h4>
+<h4>1ASI0730 Aplicaciones Web</h4>
 <h4>NRC 7469</h4>
 <h4>Docente: Angel Augusto Velasquez Nuñez</h4>
 <h4>Informe del Trabajo Final</h4>
@@ -15,13 +16,13 @@
 
 |   Código   |              Nombre              | 
 |:----------:|:--------------------------------:|
-| U20211G499 | Angelo Stephano Moscoso Bejar    |
-| U202312348 | Yazid Said Conde                 |
-| U202117303 | Joan Fernando Teves Samaniego    |
-| U202215721 | Antonio Rodrigo Duran Díaz       |
-| U202210720 | Gonzalo Alonso Carhuancote Dominguez  |
+| U20211G499 | Moscoso Bejar Angelo Stephano    |
+| U202312348 | Said Conde Yazid                 |
+| U202117303 | Teves Samaniego Joan Fernando    |
+| U202215721 | Duran Díaz Antonio Rodrigo       |
+| U202210720 | Carhuancote Dominguez Gonzalo Alonso |
 
-<h4>Noviembre 2025</h4>
+<h4>Diciembre 2025</h4>
 
 </div>
 
