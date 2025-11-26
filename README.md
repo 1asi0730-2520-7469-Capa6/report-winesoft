@@ -2683,6 +2683,8 @@ Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equi
 
 ## Video About-the-team
 
+🔗 [Ver video de navegación del About The Team](https://youtu.be/EqTKkyKWcms)  
+
 # Bibliografía
 
 - Sociedad Nacional de Industrias (SNI). (2021). *Industria de bebidas alcohólicas: estructura empresarial y perspectivas*. Instituto de Estudios Económicos y Sociales. Recuperado de https://sni.org.pe/wp-content/uploads/2022/01/42-Bebidas-Alcoholicas.pdf
