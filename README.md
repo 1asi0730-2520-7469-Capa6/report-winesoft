@@ -2074,7 +2074,7 @@ También se definió la ampliación de endpoints del backend y la mejora del flu
 #### 5.2.2.3. Sprint Backlog 2.
 
 Para el sprint 2 usamos la herramienta Trello para organizar las tareas del equipo.
-<img src="./imagenes/Trello.png" alt="img trello">
+<img src="./imagenes/Trello2.png" alt="img trello">
 **Enlace:** (https://trello.com/b/MBprs9FO/sprint-2)
 
 
