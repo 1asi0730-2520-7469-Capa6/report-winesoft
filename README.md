@@ -2620,15 +2620,15 @@ explicacion de cada archivo con su imagen de despliegue y la hora
 
 <img src="./imagenes/LandingPage.png" alt="img LandingPage>
 
-**URL:** [https://capa6-winesoft.vercel.app](https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/)
+**URL:** [Landing Page](https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/)
 
 **FrontEnd**
 
-**URL**: [https://winesoft-frontend.vercel.app](https://winesoft-frontend.vercel.app)
+**URL**: [FrontEnd](https://winesoft-frontend.vercel.app)
 
 **BackEnd**
 
-**URL**: [https://api-winesoft.onrender.com/api-docs](https://winesoft-platform.onrender.com/swagger/index.html)
+**URL**: [BackEnd](https://winesoft-platform.onrender.com/swagger/index.html)
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
@@ -2731,7 +2731,7 @@ explicacion de cada archivo con su imagen de despliegue y la hora
 
 ## Video About-the-team
 
-🔗 [Ver video de navegación del About The Team](https://youtu.be/EqTKkyKWcms)  
+🔗 [Ver video de navegación del About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g499_upc_edu_pe/IQDwLdOt3iczSblgic5-tv_WASAjPjbityuKcWNnMeHPX2E?e=XAdtdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  
 
 # Bibliografía
 
