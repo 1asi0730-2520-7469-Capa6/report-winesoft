@@ -2073,6 +2073,11 @@ También se definió la ampliación de endpoints del backend y la mejora del flu
 
 #### 5.2.2.3. Sprint Backlog 2.
 
+Para el sprint 2 usamos la herramienta Trello para organizar las tareas del equipo.
+<img src="./imagenes/Trello.png" alt="img trello">
+**Enlace:** (https://trello.com/b/MBprs9FO/sprint-2)
+
+
 | ID | User Story | Prioridad | Estado |
 |----|-------------|------------|---------|
 | US17 | Como usuario, deseo iniciar sesión para acceder a mi panel. | Alta | Hecho |
@@ -2663,7 +2668,6 @@ explicacion de cada archivo con su imagen de despliegue y la hora
 
 ### 5.2.4. Sprint 4
 
-
 #### 5.2.4.1. Sprint Planning 4.
 
 | Sprint # | Sprint 4 |
@@ -2682,7 +2686,9 @@ explicacion de cada archivo con su imagen de despliegue y la hora
 
 #### 5.2.4.3. Sprint Backlog 4.
 
-Para la gestión de tareas del Sprint final utilizamos **Trello** y **GitHub Projects**.
+Para el sprint 4 usamos la herramienta Trello para organizar las tareas del equipo.
+<img src="./imagenes/Trello.png" alt="img trello">
+**Enlace:** (https://trello.com/b/C3fkc25L/sprint-4)
 
 | Sprint # | Sprint 4 |
 | :--- | :--- |
