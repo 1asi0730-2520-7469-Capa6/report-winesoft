@@ -2662,24 +2662,13 @@ explicacion de cada archivo con su imagen de despliegue y la hora
 
 ### 5.2.4. Sprint 4
 
-En este último Sprint, el equipo **Capa-6** se enfocó en la finalización del ciclo de desarrollo del producto **WineSoft**, asegurando la integración total de los componentes (Landing Page, Frontend y Backend) y el despliegue en un entorno de producción estable. Las actividades principales incluyeron la implementación del **Dashboard de Análisis** para la toma de decisiones, la finalización del flujo de estados en la **Gestión de Pedidos**, la realización de pruebas de validación finales y la producción de los videos requeridos para el *Release Review*.
 
 #### 5.2.4.1. Sprint Planning 4.
 
 | Sprint # | Sprint 4 |
 |:---|:---|
 | **Sprint Planning Background** | |
-| Date | 2025-11-22 |
-| Time | 10:00 horas |
-| Location | Reunión virtual - Discord |
-| Prepared By | Antonio Rodrigo Duran Díaz |
-| Attendees | - Angelo Stephano Moscoso Bejar <br> - Joan Fernando Teves Samaniego <br> - Antonio Rodrigo Duran Díaz <br> - Gonzalo Alonso Carhuancote Dominguez |
-| **Sprint 3 Review Summary** | Se logró la implementación exitosa del CRUD de suministros y el sistema de autenticación (Login/JWT) conectado a la base de datos real. Sin embargo, se identificó que el usuario carecía de una herramienta visual para interpretar el estado de su inventario (Dashboard) y que el flujo de pedidos estaba incompleto al no permitir cambios de estado. |
-| **Sprint 3 Retrospective Summary** | El equipo concluyó que la comunicación mejoró al trabajar sobre la API desplegada en Render. Para este Sprint final (Release), se priorizó la Experiencia de Usuario (UX) mediante gráficos estadísticos y la estabilización del sistema, además de asegurar tiempo suficiente para la edición de los videos finales. |
-| **Sprint Goal & User Stories** | |
-| **Sprint 4 Goal** | Nuestro objetivo en este Sprint es implementar el **Dashboard de Control** con métricas clave de negocio (niveles de stock, costos, rotación), finalizar el ciclo de vida de los Pedidos y asegurar el despliegue final de la versión v1.0.0. Creemos que esto entregará valor real a los dueños de destilerías al permitirles tomar decisiones basadas en datos. Validaremos el éxito cuando el usuario pueda visualizar gráficos en su inicio y completar un flujo de pedido en el entorno de producción. |
-| **Sprint 4 Velocity** | 24 |
-| **Sum of Story Points** | 24 Story Points |
+
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
@@ -2698,12 +2687,6 @@ Para la gestión de tareas del Sprint final utilizamos **Trello** y **GitHub Pro
 | :--- | :--- |
 | **User Story** | **Work-item/Task** |
 | **ID / Title** | **ID / Title / Description / Est. / Assigned / Status** |
-| **US14** <br> Visualizar gráficos de stock | **TA01 - US14-BACK-01** <br> Implementar endpoints de métricas en `DashboardController` (SupplyLevels, Rotation). <br> *3h - Sltcrd - Done* |
-| | **TA02 - US14-FRONT-02** <br> Crear vista de Dashboard usando `Chart.js` o `PrimeVue Charts` consumiendo la API. <br> *5h - StephanoDang - Done* |
-| **US09** <br> Actualizar estado del transporte | **TA03 - US09-API-01** <br> Habilitar endpoint `PATCH /orders/{id}/status` para cambiar a 'En Camino' o 'Entregado'. <br> *2h - Joan3210 - Done* |
-| **US15** <br> Exportar Reportes | **TA04 - US15-FRONT-01** <br> Agregar botón para exportar tabla de movimientos a formato CSV. <br> *3h - Gonzalo251104 - Done* |
-| **N/A** <br> Despliegue Final | **TA05 - DEPLOY-PROD** <br> Configurar CORS policies finales y variables de entorno de producción en Render y Netlify. <br> *2h - Sltcrd - Done* |
-| **N/A** <br> Videos Finales | **TA06 - VIDEO-PROD** <br> Grabación, edición y subida de los videos *About-the-Product* y *About-the-Team* a Stream y YouTube. <br> *4h - Gonzalo251104 - Done* |
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
@@ -2711,13 +2694,7 @@ A continuación, se presentan los commits más relevantes realizados durante el 
 
 | Repository | Branch | Commit ID | Commit Message | Commit Body | Date |
 |------------|--------|-----------|----------------|-------------|------|
-| `winesoft-platform` (Backend) | feature/dashboard | a8f9e12 | feat(dashboard): add endpoints for supply metrics | Implementación de DashboardController con lógica para agrupar suministros y calcular costos. | 23/11/2025 |
-| `winesoft-platform` (Backend) | feature/orders-status | b7c8d34 | feat(orders): add patch endpoint for status | Habilita el cambio de estado de pedidos a 'Delivered' y actualiza la fecha de modificación. | 24/11/2025 |
-| `winesoft-platform` (Backend) | main | c9d0e56 | chore: update cors policy for production | Configuración final de CORS para permitir peticiones desde el dominio de Netlify. | 26/11/2025 |
-| `winesoft-platform` (Backend) | main | d1e2f34 | docs: update swagger documentation | Actualización del archivo Swagger con los nuevos endpoints de Dashboard. | 26/11/2025 |
-| `winesoft-frontend` | feature/dashboard-ui | f5g6h78 | feat(dashboard): add charts for inventory metrics | Integración de PrimeVue Charts en la vista DashboardView. | 24/11/2025 |
-| `winesoft-frontend` | feature/export | i9j0k12 | feat(reports): add export to csv functionality | Implementación de la lógica de descarga de reportes en el cliente. | 25/11/2025 |
-| `winesoft-frontend` | main | k3l4m56 | fix: responsive layout adjustments | Ajustes finales de CSS para la versión móvil antes del release. | 27/11/2025 |
+
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
@@ -2726,25 +2703,24 @@ A continuación, se presentan los commits más relevantes realizados durante el 
 
 La Landing Page final incluye todas las secciones informativas, planes de precios actualizados, el formulario de contacto funcional y el video *About-the-Product* incrustado.
 
-![landing-page-final](./imagenes/Landing_Home.jpeg)
+
 
 **2. Frontend Application (Dashboard & Reportes)**
 **URL**: `https://winesoft-frontend.vercel.app/`
 
 Se implementó el **Dashboard Principal**, cumpliendo con la US14. El dueño de la destilería ahora puede visualizar gráficamente la distribución de su inventario y el resumen de costos operativos al iniciar sesión.
 
-![dashboard-view-final](./imagenes/Frontend_Home.jpeg)
+
 
 **3. Gestión de Pedidos Finalizada**
 El proveedor ahora tiene la capacidad de cambiar el estado de los pedidos a "En Tránsito" o "Entregado", reflejándose estos cambios en tiempo real para el dueño de la destilería.
 
-![orders-status-update](./imagenes/order-component.png)
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
 La documentación de la API se ha completado utilizando **Swagger UI**, incluyendo ahora el nuevo controlador de **Dashboard**.
 
-**Backend Swagger URL**: `https://winesoft-platform.onrender.com/swagger/index.html`
+**Backend Swagger URL**: 
 
 | Controller | Method | End Point | Descripción |
 |------------|--------|-----------|-------------|
@@ -2761,25 +2737,24 @@ Para la entrega final (TF1), aseguramos que todos los servicios estén operativo
 **Business Website**
 - **Plataforma:** Vercel
 - **Estado:** Active
-- **URL:** `https://capa6-winesoft.vercel.app`
+- **URL:** 
 
 **Frontend Application**
 - **Plataforma:** Netlify
 - **Estado:** Published (Branch: `main`)
-- **URL:** `https://winesoft-frontend.vercel.app`
+- **URL:** 
 - **Configuración:** Variables de entorno `VITE_WINESOFT_PLATFORM_API_URL` apuntando al backend de producción.
 
 **Backend Application**
 - **Plataforma:** Render
 - **Estado:** Live (Web Service)
-- **URL:** `https://winesoft-platform.onrender.com`
+- **URL:**
 - **Tecnología:** ASP.NET Core 9.0 con conexión a base de datos MySQL en la nube.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 Se mantuvo el uso de **GitHub Projects** para el tablero Kanban y **Discord** para las reuniones diarias, asegurando la sincronización del equipo reducido.
 
-![github-collaboration-final](./imagenes/github_contributors.jpeg)
 
 ---
 
@@ -2827,10 +2802,6 @@ Se aplicó una evaluación final basada en las 10 heurísticas de Nielsen sobre 
 Este video promocional está dirigido a los potenciales clientes (dueños de licorerías y destilerías). Presenta la problemática del desorden en el inventario manual y cómo **WineSoft** ofrece una solución integral, mostrando las funcionalidades clave: Dashboard, Alertas y Pedidos.
 
 *(Insertar captura de pantalla del video aquí)*
-
-**Enlaces del Video:**
-* **Microsoft Stream (Privado para evaluación):** [Enlace a Microsoft Stream aquí]
-* **YouTube (Público para Landing Page):** [Enlace a YouTube aquí]
 
 ---
 
