@@ -67,9 +67,9 @@ Con el fin de evidenciar los avances realizados y demostrar la participación ac
 ## Contributors
 En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
 
-![contributors-report-tb1](./imagenes/contributorsTP.png.png)
+![contributors-report-tb1](./imagenes/contributorsTB1.png)
 
-### Reporte de Colaboración para la Entrega del TP1
+### Reporte de Colaboración para la Entrega del TP
 
 En esta segunda entrega se realizaron cambios de segmento de objetivos y con ello se dieron las correcciones y mejoras en muchas de las secciones previas del informe, tales como las secciones que contienen los Requirements Specification, Needfinding, :Requirements Elicitation & Analysis, Lean UX Process. Además se agregaron otras secciones faltantes como Web Applications UX/UI Design, Domain-Driven Software Architecture y Software Object-Oriented Design. Durante este proceso, el equipo llevó a cabo diversas asignaciones de las tareas necesarias y funcionalidades de frontend trabajadas durante este periodo. 
 
@@ -78,6 +78,7 @@ Con el fin de evidenciar los avances realizados y demostrar la participación ac
 ## Contributors
 En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
 
+![contributors-report-tb1](./imagenes/contributorsTP.png)
 
 
 ### Reporte de Colaboración para la Entrega del TB2
@@ -89,8 +90,8 @@ Con el fin de evidenciar los avances realizados y demostrar la participación ac
 ## Contributors
 En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
 
-![contributions-report-tb2](./imagenes/contributions3.png)
-![contributors-report-tb2](./imagenes/contributorsTB2.png)
+![contributions-report-tb2](./imagenes/contributorsTB2.png)
+
 
 # Contenido
 
