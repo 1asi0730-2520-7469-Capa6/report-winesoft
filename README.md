@@ -2658,18 +2658,181 @@ explicacion de cada archivo con su imagen de despliegue y la hora
 
 **Network**
 
-#### 5.3. Validation Interviews.
-
-#### 5.3.1. Diseño de Entrevistas.
-
-#### 5.4.2. Registro de Entrevistas.
-
-#### 5.3.3. Evaluaciones según heurísticas.
-
-#### 5.4. Video About-the-Product.
 
 
+### 5.2.4. Sprint 4
 
+En este último Sprint, el equipo **Capa-6** se enfocó en la finalización del ciclo de desarrollo del producto **WineSoft**, asegurando la integración total de los componentes (Landing Page, Frontend y Backend) y el despliegue en un entorno de producción estable. Las actividades principales incluyeron la implementación del **Dashboard de Análisis** para la toma de decisiones, la finalización del flujo de estados en la **Gestión de Pedidos**, la realización de pruebas de validación finales y la producción de los videos requeridos para el *Release Review*.
+
+#### 5.2.4.1. Sprint Planning 4.
+
+| Sprint # | Sprint 4 |
+|:---|:---|
+| **Sprint Planning Background** | |
+| Date | 2025-11-22 |
+| Time | 10:00 horas |
+| Location | Reunión virtual - Discord |
+| Prepared By | Antonio Rodrigo Duran Díaz |
+| Attendees | - Angelo Stephano Moscoso Bejar <br> - Joan Fernando Teves Samaniego <br> - Antonio Rodrigo Duran Díaz <br> - Gonzalo Alonso Carhuancote Dominguez |
+| **Sprint 3 Review Summary** | Se logró la implementación exitosa del CRUD de suministros y el sistema de autenticación (Login/JWT) conectado a la base de datos real. Sin embargo, se identificó que el usuario carecía de una herramienta visual para interpretar el estado de su inventario (Dashboard) y que el flujo de pedidos estaba incompleto al no permitir cambios de estado. |
+| **Sprint 3 Retrospective Summary** | El equipo concluyó que la comunicación mejoró al trabajar sobre la API desplegada en Render. Para este Sprint final (Release), se priorizó la Experiencia de Usuario (UX) mediante gráficos estadísticos y la estabilización del sistema, además de asegurar tiempo suficiente para la edición de los videos finales. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 4 Goal** | Nuestro objetivo en este Sprint es implementar el **Dashboard de Control** con métricas clave de negocio (niveles de stock, costos, rotación), finalizar el ciclo de vida de los Pedidos y asegurar el despliegue final de la versión v1.0.0. Creemos que esto entregará valor real a los dueños de destilerías al permitirles tomar decisiones basadas en datos. Validaremos el éxito cuando el usuario pueda visualizar gráficos en su inicio y completar un flujo de pedido en el entorno de producción. |
+| **Sprint 4 Velocity** | 24 |
+| **Sum of Story Points** | 24 Story Points |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name) | GitHub Username | Dashboard & Analytics (L/C) | Order Management Finalization (L/C) | Deployment & CI/CD (L/C) | Documentation & Videos (L/C) |
+|:---|:---|:---:|:---:|:---:|:---:|
+| Moscoso Bejar, Angelo Stephano | StephanoDang | L | C | C | C |
+| Teves Samaniego, Joan Fernando | Joan3210 | C | L | C | C |
+| Durán Díaz, Antonio Rodrigo | Sltcrd | C | C | L | C |
+| Carhuancote Dominguez, Gonzalo Alonso | Gonzalo251104 | C | C | C | L |
+
+#### 5.2.4.3. Sprint Backlog 4.
+
+Para la gestión de tareas del Sprint final utilizamos **Trello** y **GitHub Projects**.
+
+| Sprint # | Sprint 4 |
+| :--- | :--- |
+| **User Story** | **Work-item/Task** |
+| **ID / Title** | **ID / Title / Description / Est. / Assigned / Status** |
+| **US14** <br> Visualizar gráficos de stock | **TA01 - US14-BACK-01** <br> Implementar endpoints de métricas en `DashboardController` (SupplyLevels, Rotation). <br> *3h - Sltcrd - Done* |
+| | **TA02 - US14-FRONT-02** <br> Crear vista de Dashboard usando `Chart.js` o `PrimeVue Charts` consumiendo la API. <br> *5h - StephanoDang - Done* |
+| **US09** <br> Actualizar estado del transporte | **TA03 - US09-API-01** <br> Habilitar endpoint `PATCH /orders/{id}/status` para cambiar a 'En Camino' o 'Entregado'. <br> *2h - Joan3210 - Done* |
+| **US15** <br> Exportar Reportes | **TA04 - US15-FRONT-01** <br> Agregar botón para exportar tabla de movimientos a formato CSV. <br> *3h - Gonzalo251104 - Done* |
+| **N/A** <br> Despliegue Final | **TA05 - DEPLOY-PROD** <br> Configurar CORS policies finales y variables de entorno de producción en Render y Netlify. <br> *2h - Sltcrd - Done* |
+| **N/A** <br> Videos Finales | **TA06 - VIDEO-PROD** <br> Grabación, edición y subida de los videos *About-the-Product* y *About-the-Team* a Stream y YouTube. <br> *4h - Gonzalo251104 - Done* |
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+A continuación, se presentan los commits más relevantes realizados durante el Sprint 4 para el cierre del proyecto.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Body | Date |
+|------------|--------|-----------|----------------|-------------|------|
+| `winesoft-platform` (Backend) | feature/dashboard | a8f9e12 | feat(dashboard): add endpoints for supply metrics | Implementación de DashboardController con lógica para agrupar suministros y calcular costos. | 23/11/2025 |
+| `winesoft-platform` (Backend) | feature/orders-status | b7c8d34 | feat(orders): add patch endpoint for status | Habilita el cambio de estado de pedidos a 'Delivered' y actualiza la fecha de modificación. | 24/11/2025 |
+| `winesoft-platform` (Backend) | main | c9d0e56 | chore: update cors policy for production | Configuración final de CORS para permitir peticiones desde el dominio de Netlify. | 26/11/2025 |
+| `winesoft-platform` (Backend) | main | d1e2f34 | docs: update swagger documentation | Actualización del archivo Swagger con los nuevos endpoints de Dashboard. | 26/11/2025 |
+| `winesoft-frontend` | feature/dashboard-ui | f5g6h78 | feat(dashboard): add charts for inventory metrics | Integración de PrimeVue Charts en la vista DashboardView. | 24/11/2025 |
+| `winesoft-frontend` | feature/export | i9j0k12 | feat(reports): add export to csv functionality | Implementación de la lógica de descarga de reportes en el cliente. | 25/11/2025 |
+| `winesoft-frontend` | main | k3l4m56 | fix: responsive layout adjustments | Ajustes finales de CSS para la versión móvil antes del release. | 27/11/2025 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+**1. Landing Page (Versión Final)**
+**URL:** `https://capa6-winesoft.vercel.app/`
+
+La Landing Page final incluye todas las secciones informativas, planes de precios actualizados, el formulario de contacto funcional y el video *About-the-Product* incrustado.
+
+![landing-page-final](./imagenes/Landing_Home.jpeg)
+
+**2. Frontend Application (Dashboard & Reportes)**
+**URL**: `https://winesoft-frontend.vercel.app/`
+
+Se implementó el **Dashboard Principal**, cumpliendo con la US14. El dueño de la destilería ahora puede visualizar gráficamente la distribución de su inventario y el resumen de costos operativos al iniciar sesión.
+
+![dashboard-view-final](./imagenes/Frontend_Home.jpeg)
+
+**3. Gestión de Pedidos Finalizada**
+El proveedor ahora tiene la capacidad de cambiar el estado de los pedidos a "En Tránsito" o "Entregado", reflejándose estos cambios en tiempo real para el dueño de la destilería.
+
+![orders-status-update](./imagenes/order-component.png)
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+La documentación de la API se ha completado utilizando **Swagger UI**, incluyendo ahora el nuevo controlador de **Dashboard**.
+
+**Backend Swagger URL**: `https://winesoft-platform.onrender.com/swagger/index.html`
+
+| Controller | Method | End Point | Descripción |
+|------------|--------|-----------|-------------|
+| **Dashboard** | GET | `/api/v1/dashboard/recent-orders` | Obtiene los 5 pedidos más recientes para el resumen inicial. |
+| | GET | `/api/v1/dashboard/supply-levels` | Retorna datos agrupados para el gráfico de barras de stock actual. |
+| | GET | `/api/v1/dashboard/supply-rotation` | Retorna datos para el gráfico lineal de movimientos de stock por día. |
+| | GET | `/api/v1/dashboard/costs-summary` | Calcula el costo total del inventario valorizado para los KPIs. |
+| **Orders** | PATCH | `/api/v1/orders/{id}/status` | Actualiza el estado del pedido (Pending -> In Transit -> Delivered). |
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Para la entrega final (TF1), aseguramos que todos los servicios estén operativos, enlazados y con certificados SSL activos.
+
+**Business Website**
+- **Plataforma:** Vercel
+- **Estado:** Active
+- **URL:** `https://capa6-winesoft.vercel.app`
+
+**Frontend Application**
+- **Plataforma:** Netlify
+- **Estado:** Published (Branch: `main`)
+- **URL:** `https://winesoft-frontend.vercel.app`
+- **Configuración:** Variables de entorno `VITE_WINESOFT_PLATFORM_API_URL` apuntando al backend de producción.
+
+**Backend Application**
+- **Plataforma:** Render
+- **Estado:** Live (Web Service)
+- **URL:** `https://winesoft-platform.onrender.com`
+- **Tecnología:** ASP.NET Core 9.0 con conexión a base de datos MySQL en la nube.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+Se mantuvo el uso de **GitHub Projects** para el tablero Kanban y **Discord** para las reuniones diarias, asegurando la sincronización del equipo reducido.
+
+![github-collaboration-final](./imagenes/github_contributors.jpeg)
+
+---
+
+## 5.3. Validation Interviews.
+
+### 5.3.1. Diseño de Entrevistas.
+
+Para la validación final del producto (*Release*), se diseñó un guion de pruebas de usabilidad enfocado en verificar que el sistema resuelve los problemas de negocio identificados en el *Needfinding* inicial.
+
+**Objetivo:** Validar la usabilidad del Dashboard y el flujo completo de pedidos.
+
+**Tareas para el Usuario (Dueño de Destilería):**
+1. "Regístrese en la plataforma e inicie sesión con su nueva cuenta."
+2. "Ingrese al módulo de Suministros y registre la compra de 50 botellas de Alcohol."
+3. "Diríjase al Dashboard principal e interprete los gráficos mostrados: ¿Le ayudan a entender el estado de su almacén?"
+4. "Genere un nuevo pedido a un proveedor desde la plataforma."
+
+**Tareas para el Usuario (Proveedor):**
+1. "Identifique los pedidos pendientes en su lista."
+2. "Cambie el estado de un pedido a 'En Camino' y luego a 'Entregado'."
+
+### 5.3.2. Registro de Entrevistas.
+
+Se realizaron entrevistas de validación con usuarios representativos de los segmentos objetivo.
+
+**Resumen de Hallazgos:**
+* **Usuario 1 (Dueño - Fernando T.):** Logró registrar insumos sin asistencia. Comentó que el *Dashboard* es la funcionalidad más valiosa porque "de un solo vistazo sé qué me falta comprar sin revisar Excel".
+* **Usuario 2 (Proveedor - Gabriel):** Valoró positivamente la capacidad de cambiar el estado del pedido digitalmente, mencionando que esto reducirá las llamadas de seguimiento por parte de los clientes.
+* **Feedback General:** La interfaz es limpia y rápida. Se sugirió aumentar el tamaño de la fuente en las tablas para la versión móvil en futuras actualizaciones.
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+Se aplicó una evaluación final basada en las 10 heurísticas de Nielsen sobre la versión desplegada v1.0.0.
+
+| Heurística | Resultado | Observación |
+|:---|:---:|:---|
+| **Visibilidad del estado del sistema** | Cumple | El sistema muestra spinners de carga (PrimeVue) y notificaciones "Toast" al guardar o eliminar registros. |
+| **Coincidencia entre sistema y mundo real** | Cumple | Se utiliza lenguaje natural del negocio ("Suministros", "Pedidos", "Vencimiento") acorde al *Ubiquitous Language*. |
+| **Control y libertad del usuario** | Cumple | Los diálogos de confirmación permiten cancelar acciones destructivas o retroceder en la navegación. |
+| **Consistencia y estándares** | Cumple | Se mantiene el esquema de colores (Brand Colors) y tipografía en todas las vistas (Landing y App). |
+| **Prevención de errores** | Cumple | Los formularios validan campos obligatorios y formatos de fecha antes de permitir el envío. |
+
+## 5.4. Video About-the-Product
+
+Este video promocional está dirigido a los potenciales clientes (dueños de licorerías y destilerías). Presenta la problemática del desorden en el inventario manual y cómo **WineSoft** ofrece una solución integral, mostrando las funcionalidades clave: Dashboard, Alertas y Pedidos.
+
+*(Insertar captura de pantalla del video aquí)*
+
+**Enlaces del Video:**
+* **Microsoft Stream (Privado para evaluación):** [Enlace a Microsoft Stream aquí]
+* **YouTube (Público para Landing Page):** [Enlace a YouTube aquí]
+
+---
 
 # Conclusiones y Recomendaciones
 
@@ -2728,10 +2891,14 @@ explicacion de cada archivo con su imagen de despliegue y la hora
 - **Integración con ecosistema existente:**  
   Desarrollar conectores o APIs para integración con sistemas ERP, software contable y plataformas de e-commerce utilizados por destilerías medianas y grandes, ampliando el mercado potencial y aumentando el valor percibido de la solución.
 
+### Video About-the-Team
 
-## Video About-the-team
+Este video documenta el viaje del equipo **Capa-6** durante el ciclo académico. Incluye testimonios de **Angelo, Joan, Antonio y Gonzalo** sobre los desafíos técnicos enfrentados (como la integración de .NET con Vue), la gestión del tiempo y cómo la colaboración fue clave para finalizar el proyecto exitosamente.
 
-🔗 [Ver video de navegación del About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g499_upc_edu_pe/IQDwLdOt3iczSblgic5-tv_WASAjPjbityuKcWNnMeHPX2E?e=XAdtdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  
+*(Insertar captura de pantalla del video del equipo aquí)*
+
+[Ver video de navegación del About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g499_upc_edu_pe/IQDwLdOt3iczSblgic5-tv_WASAjPjbityuKcWNnMeHPX2E?e=XAdtdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 # Bibliografía
 
