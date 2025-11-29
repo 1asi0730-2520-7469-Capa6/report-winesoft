@@ -1403,19 +1403,19 @@ https://www.figma.com/design/ozvmKWQm3S7ACtTfu4r8ij/Untitled?node-id=0-1&t=TEUHy
 
 ### 4.6.1. Design-Level EventStorming.
 
-![Design-Level EventStorming](/imagenes/DesignLevel.jpg)
+<img src="./imagenes/DesignLevel.jpg">
 
 ### 4.6.2. Software Architecture Context Level Diagram.
 
 En esta sección se presenta una vista general del sistema dentro de su contexto, destacando los actores externos, los sistemas con los que se relaciona y las interacciones clave que delimitan su alcance funcional.
 
-![Design-Level EventStorming](/imagenes/context-diagram.png)
+<img src="./imagenes/context-diagram.png">
 
 ### 4.6.3. Software Architecture Container Level Diagrams. 
 
 En esta sección se detalla la estructura del sistema dividiéndolo en sus contenedores principales, mostrando las tecnologías empleadas, las funciones que cumple cada uno y la forma en que interactúan entre sí.
 
-![Design-Level EventStorming](/imagenes/container-diagram.png)
+<img src="./imagenes/container-diagram.png">
 
 ### 4.6.4. Software Architecture Components Level Diagrams
 
@@ -1425,42 +1425,43 @@ Por último, esta sección describe los componentes internos tanto de la Single 
 
 **Indentity and Acces Management Bounded Context**
 
-![bounded-context-identity](/imagenes/identity-component.png)
+<img src="./imagenes/identity-component.png">
 
 **Payment and Subscription Management Bounded Context**
 
-![bounded-context-payment-subscription](/imagenes/payment-component.png)
+<img src="./imagenes/payment-component.png">
 
 **Inventory Management Bounded Context**
 
-![bounded-context-inventory](/imagenes/identity-component.png)
+<img src="./imagenes/inventory-component.png">
 
 **Order Management Bounded Context**
 
-![bounded-context-order](/imagenes/order-component.png)
+<img src="./imagenes/order-component.png">
 
 **Supplier Management Bounded Context**
 
-![bounded-context-supplier](/imagenes/supplier-component.png)
+<img src="./imagenes/supplier-component.png">
 
 **Shipping and Tracking Bounded Context**
 
-![bounded-context-shipping](/imagenes/tracking-component.png)
+<img src="./imagenes/tracking-component.png">
 
 **Dashboard and Reporting Bounded Context**
 
-![bounded-context-dashboard](/imagenes/dashboard-component.png)
+<img src="./imagenes/dashboard-component.png">
 
 **Notifications and Alerts Bounded Context**
 
-![bounded-context-notifications](/imagenes/notifications-components.png)
+<img src="./imagenes/notifications-components.png">
 
 ## 4.7. Software Object-Oriented Design.
 
 ### 4.7.1. Class Diagrams.
 <p>En esta sección se presentan los diagramas de clases que representan la estructura del sistema, incluyendo las entidades principales, sus atributos y métodos, así como las relaciones entre ellas. Estos diagramas son fundamentales para comprender cómo se modelan los datos y las interacciones dentro de la aplicación.</p>
 
-![Class-Diagram](/imagenes/Class-Diagram.png)
+<img src="./imagenes/Class-Diagram.png">
+
 ### **4.7.2. Class Dictionary**
 
 En esta sección se presenta un diccionario de clases que describe las entidades principales del sistema, sus atributos y métodos. Este diccionario proporciona una referencia clara para entender la estructura y funcionalidad de la aplicación.
@@ -1549,7 +1550,7 @@ En esta sección se presenta un diccionario de clases que describe las entidades
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams. 
-![DataBase-Diagram](/imagenes/DataBase-Diagram.png)
+<img src="./imagenes/DataBase-Diagram.png">
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2420,7 +2421,7 @@ Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equi
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
 
-*(Nota: Esta sección debe ser actualizada con los commits reales del Sprint 3 de WineSoft)*
+Durante el Sprint 3, el equipo centró su trabajo en el desarrollo del backend, consolidando las bases del dominio y los servicios principales de WineSoft.
 
 <table>
   <tr>
@@ -2433,36 +2434,36 @@ Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equi
   </tr>
 
   <tr>
-    <td rowspan="6" align="center"> `https://github.com/1asi0730-2520-7469-Capa6/winesoft-backend` </td>
-    <td align="center"> feature/auth</td>
+    <td rowspan="7" align="center"> `https://github.com/1asi0730-2520-7469-Capa6/winesoft-backend` </td>
+    <td align="center"> feature/inventory</td>
     <td align="center"> </td>
     <td align="center"> feat(auth): implement jwt strategy and login endpoint</td>
     <td align="center"> ---</td>
     <td align="center"> </td>
   </tr>
   <tr>
-    <td align="center"> feature/auth</td>
+    <td align="center"> feature/orders</td>
     <td align="center"> </td>
     <td align="center"> feat(auth): add jwt middleware for endpoint protection</td>
     <td align="center"> ---</td>
     <td align="center"> </td>
   </tr>
   <tr>
-    <td align="center"> feature/supplies-crud</td>
+    <td align="center"> feature/analytics</td>
     <td align="center"> </td>
     <td align="center"> feat(supplies): add POST, PUT, DELETE endpoints for supplies</td>
     <td align="center"> ---</td>
     <td align="center"> </td>
   </tr>
   <tr>
-    <td align="center"> feature/profile</td>
+    <td align="center"> feature/identity</td>
     <td align="center"> </td>
     <td align="center"> feat(profile): add GET /api/profile/me endpoint</td>
     <td align="center"> ---</td>
     <td align="center"> </td>
   </tr>
   <tr>
-    <td align="center"> develop</td>
+    <td align="center"> feature/profiles</td>
     <td align="center"> </td>
     <td align="center"> Merge branch 'feature/auth' into develop</td>
     <td align="center"> ---</td>
@@ -2475,6 +2476,14 @@ Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equi
     <td align="center"> ---</td>
     <td align="center"> </td>
   </tr>
+  <tr>
+    <td align="center"> master</td>
+    <td align="center"> </td>
+    <td align="center"> Merge branch 'feature/supplies-crud' into develop</td>
+    <td align="center"> ---</td>
+    <td align="center"> </td>
+  </tr>
+
 </table>
 
 <table>
@@ -2521,21 +2530,24 @@ Para el sprint 3 usamos la herramienta Trello para organizar las tareas del equi
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 
-**Landing Page** **URL:** `https://capa6-winesoft.vercel.app/`
+Durante la ejecución del Sprint 3 se realizaron solo pruebas sobre el backend, usando
+- Swagger
+- Postman
+- Base de datos local / Render DB
 
-**FrontEnd (Conectado a API Real)**
+Supplies (imagenes de probando supplies en swagger)
 
-**URL**: `https://winesoft-frontend.vercel.app/`
+Orders (imagenes de probando orders en swagger)
 
-**Login (Nueva funcionaliad de S3)**
-**Supply Management (Datos Reales S3)**
-**Stock Movements (Datos Reales S3)**
-**Backend (Swagger)**
+Dashboard (imagenes de probando dashboard en swagger)
 
-**URL**: `https://api-winesoft.onrender.com/api-docs`
+Authentication (imagenes de probando analytics en swagger)
+
+video
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
+Los endpoints desarrollados en este sprint fueron documentados en Swagger/OpenAPI y probados individualmente.
 <table> 
   <tr>
     <td> <strong>Action </strong></td>
@@ -2628,6 +2640,7 @@ explicacion de cada archivo con su imagen de despliegue y la hora
 
 **URL:** [Landing Page](https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/)
 
+
 **FrontEnd**
 
 **URL**: [FrontEnd](https://winesoft-frontend.vercel.app)
@@ -2640,49 +2653,54 @@ explicacion de cada archivo con su imagen de despliegue y la hora
 
 *(Nota: Esta sección debe ser actualizada con las gráficas de contribución reales del Sprint 3 de WineSoft)*
 
-### Landing Page
+Durante el Sprint 3 el equipo trabajó principalmente en paralelo en diferentes módulos del backend, frontend y landing page.
 
-**Pulse**
+### Landing Page
 
 **Contributors**
 
-**Network**
+**Commits**
 
 ### FrontEnd
 
-**Pulse**
-
 **Contributors**
 
-**Network**
+**Commits**
 
 ### Backend
 
-**Pulse**
-
 **Contributors**
 
-**Network**
-
+**Commits**
 
 
 ### 5.2.4. Sprint 4
 
 #### 5.2.4.1. Sprint Planning 4.
 
+
 | Sprint # | Sprint 4 |
 |:---|:---|
-| **Sprint Planning Background** | |
-
-
+| **Sprint Planning Background** | Reunión virtual para organizar el cierre del proyecto. El equipo acordó que Sprint 4 se enfocaría en habilitar la experiencia completa del sistema: autenticación, integración real frontend–backend, habilitación de los módulos de inventario, órdenes y alertas, además del cierre de despliegues y documentación técnica.|
+| Date | 2025-11-26 |
+| Time | 21:00 horas |
+| Location | Reunión virtual - Discord |
+| Prepared By | Joan Fernando Teves Samaniego |
+| Attendees | - Angelo Stephano Moscoso Bejar <br> - Antonio Rodrigo Duran Díaz <br> - Gonzalo Alonso Carhuancote Dominguez |
+| Sprint 3 Review Summary | Se completó el backend de Supplies, Orders, Dashboard y Authentication. Sin embargo, no se realizó integración con frontend, ni implementación de seguridad, ni interfaz para alertas. El backend quedó estable y listo para ser consumido.|
+| Sprint 3 Retrospective Summary | El equipo reconoció la ausencia de integración y acordó reorganizar tareas para que Sprint 4 cubra toda la experiencia usuario real. Además, se reforzó la comunicación y la revisión de ramas antes del merge. |
+| **Sprint Goal & User Stories** | |
+| Sprint 4 Goal | Nos centramos en que los usuarios puedan acceder de forma segura a WineSoft y gestionar sus flujos de trabajo operativos principales (suministros, movimientos de stock, órdenes de compra y alertas del sistema) a través de una aplicación web integrada y funcional. Creemos que ofrece eficiencia, trazabilidad y control a los operadores y administradores de tiendas. Esto se confirmará cuando los usuarios puedan iniciar sesión, navegar a los módulos de inventario, registrar movimientos u órdenes de compra y recibir alertas del sistema utilizando datos reales del sistema en una experiencia unificada.|
+| Sprint Velocity | 30 |
+| Sum of Story Points | 30 Story Points |
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
-| Team Member (Last Name, First Name) | GitHub Username | Dashboard & Analytics (L/C) | Order Management Finalization (L/C) | Deployment & CI/CD (L/C) | Documentation & Videos (L/C) |
+| Team Member (Last Name, First Name) | GitHub Username | Analytics (L/C) | Purchase Orders (L/C) | Alerts (L/C) | Auth/JWT (L/C) |
 |:---|:---|:---:|:---:|:---:|:---:|
-| Moscoso Bejar, Angelo Stephano | StephanoDang | L | C | C | C |
+| Moscoso Bejar, Angelo Stephano | StephanoDang | C | C | C | L |
 | Teves Samaniego, Joan Fernando | Joan3210 | C | L | C | C |
-| Durán Díaz, Antonio Rodrigo | Sltcrd | C | C | L | C |
-| Carhuancote Dominguez, Gonzalo Alonso | Gonzalo251104 | C | C | C | L |
+| Durán Díaz, Antonio Rodrigo | Sltcrd | L | C | C | C |
+| Carhuancote Dominguez, Gonzalo Alonso | Gonzalo251104 | C | C | L | C |
 
 #### 5.2.4.3. Sprint Backlog 4.
 
