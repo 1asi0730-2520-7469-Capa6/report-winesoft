@@ -2682,11 +2682,12 @@ La interfaz de documentación Swagger está accesible públicamente en el entorn
 
 **Contributors**
 
-<img src="./imagenes/Commits_Sprint3.png‎" alt="img contributors">
+<img src="./imagenes/Contributors_Sprint3.png" alt="img contributors">
 
 **Commits**
 
-<img src="./imagenes/Contributors_Sprint3.png‎" alt="img commits">
+<img src="./imagenes/Commits_Sprint3.png" alt="img contributors">
+
 
 ### 5.2.4. Sprint 4
 
