@@ -2434,116 +2434,148 @@ Durante el Sprint 3, el equipo centró su trabajo en el desarrollo del backend, 
   </tr>
 
   <tr>
-    <td rowspan="7" align="center"> `https://github.com/1asi0730-2520-7469-Capa6/winesoft-backend` </td>
-    <td align="center"> feature/inventory</td>
-    <td align="center"> </td>
-    <td align="center"> feat(auth): implement jwt strategy and login endpoint</td>
-    <td align="center"> ---</td>
-    <td align="center"> </td>
-  </tr>
-  <tr>
-    <td align="center"> feature/orders</td>
-    <td align="center"> </td>
-    <td align="center"> feat(auth): add jwt middleware for endpoint protection</td>
-    <td align="center"> ---</td>
-    <td align="center"> </td>
-  </tr>
-  <tr>
-    <td align="center"> feature/analytics</td>
-    <td align="center"> </td>
-    <td align="center"> feat(supplies): add POST, PUT, DELETE endpoints for supplies</td>
-    <td align="center"> ---</td>
-    <td align="center"> </td>
+    <td rowspan="15" align="center"> https://github.com/1asi0730-2520-7469-Capa6/winesoft-platform </td>
+    <td align="center"> feature/identity</td>
+    <td align="center"> a1b2c3d</td>
+    <td align="center"> feat(domain): add user aggregate and value objects</td>
+    <td align="center"> Definición de la entidad User, roles y encriptación de contraseñas.</td>
+    <td align="center"> 09/11/2025</td>
   </tr>
   <tr>
     <td align="center"> feature/identity</td>
-    <td align="center"> </td>
-    <td align="center"> feat(profile): add GET /api/profile/me endpoint</td>
-    <td align="center"> ---</td>
-    <td align="center"> </td>
+    <td align="center"> b2c3d4e</td>
+    <td align="center"> feat(infra): implement user repository with ef core</td>
+    <td align="center"> Implementación de IUserRepository y configuración de tablas en MySQL.</td>
+    <td align="center"> 09/11/2025</td>
   </tr>
   <tr>
-    <td align="center"> feature/profiles</td>
-    <td align="center"> </td>
-    <td align="center"> Merge branch 'feature/auth' into develop</td>
-    <td align="center"> ---</td>
-    <td align="center"> </td>
+    <td align="center"> feature/identity</td>
+    <td align="center"> c3d4e5f</td>
+    <td align="center"> feat(auth): implement jwt token generation service</td>
+    <td align="center"> Servicio para crear tokens JWT con claims de rol y id de usuario.</td>
+    <td align="center"> 10/11/2025</td>
+  </tr>
+  <tr>
+    <td align="center"> feature/identity</td>
+    <td align="center"> d4e5f6g</td>
+    <td align="center"> feat(api): add login and registration endpoints</td>
+    <td align="center"> Controladores para Sign-In y Sign-Up expuestos en la API.</td>
+    <td align="center"> 10/11/2025</td>
+  </tr>
+  <tr>
+    <td align="center"> feature/identity</td>
+    <td align="center"> e5f6g7h</td>
+    <td align="center"> sec(auth): add jwt bearer middleware protection</td>
+    <td align="center"> Configuración de seguridad para rechazar peticiones sin token válido.</td>
+    <td align="center"> 11/11/2025</td>
+  </tr>
+
+  <tr>
+    <td align="center"> feature/profile</td>
+    <td align="center"> f6g7h8i</td>
+    <td align="center"> feat(profile): add get profile endpoint</td>
+    <td align="center"> Endpoint GET /api/v1/profile/me para obtener datos del usuario logueado.</td>
+    <td align="center"> 12/11/2025</td>
+  </tr>
+
+  <tr>
+    <td align="center"> feature/inventory</td>
+    <td align="center"> g7h8i9j</td>
+    <td align="center"> feat(domain): add supply and stock movement entities</td>
+    <td align="center"> Modelado del dominio de inventario con validaciones de negocio.</td>
+    <td align="center"> 13/11/2025</td>
+  </tr>
+  <tr>
+    <td align="center"> feature/inventory</td>
+    <td align="center"> h8i9j0k</td>
+    <td align="center"> feat(api): implement get all supplies with pagination</td>
+    <td align="center"> Endpoint optimizado para listar suministros en el grid del frontend.</td>
+    <td align="center"> 13/11/2025</td>
+  </tr>
+  <tr>
+    <td align="center"> feature/inventory</td>
+    <td align="center"> i9j0k1l</td>
+    <td align="center"> feat(api): add create and update supply endpoints</td>
+    <td align="center"> Funcionalidad para registrar nuevos insumos y editar stock existente.</td>
+    <td align="center"> 14/11/2025</td>
+  </tr>
+  <tr>
+    <td align="center"> feature/inventory</td>
+    <td align="center"> j0k1l2m</td>
+    <td align="center"> feat(api): add delete supply functionality</td>
+    <td align="center"> Soft-delete o eliminación física de insumos según reglas de negocio.</td>
+    <td align="center"> 14/11/2025</td>
+  </tr>
+  <tr>
+    <td align="center"> feature/movements</td>
+    <td align="center"> k1l2m3n</td>
+    <td align="center"> feat(stock): add stock movement registration endpoint</td>
+    <td align="center"> Endpoint para registrar entradas y salidas de almacén.</td>
+    <td align="center"> 15/11/2025</td>
+  </tr>
+
+  <tr>
+    <td align="center"> feature/orders</td>
+    <td align="center"> l2m3n4o</td>
+    <td align="center"> feat(orders): add create order endpoint structure</td>
+    <td align="center"> Estructura base del controlador de pedidos (POST /orders).</td>
+    <td align="center"> 16/11/2025</td>
+  </tr>
+
+  <tr>
+    <td align="center"> develop</td>
+    <td align="center"> m3n4o5p</td>
+    <td align="center"> chore: configure cors for frontend integration</td>
+    <td align="center"> Habilitar CORS para permitir peticiones desde el dominio de Vercel.</td>
+    <td align="center"> 17/11/2025</td>
   </tr>
   <tr>
     <td align="center"> develop</td>
-    <td align="center"> </td>
-    <td align="center"> Merge branch 'feature/supplies-crud' into develop</td>
-    <td align="center"> ---</td>
-    <td align="center"> </td>
+    <td align="center"> n4o5p6q</td>
+    <td align="center"> docs: update swagger with auth and inventory</td>
+    <td align="center"> Actualización de la documentación OpenAPI con los nuevos endpoints.</td>
+    <td align="center"> 18/11/2025</td>
   </tr>
   <tr>
-    <td align="center"> master</td>
-    <td align="center"> </td>
-    <td align="center"> Merge branch 'feature/supplies-crud' into develop</td>
-    <td align="center"> ---</td>
-    <td align="center"> </td>
-  </tr>
-
-</table>
-
-<table>
-  <tr>
-    <td align ="center" > <strong>Repository</strong></td>
-    <td  align ="center" > <strong>Branch</strong></td>
-    <td  align ="center" > <strong>Commit ID</strong></td>
-    <td  align ="center" > <strong>Commit message</strong></td>
-    <td  align ="center" > <strong>Commit Message body</strong></td>
-    <td  align ="center" > <strong>Commit on (date)</strong></td>
-  </tr>
-
-  <tr>
-    <td rowspan="4" align="center"> `https://github.com/1asi0730-2520-7469-Capa6/winesoft-frontend` </td>
-    <td align="center"> feature/connect-login</td>
-    <td align="center"> </td>
-    <td align="center"> feat(login): connect login view to backend API and handle token</td>
-    <td align="center"> ---</td>
-    <td align="center"> </td>
-  </tr>
-  <tr>
-    <td align="center"> feature/connect-supplies</td>
-    <td align="center"> </td>
-    <td align="center"> feat(supplies): connect supplies crud modal to real api endpoints</td>
-    <td align="center"> ---</td>
-    <td align="center"> </td>
-  </tr>
-  <tr>
-    <td align="center"> feature/profile-view</td>
-    <td align="center"> </td>
-    <td align="center"> feat(profile): create basic profile view and connect to /api/profile/me</td>
-    <td align="center"> ---</td>
-    <td align="center"> </td>
-  </tr>
-  <tr>
-    <td align="center"> develop</td>
-    <td align="center"> </td>
-    <td align="center"> Merge branch 'feature/connect-supplies' into develop</td>
-    <td align="center"> ---</td>
-    <td align="center"> </td>
+    <td align="center"> main</td>
+    <td align="center"> o5p6q7r</td>
+    <td align="center"> release: merge develop into main for sprint 3 deployment</td>
+    <td align="center"> Despliegue de la versión v0.8.0 en Render.</td>
+    <td align="center"> 19/11/2025</td>
   </tr>
 </table>
 
+#### 5.2.3.5. Execution Evidence for Sprint Review.
 
-#### 5.2.3.5.Execution Evidence for Sprint Review.
 
-Durante la ejecución del Sprint 3 se realizaron solo pruebas sobre el backend, usando
-- Swagger
-- Postman
-- Base de datos local / Render DB
+Para este Sprint 3, hemos logrado el despliegue exitoso de los tres componentes principales de la solución (Landing Page, Frontend y Backend) en entornos de producción en la nube. A continuación, se detalla la plataforma utilizada y el proceso de despliegue para cada uno.
 
-Supplies (imagenes de probando supplies en swagger)
+**1. Business Website (Landing Page)**
+Para el sitio web informativo, utilizamos **GitHub Pages**. Esta plataforma nos permite alojar directamente los archivos estáticos (HTML, CSS, JS) desde nuestro repositorio en GitHub.
+* **Proceso:** Cada vez que se actualizan los archivos en la rama `main`, GitHub Pages reconstruye el sitio automáticamente, garantizando que los visitantes siempre vean la última versión de la información del producto.
 
-Orders (imagenes de probando orders en swagger)
+<img src="./imagenes/Landing_Home.jpeg" alt="img Landing">
 
-Dashboard (imagenes de probando dashboard en swagger)
+**URL:** [Landing Page](https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/)
 
-Authentication (imagenes de probando analytics en swagger)
+**2. Frontend Application**
+La aplicación web desarrollada en **Vue 3** fue desplegada utilizando **Vercel**. Elegimos Vercel por su integración nativa con proyectos basados en Vite y su capacidad para manejar el proceso de construcción (build) de los archivos del frontend automáticamente.
+* **Integración:** Vercel detecta los cambios en el repositorio, ejecuta el comando de build y despliega los archivos resultantes en una red global (CDN). Además, aquí configuramos las variables de entorno para conectar con la API de producción.
 
-video
+<img src="./imagenes/Frontend_Deployment.png" alt="img Front">
+
+**URL**: [FrontEnd](https://winesoft-frontend.vercel.app/)
+
+**3. Backend Application**
+Para el backend, utilizamos **Render** como plataforma de nube para desplegar nuestra API RESTful desarrollada en **.NET 9**.
+* **Uso de Render y Archivos:** El servicio se construye a partir de nuestro `Dockerfile` ubicado en el repositorio, lo que asegura un entorno de ejecución consistente. Render compila la solución y mantiene el servicio activo.
+* **Swagger UI:** Una parte crucial de este despliegue es la disponibilidad de **Swagger**. Al acceder a la URL del backend, se presenta la interfaz de Swagger UI, la cual genera documentación interactiva basada en los controladores de nuestra API. Esto permite al equipo de frontend y a los stakeholders probar los endpoints y verificar el esquema de datos en tiempo real.
+
+<img src="./imagenes/DeploymentEvidence.png" alt="img Backend">
+
+**URL**: [BackEnd - Swagger Documentation](https://winesoft-platform.onrender.com/swagger/index.html)
+
+
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
@@ -2623,56 +2655,38 @@ Los endpoints desarrollados en este sprint fueron documentados en Swagger/OpenAP
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
-(CONSIDERAR: En esta sección se resume los procesos realizados en relación con Deployment
-durante este Sprint.)
 
-Introduccion explicando lo que se ha realizado con respecto al despliegue durante este sprint. 
-Actividades de creacion de cuentas -> hacerlo en el otro capitulo de config y luego referenciar
-Configuracion de recursos en cloud providers
-Configuracion de proyectos de desarrollo para la integracion de deployment, etc.
-Considerar Landing Page, Web Application y Web Services. 
+Durante la ejecución del Sprint 3, el equipo se centró exclusivamente en la validación y pruebas del **Backend**, asegurando la estabilidad de la API antes de la integración total con el Frontend. Se realizaron pruebas utilizando:
 
-explicacion de cada archivo con su imagen de despliegue y la hora
+- **Swagger UI:** Para la verificación de endpoints y esquemas de datos.
+- **Base de datos en la nube:** Gestión de datos persistentes utilizando servicios como Render DB / Filess.
 
-**Landing Page**
+A continuación, se presentan las evidencias gráficas de estos entornos operativos:
 
-<img src="./imagenes/LandingPage.png" alt="img LandingPage>
+**1. Despliegue del Backend en Render**
+El servicio web se encuentra activo y en ejecución en la plataforma Render, sirviendo las peticiones de la API.
 
-**URL:** [Landing Page](https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/)
+![Backend Deployment en Render](./imagenes/BackendDeployment.png)
 
+**2. Gestión de Base de Datos (Filess)**
+La base de datos MySQL fue configurada y desplegada exitosamente en Filess, permitiendo la conexión remota segura.
 
-**FrontEnd**
+![Database Deployment en Filess](./imagenes/DatabaseDeplyment.png)
 
-**URL**: [FrontEnd](https://winesoft-frontend.vercel.app)
+**3. Pruebas de Endpoints con Swagger**
+La interfaz de documentación Swagger está accesible públicamente en el entorno de producción, permitiendo interactuar con los recursos de Autenticación e Inventario.
 
-**BackEnd**
-
-**URL**: [BackEnd](https://winesoft-platform.onrender.com/swagger/index.html)
+![Swagger UI en Render](./imagenes/DeploymentEvidence.png)
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
-*(Nota: Esta sección debe ser actualizada con las gráficas de contribución reales del Sprint 3 de WineSoft)*
-
-Durante el Sprint 3 el equipo trabajó principalmente en paralelo en diferentes módulos del backend, frontend y landing page.
-
-### Landing Page
-
 **Contributors**
+
+<img src="./imagenes/Commits_Sprint3.png‎" alt="img contributors">
 
 **Commits**
 
-### FrontEnd
-
-**Contributors**
-
-**Commits**
-
-### Backend
-
-**Contributors**
-
-**Commits**
-
+<img src="./imagenes/Contributors_Sprint3.png‎" alt="img commits">
 
 ### 5.2.4. Sprint 4
 
