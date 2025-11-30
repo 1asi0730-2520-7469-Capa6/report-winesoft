@@ -2707,13 +2707,128 @@ Durante el Sprint 3 el equipo trabajó principalmente en paralelo en diferentes 
 Para el sprint 4 usamos la herramienta Trello para organizar las tareas del equipo.
 <img src="./imagenes/Trello.png" alt="img trello">
 **Enlace:** (https://trello.com/b/C3fkc25L/sprint-4)
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td align="center" colspan="7"> <strong>Sprint 4</strong> </td>
+  </tr>
 
-| Sprint # | Sprint 4 |
-| :--- | :--- |
-| **User Story** | **Work-item/Task** |
-| **ID / Title** | **ID / Title / Description / Est. / Assigned / Status** |
+   <tr>
+    <td align="center" colspan="2"> <strong>User Story</strong></td>
+    <td align="center" colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td align="center"> <strong>ID</strong> </td>
+    <td align="center"> <strong>Title</strong></td>
+    <td align="center"> <strong>ID</strong> </td>
+    <td align="center"> <strong>Title</strong></td>
+    <td align="center"> <strong>Description</strong></td>
+    <td align="center"> <strong>Estimation (Hours)</strong></td>
+    <td align="center"> <strong>Assigned To</strong></td>
+    <td align="center"> <strong> Status (To-do/In-Process/To-Review/Done)  </strong></td>
+  </tr>
+  
+  <tr>
+    <td rowspan="2" align="center"> US24 </td>
+    <td rowspan="2" align="center"> Ver mi perfil de usuario</td>
+    <td align="center"> TA01 </td>
+     <td align="center"> US24-BACK-01</td>
+    <td align="center"> Implementar endpoint GET /api/v1/profile para obtener datos del usuario autenticado.</td>
+    <td align="center"> 3</td>
+    <td align="center"> Sltcrd</td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>
+    <td align="center"> TA02 </td>
+     <td align="center"> US24-FRONT-02</td>
+    <td align="center"> Crear vista de Perfil de Usuario en Frontend y conectar con el endpoint.</td>
+    <td align="center"> 4</td>
+    <td align="center"> StephanoDang</td>
+    <td align="center">Done</td>
+  </tr>
 
-#### 5.2.4.4. Development Evidence for Sprint Review.
+  <tr>
+    <td rowspan="1" align="center"> US25 </td>
+    <td rowspan="1" align="center"> Editar información de contacto</td>
+    <td align="center"> TA03 </td>
+    <td align="center"> US25-FULL-01</td>
+    <td align="center"> Habilitar endpoint PUT y formulario de edición en la vista de Perfil.</td>
+    <td align="center"> 4</td>
+    <td align="center"> Gonzalo251104</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1" align="center"> US26 </td>
+    <td rowspan="1" align="center"> Cambiar mi contraseña</td>
+    <td align="center"> TA04 </td>
+    <td align="center"> US26-SEC-01</td>
+    <td align="center"> Implementar lógica segura de cambio de contraseña (verificación actual + hash).</td>
+    <td align="center"> 3</td>
+    <td align="center"> Joan3210 </td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2" align="center"> US14 </td>
+    <td rowspan="2" align="center"> Visualizar gráficos de stock</td>
+    <td align="center"> TA05 </td>
+    <td align="center"> US14-API-01</td>
+    <td align="center"> Crear DashboardController con endpoints para métricas y rotación.</td>
+    <td align="center"> 3</td>
+    <td align="center"> Sltcrd </td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>
+    <td align="center"> TA06 </td>
+     <td align="center">US14-APP-02</td>
+    <td align="center"> Implementar DashboardView integrando gráficos con Chart.js o PrimeVue.</td>
+    <td align="center"> 5</td>
+    <td align="center"> StephanoDang</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1" align="center"> US15 </td>
+    <td rowspan="1" align="center"> Exportar reportes</td>
+    <td align="center"> TA07 </td>
+    <td align="center"> US15-APP-01</td>
+    <td align="center"> Desarrollar funcionalidad en Frontend para generar y descargar CSV.</td>
+    <td align="center"> 3 </td>
+    <td align="center"> Gonzalo251104 </td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1" align="center"> US09 </td>
+    <td rowspan="1" align="center"> Actualizar estado transporte</td>
+    <td align="center"> TA08 </td>
+    <td align="center"> US09-API-01</td>
+    <td align="center"> Validar endpoint PATCH y botones para cambiar estado a 'Entregado'.</td>
+    <td align="center"> 3 </td>
+    <td align="center"> Joan3210 </td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2" align="center"> N/A </td>
+    <td rowspan="2" align="center"> Entregables Finales </td>
+    <td align="center"> TA09 </td>
+    <td align="center"> DEPLOY-PROD</td>
+    <td align="center"> Configuración y despliegue final en Render (API) y Netlify (Front).</td>
+    <td align="center"> 2 </td>
+    <td align="center"> Sltcrd </td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>
+    <td align="center"> TA10 </td>
+    <td align="center"> VIDEO-PROD</td>
+    <td align="center"> Grabación y edición de videos 'About-the-Product' y 'About-the-Team'.</td>
+    <td align="center"> 5 </td>
+    <td align="center"> Gonzalo251104 </td>
+    <td align="center"> Done</td>
+  </tr>
+</table>
 
 A continuación, se presentan los commits más relevantes realizados durante el Sprint 4 para el cierre del proyecto.
 
