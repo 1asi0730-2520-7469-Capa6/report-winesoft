@@ -2853,22 +2853,60 @@ A continuación, se presentan los commits más relevantes realizados durante el 
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
-**1. Landing Page (Versión Final)**
-**URL:** `https://capa6-winesoft.vercel.app/`
 
-La Landing Page final incluye todas las secciones informativas, planes de precios actualizados, el formulario de contacto funcional y el video *About-the-Product* incrustado.
+**Landing Page**
+La landing page de Eventify está diseñada para captar la atención de nuevos usuarios y ofrecer una visión clara del propósito de la plataforma. Incluye secciones informativas, un diseño moderno y responsivo, y llamados a la acción bien definidos. Las siguientes imágenes muestran diferentes partes de la interfaz.
+- **URL:** https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/
 
+![Landing Home](./imagenes/Landing_Home.jpeg)
 
+<br>
 
-**2. Frontend Application (Dashboard & Reportes)**
-**URL**: `https://winesoft-frontend.vercel.app/`
+![Landing About](./imagenes/Landing_about.png)
 
-Se implementó el **Dashboard Principal**, cumpliendo con la US14. El dueño de la destilería ahora puede visualizar gráficamente la distribución de su inventario y el resumen de costos operativos al iniciar sesión.
+<br>
 
+![Landing Team](./imagenes/Landing_team.png)
 
+<br>
 
-**3. Gestión de Pedidos Finalizada**
-El proveedor ahora tiene la capacidad de cambiar el estado de los pedidos a "En Tránsito" o "Entregado", reflejándose estos cambios en tiempo real para el dueño de la destilería.
+![Landing About Team](./imagenes/Landing_about_team.png)
+
+<br>
+
+![Landing Services](./imagenes/Landing_Services.jpeg)
+
+<br>
+
+![Landing About Product](./imagenes/Landing_about_product.png)
+
+<br>
+
+![Landing Context](./imagenes/Landing_Context.jpeg)
+
+**Frontend Application**
+**URL**: https://winesoft-frontend.vercel.app/
+
+![Front_final_sign](./imagenes/Front_final_sign.png)
+
+<br>
+
+![Front_final_home](./imagenes/Front_final_home.png)
+
+<br>
+
+![Front_final_supply](./imagenes/Front_final_supply.png)
+
+<br>
+
+![Front_final_stock](./imagenes/Front_final_stock.png)
+
+<br>
+
+![Front_final_purchase](./imagenes/Front_final_purchase.png)
+
+**Backend Application**
+**URL**
 
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
@@ -2903,24 +2941,7 @@ La documentación de la API se ha completado utilizando **Swagger UI**, reflejan
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
-Para la entrega final (TF1), aseguramos que todos los servicios estén operativos, enlazados y con certificados SSL activos.
 
-**Business Website**
-- **Plataforma:** Vercel
-- **Estado:** Active
-- **URL:** 
-
-**Frontend Application**
-- **Plataforma:** Netlify
-- **Estado:** Published (Branch: `main`)
-- **URL:** 
-- **Configuración:** Variables de entorno `VITE_WINESOFT_PLATFORM_API_URL` apuntando al backend de producción.
-
-**Backend Application**
-- **Plataforma:** Render
-- **Estado:** Live (Web Service)
-- **URL:**
-- **Tecnología:** ASP.NET Core 9.0 con conexión a base de datos MySQL en la nube.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
