@@ -3473,7 +3473,7 @@ Este video promocional está dirigido a los potenciales clientes (dueños de lic
 
 Este video documenta el viaje del equipo **Capa-6** durante el ciclo académico. Incluye testimonios de **Angelo, Joan, Antonio y Gonzalo** sobre los desafíos técnicos enfrentados (como la integración de .NET con Vue), la gestión del tiempo y cómo la colaboración fue clave para finalizar el proyecto exitosamente.
 
-![About Team](./imagenes/about_team.jpeg)
+![About Team](./imagenes/abouttheteam.jpeg)
 
 [https://tinyurl.com/about-the-team-capa6](https://tinyurl.com/about-the-team-capa6)
 
