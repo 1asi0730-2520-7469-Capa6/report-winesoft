@@ -2952,42 +2952,182 @@ Se mantuvo el uso de **GitHub Projects** para el tablero Kanban y **Discord** pa
 
 ## 5.3. Validation Interviews.
 
-### 5.3.1. Diseño de Entrevistas.
+### 5.3.1. Diseño de Entrevistas
 
-Para la validación final del producto (*Release*), se diseñó un guion de pruebas de usabilidad enfocado en verificar que el sistema resuelve los problemas de negocio identificados en el *Needfinding* inicial.
+A continuación, se detallan las preguntas y tareas diseñadas para validar la usabilidad, claridad y propuesta de valor de la plataforma **WineSoft** con usuarios reales de los segmentos objetivo.
 
-**Objetivo:** Validar la usabilidad del Dashboard y el flujo completo de pedidos.
+#### **Segmento 1: Dueños de Destilerías / Licorerías**
+**Objetivo:** Verificar si pueden registrar insumos, hacer pedidos y entender el resumen de su negocio sin ayuda.
 
-**Tareas para el Usuario (Dueño de Destilería):**
-1. "Regístrese en la plataforma e inicie sesión con su nueva cuenta."
-2. "Ingrese al módulo de Suministros y registre la compra de 50 botellas de Alcohol."
-3. "Diríjase al Dashboard principal e interprete los gráficos mostrados: ¿Le ayudan a entender el estado de su almacén?"
-4. "Genere un nuevo pedido a un proveedor desde la plataforma."
+**1. Sobre el Inicio**
+* ¿Al ver la página principal, te queda claro para qué sirve el sistema?
+* ¿Te parece fácil encontrar el botón para "Iniciar Sesión" o registrarte?
 
-**Tareas para el Usuario (Proveedor):**
-1. "Identifique los pedidos pendientes en su lista."
-2. "Cambie el estado de un pedido a 'En Camino' y luego a 'Entregado'."
+**2. Sobre la App Web**
+* **Dashboard:**
+    * "Mira la pantalla principal." ¿Entiendes los gráficos que aparecen aquí?
+    * ¿Puedes decirme rápidamente cuánto stock tienes según lo que ves en el resumen?
+* **Gestión de Suministros:**
+    * "Intenta registrar un nuevo insumo (ej. Botellas o Corchos)." ¿Fue fácil encontrar dónde hacerlo?
+    * ¿Pudiste guardar el producto sin errores?
+    * "Busca el producto que acabas de crear en la lista." ¿Lo encontraste rápido?
+* **Realizar Pedidos:**
+    * "Crea un pedido nuevo para un proveedor." ¿Te pareció complicado llenar los datos?
+    * ¿El sistema te confirmó que el pedido se realizó correctamente?
+* **Reportes:**
+    * "Entra a la sección de reportes." ¿La información que ves te sirve para saber qué compraste o vendiste?
 
-### 5.3.2. Registro de Entrevistas.
+#### **Segmento 2: Proveedores de Insumos**
+**Objetivo:** Verificar si pueden ver los pedidos que reciben y gestionar su estado de manera eficiente.
 
-Se realizaron entrevistas de validación con usuarios representativos de los segmentos objetivo.
+**1. Sobre el Inicio (Landing Page)**
+* ¿Queda claro que esta plataforma también es para proveedores como tú?
 
-**Resumen de Hallazgos:**
-* **Usuario 1 (Dueño - Fernando T.):** Logró registrar insumos sin asistencia. Comentó que el *Dashboard* es la funcionalidad más valiosa porque "de un solo vistazo sé qué me falta comprar sin revisar Excel".
-* **Usuario 2 (Proveedor - Gabriel):** Valoró positivamente la capacidad de cambiar el estado del pedido digitalmente, mencionando que esto reducirá las llamadas de seguimiento por parte de los clientes.
-* **Feedback General:** La interfaz es limpia y rápida. Se sugirió aumentar el tamaño de la fuente en las tablas para la versión móvil en futuras actualizaciones.
+**2. Sobre la App Web**
+* **Recepción de Pedidos :**
+    * "Entra a tu lista de pedidos." ¿Puedes identificar cuáles son los pedidos nuevos que te han llegado?
+    * ¿Se entiende qué productos te está pidiendo el cliente?
+* **Atención de Pedidos:**
+    * "Intenta cambiar el estado de un pedido (ej. de Pendiente a Entregado)." ¿Fue rápido hacer el cambio?
+    * ¿Te parece útil poder actualizar esto desde la web en lugar de llamar al cliente?
+* **Navegación General:**
+    * ¿Los botones y textos tienen un tamaño adecuado para leerlos bien?
+    * ¿Sientes que la web carga rápido cuando te mueves entre las secciones?
 
-### 5.3.3. Evaluaciones según heurísticas.
+### 5.3.2. Registro de Entrevistas
 
-Se aplicó una evaluación final basada en las 10 heurísticas de Nielsen sobre la versión desplegada v1.0.0.
+Para la validación final del producto (*Release*), se realizaron entrevistas con 4 usuarios representativos de ambos segmentos. A continuación, se presenta el resumen de cada sesión.
 
-| Heurística | Resultado | Observación |
-|:---|:---:|:---|
-| **Visibilidad del estado del sistema** | Cumple | El sistema muestra spinners de carga (PrimeVue) y notificaciones "Toast" al guardar o eliminar registros. |
-| **Coincidencia entre sistema y mundo real** | Cumple | Se utiliza lenguaje natural del negocio ("Suministros", "Pedidos", "Vencimiento") acorde al *Ubiquitous Language*. |
-| **Control y libertad del usuario** | Cumple | Los diálogos de confirmación permiten cancelar acciones destructivas o retroceder en la navegación. |
-| **Consistencia y estándares** | Cumple | Se mantiene el esquema de colores (Brand Colors) y tipografía en todas las vistas (Landing y App). |
-| **Prevención de errores** | Cumple | Los formularios validan campos obligatorios y formatos de fecha antes de permitir el envío. |
+**Enlace al video consolidado:** [Microsoft Stream - WineSoft Validation Sprint 4](https://upcedupe-my.sharepoint.com/personal/u202215721_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202215721%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0730%2D7469%2DWineSoft%2Dvalidation%2Dsprint%2D4%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8b957030%2D62c6%2D421b%2D8b4a%2D2ba979244be4)
+
+#### Entrevista 1: Fernando Teves
+* **Segmento:** Dueño de Destilería
+* **Perfil:** 55 años, Huancayo.
+* **Inicio en video:** `00:06`
+* **Resumen:** El usuario logró completar el flujo de registro de insumos sin errores. Destacó que el **Dashboard** le permite ver "dónde está invertido su dinero" rápidamente y que el formulario de pedidos es conciso, resolviendo su problema de gestión de tiempo. Validó la interfaz como intuitiva a pesar de no ser un experto tecnológico.
+
+<img src="./imagenes/interview1.png" alt="Entrevista Fernando Teves" width="100%">
+
+#### Entrevista 2: Alejandro Huamán
+* **Segmento:** Dueño de Destilería (Ayudante)
+* **Perfil:** 23 años, Ica (Subtanjalla).
+* **Inicio en video:** `03:26`
+* **Resumen:** Alejandro validó positivamente la usabilidad del sistema, calificando la navegación como fácil e interactiva. Logró realizar el registro de nuevos insumos sin errores y confirmó que el Dashboard es comprensible. Resaltó que la generación de reportes le brinda información útil para la toma de decisiones operativas.
+
+<img src="./imagenes/interview2.png" alt="Entrevista Alejandro Huaman" width="100%">
+
+#### Entrevista 3: Leticia Aguilar
+* **Segmento:** Proveedora de Insumos (Trabajadora)
+* **Perfil:** 23 años, Lima (San Miguel).
+* **Inicio en video:** `07:27`
+* **Resumen:** Leticia confirmó que la plataforma es flexible. Identificó claramente los nuevos pedidos y valoró la rapidez para cambiar los estados ("muy fluido"). Sin embargo, sugirió mejoras importantes en accesibilidad: aumentar el tamaño de letra para usuarios de tercera edad y asegurar una mejor adaptabilidad móvil para el trabajo de campo.
+
+<img src="./imagenes/interview3.png" alt="Entrevista Leticia Aguilar" width="100%">
+
+#### Entrevista 4: Andrea Martínez
+* **Segmento:** Proveedora de Insumos
+* **Perfil:** 26 años, Ruta Chincha-Huancayo.
+* **Inicio en video:** `13:17`
+* **Resumen:** Andrea valoró la claridad de la información en los pedidos recibidos (producto y cantidad exacta), lo que elimina confusiones logísticas. Confirmó que la web carga rápido, factor crítico para su movilidad. La funcionalidad de cambio de estado fue validada como herramienta clave para la fidelización de clientes.
+
+<img src="./imagenes/interview4.png" alt="Entrevista Andrea Martinez" width="100%">
+
+### 5.3.3. Evaluaciones según heurísticas
+
+#### UX Heuristics & Principles Evaluation
+
+#### Usability – Inclusive Design – Information Architecture
+
+**SITE O APP A EVALUAR:** WineSoft
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas críticas del Sprint 4:
+
+- Registro e Inicio de Sesión (Autenticación).
+- Visualización y comprensión del Dashboard (Métricas).
+- Registro de nuevos suministros en el inventario.
+- Creación de pedidos a proveedores.
+- Cambio de estado de pedidos (Flujo del proveedor).
+- Gestión y actualización del perfil de usuario.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Procesamiento de pagos en línea (Pasarela real).
+- Conexión física con sensores IoT (Simulación manual).
+- Integración con sistemas ERP externos.
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
+
+## Niveles de Severidad de Problemas de Usabilidad
+
+| **Nivel** | **Descripción** |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**TABLA RESUMEN:**
+
+La siguiente tabla presenta un resumen de los resultados obtenidos en la evaluación tras las entrevistas de validación:
+
+### Tabla Resumen de Evaluación Heurística - WineSoft
+
+| Nº | Problema Detectado | Escala de Severidad | Heurística / Principio Violado |
+|----|---------------------|---------------------|---------------------------------|
+| 1 | Tamaño de fuente fijo dificulta lectura en adultos mayores | 2 | Usability: Flexibilidad y eficiencia de uso |
+| 2 | Dashboard con gráficos estáticos (sin "drill-down") | 3 | Usability: Control y libertad del usuario |
+| 3 | Tablas de inventario complejas en vista móvil | 3 | Usability: Consistencia y estándares |
+| 4 | Falta de opción "Deshacer" tras cambiar estado de pedido | 2 | Usability: Control y libertad del usuario |
+| 5 | Feedback visual de "Carga" poco visible en conexiones lentas | 2 | Usability: Visibilidad del estado del sistema |
+| 6 | Buscador de insumos sin filtros por categoría específica | 2 | Usability: Flexibilidad y eficiencia de uso |
+
+### DESCRIPCIÓN DE PROBLEMAS:
+
+#### PROBLEMA #1: Tamaño de fuente fijo dificulta lectura en adultos mayores
+
+- **Severidad:** 2
+- **Heurística violada:** Usability: Flexibilidad y eficiencia de uso (Diseño Inclusivo)
+- **Problema:** Durante la entrevista con Leticia Aguilar, se identificó que, aunque para usuarios jóvenes la tipografía es legible, para usuarios de tercera edad (comunes en el rubro de proveedores tradicionales) el tamaño de letra puede resultar pequeño y no existe una opción nativa en la app para aumentarlo sin romper el diseño.
+- **Recomendación:** Implementar una opción de accesibilidad en el perfil o en el menú superior para alternar entre tamaños de fuente ("Normal", "Grande") o asegurar que el diseño responda correctamente al zoom del navegador sin superponer elementos.
+
+#### PROBLEMA #2: Dashboard con gráficos estáticos (sin "drill-down")
+
+- **Severidad:** 3
+- **Heurística violada:** Usability: Control y libertad del usuario
+- **Problema:** El Dashboard muestra gráficos de barras útiles sobre "Niveles de Suministro". Sin embargo, los usuarios (como Fernando) intentan hacer clic en las barras bajas para ver qué productos específicos faltan, pero el sistema no realiza ninguna acción. Deben ir manualmente al módulo de inventario y buscar. Esto rompe el flujo de "análisis a acción".
+- **Recomendación:** Hacer interactivos los gráficos del Dashboard. Al hacer clic en una barra o sector del gráfico, el sistema debería redirigir a la vista de inventario aplicando automáticamente el filtro correspondiente (ej. clic en "Stock Bajo" lleva a la tabla filtrada por productos críticos).
+
+#### PROBLEMA #3: Tablas de inventario complejas en vista móvil
+
+- **Severidad:** 3
+- **Heurística violada:** Usability: Consistencia y estándares (Responsividad)
+- **Problema:** Leticia mencionó la importancia de usar la app "en el campo". En la versión móvil, la tabla de suministros y pedidos intenta mostrar demasiadas columnas (ID, Nombre, Cantidad, Proveedor, Fecha, Acciones), lo que obliga a un *scroll* horizontal incómodo o comprime demasiado la información, dificultando la lectura rápida en pantallas pequeñas.
+- **Recomendación:** Implementar un diseño de "Tarjetas" para la vista móvil en lugar de tablas, mostrando solo la información crítica (Nombre, Cantidad, Estado) y ocultando detalles secundarios tras un botón de "Ver más" o "Expandir".
+
+#### PROBLEMA #4: Falta de opción "Deshacer" tras cambiar estado de pedido
+
+- **Severidad:** 2
+- **Heurística violada:** Usability: Control y libertad del usuario
+- **Problema:** En el flujo de proveedores, al cambiar el estado de un pedido de "Pendiente" a "En Camino" o "Entregado", el cambio es inmediato. Si el usuario se equivoca de pedido, no hay un botón de "Deshacer" inmediato o una alerta de confirmación previa para esta acción específica, lo que podría generar notificaciones erróneas al cliente.
+- **Recomendación:** Agregar un pequeño diálogo de confirmación ("¿Marcar como entregado?") o una notificación *toast* con un botón de "Deshacer" disponible por 5 segundos después de la acción.
+
+#### PROBLEMA #5: Feedback visual de "Carga" poco visible en conexiones lentas
+
+- **Severidad:** 2
+- **Heurística violada:** Usability: Visibilidad del estado del sistema
+- **Problema:** Aunque la app carga rápido (validado por Andrea), en momentos donde se consultan reportes históricos grandes, el indicador de carga (spinner) es pequeño o sutil. El usuario podría pensar que el botón no funcionó y presionarlo múltiples veces, enviando solicitudes duplicadas.
+- **Recomendación:** Utilizar *Skeletons* (esqueletos de carga) en las tablas y gráficos mientras se obtienen los datos, para dar una percepción de carga más clara y evitar clics repetidos.
+
+#### PROBLEMA #6: Buscador de insumos sin filtros por categoría específica
+
+- **Severidad:** 2
+- **Heurística violada:** Usability: Flexibilidad y eficiencia de uso
+- **Problema:** Alejandro mencionó que la organización es clave. Actualmente, el buscador filtra por texto general. A medida que el inventario crece (cientos de productos), buscar solo por nombre es ineficiente si se quiere ver, por ejemplo, solo "Botellas" o solo "Insumos químicos".
+- **Recomendación:** Añadir "Filtros Rápidos" o "Tags" encima de la tabla de suministros (ej. [Botellas], [Tapas], [Alcohol], [Aditivos]) para permitir segmentar la lista con un solo clic.
 
 ## 5.4. Video About-the-Product
 
