@@ -3219,10 +3219,12 @@ La documentación de la API se ha completado utilizando **Swagger UI**, reflejan
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 Se mantuvo el uso de **GitHub Projects** para el tablero Kanban y **Discord** para las reuniones diarias, asegurando la sincronización del equipo reducido.
+**Frontend**
 
-
----
-
+![Landing About Team](./imagenes/Contributors_Frontfinal.jpeg‎)
+<br>
+**Backend**
+![contributors_backfinal](./imagenes/contributors_backfinal.jpeg)
 ## 5.3. Validation Interviews.
 
 ### 5.3.1. Diseño de Entrevistas
@@ -3471,7 +3473,7 @@ Este video promocional está dirigido a los potenciales clientes (dueños de lic
 
 Este video documenta el viaje del equipo **Capa-6** durante el ciclo académico. Incluye testimonios de **Angelo, Joan, Antonio y Gonzalo** sobre los desafíos técnicos enfrentados (como la integración de .NET con Vue), la gestión del tiempo y cómo la colaboración fue clave para finalizar el proyecto exitosamente.
 
-*(Insertar captura de pantalla del video del equipo aquí)*
+![About Team](./imagenes/about_team.jpeg)
 
 [Ver video de navegación del About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g499_upc_edu_pe/IQDwLdOt3iczSblgic5-tv_WASAjPjbityuKcWNnMeHPX2E?e=XAdtdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
