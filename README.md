@@ -3475,7 +3475,7 @@ Este video documenta el viaje del equipo **Capa-6** durante el ciclo académico.
 
 ![About Team](./imagenes/about_team.jpeg)
 
-[Ver video de navegación del About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g499_upc_edu_pe/IQDwLdOt3iczSblgic5-tv_WASAjPjbityuKcWNnMeHPX2E?e=XAdtdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[https://tinyurl.com/about-the-team-capa6](https://tinyurl.com/about-the-team-capa6)
 
 
 # Bibliografía
