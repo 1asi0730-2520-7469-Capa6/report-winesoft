@@ -2873,17 +2873,33 @@ El proveedor ahora tiene la capacidad de cambiar el estado de los pedidos a "En 
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
-La documentación de la API se ha completado utilizando **Swagger UI**, incluyendo ahora el nuevo controlador de **Dashboard**.
+La documentación de la API se ha completado utilizando **Swagger UI**, reflejando los endpoints finales desplegados en producción.
 
-**Backend Swagger URL**: 
+**Backend Swagger URL**: `https://winesoft-platform.onrender.com/swagger/index.html`
 
 | Controller | Method | End Point | Descripción |
 |------------|--------|-----------|-------------|
-| **Dashboard** | GET | `/api/v1/dashboard/recent-orders` | Obtiene los 5 pedidos más recientes para el resumen inicial. |
-| | GET | `/api/v1/dashboard/supply-levels` | Retorna datos agrupados para el gráfico de barras de stock actual. |
-| | GET | `/api/v1/dashboard/supply-rotation` | Retorna datos para el gráfico lineal de movimientos de stock por día. |
-| | GET | `/api/v1/dashboard/costs-summary` | Calcula el costo total del inventario valorizado para los KPIs. |
-| **Orders** | PATCH | `/api/v1/orders/{id}/status` | Actualiza el estado del pedido (Pending -> In Transit -> Delivered). |
+| **Profiles** | GET | `/api/v1/profiles/{legalId}` | Get Profile by Tax Identity |
+| | POST | `/api/v1/profiles` | Create Profile |
+| | GET | `/api/v1/profiles` | Get All Profiles |
+| **Analytics** | GET | `/api/v1/analytics/purchase-orders/last-7-days` | Get purchase orders from last 7 days |
+| | GET | `/api/v1/analytics/supply-levels` | Get current supply levels |
+| | GET | `/api/v1/analytics/low-stock-alerts` | Get low stock alerts |
+| | GET | `/api/v1/analytics/supply-rotation` | Get supply rotation data |
+| | GET | `/api/v1/analytics/costs-summary` | Get costs summary |
+| | POST | `/api/v1/analytics/reports` | Generate analytics report |
+| **Authentication** | POST | `/api/iam/authentication/signin` | Sign in user and generate token |
+| **Purchase** | GET | `/api/v1/purchase/orders` | Get all orders |
+| | POST | `/api/v1/purchase/orders` | Create a new order |
+| | GET | `/api/v1/purchase/orders/{date}` | Get orders by specific date |
+| | GET | `/api/v1/purchase/orders/{id}` | Get order by ID |
+| | PUT | `/api/v1/purchase/orders/{id}` | Update an existing order |
+| | DELETE | `/api/v1/purchase/orders/{id}` | Delete an order |
+| **Supplies** | POST | `/api/v1/inventory/supplies` | Create a new supply |
+| | GET | `/api/v1/inventory/supplies` | Get all supplies |
+| | GET | `/api/v1/inventory/supplies/{id}` | Get supply by ID |
+| | PUT | `/api/v1/inventory/supplies/{id}` | Update a supply |
+| | DELETE | `/api/v1/inventory/supplies/{id}` | Delete a supply |
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
