@@ -3284,7 +3284,7 @@ A continuación, se detallan las preguntas y tareas diseñadas para validar la u
 
 Para la validación final del producto (*Release*), se realizaron entrevistas con 4 usuarios representativos de ambos segmentos. A continuación, se presenta el resumen de cada sesión.
 
-**Enlace al video consolidado:** [https://bit.ly/upc-pre-202520-1asi0730-7469-WineSoft-validation-sprint-4](https://bit.ly/upc-pre-202520-1asi0730-7469-WineSoft-validation-sprint-4)
+**Enlace al video consolidado:** [https://tinyurl.com/Validation-Interview](https://tinyurl.com/Validation-Interview)
 
 #### Entrevista 1: Fernando Teves
 * **Segmento:** Dueño de Destilería
