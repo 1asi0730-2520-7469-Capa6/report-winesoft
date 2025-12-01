@@ -2875,7 +2875,7 @@ El proveedor ahora tiene la capacidad de cambiar el estado de los pedidos a "En 
 
 La documentación de la API se ha completado utilizando **Swagger UI**, reflejando los endpoints finales desplegados en producción.
 
-**Backend Swagger URL**: `https://winesoft-platform.onrender.com/swagger/index.html`
+**Backend Swagger URL**: https://winesoft-platform.onrender.com/swagger/index.html
 
 | Controller | Method | End Point | Descripción |
 |------------|--------|-----------|-------------|
