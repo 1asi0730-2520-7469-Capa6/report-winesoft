@@ -3545,4 +3545,103 @@ Este video documenta el viaje del equipo **Capa-6** durante el ciclo académico.
 
 - Premier Systems. (2025). *BrewMan – Brewery & distillery management software*. Recuperado el 5 de octubre de 2025, de https://www.premiersystems.com/
 
+
 # Anexos
+
+
+
+### A. Links y Repositorios
+
+Se presentan los enlaces directos a los entornos de desarrollo, despliegue y gestión del proyecto **WineSoft**.
+
+* **Organización en GitHub:**
+    [https://github.com/1asi0730-2520-7469-Capa6](https://github.com/1asi0730-2520-7469-Capa6)
+* **Repositorio del Informe (Reporte Técnico):**
+    [https://github.com/1asi0730-2520-7469-Capa6/xyz-report](https://github.com/1asi0730-2520-7469-Capa6/xyz-report)
+* **Repositorio de la Landing Page:**
+    [https://github.com/1asi0730-2520-7469-Capa6/WineSoft-LandingPage](https://github.com/1asi0730-2520-7469-Capa6/WineSoft-LandingPage)
+* **Repositorio de la API *Fake* (Sprint 1):**
+    [https://github.com/1asi0730-2520-7469-Capa6/winesoft-fake-api.git](https://github.com/1asi0730-2520-7469-Capa6/winesoft-fake-api.git)
+* **Prototipo de la Aplicación Web (Figma):**
+    [https://www.figma.com/design/ozvmKWQm3S7ACtTfu4r8ij/Untitled?node-id=0-1&t=TEUHy4VetClLoNKA-1](https://www.fígma.com/design/ozvmKWQm3S7ACtTfu4r8ij/Untitled?node-id=0-1&t=TEUHy4VetClLoNKA-1)
+
+---
+
+### B. Evidencia de Despliegue (URLs Finales del Sprint 4)
+
+Se detallan las URLs de producción activas para la entrega final del proyecto.
+
+| Componente | Plataforma | URL de Producción |
+| :--- | :--- | :--- |
+| **Business Website** (Landing Page) | GitHub Pages | [https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/](https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/) |
+| **Frontend** (Aplicación Web) | Vercel | [https://winesoft-frontend.vercel.app/](https://winesoft-frontend.vercel.app/) |
+| **Documentación API** (Swagger UI) | Render | [https://winesoft-platform.onrender.com/swagger/index.html](https://winesoft-platform.onrender.com/swagger/index.html) |
+
+---
+
+### C. Diagramas de Diseño de Alto Nivel
+
+Se adjuntan diagramas clave de la arquitectura del software que sustentan los contextos de dominio.
+
+#### C.1. Diagrama de Contexto de la Arquitectura de Software
+Muestra la vista general del sistema y su interacción con los actores externos y sistemas de terceros, como Stripe API, SendGrid API y Geoapify API.
+<div align="center">
+  <img src="./imagenes/context-diagram.png" alt="Diagrama de Contexto de WineSoft" width="700">
+  <p><i>Figura A.1: Arquitectura de Software - Diagrama de Nivel de Contexto</i></p>
+</div>
+
+#### C.2. Diagrama de Contenedores de la Arquitectura de Software
+Detalla la estructura del sistema, dividiéndolo en sus contenedores principales (**Frontend Web (SPA)**, **Backend API**, **Base de Datos**) y mostrando sus interacciones.
+<div align="center">
+  <img src="./imagenes/container-diagram.png" alt="Diagrama de Contenedores de WineSoft" width="700">
+  <p><i>Figura A.2: Arquitectura de Software - Diagrama de Nivel de Contenedores</i></p>
+</div>
+
+---
+
+### D. Diagramas de Base de Datos y Clases
+
+Se incluye la representación de la estructura de datos del sistema.
+
+#### D.1. Diagrama de Clases (Orientado a Objetos)
+Presenta las entidades principales del sistema con sus atributos y relaciones, como se diseñó en el Capítulo IV.
+<div align="center">
+  <img src="./imagenes/Class-Diagram.png" alt="Diagrama de Clases de WineSoft" width="750">
+  <p><i>Figura A.3: Diseño Orientado a Objetos - Diagrama de Clases</i></p>
+</div>
+
+#### D.2. Diagrama de Entidad-Relación (Base de Datos)
+Muestra la estructura de las tablas de la base de datos (MySQL), incluyendo relaciones y claves foráneas, que soporta la persistencia de los datos.
+<div align="center">
+  <img src="./imagenes/DataBase-Diagram.png" alt="Diagrama de Base de Datos de WineSoft" width="750">
+  <p><i>Figura A.4: Diseño de Base de Datos - Diagrama de Entidad-Relación</i></p>
+</div>
+
+---
+
+### E. Evidencia Gráfica de Colaboración (Sprint 3)
+
+Se presentan las capturas de GitHub que sustentan la participación activa y los aportes de cada miembro del equipo durante el **Sprint 3**.
+
+<div align="center">
+  <img src="./imagenes/Contributors_Sprint3.png" alt="Gráfico de Commits en el Sprint 3" width="750">
+  <p><i>Figura A.5: Commits over time - Sprint 3 (Oct 18 a Nov 29, 2025)</i></p>
+</div>
+
+<div align="center">
+  <img src="./imagenes/Commits_Sprint3.png" alt="Contribución individual en el Sprint 3" width="750">
+  <p><i>Figura A.6: Contribución individual de los miembros del equipo - Sprint 3</i></p>
+</div>
+
+---
+
+### F. Video Demostrativo Final
+
+Evidencia audiovisual del producto final para la revisión y validación del proyecto.
+
+<div align="center">
+  <p><strong>Video demostrativo de la Aplicación Web WineSoft (About the Product)</strong></p>
+  <p>Muestra la navegación por las funcionalidades clave del sistema: Dashboard, Gestión de Suministros y Pedidos.</p>
+  <img src="./imagenes/Landing_about_product.png" alt="Miniatura del video About The Product" width="600">
+  <p>Enlace: </p>
+</div>
