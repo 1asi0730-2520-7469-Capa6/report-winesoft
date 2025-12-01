@@ -1,5 +1,4 @@
-<div align="center">
-
+<div align="center" style="text-align: center;">
 <img src="./imagenes/Logo-UPC.png" alt="Logo UPC" width="150">
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 <h4>Facultad de Ingeniería</h4>
@@ -12,17 +11,43 @@
 <h4>Startup: Capa6</h4>
 <h4>Producto: WineSoft</h4>
 
-## Team members:
+<br>
 
-|   Código   |              Nombre              | 
-|:----------:|:--------------------------------:|
-| U20211G499 | Moscoso Bejar Angelo Stephano    |
-| U202312348 | Said Conde Yazid                 |
-| U202117303 | Teves Samaniego Joan Fernando    |
-| U202215721 | Duran Díaz Antonio Rodrigo       |
-| U202210720 | Carhuancote Dominguez Gonzalo Alonso |
+<h2 style="text-align: center;">Team members:</h2>
 
-<h4>Diciembre 2025</h4>
+<table style="margin: 0 auto; text-align: center;">
+  <thead>
+    <tr>
+      <th>Código</th>
+      <th>Nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>U20211G499</td>
+      <td>Moscoso Bejar Angelo Stephano</td>
+    </tr>
+    <tr>
+      <td>U202312348</td>
+      <td>Said Conde Yazid</td>
+    </tr>
+    <tr>
+      <td>U202117303</td>
+      <td>Teves Samaniego Joan Fernando</td>
+    </tr>
+    <tr>
+      <td>U202215721</td>
+      <td>Duran Díaz Antonio Rodrigo</td>
+    </tr>
+    <tr>
+      <td>U202210720</td>
+      <td>Carhuancote Dominguez Gonzalo Alonso</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<h4 style="text-align: center;">Diciembre 2025</h4>
 
 </div>
 
@@ -232,6 +257,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 |--------------------------|-------------------------|------------------|
 | **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Angelo Stephano Moscoso Bejar**<br>**TB1**<br>- Se mantuvo atento a las nuevas propuestas, brindando opiniones y apoyo para mejorar la organización de tareas.<br>- Propuso ideas sobre la distribución del trabajo para equilibrar la carga entre los miembros.<br>**TP**<br>- Apoyó la integración de nuevas secciones del proyecto y dio retroalimentación sobre la coherencia visual y conceptual del informe.<br>- Participó activamente en la revisión de entregables y en la toma de decisiones sobre ajustes del contenido.<br>**TF**<br>- Lideró la implementación técnica del Dashboard en el Frontend, investigando y seleccionando las librerías gráficas adecuadas para los reportes visuales.<br>- Tomó la iniciativa en la corrección de estilos finales para asegurar una experiencia de usuario consistente en el release.<br><br>**Joan Fernando Teves Samaniego**<br>**TB1**<br>- Colaboró en el desarrollo de entrevistas y matrices de tareas, enfocándose en el segmento objetivo del proyecto.<br>**TP**<br>- Apoyó la revisión de resultados de entrevistas y el análisis de los hallazgos para mejorar la coherencia de los arquetipos.<br>**TF**<br>- Asumió el liderazgo en la validación funcional del flujo de pedidos, coordinando las pruebas de usabilidad con los usuarios finales.<br>- Gestionó la integración de la lógica de negocio del proveedor en el Frontend, asegurando que se cumplieran los requisitos críticos del Sprint.<br><br>**Antonio Rodrigo Duran Díaz**<br>**TB1**<br>- Participó activamente en las reuniones de trabajo, comunicando cambios y observaciones sobre el avance del informe.<br>- Realizó correcciones en las secciones de Competidores, Needfinding y Requerimientos, asegurando consistencia documental.<br>**TP**<br>- Coordinó con el equipo la actualización de secciones críticas y supervisó la correcta integración del contenido en el informe.<br>**TF**<br>- Dirigió la planificación del Sprint 4, definiendo los objetivos de cierre y supervisando la implementación de los endpoints de métricas en el Backend.<br>- Lideró la configuración del entorno de producción y la estrategia de despliegue final en Render y Netlify.<br><br>**Gonzalo Alonso Carhuancote Domínguez**<br>**TB1**<br>- Se mantuvo atento y participativo, brindando opiniones sobre el desarrollo general del proyecto.<br>- Apoyó a los integrantes del equipo en la ejecución de *commits* y el uso de GitHub para la gestión colaborativa.<br>- Contribuyó en las secciones de implementación y despliegue del producto.<br>**TP**<br>- Coordinó la integración técnica de los avances y el control de versiones, asegurando la sincronización del trabajo de todos los miembros.<br>**TF**<br>- Lideró la producción y edición de los materiales audiovisuales (videos *About-the-Product* y *About-the-Team*), asegurando su calidad y entrega a tiempo.<br>- Implementó la funcionalidad de exportación de reportes, aportando valor añadido al producto final. | El liderazgo compartido y la comunicación entre los miembros del equipo se consolidaron durante la etapa final del proyecto. A pesar de la reducción del equipo, cada integrante asumió roles críticos (Frontend, Backend, Despliegue, Documentación) para garantizar el cierre exitoso del ciclo de vida del software, demostrando capacidad de adaptación y dirección técnica. |
 | **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Angelo Stephano Moscoso Bejar**<br>**TB1**<br>- Se mantuvo receptivo ante nuevas ideas, fomentando un ambiente inclusivo y colaborativo.<br>- Contribuyó a la organización de tareas mediante sugerencias que facilitaron la coordinación grupal.<br>**TP**<br>- Participó activamente en la definición de metas y la validación del progreso del trabajo.<br>- Colaboró en la revisión final de las secciones para garantizar uniformidad y cohesión visual.<br>**TF**<br>- Fomentó la colaboración técnica ayudando a sus compañeros a integrar los componentes gráficos en sus respectivas vistas.<br>- Cumplió con los plazos de entrega del Dashboard, permitiendo que las pruebas de validación se realizaran a tiempo.<br><br>**Joan Fernando Teves Samaniego**<br>**TB1**<br>- Participó en la planificación de las entrevistas y en la definición del público objetivo del proyecto.<br>**TP**<br>- Colaboró con observaciones precisas sobre el enfoque de las entrevistas y el análisis del segmento meta, fortaleciendo la parte investigativa del informe.<br>**TF**<br>- Facilitó las sesiones de entrevistas de validación, creando un ambiente cómodo para que los usuarios dieran feedback honesto.<br>- Colaboró estrechamente con el equipo de Backend para asegurar que los datos de los pedidos se mostraran correctamente en la interfaz.<br><br>**Antonio Rodrigo Duran Díaz**<br>**TB1**<br>- Promovió la comunicación constante al notificar los avances y pendientes del proyecto.<br>- Supervisó la coherencia de las secciones técnicas y documentales.<br>**TP**<br>- Coordinó tareas entre los miembros y promovió el cumplimiento de los plazos mediante comunicación directa y asertiva.<br>**TF**<br>- Mantuvo al equipo alineado mediante el uso de Trello y Discord, asegurando que todos tuvieran claras sus tareas para el Release final.<br>- Apoyó activamente en la resolución de conflictos de código durante la integración final del sistema para el despliegue.<br><br>**Gonzalo Alonso Carhuancote Domínguez**<br>**TB1**<br>- Se mantuvo atento y participativo en la planificación grupal, proponiendo mejoras en la gestión del proyecto.<br>- Asistió a los compañeros en la ejecución de *commits* y la resolución de conflictos en GitHub.<br>- Colaboró en la verificación técnica del avance del desarrollo.<br>**TP**<br>- Contribuyó a mantener un entorno colaborativo mediante la asistencia técnica y la comunicación efectiva sobre el estado del repositorio.<br>**TF**<br>- Coordinó la recopilación de testimonios para el video del equipo, asegurando que todos los miembros tuvieran voz en la presentación final.<br>- Cumplió con la documentación de despliegue y reportes, cerrando las tareas administrativas del proyecto de forma ordenada. | La creación de un entorno colaborativo fue fundamental para superar los desafíos finales. La planificación conjunta en el Sprint 4, la comunicación constante y la disposición de apoyo mutuo permitieron al equipo cumplir con todos los objetivos del Release (Despliegue, Videos, Validación) en los plazos establecidos, asegurando un entorno inclusivo y productivo. |
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 
@@ -460,6 +487,7 @@ We believe that [business outcome] will be achieved if [user] attains [benefit] 
 - **Nivel socioeconómico**: Principalmente clases B y C (media-alta y media).
 - **Necesidades**: Mejorar la eficiencia logística, anticipar la demanda de los clientes, planificar entregas de forma más precisa y garantizar que los envíos lleguen en tiempo y forma. Esto contribuye a fidelizar a las destilerías, optimizar recursos de transporte y aumentar la rentabilidad.
 
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
@@ -937,6 +965,7 @@ Aunque cada grupo aborda distintos puntos del proceso, ambos buscan un mismo obj
 | **Operational Efficiency**   | Eficiencia Operativa          | Capacidad de reducir costos, tiempos y errores mediante procesos automatizados y optimizados.                                         |
 | **Business Insight**         | Análisis del Negocio          | Información procesada que permite identificar patrones de venta, consumo y rendimiento operativo.                                     |
 
+<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification 
 ## 3.1. User Stories. 
@@ -1024,6 +1053,8 @@ En esta sección, evaluaremos las historias de usuario asignándoles una puntuac
 | 26 | **US19** | Consultar trazabilidad (GET /tracking) | Como desarrollador, quiero consultar el estado y ubicación de un pedido mediante la API. | **3** |
 
 <div style="text-align: justify;">
+
+<div style="page-break-after: always;"></div>
 
   <h1>Capítulo IV: Product Design</h1>
 
@@ -1563,6 +1594,8 @@ En esta sección se presenta un diccionario de clases que describe las entidades
 ### 4.8.1. Database Diagrams. 
 <img src="./imagenes/DataBase-Diagram.png">
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management.
@@ -1746,9 +1779,22 @@ A continuación, se mencionará algunas convenciones:
 - Las llaves van en una nueva línea separada dek código.
 - Emplear espaciado después de comas y operadores.
 
-### 5.1.4.	Software Deployment Configuration.
+### 5.1.4. Software Deployment Configuration.
+
+<div align="center">
+  <img src="./imagenes/Landing_Home.jpeg" alt="Landing Home" width="600">
+  <p><i>Vista principal del Landing Page</i></p>
+</div>
+
+<br>
 
 
+<div align="center">
+  <img src="./imagenes/Landing_Github.jpeg" alt="Vista del Landing Page en GitHub" width="600">
+  <p><i>Configuración del repositorio en GitHub</i></p>
+</div>
+
+<br>
 
 ## 5.2.	Landing Page, Services & Applications Implementation.
 
