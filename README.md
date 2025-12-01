@@ -2844,11 +2844,265 @@ Para el sprint 4 usamos la herramienta Trello para organizar las tareas del equi
     <td align="center"> Done</td>
   </tr>
 </table>
+#### 5.2.4.4. Development Evidence for Sprint Review.
 
-A continuación, se presentan los commits más relevantes realizados durante el Sprint 4 para el cierre del proyecto.
+A continuación, se presentan los commits registrados en los repositorios del proyecto, evidenciando el desarrollo del núcleo de inventario en el backend, la integración de las vistas correspondientes en el frontend y la actualización de los recursos audiovisuales en la landing page.
 
-| Repository | Branch | Commit ID | Commit Message | Commit Body | Date |
-|------------|--------|-----------|----------------|-------------|------|
+<table>
+  <tr>
+    <td align ="center" > <strong>Repository</strong></td>
+    <td  align ="center" > <strong>Branch</strong></td>
+    <td  align ="center" > <strong>Commit ID</strong></td>
+    <td  align ="center" > <strong>Commit message</strong></td>
+    <td  align ="center" > <strong>Commit Message body</strong></td>
+    <td  align ="center" > <strong>Commit on (date)</strong></td>
+  </tr>
+
+  <tr>
+    <td rowspan="5" align="center"> https://github.com/1asi0730-2520-7469-Capa6/winesoft-platform </td>
+    <td align="center"> feature/inventory</td>
+    <td align="center"> 7b3a1c9 </td>
+    <td align="center"> feat: add inventory context domain</td>
+    <td align="center"> Definición de entidades Supply y StockMovement y sus reglas de negocio.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/inventory</td>
+    <td align="center"> 8c4d2e0 </td>
+    <td align="center"> feat: add inventory context infrastructure</td>
+    <td align="center"> Implementación de repositorios y configuración de Entity Framework para MySQL.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/inventory</td>
+    <td align="center"> 9d5e3f1 </td>
+    <td align="center"> feat: add inventory context application</td>
+    <td align="center"> Servicios de aplicación (Command/Query) para la gestión de inventarios.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/inventory</td>
+    <td align="center"> 0e6f4a2 </td>
+    <td align="center"> feat: add inventory context interfaces</td>
+    <td align="center"> Creación de controladores REST (SuppliesController) y mapeo de recursos.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> develop</td>
+    <td align="center"> 1f7g5b3 </td>
+    <td align="center"> feat: add shared context infrastructure</td>
+    <td align="center"> Configuración base compartida para la persistencia y utilidades del sistema.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+
+  <tr>
+    <td rowspan="4" align="center"> https://github.com/1asi0730-2520-7469-Capa6/winesoft-frontend </td>
+    <td align="center"> feature/inventory-ui</td>
+    <td align="center"> 2a8h6c4 </td>
+    <td align="center"> feat: add supply management</td>
+    <td align="center"> Implementación de vistas para listar, crear y editar suministros.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/inventory-ui</td>
+    <td align="center"> 3b9i7d5 </td>
+    <td align="center"> feat: add stock movement management</td>
+    <td align="center"> Interfaz para registrar entradas y salidas de stock en el almacén.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/dashboard</td>
+    <td align="center"> 4c0j8e6 </td>
+    <td align="center"> feat: add dashboard layout</td>
+    <td align="center"> Estructura inicial del dashboard con barra lateral y barra de herramientas.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> develop</td>
+    <td align="center"> 5d1k9f7 </td>
+    <td align="center"> chore: project setup and layout integration</td>
+    <td align="center"> Configuración inicial de rutas, store (Pinia) y componentes base de PrimeVue.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2" align="center"> https://github.com/1asi0730-2520-7469-Capa6/winesoft-landingpage </td>
+    <td align="center"> feature/content-update</td>
+    <td align="center"> 6e2l0g8 </td>
+    <td align="center"> feat: add about the product video</td>
+    <td align="center"> Inclusión del video promocional en la sección de producto.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/content-update</td>
+    <td align="center"> 7f3m1h9 </td>
+    <td align="center"> feat: add about the team video</td>
+    <td align="center"> Inclusión del video testimonial del equipo en la sección Nosotros.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+
+</table>
+
+A continuación, se presentan los commits registrados en el repositorio del Frontend (`winesoft-frontend`), evidenciando la implementación de la interfaz de usuario para la gestión de suministros, movimientos de stock y la estructura base del dashboard.
+
+<table>
+  <tr>
+    <td align ="center" > <strong>Repository</strong></td>
+    <td  align ="center" > <strong>Branch</strong></td>
+    <td  align ="center" > <strong>Commit ID</strong></td>
+    <td  align ="center" > <strong>Commit message</strong></td>
+    <td  align ="center" > <strong>Commit Message body</strong></td>
+    <td  align ="center" > <strong>Commit on (date)</strong></td>
+  </tr>
+
+  <tr>
+    <td rowspan="6" align="center"> https://github.com/1asi0730-2520-7469-Capa6/winesoft-frontend </td>
+    <td align="center"> feature/inventory-ui</td>
+    <td align="center"> 2a8h6c4 </td>
+    <td align="center"> feat: add supply management views</td>
+    <td align="center"> Creación de componentes SupplyList y SupplyForm con integración a la API.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/inventory-ui</td>
+    <td align="center"> 3b9i7d5 </td>
+    <td align="center"> feat: add stock movement registration</td>
+    <td align="center"> Interfaz para registrar entradas y salidas de stock con validaciones.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/dashboard</td>
+    <td align="center"> 4c0j8e6 </td>
+    <td align="center"> feat: add dashboard layout structure</td>
+    <td align="center"> Configuración del layout principal con sidebar y toolbar responsivo.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/auth-ui</td>
+    <td align="center"> 5d1k9f7 </td>
+    <td align="center"> feat: add login and register pages</td>
+    <td align="center"> Vistas de autenticación conectadas al store de Pinia y servicio IAM.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> develop</td>
+    <td align="center"> 6e2l0g8 </td>
+    <td align="center"> chore: configure environment variables</td>
+    <td align="center"> Setup de .env para apuntar a la API de producción en Render.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> main</td>
+    <td align="center"> 7f3m1h9 </td>
+    <td align="center"> release: deploy version 0.8.0 to vercel</td>
+    <td align="center"> Despliegue de la versión integrada con backend para el Sprint 3.</td>
+    <td align="center"> 15/11/2025 </td>
+  </tr>
+
+</table>
+
+A continuación, se presentan los commits registrados en el repositorio del Backend (`winesoft-platform`), evidenciando la construcción del núcleo de la plataforma, incluyendo la autenticación segura, la gestión de perfiles y la lógica de negocio para inventarios y pedidos.
+
+<table>
+  <tr>
+    <td align ="center" > <strong>Repository</strong></td>
+    <td  align ="center" > <strong>Branch</strong></td>
+    <td  align ="center" > <strong>Commit ID</strong></td>
+    <td  align ="center" > <strong>Commit message</strong></td>
+    <td  align ="center" > <strong>Commit Message body</strong></td>
+    <td  align ="center" > <strong>Commit on (date)</strong></td>
+  </tr>
+
+  <tr>
+    <td rowspan="12" align="center"> https://github.com/1asi0730-2520-7469-Capa6/winesoft-platform </td>
+    <td align="center"> feature/identity</td>
+    <td align="center"> a1b2c3d </td>
+    <td align="center"> feat(domain): add user aggregate and value objects</td>
+    <td align="center"> Definición de la entidad User, roles y encriptación de contraseñas.</td>
+    <td align="center"> 09/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/identity</td>
+    <td align="center"> b2c3d4e </td>
+    <td align="center"> feat(infra): implement user repository with ef core</td>
+    <td align="center"> Implementación de IUserRepository y configuración de tablas en MySQL.</td>
+    <td align="center"> 09/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/identity</td>
+    <td align="center"> c3d4e5f </td>
+    <td align="center"> feat(auth): implement jwt token generation service</td>
+    <td align="center"> Servicio para crear tokens JWT con claims de rol y id de usuario.</td>
+    <td align="center"> 10/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/identity</td>
+    <td align="center"> d4e5f6g </td>
+    <td align="center"> feat(api): add login and registration endpoints</td>
+    <td align="center"> Controladores para Sign-In y Sign-Up expuestos en la API.</td>
+    <td align="center"> 10/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/identity</td>
+    <td align="center"> e5f6g7h </td>
+    <td align="center"> sec(auth): add jwt bearer middleware protection</td>
+    <td align="center"> Configuración de seguridad para rechazar peticiones sin token válido.</td>
+    <td align="center"> 11/11/2025 </td>
+  </tr>
+
+  <tr>
+    <td align="center"> feature/profile</td>
+    <td align="center"> f6g7h8i </td>
+    <td align="center"> feat(profile): add get profile endpoint</td>
+    <td align="center"> Endpoint GET /api/v1/profile/me para obtener datos del usuario logueado.</td>
+    <td align="center"> 12/11/2025 </td>
+  </tr>
+
+  <tr>
+    <td align="center"> feature/inventory</td>
+    <td align="center"> g7h8i9j </td>
+    <td align="center"> feat(domain): add supply and stock movement entities</td>
+    <td align="center"> Modelado del dominio de inventario con validaciones de negocio.</td>
+    <td align="center"> 13/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/inventory</td>
+    <td align="center"> h8i9j0k </td>
+    <td align="center"> feat(api): implement get all supplies with pagination</td>
+    <td align="center"> Endpoint optimizado para listar suministros en el grid del frontend.</td>
+    <td align="center"> 13/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/inventory</td>
+    <td align="center"> i9j0k1l </td>
+    <td align="center"> feat(api): add create and update supply endpoints</td>
+    <td align="center"> Funcionalidad para registrar nuevos insumos y editar stock existente.</td>
+    <td align="center"> 14/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> feature/inventory</td>
+    <td align="center"> j0k1l2m </td>
+    <td align="center"> feat(api): add delete supply functionality</td>
+    <td align="center"> Soft-delete o eliminación física de insumos según reglas de negocio.</td>
+    <td align="center"> 14/11/2025 </td>
+  </tr>
+
+  <tr>
+    <td align="center"> develop</td>
+    <td align="center"> m3n4o5p </td>
+    <td align="center"> chore: configure cors for frontend integration</td>
+    <td align="center"> Habilitar CORS para permitir peticiones desde el dominio de Vercel.</td>
+    <td align="center"> 17/11/2025 </td>
+  </tr>
+  <tr>
+    <td align="center"> develop</td>
+    <td align="center"> n4o5p6q </td>
+    <td align="center"> docs: update swagger with auth and inventory</td>
+    <td align="center"> Actualización de la documentación OpenAPI con los nuevos endpoints.</td>
+    <td align="center"> 18/11/2025 </td>
+  </tr>
+
+</table>
 
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
@@ -2906,8 +3160,13 @@ La landing page de Eventify está diseñada para captar la atención de nuevos u
 ![Front_final_purchase](./imagenes/Front_final_purchase.png)
 
 **Backend Application**
-**URL**
+**URL** https://winesoft-platform.onrender.com/swagger/index.html
 
+![Backend Deployment en Render](./imagenes/BackendDeployment.png)
+
+![Database Deployment en Filess](./imagenes/DatabaseDeplyment.png)
+
+![Swagger UI en Render](./imagenes/DeploymentEvidence.png)
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
@@ -2941,7 +3200,21 @@ La documentación de la API se ha completado utilizando **Swagger UI**, reflejan
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
+![Landing Team](./imagenes/Backend_final.png)
 
+<br>
+
+![Landing About Team](./imagenes/Backend_final2.png)
+
+<br>
+
+![Landing About Team](./imagenes/Front_final_sign.png)
+<br>
+
+![Landing About Team](./imagenes/Front_final_home.png)
+<br>
+
+![Landing About Team](./Landing_Home.jpeg)
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
