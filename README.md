@@ -2,14 +2,14 @@
 
 <img src="./imagenes/Logo-UPC.png" alt="Logo UPC" width="150">
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
-<h4>Facultad de Ingenieria</h4>
-<h4>Carrera de Ingenieria de Software</h4>
+<h4>Facultad de Ingeniería</h4>
+<h4>Carrera de Ingeniería de Software</h4>
 <h4>Periodo 202520</h4>
 <h4>1ASI0730 Aplicaciones Web</h4>
 <h4>NRC 7469</h4>
 <h4>Docente: Angel Augusto Velasquez Nuñez</h4>
 <h4>Informe del Trabajo Final</h4>
-<h4>Startup: WineSoft</h4>
+<h4>Startup: Capa6</h4>
 <h4>Producto: WineSoft</h4>
 
 ## Team members:
