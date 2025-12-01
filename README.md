@@ -3284,7 +3284,7 @@ A continuación, se detallan las preguntas y tareas diseñadas para validar la u
 
 Para la validación final del producto (*Release*), se realizaron entrevistas con 4 usuarios representativos de ambos segmentos. A continuación, se presenta el resumen de cada sesión.
 
-**Enlace al video consolidado:** [Microsoft Stream - WineSoft Validation Sprint 4](https://upcedupe-my.sharepoint.com/personal/u202215721_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202215721%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0730%2D7469%2DWineSoft%2Dvalidation%2Dsprint%2D4%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8b957030%2D62c6%2D421b%2D8b4a%2D2ba979244be4)
+**Enlace al video consolidado:** [https://bit.ly/upc-pre-202520-1asi0730-7469-WineSoft-validation-sprint-4](https://bit.ly/upc-pre-202520-1asi0730-7469-WineSoft-validation-sprint-4)
 
 #### Entrevista 1: Fernando Teves
 * **Segmento:** Dueño de Destilería
