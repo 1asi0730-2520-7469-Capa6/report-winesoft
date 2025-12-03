@@ -3319,8 +3319,7 @@ La siguiente tabla presenta un resumen de los resultados obtenidos en la evaluac
 ## 5.4. Video About-the-Product
 
 Este video promocional está dirigido a los potenciales clientes (dueños de licorerías y destilerías). Presenta la problemática del desorden en el inventario manual y cómo **WineSoft** ofrece una solución integral, mostrando las funcionalidades clave: Dashboard, Alertas y Pedidos.
-
-<img src="./imagenes/About_the_product_final.png‎">
+<img src="./imagenes/About_the_product_final.png">
 
 https://tinyurl.com/About-the-Product-winesoft
 
@@ -3512,6 +3511,6 @@ Evidencia audiovisual del producto final para la revisión y validación del pro
 <div align="center">
   <p><strong>Video demostrativo de la Aplicación Web WineSoft (About the Product)</strong></p>
   <p>Muestra la navegación por las funcionalidades clave del sistema: Dashboard, Gestión de Suministros y Pedidos.</p>
-  <img src="./imagenes/About_the_product_final.png‎">
+  <img src="./imagenes/About_the_product_final.png">
   <p>Enlace:https://tinyurl.com/About-the-Product-winesoft </p>
 </div>
