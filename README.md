@@ -516,7 +516,7 @@ We believe that [business outcome] will be achieved if [user] attains [benefit] 
             </tr>
             <tr>
                 <tr>
-                    <td colspan="3">(En la cabecera colocar por cada competidor nombre y logo)</td>
+                    <td colspan="3"></td>
                     <td colspan="2"><img src="/imagenes/Logo.png" style="width: 60px; height: auto;"><br>WineSoft</td>
                     <td colspan="2"><img src="/imagenes/competidor-1.png" style="width: 60px; height: auto;"><br>WinePOS</td>
                     <td colspan="2"><img src="/imagenes/competidor-2.png" style="width: 60px; height: auto;"><br>Korona POS</td>
