@@ -3282,14 +3282,14 @@ La documentación de la API se ha completado utilizando **Swagger UI**, reflejan
 
 <br>
 
-![Landing About Team](./Landing_Home.jpeg)
+![Landing About Team](./imagenes/Landing_Home.jpeg)
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 Se mantuvo el uso de **GitHub Projects** para el tablero Kanban y **Discord** para las reuniones diarias, asegurando la sincronización del equipo reducido.
 **Frontend**
 
-![Landing About Team](./imagenes/contributors_Frontfinal.jpeg‎)
+![Landing About Team](./imagenes/Contributors_Frontfinal.jpeg)
 
 <br>
 
