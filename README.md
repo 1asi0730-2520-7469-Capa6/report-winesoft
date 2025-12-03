@@ -1843,256 +1843,94 @@ A continuación, se mencionará algunas convenciones:
 | Carhuancote Dominguez, Gonzalo Alonso | Gonzalo251104   | L                   | C                        | C                           | C                          | C             |
 
 
-#### 5.2.1.3.	Sprint Backlog 1.
+### 5.2.1. Sprint 1
+
+En este primer Sprint, el equipo se enfocó exclusivamente en el desarrollo y despliegue del **Business Website (Landing Page)**. El objetivo fue establecer la presencia digital del producto **WineSoft**, comunicando la propuesta de valor, los planes de suscripción y la información del equipo, utilizando tecnologías web estándar (HTML5, CSS3, JavaScript).
+
+#### 5.2.1.3. Sprint Backlog 1.
 
 | Sprint # | Sprint 1 |
-| :--- | :--- |
-| **User Story** | | **Work-item/Task** | | | | | |
-| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status (To-do/In-Process/To-Review/Done) |
-| US-01 | Landing Page informativa | UT-01 | Hero Section | Implementar el slogan y el botón de redireccionamiento de la aplicación, junto con la imagen representativa de Winesoft | 2 | Gonzalo Alonso Carhuancote Dominguez | Done |              | UT-02 | About Section | Agregar la descripción detallada de la aplicación Winesoft | 1 | Rodrigo Duran Diaz| Done |
-| US-02 | Responsive Design | UT-03 | Responsive Web Design | Añadir los media queries necesarios para que la Landing Page sea adaptable a diferentes dispositivos | 2 | Angelo Stephano Moscoso Bejar | Done |
-| US-03 | Comparador de Planes | UT-04 | Choose Plan Section | Implementar las cards que definan los diferentes planes que ofrece Winesoft con sus beneficios | 2 | Joan Teves Samaniego| Done |
+|:---|:---|
+| **Sprint Planning Background** | |
+| Date | 2025-04-07 |
+| Time | 10:00 horas |
+| Location | Reunión virtual - Discord |
+| Prepared By | Antonio Rodrigo Duran Díaz |
+| Attendees | - Angelo Stephano Moscoso Bejar <br> - Joan Fernando Teves Samaniego <br> - Antonio Rodrigo Duran Díaz <br> - Gonzalo Alonso Carhuancote Dominguez |
+| **Sprint 0 Review Summary** | Se completó la fase de *Inception*, definiendo los *User Personas*, el *Lean UX Canvas* y los requisitos iniciales. El equipo está listo para comenzar con la implementación de la web informativa. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | Diseñar, desarrollar y desplegar el **Business Website** (Landing Page) de WineSoft. El sitio debe ser totalmente responsivo, presentar claramente la propuesta de valor para dueños y proveedores, mostrar los planes de precios y estar desplegado públicamente en GitHub Pages para iniciar la captación de interesados. |
+| **Sprint 1 Velocity** | 18 |
+| **Sum of Story Points** | 18 Story Points |
+#### 5.2.1.4. Development Evidence for Sprint Review.
 
-#### 5.2.1.4.	Development Evidence for Sprint Review.
+A continuación, se presentan los commits registrados en el repositorio de la Landing Page, evidenciando la construcción de las secciones informativas y la implementación del diseño responsivo.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |------------|--------|-----------|----------------|----------------------|--------------------|
-| winesoft/landing-page | feature/hero-section | a1b2c3d | feat: add hero section with slogan and CTA | Se implementó la sección principal del landing con el eslogan y el botón de redirección a la aplicación. | 2025-04-08 |
+| winesoft/landing-page | feature/hero-section | a1b2c3d | feat: add hero section with slogan and CTA | Se implementó la sección principal del landing con el eslogan y el botón de redirección. | 2025-04-08 |
 | winesoft/landing-page | feature/about-section | d4e5f6g | feat: add about section | Se agregó la descripción detallada de Winesoft en la sección "About". | 2025-04-09 |
-| winesoft/landing-page | feature/responsive-design | h7i8j9k | feat: responsive design improvements | Se añadieron media queries para asegurar la adaptación del landing page en diferentes dispositivos. | 2025-04-10 |
+| winesoft/landing-page | feature/responsive-design | h7i8j9k | feat: responsive design improvements | Se añadieron media queries para asegurar la adaptación del landing page en móviles. | 2025-04-10 |
 | winesoft/landing-page | feature/choose-plan | l1m2n3o | feat: implement plan comparison section | Se implementaron las cards de comparación de planes con sus beneficios. | 2025-04-11 |
 | winesoft/landing-page | feature/language-switcher | p4q5r6s | feat: add language switcher (ES/EN) | Se agregó el botón para cambiar el idioma entre español e inglés. | 2025-04-11 |
 | winesoft/landing-page | feature/footer | t7u8v9w | feat: footer section with links | Se implementó el footer con links informativos y diseño responsive. | 2025-04-12 |
 
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
-## 5.2.1.5.	Execution Evidence for Sprint Review.
+Durante este primer Sprint, el equipo **Capa-6** completó la implementación del **Business Website**, logrando una interfaz visualmente coherente y adaptable a diferentes dispositivos. A continuación se muestra la evidencia visual de las secciones desplegadas, mostrando la navegación completa del sitio.
 
+**1. Home – Presentación de la plataforma**
+![Landing Home](./imagenes/Landing_Home.jpeg)
 
-Durante este primer Sprint, el equipo Capa-6 completó la implementación inicial de los componentes del sistema WineSoft, enfocándose en la creación e integración del business website y la estructura base del ecosistema digital que conecta a destilerías y proveedores.
+<br>
 
-Se logró diseñar, publicar y realizar el despliegue de la primera versión del frontend del business website, el cual presenta las secciones principales del negocio digital:
-- Presentación del modelo de negocio y propósito de la plataforma.  
-- Descripción de las funcionalidades clave del sistema (control de inventario, trazabilidad y comunicación proveedor-cliente).  
-- Planes de suscripción diferenciados según el tipo de usuario (destilería o proveedor).  
+**2. Sección Nosotros (About)**
+![Landing About](./imagenes/Landing_about.png)
 
-### Funcionalidades implementadas
-- **Business website funcional:** diseño adaptable (*responsive*) con enlaces activos a la aplicación principal.  
-- **Componentes dinámicos:** uso de HTML, CSS y JS modularizados para la navegación fluida entre secciones.  
-- **Estructura inicial del frontend WineSoft:** configuración del entorno base de la aplicación con Vite y React.  
-- **Despliegue del frontend:** publicación de la primera versión del business website en el entorno de producción configurado.  
-- **Integración visual con el branding de Capa-6:** paleta de colores y tipografía homogénea en todas las vistas.
+<br>
 
----
+**3. Sección About the Product**
+![Landing About Product](./imagenes/Landing_about_product.png)
 
-### Evidencia visual del avance
-A continuación se muestran las vistas implementadas durante el Sprint sobre el business website:
+<br>
 
-1. **Home – Presentación de la plataforma WineSoft**  
-<img src="./imagenes/Landing_Home.jpeg" alt="Landing_Home.jpeg">
+**4. Sección Servicios**
+![Landing Services](./imagenes/Landing_Services.jpeg)
 
-2. **Sección de los servicios que se brindan**  
-<img src="./imagenes/Landing_Services.jpeg" alt="Landing_Services.jpeg">
+<br>
 
-3. **Sección de planes de suscripción**  
-<img src="./imagenes/Landing_Prices.jpeg" alt="Landing_Prices.jpeg">
+**5. Nuestro Equipo (Team)**
+![Landing Team](./imagenes/Landing_team.png)
 
-4. **Pie de página con enlaces a contacto y documentación**  
-<img src="./imagenes/Landing_Context.jpeg" alt="Landing_Context.jpeg">
+<br>
 
+**6. Sección About the Team**
+![Landing About Team](./imagenes/Landing_about_team.png)
 
-### Evidencia visual del avance – Frontend de la aplicación
-A continuación se muestran las vistas implementadas durante el Sprint correspondientes al **frontend del sistema WineSoft**, las cuales forman parte de la primera versión desplegada en producción.
+<br>
 
-1. **Home – Panel principal de la aplicación WineSoft**  
-<img src="./imagenes/Frontend_Home.jpeg" alt="Frontend_Home.jpeg">
+**7. Sección Planes de Suscripción**
+![Landing Prices](./imagenes/Landing_Prices.jpeg)
 
-2. **Suministros – Gestión de insumos y productos disponibles**  
-<img src="./imagenes/Frontend_Suministros.jpeg" alt="Frontend_Suministros.jpeg">
+<br>
 
-3. **Movimientos de Stock – Registro y seguimiento de entradas y salidas de inventario**  
-<img src="./imagenes/Frontend_Movimientos.jpeg" alt="Frontend_Movimientos.jpeg">
+**8. Pie de página y Contacto**
+![Landing Context](./imagenes/Landing_Context.jpeg)
 
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
+El despliegue del **Business Website** se realizó utilizando **GitHub Pages**, aprovechando la integración directa con el repositorio del proyecto. Esta configuración permite que el sitio sea accesible públicamente y se actualice automáticamente con cada cambio en la rama principal.
 
+ ![Landing Context](./imagenes/Landing-Deploy.png)
+* **URL:** https://tinyurl.com/WineSoft-Landing
 
-## 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
-Durante este Sprint, el equipo Capa-6*avanzó en la documentación y prueba de los servicios web (Web Services)** desarrollados para el sistema WineSoft, utilizando **OpenAPI (Swagger UI) como herramienta de referencia técnica.  
-L endpoints creados corresponden al módulo de gestión de insumos y al registro de movimientos de stock, los cuales permiten la interacción directa entre el frontend y el backend del sistema.  
-La documentación generada permite validar la correcta comunicación entre los componentes y estandariza la estructura de las solicitudes y respuestas.
+Durante el Sprint 1, la colaboración se centró en la maquetación y diseño del sitio web informativo. El equipo utilizó **GitHub Projects** para la gestión de tareas, asegurando que cada sección (Hero, About, Pricing) fuera desarrollada e integrada correctamente en el repositorio de la organización.
 
----
-
-### Endpoints documentados
-
-| **Endpoint** | **HTTP Verb** | **Acción / Descripción** | **Parámetros / Body** | **Ejemplo de Request** | **Ejemplo de Response** |
-|---------------|----------------|---------------------------|------------------------|-------------------------|--------------------------|
-| `/api/auth/login` | POST | Permite autenticar a un usuario en el sistema. | body (JSON): `{ "email": "user@winesoft.com", "password": "123456" }` | POST /api/auth/login | **200 OK** – `{ "token": "abc123xyz", "user": { "name": "Fernando Tevez" } }` |
-| `/api/supplies` | GET | Retorna la lista de insumos registrados. | Ninguno | GET /api/supplies | **200 OK** – `[ { "id": 1, "name": "Alcohol 96°", "stock": 20 } ]` |
-| `/api/supplies` | POST | Registra un nuevo insumo. | body (JSON): `{ "name": "Botella 1L", "stock": 50 }` | POST /api/supplies | **201 Created** – `{ "id": 2, "name": "Botella 1L", "stock": 50 }` |
-| `/api/stock-movements` | GET | Muestra todos los movimientos de stock. | Ninguno | GET /api/stock-movements | **200 OK** – `[ { "id": 5, "supply": "Alcohol 96°", "type": "Entrada", "quantity": 10 } ]` |
-| `/api/stock-movements` | POST | Registra una nueva entrada o salida de insumo. | body (JSON): `{ "supplyId": 1, "type": "Salida", "quantity": 5 }` | POST /api/stock-movements | **201 Created** – `{ "id": 6, "supplyId": 1, "type": "Salida", "quantity": 5 }` |
-| `/api/supplies/{id}` | PUT | Actualiza la información de un insumo. | path: id (int), body (JSON): `{ "stock": 40 }` | PUT /api/supplies/1 | **200 OK** – `{ "id": 1, "name": "Alcohol 96°", "stock": 40 }` |
-| `/api/supplies/{id}` | DELETE | Elimina un insumo del inventario. | path: id (int) | DELETE /api/supplies/3 | **204 No Content** |
-
----
-
-### Descripción técnica de los servicios
-
-- Todos los endpoints fueron implementados en **Node.js con Express** y documentados mediante **Swagger UI**.  
-- La especificación se encuentra alojada en el archivo `swagger.yaml`, accesible localmente desde:  
-  `http://localhost:3000/api-docs`  
-- Cada endpoint fue probado con **datos de muestra** mediante Swagger, confirmando la correcta respuesta de códigos HTTP (200, 201, 204).  
-- La estructura de respuesta sigue el formato **JSON**, asegurando compatibilidad con el frontend desarrollado en React.
-
----
-
-
-### Repositorio y commits relacionados
-
-**Repositorio de Web Services:**  
-[https://tinyurl.com/fake-api-WineSoft](https://tinyurl.com/fake-api-WineSoft)
-**Commits asociados al Sprint 1:**
-
-| Commit ID | Rama | Mensaje | Fecha |
-|------------|-------|----------|--------|
-| `4bf2e19` | feature/api-supplies | feat: implement supplies CRUD endpoints | 2025-09-22 |
-| `9cc3f4d` | feature/api-docs | docs: add Swagger documentation for API endpoints | 2025-09-25 |
-| `c6a1e81` | feature/stock-movements | feat: add stock movement registration endpoint | 2025-09-27 |
-
-
-## 5.2.1.7. Software Deployment Evidence for Sprint Review.
-
-Durante este Sprint, el equipo Capa-6 llevó a cabo el proceso de despliegue (Deployment) de los tres productos principales del sistema WineSoft: el business website, la web application (frontend) y los web services (backend). El objetivo de este proceso fue asegurar que cada componente del ecosistema digital estuviera correctamente configurado en entornos accesibles y funcionales para la revisión del Sprint.
-
----
-
-### Descripción general del proceso de Deployment
-
-El proceso de deployment se dividió en tres etapas principales:
-
-1. Despliegue del Business Website
-   - Publicado en la plataforma Vercel.
-   - Configuración del entorno de producción y revisión de rutas estáticas.
-   - Implementación del dominio temporal proporcionado por Vercel.
-   - Verificación de la correcta visualización del sitio desde distintos navegadores y dispositivos.
-
-2. Despliegue del Frontend de la Aplicación
-   - Desplegado en Netlify, configurando la integración continua con GitHub.
-   - Se realizó la conexión directa a la rama principal develop para la actualización automática con cada merge aprobado.
-   - Configuración de variables de entorno (API_URL) para la conexión con los servicios backend.
-   - Pruebas funcionales de carga y renderización de componentes React en producción.
-
-3. Despliegue del Backend (Web Services)
-   - Implementado en Render, utilizando la estructura Node.js – Express.
-   - Configuración de base de datos en entorno de prueba y despliegue del API REST con los endpoints desarrollados durante el Sprint (/api/auth, /api/supplies, /api/stock-movements).
-   - Documentación del API disponible mediante Swagger UI en el entorno desplegado.
-   - Pruebas de conexión con la base de datos y validación de respuestas JSON desde el frontend.
-
----
-
-### Capturas del proceso de Deployment
-
-1. Panel de despliegue del business website en Vercel  
-   <img src="./imagenes/Landing_Home.jpeg" alt="Landing_Home.jpeg">
-
-2. Configuración del proyecto y entorno en Netlify (frontend)  
-   <img src="./imagenes/Frontend_Home.jpeg" alt="Frontend_Home.jpeg">
-
----
-
-### Configuración de automatización e integración continua (CI/CD)
-
-- Se configuró un flujo básico de Integración Continua (CI) mediante GitHub Actions para automatizar la compilación y despliegue del business website y frontend cada vez que se realiza un merge en la rama develop.
-- El archivo de configuración .github/workflows/deploy.yml contiene las instrucciones para ejecutar la build y desplegar automáticamente en los entornos correspondientes.
-- Para el backend, Render se configuró con Auto Deploy activado, garantizando que cualquier cambio confirmado en la rama main se actualice automáticamente en el entorno en línea.
-
-Ejemplo de flujo CI/CD ejecutado:
-name: Deploy Frontend
-on:
-  push:
-    branches: [develop]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Install dependencies
-        run: npm install
-      - name: Build project
-        run: npm run build
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v2
-        with:
-          publish-dir: ./dist
-          production-deploy: true
-
----
-
-### URLs de despliegue
-
-| Componente | Plataforma | URL |
-|-------------|-------------|-----|
-| Business Website | GitHub | https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/ |
-
-
----
-
-### Commits asociados al proceso de Deployment
-
-| Commit ID | Rama | Mensaje | Fecha |
-|------------|-------|----------|--------|
-| 5b23a4e | feature/deploy-vercel | chore: configure deployment of business website on Vercel | 2025-09-27 |
-| 7c8e9af | feature/deploy-git | chore: setup frontend deployment on Github | 2025-09-28 |
-
-
-## 5.2.1.8. Team Collaboration Insights during Sprint
-
-Durante este Sprint, el equipo Capa-6 trabajó de manera colaborativa en la implementación de los distintos componentes del sistema WineSoft, siguiendo la metodología de ramas propuesta por GitFlow Workflow y aplicando convenciones de commits bajo el estándar Conventional Commits.  
-El trabajo del equipo se desarrolló a través de GitHub, donde se registraron las contribuciones individuales, los merges a las ramas principales y las actividades de documentación y despliegue.
-
----
-
-### Organización del trabajo en equipo
-
-Cada integrante del equipo asumió roles específicos dentro del ciclo de desarrollo:
-
-- **Diseño e implementación del business website:** responsable de la maquetación inicial, estilos CSS y adaptación responsive.  
-- **Deployment y documentación:** encargados de la automatización de despliegues, generación de evidencias y estructura del reporte técnico del Sprint.
-
-El equipo utilizó **GitHub Projects** como herramienta de planificación, registrando las tareas en las columnas *To Do*, *In Progress* y *Done*, asegurando una trazabilidad clara del avance de cada actividad.
-
----
-
-### Estrategia de ramas y commits
-
-El equipo aplicó la estructura **GitFlow**, conformada por las ramas:
-
-- `main`: rama principal estable para versiones aprobadas.  
-- `develop`: rama de integración donde se realizan los merges de las features terminadas.  
-- `feature/*`: ramas de desarrollo por módulo o componente
-
-Los mensajes de commit siguieron la convención **Conventional Commits**, utilizando prefijos como:
-- `feat:` para nuevas funcionalidades.  
-- `fix:` para corrección de errores.  
-- `docs:` para documentación del Sprint.  
-- `style:` para cambios de formato o CSS.  
-- `chore:` para configuraciones y tareas auxiliares.
-
----
-
-### Analíticos de colaboración en GitHub
-
-Las siguientes capturas muestran la evidencia del trabajo colaborativo y los aportes realizados por los miembros del equipo **Capa-6** durante el Sprint 1.
-
-
-**Gráfico de contribución general del equipo**  
-   <img src="./imagenes/github_contributors.jpeg" alt="github_contributors.jpeg">
-   <img src="./imagenes/Contributions.jpeg" alt="Contributions.jpeg">
-
----
-
+**Gráfico de contribución general del equipo**
+<img src="./imagenes/github_contributors.jpeg" alt="github_contributors.jpeg">
+<img src="./imagenes/Contributions.jpeg" alt="Contributions.jpeg">
 
 ### 5.2.2 Sprint 2
 
