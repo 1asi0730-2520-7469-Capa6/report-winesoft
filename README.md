@@ -1449,8 +1449,7 @@ User Task: El dueño quiere inresar a su stock a revisar la cantidad, asi mismo 
 ## 4.5. Web Applications Prototyping.
 En esta parte del documento, se incluye el enlace al prototipo de la Aplicación Web, el cual fue creado utilizando la herramienta de prototipado Figma.
 
-https://www.figma.com/design/ozvmKWQm3S7ACtTfu4r8ij/Untitled?node-id=0-1&t=TEUHy4VetClLoNKA-1
-
+https://tinyurl.com/Figma-WineSoft
 
 ## 4.6. Domain-Driven Software Architecture. 
 
