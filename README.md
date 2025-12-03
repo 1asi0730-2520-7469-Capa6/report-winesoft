@@ -3279,6 +3279,7 @@ La documentación de la API se ha completado utilizando **Swagger UI**, reflejan
 <br>
 
 ![Landing About Team](./imagenes/Front_final_home.png)
+
 <br>
 
 ![Landing About Team](./Landing_Home.jpeg)
@@ -3288,9 +3289,12 @@ La documentación de la API se ha completado utilizando **Swagger UI**, reflejan
 Se mantuvo el uso de **GitHub Projects** para el tablero Kanban y **Discord** para las reuniones diarias, asegurando la sincronización del equipo reducido.
 **Frontend**
 
-![Landing About Team](./imagenes/Contributors_Frontfinal.jpeg‎)
+![Landing About Team](./imagenes/contributors_Frontfinal.jpeg‎)
+
 <br>
+
 **Backend**
+
 ![contributors_backfinal](./imagenes/contributors_backfinal.jpeg)
 ## 5.3. Validation Interviews.
 
@@ -3555,6 +3559,19 @@ Este video documenta el viaje del equipo **Capa-6** durante el ciclo académico.
 
 - Premier Systems. (2025). *BrewMan – Brewery & distillery management software*. Recuperado el 5 de octubre de 2025, de https://www.premiersystems.com/
 
+- Chihua, P. K. (2021). *Transformación digital y su relación en la competitividad de las empresas de comidas y bebidas en Lima Moderna, 2021* (Tesis de bachillerato). Universidad Peruana de Ciencias Aplicadas (UPC), Lima, Perú. Recuperado de http://hdl.handle.net/10757/667777
+
+- Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley.
+
+- Microsoft. (2024). *ASP.NET Core Documentation*. Microsoft Learn. Recuperado de https://learn.microsoft.com/aspnet/core
+
+- Nielsen, J. (1994). *10 Usability Heuristics for User Interface Design*. Nielsen Norman Group. Recuperado de https://www.nngroup.com/articles/ten-usability-heuristics/
+
+- Patton, J. (2014). *User Story Mapping: Discover the Whole Story, Build the Right Product*. O'Reilly Media.
+
+- Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game*. Scrum.org. Recuperado de https://scrumguides.org/scrum-guide.html
+
+- You, E. (2024). *Vue.js - The Progressive JavaScript Framework*. Recuperado de https://vuejs.org/guide/introduction.html
 
 # Anexos
 
