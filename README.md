@@ -1900,10 +1900,6 @@ A continuación se muestran las vistas implementadas durante el Sprint sobre el 
 <img src="./imagenes/Landing_Context.jpeg" alt="Landing_Context.jpeg">
 
 
-### Video demostrativo
-🔗 **[Video de navegación del Sprint 1 en bussines website WineSoft](https://youtu.be/kAkNyyplm-M/)**  
-En el video se muestra la navegación por el Landing Page, los enlaces funcionales entre secciones y la explicación del propósito de la aplicación.
-
 ### Evidencia visual del avance – Frontend de la aplicación
 A continuación se muestran las vistas implementadas durante el Sprint correspondientes al **frontend del sistema WineSoft**, las cuales forman parte de la primera versión desplegada en producción.
 
@@ -1915,12 +1911,6 @@ A continuación se muestran las vistas implementadas durante el Sprint correspon
 
 3. **Movimientos de Stock – Registro y seguimiento de entradas y salidas de inventario**  
 <img src="./imagenes/Frontend_Movimientos.jpeg" alt="Frontend_Movimientos.jpeg">
-
-
-### Video demostrativo 
-🔗 **[Video de navegación del Sprint 1 en frontend WineSoft](https://youtu.be/hFGXKMKlDn8)**  
-En este video se muestra la navegación general por el frontend de la aplicación, incluyendo el panel principal, el módulo de suministros y la vista de movimientos de stock, destacando las funcionalidades implementadas y su conexión con la interfaz de usuario.
-
 
 
 
@@ -1961,8 +1951,7 @@ La documentación generada permite validar la correcta comunicación entre los c
 ### Repositorio y commits relacionados
 
 **Repositorio de Web Services:**  
-🔗 [Link Github Api](https://github.com/1asi0730-2520-7469-Capa6/winesoft-fake-api.git)
-
+[https://tinyurl.com/fake-api-WineSoft](https://tinyurl.com/fake-api-WineSoft)
 **Commits asociados al Sprint 1:**
 
 | Commit ID | Rama | Mensaje | Fecha |
@@ -2045,8 +2034,7 @@ jobs:
 
 | Componente | Plataforma | URL |
 |-------------|-------------|-----|
-| Business Website | Vercel | https://capa6-winesoft.vercel.app |
-| Frontend (Web Application) | Netlify | https://winesoft-frontend.vercel.app/home |
+| Business Website | GitHub | https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/ |
 
 
 ---
@@ -2056,8 +2044,7 @@ jobs:
 | Commit ID | Rama | Mensaje | Fecha |
 |------------|-------|----------|--------|
 | 5b23a4e | feature/deploy-vercel | chore: configure deployment of business website on Vercel | 2025-09-27 |
-| 7c8e9af | feature/deploy-netlify | chore: setup frontend deployment on Netlify with CI/CD | 2025-09-28 |
-| 9df2b61 | feature/deploy-render | feat: deploy backend API on Render and add Swagger route | 2025-09-29 |
+| 7c8e9af | feature/deploy-git | chore: setup frontend deployment on Github | 2025-09-28 |
 
 
 ## 5.2.1.8. Team Collaboration Insights during Sprint
@@ -2072,8 +2059,6 @@ El trabajo del equipo se desarrolló a través de GitHub, donde se registraron l
 Cada integrante del equipo asumió roles específicos dentro del ciclo de desarrollo:
 
 - **Diseño e implementación del business website:** responsable de la maquetación inicial, estilos CSS y adaptación responsive.  
-- **Desarrollo del frontend (Web Application):** encargado de la integración de vistas dinámicas y consumo de servicios desde el backend.  
-- **Implementación del backend (Web Services):** desarrollo de endpoints REST, documentación con Swagger y configuración de base de datos.  
 - **Deployment y documentación:** encargados de la automatización de despliegues, generación de evidencias y estructura del reporte técnico del Sprint.
 
 El equipo utilizó **GitHub Projects** como herramienta de planificación, registrando las tareas en las columnas *To Do*, *In Progress* y *Done*, asegurando una trazabilidad clara del avance de cada actividad.
@@ -2139,12 +2124,33 @@ También se definió la ampliación de endpoints del backend y la mejora del flu
 
 ---
 
+### 5.2.2. Sprint 2
+
+En este Sprint, el equipo se enfocó exclusivamente en el desarrollo del **Frontend** de la aplicación y la publicación de la **Landing Page**. El objetivo fue construir la interfaz de usuario (UI) utilizando Vue 3, implementar la navegación entre vistas y simular la interacción de datos (Mocking) para validar la experiencia de usuario antes de la integración con el backend.
+
+#### 5.2.2.1. Sprint Planning 2.
+
+| Sprint # | Sprint 2 |
+|:---|:---|
+| **Sprint Planning Background** | |
+| Date | 2025-10-01 |
+| Time | 18:00 horas |
+| Location | Reunión virtual - Discord |
+| Prepared By | Antonio Rodrigo Duran Díaz |
+| Attendees | - Angelo Stephano Moscoso Bejar <br> - Joan Fernando Teves Samaniego <br> - Antonio Rodrigo Duran Díaz <br> - Gonzalo Alonso Carhuancote Dominguez |
+| **Sprint 1 Review Summary** | Se completó el diseño de prototipos (UX/UI) y la definición de la arquitectura. Se requiere iniciar la codificación de la interfaz web para tangibilizar la propuesta de valor visualmente. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Implementar la estructura base de la aplicación web (Frontend), desarrollar las vistas principales (Login, Dashboard, Inventario) y asegurar la navegación fluida entre componentes utilizando Vue 3 y PrimeVue. Además, desplegar la Landing Page final en GitHub Pages para la captación de usuarios. |
+| **Sprint 2 Velocity** | 22 |
+| **Sum of Story Points** | 22 Story Points |
+
 #### 5.2.2.3. Sprint Backlog 2.
 
-Para el sprint 2 usamos la herramienta Trello para organizar las tareas del equipo.
-<img src="./imagenes/Trello2.png" alt="img trello">
-**Enlace:** (https://trello.com/b/MBprs9FO/sprint-2)
+Para el sprint 2 usamos la herramienta Trello para organizar las tareas de desarrollo Frontend.
 
+<img src="./imagenes/Trello2.png" alt="img trello">
+
+**Enlace:** https://trello.com/b/MBprs9FO/sprint-2
 
 | ID | User Story | Prioridad | Estado |
 |----|-------------|------------|---------|
@@ -2158,98 +2164,116 @@ Para el sprint 2 usamos la herramienta Trello para organizar las tareas del equi
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
-Durante este Sprint se desarrollaron las nuevas vistas funcionales del **frontend de WineSoft**, integrando la API creada previamente.  
-Se configuró el **sistema de autenticación JWT**, la comunicación entre componentes React y los endpoints de stock, además de validaciones y alertas automáticas.
+Durante este Sprint se construyó el **Frontend de WineSoft** utilizando **Vue 3** y **Vite**. Se implementaron los componentes visuales con **PrimeVue** y se configuró el enrutamiento y la gestión de estado. No se realizó conexión a Backend real, sino que se utilizaron datos simulados (Mock Data) para validar la lógica de la interfaz.
 
 **Avances principales:**
-- Integración del login y logout con validación de credenciales.
-- Creación del módulo de registro de movimientos (entradas/salidas).
-- Implementación de alertas automáticas de stock bajo.
-- Conexión del dashboard principal con los endpoints del backend.
-- Revisión de control de errores y estados de carga en el frontend.
+- Configuración inicial del proyecto Vue 3 con estructura de carpetas DDD.
+- Implementación de vistas de Autenticación (Login/Register) con validaciones de formulario.
+- Maquetación del Dashboard y componentes de tarjetas informativas.
+- Desarrollo de la vista de "Movimientos de Stock" con tablas interactivas.
+- Configuración de Pinia para el manejo de estado global (sesión simulada y carrito).
 
 **Commits representativos:**
 | Commit ID | Rama | Mensaje | Fecha |
 |------------|-------|----------|--------|
-| `8a2b6d9` | feature/auth | feat: implement login and logout components with JWT | 2025-10-05 |
-| `9b3d2c1` | feature/movements | feat: connect stock movements API with frontend | 2025-10-06 |
-| `ab52e3f` | feature/alerts | feat: add low-stock alert notification system | 2025-10-07 |
+| `8a2b6d9` | feature/auth-ui | feat: create login view layout and validation logic | 2025-10-05 |
+| `9b3d2c1` | feature/movements-ui | feat: implement stock data table with mock data | 2025-10-06 |
+| `ab52e3f` | feature/dashboard | feat: add dashboard layout and sidebar navigation | 2025-10-07 |
 
 ---
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
-Durante este segundo Sprint, el equipo **Capa-6** completó la integración entre el **frontend** y el **backend**, logrando la comunicación en tiempo real entre la interfaz y los servicios REST de WineSoft.  
-Se actualizaron las vistas dinámicas del sistema con datos obtenidos desde la API y se desplegó la nueva versión funcional del **business website** y del **frontend conectado**.
+Durante este segundo Sprint, el equipo **Capa-6** completó la implementación visual de la plataforma. La aplicación permite navegar entre las distintas secciones, validar formularios y visualizar datos estáticos que simulan el comportamiento final.
 
 **Principales resultados:**
-- Interfaz de inicio de sesión operativa.
-- Panel de stock conectado al backend.
-- Registro de movimientos desde el frontend validado con respuestas JSON.
-- Despliegue de la segunda versión del frontend conectado.
+- Landing Page desplegada y accesible públicamente.
+- Frontend desplegado con navegación funcional (Router).
+- Validación de campos en formularios de registro e ingreso.
+- Visualización correcta de componentes responsivos en móviles y escritorio.
 
 **Evidencia visual:**
-1. **Panel principalI**  
+
+1. **Panel Principal (Dashboard)**
+   Se aprecia la estructura del menú lateral y las tarjetas de resumen implementadas con PrimeVue.
    <img src="./imagenes/Frontend_Home.jpeg" alt="Sprint2_Dashboard">
-3. **Módulo de movimientos de stock**  
+
+2. **Módulo de Movimientos de Stock**
+   Vista de tablas maquetada, lista para futura integración con API.
    <img src="./imagenes/Frontend_Suministros.jpeg" alt="Sprint2_Movements">
 
-
 **Video demostrativo:**  
-www.youtube.com/watch?v=hFGXKMKlDn8&feature=youtu.be
+https://tinyurl.com/Sprint-2-Winesoft
 
 ---
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Durante el Sprint 2 se actualizaron y ampliaron los endpoints del **API REST de WineSoft**, agregando nuevas funcionalidades para autenticación, movimientos de stock y alertas.  
-La documentación se mantuvo en **Swagger UI**, garantizando coherencia con los servicios previos.
+Debido a que este Sprint se centró en la estructura del Frontend antes de la integración con el Backend, la evidencia de servicios corresponde a la implementación de la **Capa de Infraestructura** en Vue 3. Se desarrollaron servicios simulados (Mocks) y se configuró el cliente HTTP y los manejadores de estado (Stores) para validar la lógica de negocio en el cliente.
 
-| Endpoint | Verbo HTTP | Descripción | Ejemplo de Request | Ejemplo de Response |
-|-----------|-------------|--------------|--------------------|---------------------|
-| `/api/auth/login` | POST | Autentica al usuario. | `{ "email":"user@winesoft.com","password":"123456" }` | `{ "token":"abc123","user":"Fernando Tevez" }` |
-| `/api/auth/logout` | POST | Cierra sesión eliminando token. | — | `{ "message":"Logout success" }` |
-| `/api/stock-movements` | GET | Lista todos los movimientos. | — | `[{"id":1,"type":"Entrada","quantity":10}]` |
-| `/api/stock-movements` | POST | Crea un movimiento. | `{ "supplyId":1,"type":"Salida","quantity":5 }` | `{ "id":2,"supplyId":1,"type":"Salida","quantity":5 }` |
-| `/api/alerts` | GET | Retorna alertas de stock bajo. | — | `[{"id":3,"product":"Alcohol 96°","stock":4}]` |
+A continuación, se presentan los commits que evidencian la construcción de esta capa de servicios y datos simulados:
 
+<table>
+  <tr>
+    <td align ="center" > <strong>Repository</strong></td>
+    <td  align ="center" > <strong>Branch</strong></td>
+    <td  align ="center" > <strong>Commit ID</strong></td>
+    <td  align ="center" > <strong>Commit message</strong></td>
+    <td  align ="center" > <strong>Commit Message body</strong></td>
+    <td  align ="center" > <strong>Commit on (date)</strong></td>
+  </tr>
 
-**Commits relevantes:**
-| Commit ID | Rama | Mensaje | Fecha |
-|------------|-------|----------|--------|
-| `c2e4f8a` | feature/api-auth | feat: add login/logout endpoints | 2025-10-05 |
-| `d1a7f9e` | feature/api-alerts | feat: implement stock alerts endpoint | 2025-10-07 |
+  <tr>
+    <td rowspan="5" align="center"> `winesoft-frontend` </td>
+    <td align="center"> feature/frontend-arch</td>
+    <td align="center"> 3a1b2c4</td>
+    <td align="center"> feat(infra): setup axios http client</td>
+    <td align="center"> Configuración base de Axios con interceptores para manejo de errores y headers.</td>
+    <td align="center"> 02/10/2025</td>
+  </tr>
+  <tr>
+    <td align="center"> feature/frontend-arch</td>
+    <td align="center"> 4b2c3d5</td>
+    <td align="center"> feat(store): setup pinia for global state</td>
+    <td align="center"> Inicialización de Pinia y configuración de persistencia de estado.</td>
+    <td align="center"> 03/10/2025</td>
+  </tr>
+  <tr>
+    <td align="center"> feature/auth-service</td>
+    <td align="center"> 5c3d4e6</td>
+    <td align="center"> feat(services): implement mock auth service</td>
+    <td align="center"> Creación de servicio de autenticación con datos simulados para Login/Logout.</td>
+    <td align="center"> 04/10/2025</td>
+  </tr>
+  <tr>
+    <td align="center"> feature/inventory-service</td>
+    <td align="center"> 6d4e5f7</td>
+    <td align="center"> feat(services): add inventory mock data provider</td>
+    <td align="center"> Implementación de servicio de inventario retornando JSON estático para pruebas de UI.</td>
+    <td align="center"> 05/10/2025</td>
+  </tr>
+  <tr>
+    <td align="center"> develop</td>
+    <td align="center"> 7e5f6g8</td>
+    <td align="center"> refactor: connect views to mock services</td>
+    <td align="center"> Integración de los servicios simulados en las vistas de Dashboard e Inventario.</td>
+    <td align="center"> 07/10/2025</td>
+  </tr>
+</table>
 
 ---
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
-El equipo **Capa-6** desplegó la **segunda versión del ecosistema WineSoft**, integrando el frontend conectado con la API y actualizando el flujo **CI/CD**.  
+El equipo **Capa-6** desplegó la **segunda versión del ecosistema WineSoft**, integrando el frontend **CI/CD**.  
 Se mantuvo la arquitectura de despliegue multicomponente:
 
-1. **Business Website:** Vercel – actualizado con enlace directo al login del sistema.  
-2. **Frontend (Web App):** Netlify – conectado a la API mediante variables de entorno.  
-3. **Backend (API REST):** Render – actualizado con endpoints de autenticación y alertas.
-
-**Evidencia del despliegue:**
-- Configuración de variables de entorno en Netlify (`API_URL` y `JWT_SECRET`).
-- Ejecución automática del pipeline en GitHub Actions.
-- Verificación de los nuevos endpoints activos en Render.
-
 **URLs de despliegue:**
-| Componente | Plataforma | URL |
-|-------------|-------------|-----|
-| Business Website | Vercel | https://capa6-winesoft.vercel.app |
-| Frontend | Netlify | https://app-winesoft.netlify.app |
-| Backend API | Render | https://api-winesoft.onrender.com |
+<img src="./imagenes/Frontend_Home.jpeg" alt="Sprint2_Commits">
 
+<img src="./imagenes/Frontend_Movimientos.jpeg" alt="Sprint2_Commits">
 
-
-**Commits asociados:**
-| Commit ID | Rama | Mensaje | Fecha |
-|------------|-------|----------|--------|
-| `f8b2c3e` | feature/deploy-update | chore: update deployment config and env vars | 2025-10-08 |
-| `a1d4e5f` | docs/sprint-2 | docs: add deployment evidence for Sprint 2 | 2025-10-09 |
+<img src="./imagenes/Frontend_Suministros.jpeg" alt="Sprint2_Commits">
 
 ---
 
@@ -2258,25 +2282,11 @@ Se mantuvo la arquitectura de despliegue multicomponente:
 Durante el Sprint 2, el equipo **Capa-6** mantuvo una coordinación constante mediante GitHub Projects y el flujo **GitFlow**.  
 Todos los integrantes participaron en el desarrollo de los módulos asignados, asegurando la integración continua del proyecto.
 
-**Actividades destacadas:**
-- Creación de ramas `feature/auth`, `feature/alerts`, `feature/movements`.  
-- Revisión de código entre pares antes de cada merge.  
-- Coordinación mediante reuniones semanales y control del tablero en GitHub Projects.  
-- Uso de commits bajo la convención *Conventional Commits*.  
-
 **Evidencias de colaboración:**
 
    <img src="./imagenes/github_contributors.jpeg" alt="Sprint2_Commits">
 
    <img src="./imagenes/Contributions.jpeg" alt="Sprint2_Contributors">
-
-
-**Commits representativos del Sprint 2:**
-| Commit ID | Rama | Mensaje | Autor | Fecha |
-|------------|-------|----------|--------|--------|
-| `8a2b6d9` | feature/auth | feat: implement login/logout modules | Stephano | 2025-10-05 |
-| `9b3d2c1` | feature/movements | feat: connect stock movements API | Capa-6 Team | 2025-10-06 |
-| `a1d4e5f` | docs/sprint-2 | docs: add deployment and collaboration evidence | Stephano | 2025-10-09 |
 
 ### 5.2.3. Sprint 3
 
@@ -2911,6 +2921,7 @@ Para el sprint 4 usamos la herramienta Trello para organizar las tareas del equi
     <td align="center"> Done</td>
   </tr>
 </table>
+
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
 A continuación, se presentan los commits registrados en los repositorios del proyecto, evidenciando el desarrollo del núcleo de inventario en el backend, la integración de las vistas correspondientes en el frontend y la actualización de los recursos audiovisuales en la landing page.
@@ -3291,11 +3302,15 @@ Se mantuvo el uso de **GitHub Projects** para el tablero Kanban y **Discord** pa
 
 ![Landing About Team](./imagenes/Contributors_Frontfinal.jpeg)
 
+![Landing About Team](./imagenes/Commits_FrontFinal.png)
 <br>
 
 **Backend**
 
 ![contributors_backfinal](./imagenes/contributors_backfinal.jpeg)
+
+![Landing About Team](./imagenes/Commits_BackFinal.png)
+
 ## 5.3. Validation Interviews.
 
 ### 5.3.1. Diseño de Entrevistas
