@@ -3573,7 +3573,7 @@ Se presentan los enlaces directos a los entornos de desarrollo, despliegue y ges
 * **Repositorio de la API *Fake* (Sprint 1):**
     [https://github.com/1asi0730-2520-7469-Capa6/winesoft-fake-api.git](https://github.com/1asi0730-2520-7469-Capa6/winesoft-fake-api.git)
 * **Prototipo de la Aplicación Web (Figma):**
-    [https://www.figma.com/design/ozvmKWQm3S7ACtTfu4r8ij/Untitled?node-id=0-1&t=TEUHy4VetClLoNKA-1](https://www.fígma.com/design/ozvmKWQm3S7ACtTfu4r8ij/Untitled?node-id=0-1&t=TEUHy4VetClLoNKA-1)
+    [https://tinyurl.com/Figma-WineSoft](https://tinyurl.com/Figma-WineSoft)
 
 ---
 
