@@ -104,8 +104,7 @@ Con el fin de evidenciar los avances realizados y demostrar la participación ac
 ## Contributors
 En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
 
-![contributors-report-tb1](./imagenes/contributorsTB1.png)
-
+<img src="./imagenes/contributorsTB1.png">
 ### Reporte de Colaboración para la Entrega del TP
 
 En esta segunda entrega se realizaron cambios de segmento de objetivos y con ello se dieron las correcciones y mejoras en muchas de las secciones previas del informe, tales como las secciones que contienen los Requirements Specification, Needfinding, :Requirements Elicitation & Analysis, Lean UX Process. Además se agregaron otras secciones faltantes como Web Applications UX/UI Design, Domain-Driven Software Architecture y Software Object-Oriented Design. Durante este proceso, el equipo llevó a cabo diversas asignaciones de las tareas necesarias y funcionalidades de frontend trabajadas durante este periodo. 
@@ -115,8 +114,7 @@ Con el fin de evidenciar los avances realizados y demostrar la participación ac
 ## Contributors
 En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
 
-![contributors-report-tb1](./imagenes/contributorsTP.png)
-
+<img src="./imagenes/Contributors_TB2.png">
 
 ### Reporte de Colaboración para la Entrega del TB2
 
@@ -127,7 +125,7 @@ Con el fin de evidenciar los avances realizados y demostrar la participación ac
 ## Contributors
 En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
 
-![contributions-report-tb2](./imagenes/contributorsTB2.png)
+<img src="./imagenes/Contributors_final.png">
 
 ### Reporte de Colaboración para la Entrega del TF
 
@@ -140,7 +138,7 @@ Con el fin de evidenciar los avances realizados y demostrar la participación ac
 ## Contributors
 En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta entrega final. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo para el cierre del proyecto.
 
-![contributors-report-tf](./imagenes/contributorstf.jpeg)
+<img src="./imagenes/Contributors_final.png">
 
 # Contenido
 
@@ -731,7 +729,7 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 
 **Entrevista 1: Fernando Teves**
 
-![Dueño-1](./imagenes/entrevistadueño1.png)
+<img src="./imagenes/entrevistadueño1.png">
 
 **Datos del entrevistado**
 * **Nombre:** Fernando Teves
@@ -754,7 +752,7 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 
 **Entrevista 2: Alejandro Huamán**
 
-![Dueño-2](./imagenes/entrevistadueño2.png)
+<img src="./imagenes/entrevistadueño2.png">
 
 **Datos del entrevistado**
 * **Nombre:** Alejandro Huamán
@@ -774,7 +772,7 @@ Alejandro Rodríguez Huamán, de 23 años, trabaja desde hace dos años en la bo
 
 **Entrevista 1: Gabriel**
 
-![Proveedor-1](./imagenes/entrevistaproveedor1.png)
+<img src="./imagenes/entrevistaproveedor1.png">
 
 **Datos del entrevistado**
 * **Nombre:** Gabriel
@@ -792,7 +790,7 @@ Alejandro Rodríguez Huamán, de 23 años, trabaja desde hace dos años en la bo
 
 **Entrevista 2: María Vivanco**
 
-![Proveedor-2](./imagenes/entrevistaproveedor2.png)
+<img src="./imagenes/entrevistaproveedor2.png">
 
 **Datos del entrevistado**
 * **Nombre:** María Vivanco
@@ -816,16 +814,15 @@ María Elena Vivanco Paredes, tiene 45 años y es una proveedora de insumos para
 
 ### Gráfico circular - Causas de Perdida de Insumos
 
-![Gráfico circular - Causas de Perdida de Insumos](./imagenes/estadistico1.png)
+<img src="./imagenes/estadistico1.png">
 
 ### Gráfico de barras - Prioridades de Mejora Proveedor–Cliente
 
-![Gráfico de barras - Prioridades de Mejora Proveedor–Cliente](./imagenes/estadistico2.png)
+<img src="./imagenes/estadistico2.png">
 
 ### Gráfico de Barras Agrupadas - Comparación por Segmentos
 
-![Gráfico de Barras Agrupadas - Comparación por Segmentos](./imagenes/estadistico3.png)
-
+<img src="./imagenes/estadistico3.png">
 
 ## 2.3. Needfinding.
 
@@ -1880,48 +1877,46 @@ A continuación, se presentan los commits registrados en el repositorio de la La
 Durante este primer Sprint, el equipo **Capa-6** completó la implementación del **Business Website**, logrando una interfaz visualmente coherente y adaptable a diferentes dispositivos. A continuación se muestra la evidencia visual de las secciones desplegadas, mostrando la navegación completa del sitio.
 
 **1. Home – Presentación de la plataforma**
-![Landing Home](./imagenes/Landing_Home.jpeg)
+<img src="./imagenes/Landing_Home.jpeg">
 
 <br>
 
 **2. Sección Nosotros (About)**
-![Landing About](./imagenes/Landing_about.png)
+<img src="./imagenes/Landing_about.png">
 
 <br>
 
 **3. Sección About the Product**
-![Landing About Product](./imagenes/Landing_about_product.png)
+<img src="./imagenes/Landing_about_product.png">
 
 <br>
 
 **4. Sección Servicios**
-![Landing Services](./imagenes/Landing_Services.jpeg)
-
+<img src="./imagenes/Landing_Services.jpeg">
 <br>
 
 **5. Nuestro Equipo (Team)**
-![Landing Team](./imagenes/Landing_team.png)
+<img src="./imagenes/Landing_team.png">
 
 <br>
 
 **6. Sección About the Team**
-![Landing About Team](./imagenes/Landing_about_team.png)
-
+<img src="./imagenes/Landing_about_team.png">
 <br>
 
 **7. Sección Planes de Suscripción**
-![Landing Prices](./imagenes/Landing_Prices.jpeg)
+<img src="./imagenes/Landing_Prices.jpeg">
 
 <br>
 
 **8. Pie de página y Contacto**
-![Landing Context](./imagenes/Landing_Context.jpeg)
+<img src="./imagenes/Landing_Context.jpeg">
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 El despliegue del **Business Website** se realizó utilizando **GitHub Pages**, aprovechando la integración directa con el repositorio del proyecto. Esta configuración permite que el sitio sea accesible públicamente y se actualice automáticamente con cada cambio en la rama principal.
 
- ![Landing Context](./imagenes/Landing-Deploy.png)
+ <img src="./imagenes/Landing-Deploy.png">
 * **URL:** https://tinyurl.com/WineSoft-Landing
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
@@ -2581,17 +2576,16 @@ A continuación, se presentan las evidencias gráficas de estos entornos operati
 **1. Despliegue del Backend en Render**
 El servicio web se encuentra activo y en ejecución en la plataforma Render, sirviendo las peticiones de la API.
 
-![Backend Deployment en Render](./imagenes/BackendDeployment.png)
+<img src="./imagenes/BackendDeployment.png">
 
 **2. Gestión de Base de Datos (Filess)**
 La base de datos MySQL fue configurada y desplegada exitosamente en Filess, permitiendo la conexión remota segura.
-
-![Database Deployment en Filess](./imagenes/DatabaseDeplyment.png)
+<img src="./imagenes/DatabaseDeplyment.png">
 
 **3. Pruebas de Endpoints con Swagger**
 La interfaz de documentación Swagger está accesible públicamente en el entorno de producción, permitiendo interactuar con los recursos de Autenticación e Inventario.
 
-![Swagger UI en Render](./imagenes/DeploymentEvidence.png)
+<img src="./imagenes/DeploymentEvidence.png">
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
@@ -3028,61 +3022,61 @@ A continuación, se presentan los commits registrados en el repositorio del Back
 La landing page de Eventify está diseñada para captar la atención de nuevos usuarios y ofrecer una visión clara del propósito de la plataforma. Incluye secciones informativas, un diseño moderno y responsivo, y llamados a la acción bien definidos. Las siguientes imágenes muestran diferentes partes de la interfaz.
 - **URL:** https://1asi0730-2520-7469-capa6.github.io/WineSoft-LandingPage/
 
-![Landing Home](./imagenes/Landing_Home.jpeg)
+<img src="./imagenes/Landing_Home.jpeg">
 
 <br>
 
-![Landing About](./imagenes/Landing_about.png)
+<img src="./imagenes/Landing_about.png">
 
 <br>
 
-![Landing Team](./imagenes/Landing_team.png)
+<img src="./imagenes/Landing_team.png">
 
 <br>
 
-![Landing About Team](./imagenes/Landing_about_team.png)
+<img src="./imagenes/Landing_about_team.png">
 
 <br>
 
-![Landing Services](./imagenes/Landing_Services.jpeg)
+<img src="./imagenes/Landing_Services.jpeg">
 
 <br>
 
-![Landing About Product](./imagenes/Landing_about_product.png)
+<img src="./imagenes/Landing_about_product.png">
 
 <br>
 
-![Landing Context](./imagenes/Landing_Context.jpeg)
+<img src="./imagenes/Landing_Context.jpeg">
 
 **Frontend Application**
 **URL**: https://winesoft-frontend.vercel.app/
 
-![Front_final_sign](./imagenes/Front_final_sign.png)
+<img src="./imagenes/Front_final_sign.png">
 
 <br>
 
-![Front_final_home](./imagenes/Front_final_home.png)
+<img src="./imagenes/Front_final_home.png">
 
 <br>
 
-![Front_final_supply](./imagenes/Front_final_supply.png)
+<img src="./imagenes/Front_final_supply.png">
 
 <br>
 
-![Front_final_stock](./imagenes/Front_final_stock.png)
+<img src="./imagenes/Front_final_stock.png">
 
 <br>
 
-![Front_final_purchase](./imagenes/Front_final_purchase.png)
+<img src="./imagenes/Front_final_purchase.png">
 
 **Backend Application**
 **URL** https://winesoft-platform.onrender.com/swagger/index.html
 
-![Backend Deployment en Render](./imagenes/BackendDeployment.png)
+<img src="./imagenes/BackendDeployment.png">
 
-![Database Deployment en Filess](./imagenes/DatabaseDeplyment.png)
+<img src="./imagenes/DatabaseDeplyment.png">
 
-![Swagger UI en Render](./imagenes/DeploymentEvidence.png)
+<img src="./imagenes/DeploymentEvidence.png">
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
@@ -3116,38 +3110,32 @@ La documentación de la API se ha completado utilizando **Swagger UI**, reflejan
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
-![Landing Team](./imagenes/Backend_final.png)
-
+<img src="./imagenes/Backend_final.png">
 <br>
 
-![Landing About Team](./imagenes/Backend_final2.png)
-
+<img src="./imagenes/Backend_final2.png">
 <br>
 
-![Landing About Team](./imagenes/Front_final_sign.png)
+<img src="./imagenes/Front_final_sign.png">
 <br>
 
-![Landing About Team](./imagenes/Front_final_home.png)
-
+<img src="./imagenes/Front_final_home.png">
 <br>
 
-![Landing About Team](./imagenes/Landing_Home.jpeg)
-
+<img src="./imagenes/Landing_Home.jpegg">
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 Se mantuvo el uso de **GitHub Projects** para el tablero Kanban y **Discord** para las reuniones diarias, asegurando la sincronización del equipo reducido.
 **Frontend**
 
-![Landing About Team](./imagenes/Contributors_Frontfinal.jpeg)
-
-![Landing About Team](./imagenes/Commits_FrontFinal.png)
+<img src="./imagenes/Contributors_Frontfinal.jpeg">
+<img src="./imagenes/Commits_FrontFinal.png">
 <br>
 
 **Backend**
+<img src="./imagenes/contributors_backfinal.jpeg">
 
-![contributors_backfinal](./imagenes/contributors_backfinal.jpeg)
-
-![Landing About Team](./imagenes/Commits_BackFinal.png)
+<img src="./imagenes/Commits_BackFinal.png">
 
 ## 5.3. Validation Interviews.
 
@@ -3397,7 +3385,7 @@ Este video promocional está dirigido a los potenciales clientes (dueños de lic
 
 Este video documenta el viaje del equipo **Capa-6** durante el ciclo académico. Incluye testimonios de **Angelo, Joan, Antonio y Gonzalo** sobre los desafíos técnicos enfrentados (como la integración de .NET con Vue), la gestión del tiempo y cómo la colaboración fue clave para finalizar el proyecto exitosamente.
 
-![About Team](./imagenes/abouttheteam.jpeg)
+<img src="./imagenes/abouttheteam.jpeg">
 
 [https://tinyurl.com/about-the-team-capa6](https://tinyurl.com/about-the-team-capa6)
 
