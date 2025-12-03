@@ -73,13 +73,10 @@
 | **1.3** | 05/10/2025 | Joan Teves Samaniego | Se modificó User Task Matrix y Entrevistas  |
 | **1.4** | 07/10/2025 | Antonio Rodrigo Duran Diaz | Se modificó Competidores, Entrevistas, Needfinding, y se agregaron las secciones de Domain-Driven Software Architecture. |
 | **1.5** | 07/10/2025 | Joan Teves Samaniego |Se agrego Class Diagram , Class Dictionary y DataBase Diagram. |
-
 | **2.0** | 27/10/2025 | Joan Teves Samaniego | Se arreglaron los diagramas, sprint backlog y user stories haciendo el reemplazo por las nuevas versiones. |
 | **2.0** | 27/10/2025 | Antonio Rodrigo Duran Diaz | Se realizaron cambios de mejora en algunos puntos de la estructura de carátula.  |
 | **2.0** | 13/11/2025 | Joan Teves Samaniego | Se subieron nuevos elementos para el contenido del sprint 3. |
 | **2.0** | 14/11/2025 | Antonio Rodrigo Duran Diaz | Modificacion de imagenes y enlaces. |
-
-
 | **3.0** | 26/11/2025 | Gonzalo Carhuancote | Se agregaron enlaces del landing page, frontend y backend desplegados con sus evidencias. |
 | **3.0** | 26/11/2025 | Antonio Rodrigo Duran Diaz | Se actualizaron imagenes para algunas secciones del documento y elementos que faltaron en el sprint 3. |
 | **3.0** | 26/11/2025 | Joan Teves Samaniego | Se agregaron los elementos y contenido para el sprint 4. |
